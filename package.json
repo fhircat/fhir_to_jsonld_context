@@ -1,0 +1,34 @@
+{
+  "name": "fhir_to_jsonld_context",
+  "version": "1.0.0",
+  "description": "This project transforms Shape Expression JSON (ShExJ) format to JSON-LD Context format to be used in JSON-LD Environment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fhircat/fhir_to_jsonld_context.git"
+  },
+  "keywords": [
+    "Shape",
+    "Expression",
+    "JSON",
+    "Linked",
+    "Data",
+    "ShEx",
+    "JSON-LD",
+    "JSON-LD",
+    "Context"
+  ],
+  "author": "Deepak Sharma and Eric Prud'hommeaux",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fhircat/fhir_to_jsonld_context/issues"
+  },
+  "homepage": "https://github.com/fhircat/fhir_to_jsonld_context#readme",
+  "dependencies": {
+    "log4js": "^6.1.0",
+    "rimraf": "^3.0.0"
+  }
+}
