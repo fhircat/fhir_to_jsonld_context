@@ -1,20 +1,21 @@
-const Fs = require('fs')
-const Path = require('path')
-const log4js = require('log4js')
-const rimraf = require('rimraf')
-const ShEx = require('@shexjs/core')
+import Fs from 'fs'
+import Path from 'path'
+import log4js from 'log4js'
+import rimraf from 'rimraf'
+import Shex from '@shexjs/core'
+
 const Ns_fh = 'http://hl7.org/fhir/'
 const Ns_fhsh = 'http://hl7.org/fhir/shape/'
 const Ns_rdf = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'
 const StupidBaseUrl = r => `http://uu3.org/fhir/${r}-R4-jsonld-1.1-context.jsonld`
 const DTRegExp = RegExp('^(http://hl7.org/fhir/shape/[a-z]|http://www.w3.org/2001/XMLSchema#)')
 
-var logger = log4js.getLogger("app");
+const logger = log4js.getLogger("app");
 
 const report = e => console.warn(e.message)
 
-var processedFiles = 0;
-var errorneousFiles = 0;
+const processedFiles = 0;
+const errorneousFiles = 0;
 // Config
 log4js.configure('config/log4js.json');
 
@@ -25,8 +26,8 @@ function readFiles(dirname, onFileContent, onError) {
         onError(err);
         return;
       }
-      var i = 0;
-      var j = 0;
+      let i = 0;
+      let j = 0;
       filenames.forEach(function(filename) {
         Fs.readFile(dirname + filename, 'utf-8', function(err, content) {
           if (err) {
@@ -44,12 +45,12 @@ function readFiles(dirname, onFileContent, onError) {
   }
 
   class Converter {
-  
+
     constructor (schema) {
       this.schema = schema;
       this.toDOs = schema
     }
-  
+
     convert (shexpr) {
       const ret = {
         '@context': Object.assign({
@@ -62,7 +63,7 @@ function readFiles(dirname, onFileContent, onError) {
       }
       return ret
     }
-  
+
     lookup (label) {
         if (label.indexOf('Parameter') !== -1)
             log('Label ' + label);
@@ -84,7 +85,7 @@ function readFiles(dirname, onFileContent, onError) {
 
     return found.expression
     }
-  
+
     visit (expr) {
         if (!expr)
           return;
@@ -119,9 +120,9 @@ function readFiles(dirname, onFileContent, onError) {
         throw Error('what\'s a ' + JSON.stringify(expr))
       }
     }
-  
+
   }
-  
+
   function shorten (p) {
     if (p === Ns_rdf + 'type')
       return {id: 'rdf:type', attr: 'resourceType'}
@@ -135,7 +136,7 @@ function readFiles(dirname, onFileContent, onError) {
       return acc.id === null || n.length < acc.id.length ? {id: n, attr: localName} : acc
     }, {id: null, attr: null})
   }
-  
+
   function escape (localName) {
     return localName
   }
@@ -164,7 +165,7 @@ function run (argv) {
 
     readFiles(av[0], function(filename, content) {
         //data[filename] = content;
-      
+
         const s = JSON.parse(content);
         const c = new Converter(s)
         const selected = filename;

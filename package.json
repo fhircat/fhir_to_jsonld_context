@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "This project transforms Shape Expression JSON (ShExJ) format to JSON-LD Context format to be used in JSON-LD Environment",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "build": "babel src -d dist",
+    "generate": "node --experimental-modules src/createContext.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -31,5 +34,9 @@
     "@shexjs/core": "^1.0.0-alpha.6",
     "log4js": "^6.1.0",
     "rimraf": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1"
   }
 }
