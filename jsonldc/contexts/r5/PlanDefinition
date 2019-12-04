@@ -1,0 +1,174 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "http://uu3.org/fhir/Meta-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "http://uu3.org/fhir/uri-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "http://uu3.org/fhir/code-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "http://uu3.org/fhir/Narrative-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "http://uu3.org/fhir/Resource-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "http://uu3.org/fhir/Extension-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "http://uu3.org/fhir/Extension-R4-jsonld-1.1-context.jsonld"
+    },
+    "PlanDefinition.url": {
+      "@id": "fhir:PlanDefinition.url",
+      "@context": "http://uu3.org/fhir/uri-R4-jsonld-1.1-context.jsonld"
+    },
+    "PlanDefinition.identifier": {
+      "@id": "fhir:PlanDefinition.identifier",
+      "@context": "http://uu3.org/fhir/Identifier-R4-jsonld-1.1-context.jsonld"
+    },
+    "PlanDefinition.version": {
+      "@id": "fhir:PlanDefinition.version",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "PlanDefinition.name": {
+      "@id": "fhir:PlanDefinition.name",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "PlanDefinition.title": {
+      "@id": "fhir:PlanDefinition.title",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "PlanDefinition.subtitle": {
+      "@id": "fhir:PlanDefinition.subtitle",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "PlanDefinition.type": {
+      "@id": "fhir:PlanDefinition.type",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "PlanDefinition.status": {
+      "@id": "fhir:PlanDefinition.status"
+    },
+    "PlanDefinition.experimental": {
+      "@id": "fhir:PlanDefinition.experimental",
+      "@context": "http://uu3.org/fhir/boolean-R4-jsonld-1.1-context.jsonld"
+    },
+    "PlanDefinition.subjectCodeableConcept": {
+      "@id": "fhir:PlanDefinition.subjectCodeableConcept",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "PlanDefinition.subjectReference": {
+      "@id": "fhir:PlanDefinition.subjectReference",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "PlanDefinition.date": {
+      "@id": "fhir:PlanDefinition.date",
+      "@context": "http://uu3.org/fhir/dateTime-R4-jsonld-1.1-context.jsonld"
+    },
+    "PlanDefinition.publisher": {
+      "@id": "fhir:PlanDefinition.publisher",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "PlanDefinition.contact": {
+      "@id": "fhir:PlanDefinition.contact",
+      "@context": "http://uu3.org/fhir/ContactDetail-R4-jsonld-1.1-context.jsonld"
+    },
+    "PlanDefinition.description": {
+      "@id": "fhir:PlanDefinition.description",
+      "@context": "http://uu3.org/fhir/markdown-R4-jsonld-1.1-context.jsonld"
+    },
+    "PlanDefinition.useContext": {
+      "@id": "fhir:PlanDefinition.useContext",
+      "@context": "http://uu3.org/fhir/UsageContext-R4-jsonld-1.1-context.jsonld"
+    },
+    "PlanDefinition.jurisdiction": {
+      "@id": "fhir:PlanDefinition.jurisdiction",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "PlanDefinition.purpose": {
+      "@id": "fhir:PlanDefinition.purpose",
+      "@context": "http://uu3.org/fhir/markdown-R4-jsonld-1.1-context.jsonld"
+    },
+    "PlanDefinition.usage": {
+      "@id": "fhir:PlanDefinition.usage",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "PlanDefinition.copyright": {
+      "@id": "fhir:PlanDefinition.copyright",
+      "@context": "http://uu3.org/fhir/markdown-R4-jsonld-1.1-context.jsonld"
+    },
+    "PlanDefinition.approvalDate": {
+      "@id": "fhir:PlanDefinition.approvalDate",
+      "@context": "http://uu3.org/fhir/date-R4-jsonld-1.1-context.jsonld"
+    },
+    "PlanDefinition.lastReviewDate": {
+      "@id": "fhir:PlanDefinition.lastReviewDate",
+      "@context": "http://uu3.org/fhir/date-R4-jsonld-1.1-context.jsonld"
+    },
+    "PlanDefinition.effectivePeriod": {
+      "@id": "fhir:PlanDefinition.effectivePeriod",
+      "@context": "http://uu3.org/fhir/Period-R4-jsonld-1.1-context.jsonld"
+    },
+    "PlanDefinition.topic": {
+      "@id": "fhir:PlanDefinition.topic",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "PlanDefinition.author": {
+      "@id": "fhir:PlanDefinition.author",
+      "@context": "http://uu3.org/fhir/ContactDetail-R4-jsonld-1.1-context.jsonld"
+    },
+    "PlanDefinition.editor": {
+      "@id": "fhir:PlanDefinition.editor",
+      "@context": "http://uu3.org/fhir/ContactDetail-R4-jsonld-1.1-context.jsonld"
+    },
+    "PlanDefinition.reviewer": {
+      "@id": "fhir:PlanDefinition.reviewer",
+      "@context": "http://uu3.org/fhir/ContactDetail-R4-jsonld-1.1-context.jsonld"
+    },
+    "PlanDefinition.endorser": {
+      "@id": "fhir:PlanDefinition.endorser",
+      "@context": "http://uu3.org/fhir/ContactDetail-R4-jsonld-1.1-context.jsonld"
+    },
+    "PlanDefinition.relatedArtifact": {
+      "@id": "fhir:PlanDefinition.relatedArtifact",
+      "@context": "http://uu3.org/fhir/RelatedArtifact-R4-jsonld-1.1-context.jsonld"
+    },
+    "PlanDefinition.library": {
+      "@id": "fhir:PlanDefinition.library",
+      "@context": "http://uu3.org/fhir/canonical-R4-jsonld-1.1-context.jsonld"
+    },
+    "PlanDefinition.goal": {
+      "@id": "fhir:PlanDefinition.goal"
+    },
+    "PlanDefinition.action": {
+      "@id": "fhir:PlanDefinition.action"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "http://uu3.org/fhir/Meta-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "http://uu3.org/fhir/uri-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "http://uu3.org/fhir/code-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "http://uu3.org/fhir/Narrative-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "http://uu3.org/fhir/Resource-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "http://uu3.org/fhir/Extension-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "http://uu3.org/fhir/Extension-R4-jsonld-1.1-context.jsonld"
+    },
+    "MessageDefinition.url": {
+      "@id": "fhir:MessageDefinition.url",
+      "@context": "http://uu3.org/fhir/uri-R4-jsonld-1.1-context.jsonld"
+    },
+    "MessageDefinition.identifier": {
+      "@id": "fhir:MessageDefinition.identifier",
+      "@context": "http://uu3.org/fhir/Identifier-R4-jsonld-1.1-context.jsonld"
+    },
+    "MessageDefinition.version": {
+      "@id": "fhir:MessageDefinition.version",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "MessageDefinition.name": {
+      "@id": "fhir:MessageDefinition.name",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "MessageDefinition.title": {
+      "@id": "fhir:MessageDefinition.title",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "MessageDefinition.replaces": {
+      "@id": "fhir:MessageDefinition.replaces",
+      "@context": "http://uu3.org/fhir/canonical-R4-jsonld-1.1-context.jsonld"
+    },
+    "MessageDefinition.status": {
+      "@id": "fhir:MessageDefinition.status"
+    },
+    "MessageDefinition.experimental": {
+      "@id": "fhir:MessageDefinition.experimental",
+      "@context": "http://uu3.org/fhir/boolean-R4-jsonld-1.1-context.jsonld"
+    },
+    "MessageDefinition.date": {
+      "@id": "fhir:MessageDefinition.date",
+      "@context": "http://uu3.org/fhir/dateTime-R4-jsonld-1.1-context.jsonld"
+    },
+    "MessageDefinition.publisher": {
+      "@id": "fhir:MessageDefinition.publisher",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "MessageDefinition.contact": {
+      "@id": "fhir:MessageDefinition.contact",
+      "@context": "http://uu3.org/fhir/ContactDetail-R4-jsonld-1.1-context.jsonld"
+    },
+    "MessageDefinition.description": {
+      "@id": "fhir:MessageDefinition.description",
+      "@context": "http://uu3.org/fhir/markdown-R4-jsonld-1.1-context.jsonld"
+    },
+    "MessageDefinition.useContext": {
+      "@id": "fhir:MessageDefinition.useContext",
+      "@context": "http://uu3.org/fhir/UsageContext-R4-jsonld-1.1-context.jsonld"
+    },
+    "MessageDefinition.jurisdiction": {
+      "@id": "fhir:MessageDefinition.jurisdiction",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "MessageDefinition.purpose": {
+      "@id": "fhir:MessageDefinition.purpose",
+      "@context": "http://uu3.org/fhir/markdown-R4-jsonld-1.1-context.jsonld"
+    },
+    "MessageDefinition.copyright": {
+      "@id": "fhir:MessageDefinition.copyright",
+      "@context": "http://uu3.org/fhir/markdown-R4-jsonld-1.1-context.jsonld"
+    },
+    "MessageDefinition.base": {
+      "@id": "fhir:MessageDefinition.base",
+      "@context": "http://uu3.org/fhir/canonical-R4-jsonld-1.1-context.jsonld"
+    },
+    "MessageDefinition.parent": {
+      "@id": "fhir:MessageDefinition.parent",
+      "@context": "http://uu3.org/fhir/canonical-R4-jsonld-1.1-context.jsonld"
+    },
+    "MessageDefinition.eventCoding": {
+      "@id": "fhir:MessageDefinition.eventCoding",
+      "@context": "http://uu3.org/fhir/Coding-R4-jsonld-1.1-context.jsonld"
+    },
+    "MessageDefinition.eventUri": {
+      "@id": "fhir:MessageDefinition.eventUri",
+      "@context": "http://uu3.org/fhir/uri-R4-jsonld-1.1-context.jsonld"
+    },
+    "MessageDefinition.category": {
+      "@id": "fhir:MessageDefinition.category"
+    },
+    "MessageDefinition.focus": {
+      "@id": "fhir:MessageDefinition.focus"
+    },
+    "MessageDefinition.responseRequired": {
+      "@id": "fhir:MessageDefinition.responseRequired"
+    },
+    "MessageDefinition.allowedResponse": {
+      "@id": "fhir:MessageDefinition.allowedResponse"
+    },
+    "MessageDefinition.graph": {
+      "@id": "fhir:MessageDefinition.graph",
+      "@context": "http://uu3.org/fhir/canonical-R4-jsonld-1.1-context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

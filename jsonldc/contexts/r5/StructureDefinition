@@ -1,0 +1,149 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "http://uu3.org/fhir/Meta-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "http://uu3.org/fhir/uri-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "http://uu3.org/fhir/code-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "http://uu3.org/fhir/Narrative-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "http://uu3.org/fhir/Resource-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "http://uu3.org/fhir/Extension-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "http://uu3.org/fhir/Extension-R4-jsonld-1.1-context.jsonld"
+    },
+    "StructureDefinition.url": {
+      "@id": "fhir:StructureDefinition.url",
+      "@context": "http://uu3.org/fhir/uri-R4-jsonld-1.1-context.jsonld"
+    },
+    "StructureDefinition.identifier": {
+      "@id": "fhir:StructureDefinition.identifier",
+      "@context": "http://uu3.org/fhir/Identifier-R4-jsonld-1.1-context.jsonld"
+    },
+    "StructureDefinition.version": {
+      "@id": "fhir:StructureDefinition.version",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "StructureDefinition.name": {
+      "@id": "fhir:StructureDefinition.name",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "StructureDefinition.title": {
+      "@id": "fhir:StructureDefinition.title",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "StructureDefinition.status": {
+      "@id": "fhir:StructureDefinition.status"
+    },
+    "StructureDefinition.experimental": {
+      "@id": "fhir:StructureDefinition.experimental",
+      "@context": "http://uu3.org/fhir/boolean-R4-jsonld-1.1-context.jsonld"
+    },
+    "StructureDefinition.date": {
+      "@id": "fhir:StructureDefinition.date",
+      "@context": "http://uu3.org/fhir/dateTime-R4-jsonld-1.1-context.jsonld"
+    },
+    "StructureDefinition.publisher": {
+      "@id": "fhir:StructureDefinition.publisher",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "StructureDefinition.contact": {
+      "@id": "fhir:StructureDefinition.contact",
+      "@context": "http://uu3.org/fhir/ContactDetail-R4-jsonld-1.1-context.jsonld"
+    },
+    "StructureDefinition.description": {
+      "@id": "fhir:StructureDefinition.description",
+      "@context": "http://uu3.org/fhir/markdown-R4-jsonld-1.1-context.jsonld"
+    },
+    "StructureDefinition.useContext": {
+      "@id": "fhir:StructureDefinition.useContext",
+      "@context": "http://uu3.org/fhir/UsageContext-R4-jsonld-1.1-context.jsonld"
+    },
+    "StructureDefinition.jurisdiction": {
+      "@id": "fhir:StructureDefinition.jurisdiction",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "StructureDefinition.purpose": {
+      "@id": "fhir:StructureDefinition.purpose",
+      "@context": "http://uu3.org/fhir/markdown-R4-jsonld-1.1-context.jsonld"
+    },
+    "StructureDefinition.copyright": {
+      "@id": "fhir:StructureDefinition.copyright",
+      "@context": "http://uu3.org/fhir/markdown-R4-jsonld-1.1-context.jsonld"
+    },
+    "StructureDefinition.keyword": {
+      "@id": "fhir:StructureDefinition.keyword",
+      "@context": "http://uu3.org/fhir/Coding-R4-jsonld-1.1-context.jsonld"
+    },
+    "StructureDefinition.fhirVersion": {
+      "@id": "fhir:StructureDefinition.fhirVersion"
+    },
+    "StructureDefinition.mapping": {
+      "@id": "fhir:StructureDefinition.mapping"
+    },
+    "StructureDefinition.kind": {
+      "@id": "fhir:StructureDefinition.kind"
+    },
+    "StructureDefinition.abstract": {
+      "@id": "fhir:StructureDefinition.abstract",
+      "@context": "http://uu3.org/fhir/boolean-R4-jsonld-1.1-context.jsonld"
+    },
+    "StructureDefinition.context": {
+      "@id": "fhir:StructureDefinition.context"
+    },
+    "StructureDefinition.contextInvariant": {
+      "@id": "fhir:StructureDefinition.contextInvariant",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "StructureDefinition.type": {
+      "@id": "fhir:StructureDefinition.type",
+      "@context": "http://uu3.org/fhir/uri-R4-jsonld-1.1-context.jsonld"
+    },
+    "StructureDefinition.baseDefinition": {
+      "@id": "fhir:StructureDefinition.baseDefinition",
+      "@context": "http://uu3.org/fhir/canonical-R4-jsonld-1.1-context.jsonld"
+    },
+    "StructureDefinition.derivation": {
+      "@id": "fhir:StructureDefinition.derivation"
+    },
+    "StructureDefinition.snapshot": {
+      "@id": "fhir:StructureDefinition.snapshot"
+    },
+    "StructureDefinition.differential": {
+      "@id": "fhir:StructureDefinition.differential"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

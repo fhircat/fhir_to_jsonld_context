@@ -1,0 +1,142 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "http://uu3.org/fhir/Meta-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "http://uu3.org/fhir/uri-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "http://uu3.org/fhir/code-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "http://uu3.org/fhir/Narrative-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "http://uu3.org/fhir/Resource-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "http://uu3.org/fhir/Extension-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "http://uu3.org/fhir/Extension-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchStudy.identifier": {
+      "@id": "fhir:ResearchStudy.identifier",
+      "@context": "http://uu3.org/fhir/Identifier-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchStudy.title": {
+      "@id": "fhir:ResearchStudy.title",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchStudy.protocol": {
+      "@id": "fhir:ResearchStudy.protocol",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchStudy.partOf": {
+      "@id": "fhir:ResearchStudy.partOf",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchStudy.status": {
+      "@id": "fhir:ResearchStudy.status"
+    },
+    "ResearchStudy.primaryPurposeType": {
+      "@id": "fhir:ResearchStudy.primaryPurposeType",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchStudy.phase": {
+      "@id": "fhir:ResearchStudy.phase",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchStudy.category": {
+      "@id": "fhir:ResearchStudy.category",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchStudy.focus": {
+      "@id": "fhir:ResearchStudy.focus",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchStudy.condition": {
+      "@id": "fhir:ResearchStudy.condition",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchStudy.contact": {
+      "@id": "fhir:ResearchStudy.contact",
+      "@context": "http://uu3.org/fhir/ContactDetail-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchStudy.relatedArtifact": {
+      "@id": "fhir:ResearchStudy.relatedArtifact",
+      "@context": "http://uu3.org/fhir/RelatedArtifact-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchStudy.keyword": {
+      "@id": "fhir:ResearchStudy.keyword",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchStudy.location": {
+      "@id": "fhir:ResearchStudy.location",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchStudy.description": {
+      "@id": "fhir:ResearchStudy.description",
+      "@context": "http://uu3.org/fhir/markdown-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchStudy.enrollment": {
+      "@id": "fhir:ResearchStudy.enrollment",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchStudy.period": {
+      "@id": "fhir:ResearchStudy.period",
+      "@context": "http://uu3.org/fhir/Period-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchStudy.sponsor": {
+      "@id": "fhir:ResearchStudy.sponsor",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchStudy.principalInvestigator": {
+      "@id": "fhir:ResearchStudy.principalInvestigator",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchStudy.site": {
+      "@id": "fhir:ResearchStudy.site",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchStudy.reasonStopped": {
+      "@id": "fhir:ResearchStudy.reasonStopped",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchStudy.note": {
+      "@id": "fhir:ResearchStudy.note",
+      "@context": "http://uu3.org/fhir/Annotation-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchStudy.arm": {
+      "@id": "fhir:ResearchStudy.arm"
+    },
+    "ResearchStudy.objective": {
+      "@id": "fhir:ResearchStudy.objective"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

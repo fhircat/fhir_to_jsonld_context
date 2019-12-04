@@ -1,0 +1,200 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "http://uu3.org/fhir/Meta-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "http://uu3.org/fhir/uri-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "http://uu3.org/fhir/code-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "http://uu3.org/fhir/Narrative-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "http://uu3.org/fhir/Resource-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "http://uu3.org/fhir/Extension-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "http://uu3.org/fhir/Extension-R4-jsonld-1.1-context.jsonld"
+    },
+    "ObservationDefinition.url": {
+      "@id": "fhir:ObservationDefinition.url",
+      "@context": "http://uu3.org/fhir/uri-R4-jsonld-1.1-context.jsonld"
+    },
+    "ObservationDefinition.identifier": {
+      "@id": "fhir:ObservationDefinition.identifier",
+      "@context": "http://uu3.org/fhir/Identifier-R4-jsonld-1.1-context.jsonld"
+    },
+    "ObservationDefinition.version": {
+      "@id": "fhir:ObservationDefinition.version",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "ObservationDefinition.title": {
+      "@id": "fhir:ObservationDefinition.title",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "ObservationDefinition.derivedFromCanonical": {
+      "@id": "fhir:ObservationDefinition.derivedFromCanonical",
+      "@context": "http://uu3.org/fhir/canonical-R4-jsonld-1.1-context.jsonld"
+    },
+    "ObservationDefinition.derivedFromUri": {
+      "@id": "fhir:ObservationDefinition.derivedFromUri",
+      "@context": "http://uu3.org/fhir/uri-R4-jsonld-1.1-context.jsonld"
+    },
+    "ObservationDefinition.status": {
+      "@id": "fhir:ObservationDefinition.status"
+    },
+    "ObservationDefinition.experimental": {
+      "@id": "fhir:ObservationDefinition.experimental",
+      "@context": "http://uu3.org/fhir/boolean-R4-jsonld-1.1-context.jsonld"
+    },
+    "ObservationDefinition.subjectCodeableConcept": {
+      "@id": "fhir:ObservationDefinition.subjectCodeableConcept",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "ObservationDefinition.subjectReference": {
+      "@id": "fhir:ObservationDefinition.subjectReference",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "ObservationDefinition.date": {
+      "@id": "fhir:ObservationDefinition.date",
+      "@context": "http://uu3.org/fhir/dateTime-R4-jsonld-1.1-context.jsonld"
+    },
+    "ObservationDefinition.publisher": {
+      "@id": "fhir:ObservationDefinition.publisher",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "ObservationDefinition.contact": {
+      "@id": "fhir:ObservationDefinition.contact",
+      "@context": "http://uu3.org/fhir/ContactDetail-R4-jsonld-1.1-context.jsonld"
+    },
+    "ObservationDefinition.description": {
+      "@id": "fhir:ObservationDefinition.description",
+      "@context": "http://uu3.org/fhir/markdown-R4-jsonld-1.1-context.jsonld"
+    },
+    "ObservationDefinition.useContext": {
+      "@id": "fhir:ObservationDefinition.useContext",
+      "@context": "http://uu3.org/fhir/UsageContext-R4-jsonld-1.1-context.jsonld"
+    },
+    "ObservationDefinition.jurisdiction": {
+      "@id": "fhir:ObservationDefinition.jurisdiction",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "ObservationDefinition.purpose": {
+      "@id": "fhir:ObservationDefinition.purpose",
+      "@context": "http://uu3.org/fhir/markdown-R4-jsonld-1.1-context.jsonld"
+    },
+    "ObservationDefinition.copyright": {
+      "@id": "fhir:ObservationDefinition.copyright",
+      "@context": "http://uu3.org/fhir/markdown-R4-jsonld-1.1-context.jsonld"
+    },
+    "ObservationDefinition.approvalDate": {
+      "@id": "fhir:ObservationDefinition.approvalDate",
+      "@context": "http://uu3.org/fhir/date-R4-jsonld-1.1-context.jsonld"
+    },
+    "ObservationDefinition.lastReviewDate": {
+      "@id": "fhir:ObservationDefinition.lastReviewDate",
+      "@context": "http://uu3.org/fhir/date-R4-jsonld-1.1-context.jsonld"
+    },
+    "ObservationDefinition.effectivePeriod": {
+      "@id": "fhir:ObservationDefinition.effectivePeriod",
+      "@context": "http://uu3.org/fhir/Period-R4-jsonld-1.1-context.jsonld"
+    },
+    "ObservationDefinition.performerType": {
+      "@id": "fhir:ObservationDefinition.performerType",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "ObservationDefinition.category": {
+      "@id": "fhir:ObservationDefinition.category",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "ObservationDefinition.code": {
+      "@id": "fhir:ObservationDefinition.code",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "ObservationDefinition.permittedDataType": {
+      "@id": "fhir:ObservationDefinition.permittedDataType"
+    },
+    "ObservationDefinition.multipleResultsAllowed": {
+      "@id": "fhir:ObservationDefinition.multipleResultsAllowed",
+      "@context": "http://uu3.org/fhir/boolean-R4-jsonld-1.1-context.jsonld"
+    },
+    "ObservationDefinition.bodySite": {
+      "@id": "fhir:ObservationDefinition.bodySite",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "ObservationDefinition.method": {
+      "@id": "fhir:ObservationDefinition.method",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "ObservationDefinition.specimen": {
+      "@id": "fhir:ObservationDefinition.specimen",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "ObservationDefinition.device": {
+      "@id": "fhir:ObservationDefinition.device",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "ObservationDefinition.preferredReportName": {
+      "@id": "fhir:ObservationDefinition.preferredReportName",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "ObservationDefinition.quantitativeDetails": {
+      "@id": "fhir:ObservationDefinition.quantitativeDetails"
+    },
+    "ObservationDefinition.qualifiedInterval": {
+      "@id": "fhir:ObservationDefinition.qualifiedInterval"
+    },
+    "ObservationDefinition.validCodedValueSet": {
+      "@id": "fhir:ObservationDefinition.validCodedValueSet",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "ObservationDefinition.normalCodedValueSet": {
+      "@id": "fhir:ObservationDefinition.normalCodedValueSet",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "ObservationDefinition.abnormalCodedValueSet": {
+      "@id": "fhir:ObservationDefinition.abnormalCodedValueSet",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "ObservationDefinition.criticalCodedValueSet": {
+      "@id": "fhir:ObservationDefinition.criticalCodedValueSet",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "ObservationDefinition.hasMember": {
+      "@id": "fhir:ObservationDefinition.hasMember",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "ObservationDefinition.component": {
+      "@id": "fhir:ObservationDefinition.component"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

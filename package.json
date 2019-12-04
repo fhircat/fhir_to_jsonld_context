@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/fhircat/fhir_to_jsonld_context#readme",
   "dependencies": {
+    "@shexjs/core": "^1.0.0-alpha.6",
     "log4js": "^6.1.0",
     "rimraf": "^3.0.0"
   }

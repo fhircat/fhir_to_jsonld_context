@@ -1,0 +1,117 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "http://uu3.org/fhir/Meta-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "http://uu3.org/fhir/uri-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "http://uu3.org/fhir/code-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "http://uu3.org/fhir/Narrative-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "http://uu3.org/fhir/Resource-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "http://uu3.org/fhir/Extension-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "http://uu3.org/fhir/Extension-R4-jsonld-1.1-context.jsonld"
+    },
+    "RequestGroup.identifier": {
+      "@id": "fhir:RequestGroup.identifier",
+      "@context": "http://uu3.org/fhir/Identifier-R4-jsonld-1.1-context.jsonld"
+    },
+    "RequestGroup.instantiatesCanonical": {
+      "@id": "fhir:RequestGroup.instantiatesCanonical",
+      "@context": "http://uu3.org/fhir/canonical-R4-jsonld-1.1-context.jsonld"
+    },
+    "RequestGroup.instantiatesUri": {
+      "@id": "fhir:RequestGroup.instantiatesUri",
+      "@context": "http://uu3.org/fhir/uri-R4-jsonld-1.1-context.jsonld"
+    },
+    "RequestGroup.basedOn": {
+      "@id": "fhir:RequestGroup.basedOn",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "RequestGroup.replaces": {
+      "@id": "fhir:RequestGroup.replaces",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "RequestGroup.groupIdentifier": {
+      "@id": "fhir:RequestGroup.groupIdentifier",
+      "@context": "http://uu3.org/fhir/Identifier-R4-jsonld-1.1-context.jsonld"
+    },
+    "RequestGroup.status": {
+      "@id": "fhir:RequestGroup.status"
+    },
+    "RequestGroup.intent": {
+      "@id": "fhir:RequestGroup.intent"
+    },
+    "RequestGroup.priority": {
+      "@id": "fhir:RequestGroup.priority"
+    },
+    "RequestGroup.code": {
+      "@id": "fhir:RequestGroup.code",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "RequestGroup.subject": {
+      "@id": "fhir:RequestGroup.subject",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "RequestGroup.encounter": {
+      "@id": "fhir:RequestGroup.encounter",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "RequestGroup.authoredOn": {
+      "@id": "fhir:RequestGroup.authoredOn",
+      "@context": "http://uu3.org/fhir/dateTime-R4-jsonld-1.1-context.jsonld"
+    },
+    "RequestGroup.author": {
+      "@id": "fhir:RequestGroup.author",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "RequestGroup.reasonCode": {
+      "@id": "fhir:RequestGroup.reasonCode",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "RequestGroup.reasonReference": {
+      "@id": "fhir:RequestGroup.reasonReference",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "RequestGroup.note": {
+      "@id": "fhir:RequestGroup.note",
+      "@context": "http://uu3.org/fhir/Annotation-R4-jsonld-1.1-context.jsonld"
+    },
+    "RequestGroup.action": {
+      "@id": "fhir:RequestGroup.action"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

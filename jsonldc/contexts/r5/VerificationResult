@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "http://uu3.org/fhir/Meta-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "http://uu3.org/fhir/uri-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "http://uu3.org/fhir/code-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "http://uu3.org/fhir/Narrative-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "http://uu3.org/fhir/Resource-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "http://uu3.org/fhir/Extension-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "http://uu3.org/fhir/Extension-R4-jsonld-1.1-context.jsonld"
+    },
+    "VerificationResult.target": {
+      "@id": "fhir:VerificationResult.target",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "VerificationResult.targetLocation": {
+      "@id": "fhir:VerificationResult.targetLocation",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "VerificationResult.need": {
+      "@id": "fhir:VerificationResult.need",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "VerificationResult.status": {
+      "@id": "fhir:VerificationResult.status"
+    },
+    "VerificationResult.statusDate": {
+      "@id": "fhir:VerificationResult.statusDate",
+      "@context": "http://uu3.org/fhir/dateTime-R4-jsonld-1.1-context.jsonld"
+    },
+    "VerificationResult.validationType": {
+      "@id": "fhir:VerificationResult.validationType",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "VerificationResult.validationProcess": {
+      "@id": "fhir:VerificationResult.validationProcess",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "VerificationResult.frequency": {
+      "@id": "fhir:VerificationResult.frequency",
+      "@context": "http://uu3.org/fhir/Timing-R4-jsonld-1.1-context.jsonld"
+    },
+    "VerificationResult.lastPerformed": {
+      "@id": "fhir:VerificationResult.lastPerformed",
+      "@context": "http://uu3.org/fhir/dateTime-R4-jsonld-1.1-context.jsonld"
+    },
+    "VerificationResult.nextScheduled": {
+      "@id": "fhir:VerificationResult.nextScheduled",
+      "@context": "http://uu3.org/fhir/date-R4-jsonld-1.1-context.jsonld"
+    },
+    "VerificationResult.failureAction": {
+      "@id": "fhir:VerificationResult.failureAction",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "VerificationResult.primarySource": {
+      "@id": "fhir:VerificationResult.primarySource"
+    },
+    "VerificationResult.attestation": {
+      "@id": "fhir:VerificationResult.attestation"
+    },
+    "VerificationResult.validator": {
+      "@id": "fhir:VerificationResult.validator"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

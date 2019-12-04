@@ -1,0 +1,169 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "http://uu3.org/fhir/Meta-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "http://uu3.org/fhir/uri-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "http://uu3.org/fhir/code-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "http://uu3.org/fhir/Narrative-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "http://uu3.org/fhir/Resource-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "http://uu3.org/fhir/Extension-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "http://uu3.org/fhir/Extension-R4-jsonld-1.1-context.jsonld"
+    },
+    "RiskEvidenceSynthesis.url": {
+      "@id": "fhir:RiskEvidenceSynthesis.url",
+      "@context": "http://uu3.org/fhir/uri-R4-jsonld-1.1-context.jsonld"
+    },
+    "RiskEvidenceSynthesis.identifier": {
+      "@id": "fhir:RiskEvidenceSynthesis.identifier",
+      "@context": "http://uu3.org/fhir/Identifier-R4-jsonld-1.1-context.jsonld"
+    },
+    "RiskEvidenceSynthesis.version": {
+      "@id": "fhir:RiskEvidenceSynthesis.version",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "RiskEvidenceSynthesis.name": {
+      "@id": "fhir:RiskEvidenceSynthesis.name",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "RiskEvidenceSynthesis.title": {
+      "@id": "fhir:RiskEvidenceSynthesis.title",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "RiskEvidenceSynthesis.status": {
+      "@id": "fhir:RiskEvidenceSynthesis.status"
+    },
+    "RiskEvidenceSynthesis.date": {
+      "@id": "fhir:RiskEvidenceSynthesis.date",
+      "@context": "http://uu3.org/fhir/dateTime-R4-jsonld-1.1-context.jsonld"
+    },
+    "RiskEvidenceSynthesis.publisher": {
+      "@id": "fhir:RiskEvidenceSynthesis.publisher",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "RiskEvidenceSynthesis.contact": {
+      "@id": "fhir:RiskEvidenceSynthesis.contact",
+      "@context": "http://uu3.org/fhir/ContactDetail-R4-jsonld-1.1-context.jsonld"
+    },
+    "RiskEvidenceSynthesis.description": {
+      "@id": "fhir:RiskEvidenceSynthesis.description",
+      "@context": "http://uu3.org/fhir/markdown-R4-jsonld-1.1-context.jsonld"
+    },
+    "RiskEvidenceSynthesis.note": {
+      "@id": "fhir:RiskEvidenceSynthesis.note",
+      "@context": "http://uu3.org/fhir/Annotation-R4-jsonld-1.1-context.jsonld"
+    },
+    "RiskEvidenceSynthesis.useContext": {
+      "@id": "fhir:RiskEvidenceSynthesis.useContext",
+      "@context": "http://uu3.org/fhir/UsageContext-R4-jsonld-1.1-context.jsonld"
+    },
+    "RiskEvidenceSynthesis.jurisdiction": {
+      "@id": "fhir:RiskEvidenceSynthesis.jurisdiction",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "RiskEvidenceSynthesis.copyright": {
+      "@id": "fhir:RiskEvidenceSynthesis.copyright",
+      "@context": "http://uu3.org/fhir/markdown-R4-jsonld-1.1-context.jsonld"
+    },
+    "RiskEvidenceSynthesis.approvalDate": {
+      "@id": "fhir:RiskEvidenceSynthesis.approvalDate",
+      "@context": "http://uu3.org/fhir/date-R4-jsonld-1.1-context.jsonld"
+    },
+    "RiskEvidenceSynthesis.lastReviewDate": {
+      "@id": "fhir:RiskEvidenceSynthesis.lastReviewDate",
+      "@context": "http://uu3.org/fhir/date-R4-jsonld-1.1-context.jsonld"
+    },
+    "RiskEvidenceSynthesis.effectivePeriod": {
+      "@id": "fhir:RiskEvidenceSynthesis.effectivePeriod",
+      "@context": "http://uu3.org/fhir/Period-R4-jsonld-1.1-context.jsonld"
+    },
+    "RiskEvidenceSynthesis.topic": {
+      "@id": "fhir:RiskEvidenceSynthesis.topic",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "RiskEvidenceSynthesis.author": {
+      "@id": "fhir:RiskEvidenceSynthesis.author",
+      "@context": "http://uu3.org/fhir/ContactDetail-R4-jsonld-1.1-context.jsonld"
+    },
+    "RiskEvidenceSynthesis.editor": {
+      "@id": "fhir:RiskEvidenceSynthesis.editor",
+      "@context": "http://uu3.org/fhir/ContactDetail-R4-jsonld-1.1-context.jsonld"
+    },
+    "RiskEvidenceSynthesis.reviewer": {
+      "@id": "fhir:RiskEvidenceSynthesis.reviewer",
+      "@context": "http://uu3.org/fhir/ContactDetail-R4-jsonld-1.1-context.jsonld"
+    },
+    "RiskEvidenceSynthesis.endorser": {
+      "@id": "fhir:RiskEvidenceSynthesis.endorser",
+      "@context": "http://uu3.org/fhir/ContactDetail-R4-jsonld-1.1-context.jsonld"
+    },
+    "RiskEvidenceSynthesis.relatedArtifact": {
+      "@id": "fhir:RiskEvidenceSynthesis.relatedArtifact",
+      "@context": "http://uu3.org/fhir/RelatedArtifact-R4-jsonld-1.1-context.jsonld"
+    },
+    "RiskEvidenceSynthesis.synthesisType": {
+      "@id": "fhir:RiskEvidenceSynthesis.synthesisType",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "RiskEvidenceSynthesis.studyType": {
+      "@id": "fhir:RiskEvidenceSynthesis.studyType",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "RiskEvidenceSynthesis.population": {
+      "@id": "fhir:RiskEvidenceSynthesis.population",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "RiskEvidenceSynthesis.exposure": {
+      "@id": "fhir:RiskEvidenceSynthesis.exposure",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "RiskEvidenceSynthesis.outcome": {
+      "@id": "fhir:RiskEvidenceSynthesis.outcome",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "RiskEvidenceSynthesis.sampleSize": {
+      "@id": "fhir:RiskEvidenceSynthesis.sampleSize"
+    },
+    "RiskEvidenceSynthesis.riskEstimate": {
+      "@id": "fhir:RiskEvidenceSynthesis.riskEstimate"
+    },
+    "RiskEvidenceSynthesis.certainty": {
+      "@id": "fhir:RiskEvidenceSynthesis.certainty"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

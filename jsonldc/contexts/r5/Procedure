@@ -1,0 +1,186 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "http://uu3.org/fhir/Meta-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "http://uu3.org/fhir/uri-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "http://uu3.org/fhir/code-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "http://uu3.org/fhir/Narrative-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "http://uu3.org/fhir/Resource-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "http://uu3.org/fhir/Extension-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "http://uu3.org/fhir/Extension-R4-jsonld-1.1-context.jsonld"
+    },
+    "Procedure.identifier": {
+      "@id": "fhir:Procedure.identifier",
+      "@context": "http://uu3.org/fhir/Identifier-R4-jsonld-1.1-context.jsonld"
+    },
+    "Procedure.instantiatesCanonical": {
+      "@id": "fhir:Procedure.instantiatesCanonical",
+      "@context": "http://uu3.org/fhir/canonical-R4-jsonld-1.1-context.jsonld"
+    },
+    "Procedure.instantiatesUri": {
+      "@id": "fhir:Procedure.instantiatesUri",
+      "@context": "http://uu3.org/fhir/uri-R4-jsonld-1.1-context.jsonld"
+    },
+    "Procedure.basedOn": {
+      "@id": "fhir:Procedure.basedOn",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "Procedure.partOf": {
+      "@id": "fhir:Procedure.partOf",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "Procedure.status": {
+      "@id": "fhir:Procedure.status"
+    },
+    "Procedure.statusReason": {
+      "@id": "fhir:Procedure.statusReason",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "Procedure.category": {
+      "@id": "fhir:Procedure.category",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "Procedure.code": {
+      "@id": "fhir:Procedure.code",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "Procedure.subject": {
+      "@id": "fhir:Procedure.subject",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "Procedure.encounter": {
+      "@id": "fhir:Procedure.encounter",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "Procedure.occurrenceDateTime": {
+      "@id": "fhir:Procedure.occurrenceDateTime",
+      "@context": "http://uu3.org/fhir/dateTime-R4-jsonld-1.1-context.jsonld"
+    },
+    "Procedure.occurrencePeriod": {
+      "@id": "fhir:Procedure.occurrencePeriod",
+      "@context": "http://uu3.org/fhir/Period-R4-jsonld-1.1-context.jsonld"
+    },
+    "Procedure.occurrenceString": {
+      "@id": "fhir:Procedure.occurrenceString",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "Procedure.occurrenceAge": {
+      "@id": "fhir:Procedure.occurrenceAge",
+      "@context": "http://uu3.org/fhir/Age-R4-jsonld-1.1-context.jsonld"
+    },
+    "Procedure.occurrenceRange": {
+      "@id": "fhir:Procedure.occurrenceRange",
+      "@context": "http://uu3.org/fhir/Range-R4-jsonld-1.1-context.jsonld"
+    },
+    "Procedure.occurrenceTiming": {
+      "@id": "fhir:Procedure.occurrenceTiming",
+      "@context": "http://uu3.org/fhir/Timing-R4-jsonld-1.1-context.jsonld"
+    },
+    "Procedure.recorded": {
+      "@id": "fhir:Procedure.recorded",
+      "@context": "http://uu3.org/fhir/dateTime-R4-jsonld-1.1-context.jsonld"
+    },
+    "Procedure.recorder": {
+      "@id": "fhir:Procedure.recorder",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "Procedure.reportedBoolean": {
+      "@id": "fhir:Procedure.reportedBoolean",
+      "@context": "http://uu3.org/fhir/boolean-R4-jsonld-1.1-context.jsonld"
+    },
+    "Procedure.reportedReference": {
+      "@id": "fhir:Procedure.reportedReference",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "Procedure.performer": {
+      "@id": "fhir:Procedure.performer"
+    },
+    "Procedure.location": {
+      "@id": "fhir:Procedure.location",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "Procedure.reasonCode": {
+      "@id": "fhir:Procedure.reasonCode",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "Procedure.reasonReference": {
+      "@id": "fhir:Procedure.reasonReference",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "Procedure.bodySite": {
+      "@id": "fhir:Procedure.bodySite",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "Procedure.outcome": {
+      "@id": "fhir:Procedure.outcome",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "Procedure.report": {
+      "@id": "fhir:Procedure.report",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "Procedure.complication": {
+      "@id": "fhir:Procedure.complication",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "Procedure.complicationDetail": {
+      "@id": "fhir:Procedure.complicationDetail",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "Procedure.followUp": {
+      "@id": "fhir:Procedure.followUp",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "Procedure.note": {
+      "@id": "fhir:Procedure.note",
+      "@context": "http://uu3.org/fhir/Annotation-R4-jsonld-1.1-context.jsonld"
+    },
+    "Procedure.focalDevice": {
+      "@id": "fhir:Procedure.focalDevice"
+    },
+    "Procedure.usedReference": {
+      "@id": "fhir:Procedure.usedReference",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "Procedure.usedCode": {
+      "@id": "fhir:Procedure.usedCode",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

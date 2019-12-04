@@ -1,0 +1,188 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "http://uu3.org/fhir/Meta-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "http://uu3.org/fhir/uri-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "http://uu3.org/fhir/code-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "http://uu3.org/fhir/Narrative-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "http://uu3.org/fhir/Resource-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "http://uu3.org/fhir/Extension-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "http://uu3.org/fhir/Extension-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchDefinition.url": {
+      "@id": "fhir:ResearchDefinition.url",
+      "@context": "http://uu3.org/fhir/uri-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchDefinition.identifier": {
+      "@id": "fhir:ResearchDefinition.identifier",
+      "@context": "http://uu3.org/fhir/Identifier-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchDefinition.version": {
+      "@id": "fhir:ResearchDefinition.version",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchDefinition.name": {
+      "@id": "fhir:ResearchDefinition.name",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchDefinition.title": {
+      "@id": "fhir:ResearchDefinition.title",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchDefinition.shortTitle": {
+      "@id": "fhir:ResearchDefinition.shortTitle",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchDefinition.subtitle": {
+      "@id": "fhir:ResearchDefinition.subtitle",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchDefinition.status": {
+      "@id": "fhir:ResearchDefinition.status"
+    },
+    "ResearchDefinition.experimental": {
+      "@id": "fhir:ResearchDefinition.experimental",
+      "@context": "http://uu3.org/fhir/boolean-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchDefinition.subjectCodeableConcept": {
+      "@id": "fhir:ResearchDefinition.subjectCodeableConcept",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchDefinition.subjectReference": {
+      "@id": "fhir:ResearchDefinition.subjectReference",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchDefinition.date": {
+      "@id": "fhir:ResearchDefinition.date",
+      "@context": "http://uu3.org/fhir/dateTime-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchDefinition.publisher": {
+      "@id": "fhir:ResearchDefinition.publisher",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchDefinition.contact": {
+      "@id": "fhir:ResearchDefinition.contact",
+      "@context": "http://uu3.org/fhir/ContactDetail-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchDefinition.description": {
+      "@id": "fhir:ResearchDefinition.description",
+      "@context": "http://uu3.org/fhir/markdown-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchDefinition.comment": {
+      "@id": "fhir:ResearchDefinition.comment",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchDefinition.useContext": {
+      "@id": "fhir:ResearchDefinition.useContext",
+      "@context": "http://uu3.org/fhir/UsageContext-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchDefinition.jurisdiction": {
+      "@id": "fhir:ResearchDefinition.jurisdiction",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchDefinition.purpose": {
+      "@id": "fhir:ResearchDefinition.purpose",
+      "@context": "http://uu3.org/fhir/markdown-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchDefinition.usage": {
+      "@id": "fhir:ResearchDefinition.usage",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchDefinition.copyright": {
+      "@id": "fhir:ResearchDefinition.copyright",
+      "@context": "http://uu3.org/fhir/markdown-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchDefinition.approvalDate": {
+      "@id": "fhir:ResearchDefinition.approvalDate",
+      "@context": "http://uu3.org/fhir/date-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchDefinition.lastReviewDate": {
+      "@id": "fhir:ResearchDefinition.lastReviewDate",
+      "@context": "http://uu3.org/fhir/date-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchDefinition.effectivePeriod": {
+      "@id": "fhir:ResearchDefinition.effectivePeriod",
+      "@context": "http://uu3.org/fhir/Period-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchDefinition.topic": {
+      "@id": "fhir:ResearchDefinition.topic",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchDefinition.author": {
+      "@id": "fhir:ResearchDefinition.author",
+      "@context": "http://uu3.org/fhir/ContactDetail-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchDefinition.editor": {
+      "@id": "fhir:ResearchDefinition.editor",
+      "@context": "http://uu3.org/fhir/ContactDetail-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchDefinition.reviewer": {
+      "@id": "fhir:ResearchDefinition.reviewer",
+      "@context": "http://uu3.org/fhir/ContactDetail-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchDefinition.endorser": {
+      "@id": "fhir:ResearchDefinition.endorser",
+      "@context": "http://uu3.org/fhir/ContactDetail-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchDefinition.relatedArtifact": {
+      "@id": "fhir:ResearchDefinition.relatedArtifact",
+      "@context": "http://uu3.org/fhir/RelatedArtifact-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchDefinition.library": {
+      "@id": "fhir:ResearchDefinition.library",
+      "@context": "http://uu3.org/fhir/canonical-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchDefinition.population": {
+      "@id": "fhir:ResearchDefinition.population",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchDefinition.exposure": {
+      "@id": "fhir:ResearchDefinition.exposure",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchDefinition.exposureAlternative": {
+      "@id": "fhir:ResearchDefinition.exposureAlternative",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "ResearchDefinition.outcome": {
+      "@id": "fhir:ResearchDefinition.outcome",
+      "@context": "http://uu3.org/fhir/Reference-R4-jsonld-1.1-context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

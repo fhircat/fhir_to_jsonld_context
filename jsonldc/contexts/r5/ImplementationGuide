@@ -1,0 +1,122 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "http://uu3.org/fhir/Meta-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "http://uu3.org/fhir/uri-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "http://uu3.org/fhir/code-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "http://uu3.org/fhir/Narrative-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "http://uu3.org/fhir/Resource-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "http://uu3.org/fhir/Extension-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "http://uu3.org/fhir/Extension-R4-jsonld-1.1-context.jsonld"
+    },
+    "ImplementationGuide.url": {
+      "@id": "fhir:ImplementationGuide.url",
+      "@context": "http://uu3.org/fhir/uri-R4-jsonld-1.1-context.jsonld"
+    },
+    "ImplementationGuide.version": {
+      "@id": "fhir:ImplementationGuide.version",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "ImplementationGuide.name": {
+      "@id": "fhir:ImplementationGuide.name",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "ImplementationGuide.title": {
+      "@id": "fhir:ImplementationGuide.title",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "ImplementationGuide.status": {
+      "@id": "fhir:ImplementationGuide.status"
+    },
+    "ImplementationGuide.experimental": {
+      "@id": "fhir:ImplementationGuide.experimental",
+      "@context": "http://uu3.org/fhir/boolean-R4-jsonld-1.1-context.jsonld"
+    },
+    "ImplementationGuide.date": {
+      "@id": "fhir:ImplementationGuide.date",
+      "@context": "http://uu3.org/fhir/dateTime-R4-jsonld-1.1-context.jsonld"
+    },
+    "ImplementationGuide.publisher": {
+      "@id": "fhir:ImplementationGuide.publisher",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "ImplementationGuide.contact": {
+      "@id": "fhir:ImplementationGuide.contact",
+      "@context": "http://uu3.org/fhir/ContactDetail-R4-jsonld-1.1-context.jsonld"
+    },
+    "ImplementationGuide.description": {
+      "@id": "fhir:ImplementationGuide.description",
+      "@context": "http://uu3.org/fhir/markdown-R4-jsonld-1.1-context.jsonld"
+    },
+    "ImplementationGuide.useContext": {
+      "@id": "fhir:ImplementationGuide.useContext",
+      "@context": "http://uu3.org/fhir/UsageContext-R4-jsonld-1.1-context.jsonld"
+    },
+    "ImplementationGuide.jurisdiction": {
+      "@id": "fhir:ImplementationGuide.jurisdiction",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "ImplementationGuide.copyright": {
+      "@id": "fhir:ImplementationGuide.copyright",
+      "@context": "http://uu3.org/fhir/markdown-R4-jsonld-1.1-context.jsonld"
+    },
+    "ImplementationGuide.packageId": {
+      "@id": "fhir:ImplementationGuide.packageId",
+      "@context": "http://uu3.org/fhir/id-R4-jsonld-1.1-context.jsonld"
+    },
+    "ImplementationGuide.license": {
+      "@id": "fhir:ImplementationGuide.license"
+    },
+    "ImplementationGuide.fhirVersion": {
+      "@id": "fhir:ImplementationGuide.fhirVersion"
+    },
+    "ImplementationGuide.dependsOn": {
+      "@id": "fhir:ImplementationGuide.dependsOn"
+    },
+    "ImplementationGuide.global": {
+      "@id": "fhir:ImplementationGuide.global"
+    },
+    "ImplementationGuide.definition": {
+      "@id": "fhir:ImplementationGuide.definition"
+    },
+    "ImplementationGuide.manifest": {
+      "@id": "fhir:ImplementationGuide.manifest"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

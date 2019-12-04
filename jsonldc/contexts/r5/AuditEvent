@@ -1,0 +1,91 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "http://uu3.org/fhir/Meta-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "http://uu3.org/fhir/uri-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "http://uu3.org/fhir/code-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "http://uu3.org/fhir/Narrative-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "http://uu3.org/fhir/Resource-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "http://uu3.org/fhir/Extension-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "http://uu3.org/fhir/Extension-R4-jsonld-1.1-context.jsonld"
+    },
+    "AuditEvent.type": {
+      "@id": "fhir:AuditEvent.type",
+      "@context": "http://uu3.org/fhir/Coding-R4-jsonld-1.1-context.jsonld"
+    },
+    "AuditEvent.subtype": {
+      "@id": "fhir:AuditEvent.subtype",
+      "@context": "http://uu3.org/fhir/Coding-R4-jsonld-1.1-context.jsonld"
+    },
+    "AuditEvent.action": {
+      "@id": "fhir:AuditEvent.action"
+    },
+    "AuditEvent.severity": {
+      "@id": "fhir:AuditEvent.severity"
+    },
+    "AuditEvent.period": {
+      "@id": "fhir:AuditEvent.period",
+      "@context": "http://uu3.org/fhir/Period-R4-jsonld-1.1-context.jsonld"
+    },
+    "AuditEvent.recorded": {
+      "@id": "fhir:AuditEvent.recorded",
+      "@context": "http://uu3.org/fhir/instant-R4-jsonld-1.1-context.jsonld"
+    },
+    "AuditEvent.outcome": {
+      "@id": "fhir:AuditEvent.outcome"
+    },
+    "AuditEvent.outcomeDesc": {
+      "@id": "fhir:AuditEvent.outcomeDesc",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "AuditEvent.purposeOfEvent": {
+      "@id": "fhir:AuditEvent.purposeOfEvent",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "AuditEvent.agent": {
+      "@id": "fhir:AuditEvent.agent"
+    },
+    "AuditEvent.source": {
+      "@id": "fhir:AuditEvent.source"
+    },
+    "AuditEvent.entity": {
+      "@id": "fhir:AuditEvent.entity"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

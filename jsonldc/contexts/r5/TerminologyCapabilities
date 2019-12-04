@@ -1,0 +1,135 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "http://uu3.org/fhir/Meta-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "http://uu3.org/fhir/uri-R4-jsonld-1.1-context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "http://uu3.org/fhir/code-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "http://uu3.org/fhir/Narrative-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "http://uu3.org/fhir/Resource-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "http://uu3.org/fhir/Extension-R4-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "http://uu3.org/fhir/Extension-R4-jsonld-1.1-context.jsonld"
+    },
+    "TerminologyCapabilities.url": {
+      "@id": "fhir:TerminologyCapabilities.url",
+      "@context": "http://uu3.org/fhir/uri-R4-jsonld-1.1-context.jsonld"
+    },
+    "TerminologyCapabilities.version": {
+      "@id": "fhir:TerminologyCapabilities.version",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "TerminologyCapabilities.name": {
+      "@id": "fhir:TerminologyCapabilities.name",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "TerminologyCapabilities.title": {
+      "@id": "fhir:TerminologyCapabilities.title",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "TerminologyCapabilities.status": {
+      "@id": "fhir:TerminologyCapabilities.status"
+    },
+    "TerminologyCapabilities.experimental": {
+      "@id": "fhir:TerminologyCapabilities.experimental",
+      "@context": "http://uu3.org/fhir/boolean-R4-jsonld-1.1-context.jsonld"
+    },
+    "TerminologyCapabilities.date": {
+      "@id": "fhir:TerminologyCapabilities.date",
+      "@context": "http://uu3.org/fhir/dateTime-R4-jsonld-1.1-context.jsonld"
+    },
+    "TerminologyCapabilities.publisher": {
+      "@id": "fhir:TerminologyCapabilities.publisher",
+      "@context": "http://uu3.org/fhir/string-R4-jsonld-1.1-context.jsonld"
+    },
+    "TerminologyCapabilities.contact": {
+      "@id": "fhir:TerminologyCapabilities.contact",
+      "@context": "http://uu3.org/fhir/ContactDetail-R4-jsonld-1.1-context.jsonld"
+    },
+    "TerminologyCapabilities.description": {
+      "@id": "fhir:TerminologyCapabilities.description",
+      "@context": "http://uu3.org/fhir/markdown-R4-jsonld-1.1-context.jsonld"
+    },
+    "TerminologyCapabilities.useContext": {
+      "@id": "fhir:TerminologyCapabilities.useContext",
+      "@context": "http://uu3.org/fhir/UsageContext-R4-jsonld-1.1-context.jsonld"
+    },
+    "TerminologyCapabilities.jurisdiction": {
+      "@id": "fhir:TerminologyCapabilities.jurisdiction",
+      "@context": "http://uu3.org/fhir/CodeableConcept-R4-jsonld-1.1-context.jsonld"
+    },
+    "TerminologyCapabilities.purpose": {
+      "@id": "fhir:TerminologyCapabilities.purpose",
+      "@context": "http://uu3.org/fhir/markdown-R4-jsonld-1.1-context.jsonld"
+    },
+    "TerminologyCapabilities.copyright": {
+      "@id": "fhir:TerminologyCapabilities.copyright",
+      "@context": "http://uu3.org/fhir/markdown-R4-jsonld-1.1-context.jsonld"
+    },
+    "TerminologyCapabilities.kind": {
+      "@id": "fhir:TerminologyCapabilities.kind"
+    },
+    "TerminologyCapabilities.software": {
+      "@id": "fhir:TerminologyCapabilities.software"
+    },
+    "TerminologyCapabilities.implementation": {
+      "@id": "fhir:TerminologyCapabilities.implementation"
+    },
+    "TerminologyCapabilities.lockedDate": {
+      "@id": "fhir:TerminologyCapabilities.lockedDate",
+      "@context": "http://uu3.org/fhir/boolean-R4-jsonld-1.1-context.jsonld"
+    },
+    "TerminologyCapabilities.codeSystem": {
+      "@id": "fhir:TerminologyCapabilities.codeSystem"
+    },
+    "TerminologyCapabilities.expansion": {
+      "@id": "fhir:TerminologyCapabilities.expansion"
+    },
+    "TerminologyCapabilities.codeSearch": {
+      "@id": "fhir:TerminologyCapabilities.codeSearch"
+    },
+    "TerminologyCapabilities.validateCode": {
+      "@id": "fhir:TerminologyCapabilities.validateCode"
+    },
+    "TerminologyCapabilities.translation": {
+      "@id": "fhir:TerminologyCapabilities.translation"
+    },
+    "TerminologyCapabilities.closure": {
+      "@id": "fhir:TerminologyCapabilities.closure"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}
