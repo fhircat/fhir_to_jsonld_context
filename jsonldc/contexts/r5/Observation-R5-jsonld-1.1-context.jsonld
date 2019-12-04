@@ -1,0 +1,198 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/string-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Meta-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/uri-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/code-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Narrative-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Resource-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Extension-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Extension-R5-jsonld-1.1-context.jsonld"
+    },
+    "Observation.identifier": {
+      "@id": "fhir:Observation.identifier",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Identifier-R5-jsonld-1.1-context.jsonld"
+    },
+    "Observation.basedOn": {
+      "@id": "fhir:Observation.basedOn",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "Observation.partOf": {
+      "@id": "fhir:Observation.partOf",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "Observation.status": {
+      "@id": "fhir:Observation.status"
+    },
+    "Observation.category": {
+      "@id": "fhir:Observation.category",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/CodeableConcept-R5-jsonld-1.1-context.jsonld"
+    },
+    "Observation.code": {
+      "@id": "fhir:Observation.code",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/CodeableConcept-R5-jsonld-1.1-context.jsonld"
+    },
+    "Observation.subject": {
+      "@id": "fhir:Observation.subject",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "Observation.focus": {
+      "@id": "fhir:Observation.focus",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "Observation.encounter": {
+      "@id": "fhir:Observation.encounter",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "Observation.effectiveDateTime": {
+      "@id": "fhir:Observation.effectiveDateTime",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/dateTime-R5-jsonld-1.1-context.jsonld"
+    },
+    "Observation.effectivePeriod": {
+      "@id": "fhir:Observation.effectivePeriod",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Period-R5-jsonld-1.1-context.jsonld"
+    },
+    "Observation.effectiveTiming": {
+      "@id": "fhir:Observation.effectiveTiming",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Timing-R5-jsonld-1.1-context.jsonld"
+    },
+    "Observation.effectiveInstant": {
+      "@id": "fhir:Observation.effectiveInstant",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/instant-R5-jsonld-1.1-context.jsonld"
+    },
+    "Observation.issued": {
+      "@id": "fhir:Observation.issued",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/instant-R5-jsonld-1.1-context.jsonld"
+    },
+    "Observation.performer": {
+      "@id": "fhir:Observation.performer",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "Observation.valueQuantity": {
+      "@id": "fhir:Observation.valueQuantity",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Quantity-R5-jsonld-1.1-context.jsonld"
+    },
+    "Observation.valueCodeableConcept": {
+      "@id": "fhir:Observation.valueCodeableConcept",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/CodeableConcept-R5-jsonld-1.1-context.jsonld"
+    },
+    "Observation.valueString": {
+      "@id": "fhir:Observation.valueString",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/string-R5-jsonld-1.1-context.jsonld"
+    },
+    "Observation.valueBoolean": {
+      "@id": "fhir:Observation.valueBoolean",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/boolean-R5-jsonld-1.1-context.jsonld"
+    },
+    "Observation.valueInteger": {
+      "@id": "fhir:Observation.valueInteger",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/integer-R5-jsonld-1.1-context.jsonld"
+    },
+    "Observation.valueRange": {
+      "@id": "fhir:Observation.valueRange",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Range-R5-jsonld-1.1-context.jsonld"
+    },
+    "Observation.valueRatio": {
+      "@id": "fhir:Observation.valueRatio",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Ratio-R5-jsonld-1.1-context.jsonld"
+    },
+    "Observation.valueSampledData": {
+      "@id": "fhir:Observation.valueSampledData",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/SampledData-R5-jsonld-1.1-context.jsonld"
+    },
+    "Observation.valueTime": {
+      "@id": "fhir:Observation.valueTime",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/time-R5-jsonld-1.1-context.jsonld"
+    },
+    "Observation.valueDateTime": {
+      "@id": "fhir:Observation.valueDateTime",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/dateTime-R5-jsonld-1.1-context.jsonld"
+    },
+    "Observation.valuePeriod": {
+      "@id": "fhir:Observation.valuePeriod",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Period-R5-jsonld-1.1-context.jsonld"
+    },
+    "Observation.valueAttachment": {
+      "@id": "fhir:Observation.valueAttachment",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Attachment-R5-jsonld-1.1-context.jsonld"
+    },
+    "Observation.dataAbsentReason": {
+      "@id": "fhir:Observation.dataAbsentReason",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/CodeableConcept-R5-jsonld-1.1-context.jsonld"
+    },
+    "Observation.interpretation": {
+      "@id": "fhir:Observation.interpretation",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/CodeableConcept-R5-jsonld-1.1-context.jsonld"
+    },
+    "Observation.note": {
+      "@id": "fhir:Observation.note",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Annotation-R5-jsonld-1.1-context.jsonld"
+    },
+    "Observation.bodySite": {
+      "@id": "fhir:Observation.bodySite",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/CodeableConcept-R5-jsonld-1.1-context.jsonld"
+    },
+    "Observation.method": {
+      "@id": "fhir:Observation.method",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/CodeableConcept-R5-jsonld-1.1-context.jsonld"
+    },
+    "Observation.specimen": {
+      "@id": "fhir:Observation.specimen",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "Observation.device": {
+      "@id": "fhir:Observation.device",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "Observation.referenceRange": {
+      "@id": "fhir:Observation.referenceRange"
+    },
+    "Observation.hasMember": {
+      "@id": "fhir:Observation.hasMember",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "Observation.derivedFrom": {
+      "@id": "fhir:Observation.derivedFrom",
+      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "Observation.component": {
+      "@id": "fhir:Observation.component"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

@@ -7,6 +7,7 @@
   "scripts": {
     "build": "babel src -d dist",
     "generate": "node --experimental-modules src/createContext.js",
+    "clean": "node --experimental-modules src/createContext.js clean",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

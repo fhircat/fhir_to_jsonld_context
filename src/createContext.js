@@ -7,15 +7,15 @@ import Shex from '@shexjs/core'
 const Ns_fh = 'http://hl7.org/fhir/'
 const Ns_fhsh = 'http://hl7.org/fhir/shape/'
 const Ns_rdf = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'
-const StupidBaseUrl = r => `http://uu3.org/fhir/${r}-R4-jsonld-1.1-context.jsonld`
+const StupidBaseUrl = r => `https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/${r}-R5-jsonld-1.1-context.jsonld`
 const DTRegExp = RegExp('^(http://hl7.org/fhir/shape/[a-z]|http://www.w3.org/2001/XMLSchema#)')
 
-const logger = log4js.getLogger("app");
+let logger = log4js.getLogger("app");
 
 const report = e => console.warn(e.message)
 
-const processedFiles = 0;
-const errorneousFiles = 0;
+let processedFiles = 0;
+let errorneousFiles = 0;
 // Config
 log4js.configure('config/log4js.json');
 
@@ -180,7 +180,7 @@ function run(argv) {
       const res = c.convert(pair.shexpr)
       log(pair.name);
       //console.log(pair.name, '################################\n', JSON.stringify(res, null, 2))
-      Fs.writeFileSync(Path.join('jsonldc/contexts/r5', pair.name), JSON.stringify(res, null, 2))
+      Fs.writeFileSync(`jsonldc/contexts/r5/${pair.name}-R5-jsonld-1.1-context.jsonld`, JSON.stringify(res, null, 2))
     })
   }, function (err) {
     throw err;
