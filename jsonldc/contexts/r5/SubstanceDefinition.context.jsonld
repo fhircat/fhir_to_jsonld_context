@@ -1,0 +1,126 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhircat.org/fhir/contexts/string-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhircat.org/fhir/contexts/Meta-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhircat.org/fhir/contexts/uri-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhircat.org/fhir/contexts/code-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://fhircat.org/fhir/contexts/Narrative-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://fhircat.org/fhir/contexts/Resource-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://fhircat.org/fhir/contexts/Extension-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://fhircat.org/fhir/contexts/Extension-R5-jsonld-1.1-context.jsonld"
+    },
+    "SubstanceDefinition.identifier": {
+      "@id": "fhir:SubstanceDefinition.identifier",
+      "@context": "https://fhircat.org/fhir/contexts/Identifier-R5-jsonld-1.1-context.jsonld"
+    },
+    "SubstanceDefinition.status": {
+      "@id": "fhir:SubstanceDefinition.status",
+      "@context": "https://fhircat.org/fhir/contexts/CodeableConcept-R5-jsonld-1.1-context.jsonld"
+    },
+    "SubstanceDefinition.category": {
+      "@id": "fhir:SubstanceDefinition.category",
+      "@context": "https://fhircat.org/fhir/contexts/CodeableConcept-R5-jsonld-1.1-context.jsonld"
+    },
+    "SubstanceDefinition.domain": {
+      "@id": "fhir:SubstanceDefinition.domain",
+      "@context": "https://fhircat.org/fhir/contexts/CodeableConcept-R5-jsonld-1.1-context.jsonld"
+    },
+    "SubstanceDefinition.description": {
+      "@id": "fhir:SubstanceDefinition.description",
+      "@context": "https://fhircat.org/fhir/contexts/markdown-R5-jsonld-1.1-context.jsonld"
+    },
+    "SubstanceDefinition.source": {
+      "@id": "fhir:SubstanceDefinition.source",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "SubstanceDefinition.note": {
+      "@id": "fhir:SubstanceDefinition.note",
+      "@context": "https://fhircat.org/fhir/contexts/Annotation-R5-jsonld-1.1-context.jsonld"
+    },
+    "SubstanceDefinition.manufacturer": {
+      "@id": "fhir:SubstanceDefinition.manufacturer",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "SubstanceDefinition.supplier": {
+      "@id": "fhir:SubstanceDefinition.supplier",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "SubstanceDefinition.moiety": {
+      "@id": "fhir:SubstanceDefinition.moiety"
+    },
+    "SubstanceDefinition.property": {
+      "@id": "fhir:SubstanceDefinition.property"
+    },
+    "SubstanceDefinition.referenceInformation": {
+      "@id": "fhir:SubstanceDefinition.referenceInformation",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "SubstanceDefinition.structure": {
+      "@id": "fhir:SubstanceDefinition.structure"
+    },
+    "SubstanceDefinition.code": {
+      "@id": "fhir:SubstanceDefinition.code"
+    },
+    "SubstanceDefinition.name": {
+      "@id": "fhir:SubstanceDefinition.name"
+    },
+    "SubstanceDefinition.molecularWeight": {
+      "@id": "fhir:SubstanceDefinition.molecularWeight"
+    },
+    "SubstanceDefinition.relationship": {
+      "@id": "fhir:SubstanceDefinition.relationship"
+    },
+    "SubstanceDefinition.nucleicAcid": {
+      "@id": "fhir:SubstanceDefinition.nucleicAcid",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "SubstanceDefinition.polymer": {
+      "@id": "fhir:SubstanceDefinition.polymer",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "SubstanceDefinition.protein": {
+      "@id": "fhir:SubstanceDefinition.protein",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "SubstanceDefinition.sourceMaterial": {
+      "@id": "fhir:SubstanceDefinition.sourceMaterial",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

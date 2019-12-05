@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhircat.org/fhir/contexts/string-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhircat.org/fhir/contexts/Meta-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhircat.org/fhir/contexts/uri-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhircat.org/fhir/contexts/code-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://fhircat.org/fhir/contexts/Narrative-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://fhircat.org/fhir/contexts/Resource-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://fhircat.org/fhir/contexts/Extension-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://fhircat.org/fhir/contexts/Extension-R5-jsonld-1.1-context.jsonld"
+    },
+    "BiologicallyDerivedProduct.identifier": {
+      "@id": "fhir:BiologicallyDerivedProduct.identifier",
+      "@context": "https://fhircat.org/fhir/contexts/Identifier-R5-jsonld-1.1-context.jsonld"
+    },
+    "BiologicallyDerivedProduct.productCategory": {
+      "@id": "fhir:BiologicallyDerivedProduct.productCategory"
+    },
+    "BiologicallyDerivedProduct.productCode": {
+      "@id": "fhir:BiologicallyDerivedProduct.productCode",
+      "@context": "https://fhircat.org/fhir/contexts/CodeableConcept-R5-jsonld-1.1-context.jsonld"
+    },
+    "BiologicallyDerivedProduct.status": {
+      "@id": "fhir:BiologicallyDerivedProduct.status"
+    },
+    "BiologicallyDerivedProduct.request": {
+      "@id": "fhir:BiologicallyDerivedProduct.request",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "BiologicallyDerivedProduct.quantity": {
+      "@id": "fhir:BiologicallyDerivedProduct.quantity",
+      "@context": "https://fhircat.org/fhir/contexts/integer-R5-jsonld-1.1-context.jsonld"
+    },
+    "BiologicallyDerivedProduct.parent": {
+      "@id": "fhir:BiologicallyDerivedProduct.parent",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "BiologicallyDerivedProduct.collection": {
+      "@id": "fhir:BiologicallyDerivedProduct.collection"
+    },
+    "BiologicallyDerivedProduct.processing": {
+      "@id": "fhir:BiologicallyDerivedProduct.processing"
+    },
+    "BiologicallyDerivedProduct.manipulation": {
+      "@id": "fhir:BiologicallyDerivedProduct.manipulation"
+    },
+    "BiologicallyDerivedProduct.storage": {
+      "@id": "fhir:BiologicallyDerivedProduct.storage"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

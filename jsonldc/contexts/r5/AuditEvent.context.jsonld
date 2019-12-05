@@ -1,0 +1,91 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhircat.org/fhir/contexts/string-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhircat.org/fhir/contexts/Meta-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhircat.org/fhir/contexts/uri-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhircat.org/fhir/contexts/code-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://fhircat.org/fhir/contexts/Narrative-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://fhircat.org/fhir/contexts/Resource-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://fhircat.org/fhir/contexts/Extension-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://fhircat.org/fhir/contexts/Extension-R5-jsonld-1.1-context.jsonld"
+    },
+    "AuditEvent.type": {
+      "@id": "fhir:AuditEvent.type",
+      "@context": "https://fhircat.org/fhir/contexts/Coding-R5-jsonld-1.1-context.jsonld"
+    },
+    "AuditEvent.subtype": {
+      "@id": "fhir:AuditEvent.subtype",
+      "@context": "https://fhircat.org/fhir/contexts/Coding-R5-jsonld-1.1-context.jsonld"
+    },
+    "AuditEvent.action": {
+      "@id": "fhir:AuditEvent.action"
+    },
+    "AuditEvent.severity": {
+      "@id": "fhir:AuditEvent.severity"
+    },
+    "AuditEvent.period": {
+      "@id": "fhir:AuditEvent.period",
+      "@context": "https://fhircat.org/fhir/contexts/Period-R5-jsonld-1.1-context.jsonld"
+    },
+    "AuditEvent.recorded": {
+      "@id": "fhir:AuditEvent.recorded",
+      "@context": "https://fhircat.org/fhir/contexts/instant-R5-jsonld-1.1-context.jsonld"
+    },
+    "AuditEvent.outcome": {
+      "@id": "fhir:AuditEvent.outcome"
+    },
+    "AuditEvent.outcomeDesc": {
+      "@id": "fhir:AuditEvent.outcomeDesc",
+      "@context": "https://fhircat.org/fhir/contexts/string-R5-jsonld-1.1-context.jsonld"
+    },
+    "AuditEvent.purposeOfEvent": {
+      "@id": "fhir:AuditEvent.purposeOfEvent",
+      "@context": "https://fhircat.org/fhir/contexts/CodeableConcept-R5-jsonld-1.1-context.jsonld"
+    },
+    "AuditEvent.agent": {
+      "@id": "fhir:AuditEvent.agent"
+    },
+    "AuditEvent.source": {
+      "@id": "fhir:AuditEvent.source"
+    },
+    "AuditEvent.entity": {
+      "@id": "fhir:AuditEvent.entity"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

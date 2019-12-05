@@ -1,0 +1,122 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhircat.org/fhir/contexts/string-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhircat.org/fhir/contexts/Meta-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhircat.org/fhir/contexts/uri-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhircat.org/fhir/contexts/code-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://fhircat.org/fhir/contexts/Narrative-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://fhircat.org/fhir/contexts/Resource-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://fhircat.org/fhir/contexts/Extension-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://fhircat.org/fhir/contexts/Extension-R5-jsonld-1.1-context.jsonld"
+    },
+    "ImagingStudy.identifier": {
+      "@id": "fhir:ImagingStudy.identifier",
+      "@context": "https://fhircat.org/fhir/contexts/Identifier-R5-jsonld-1.1-context.jsonld"
+    },
+    "ImagingStudy.status": {
+      "@id": "fhir:ImagingStudy.status"
+    },
+    "ImagingStudy.modality": {
+      "@id": "fhir:ImagingStudy.modality",
+      "@context": "https://fhircat.org/fhir/contexts/Coding-R5-jsonld-1.1-context.jsonld"
+    },
+    "ImagingStudy.subject": {
+      "@id": "fhir:ImagingStudy.subject",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "ImagingStudy.encounter": {
+      "@id": "fhir:ImagingStudy.encounter",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "ImagingStudy.started": {
+      "@id": "fhir:ImagingStudy.started",
+      "@context": "https://fhircat.org/fhir/contexts/dateTime-R5-jsonld-1.1-context.jsonld"
+    },
+    "ImagingStudy.basedOn": {
+      "@id": "fhir:ImagingStudy.basedOn",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "ImagingStudy.referrer": {
+      "@id": "fhir:ImagingStudy.referrer",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "ImagingStudy.interpreter": {
+      "@id": "fhir:ImagingStudy.interpreter",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "ImagingStudy.endpoint": {
+      "@id": "fhir:ImagingStudy.endpoint",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "ImagingStudy.numberOfSeries": {
+      "@id": "fhir:ImagingStudy.numberOfSeries",
+      "@context": "https://fhircat.org/fhir/contexts/unsignedInt-R5-jsonld-1.1-context.jsonld"
+    },
+    "ImagingStudy.numberOfInstances": {
+      "@id": "fhir:ImagingStudy.numberOfInstances",
+      "@context": "https://fhircat.org/fhir/contexts/unsignedInt-R5-jsonld-1.1-context.jsonld"
+    },
+    "ImagingStudy.procedure": {
+      "@id": "fhir:ImagingStudy.procedure"
+    },
+    "ImagingStudy.location": {
+      "@id": "fhir:ImagingStudy.location",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "ImagingStudy.reasonCode": {
+      "@id": "fhir:ImagingStudy.reasonCode",
+      "@context": "https://fhircat.org/fhir/contexts/CodeableConcept-R5-jsonld-1.1-context.jsonld"
+    },
+    "ImagingStudy.reasonReference": {
+      "@id": "fhir:ImagingStudy.reasonReference",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "ImagingStudy.note": {
+      "@id": "fhir:ImagingStudy.note",
+      "@context": "https://fhircat.org/fhir/contexts/Annotation-R5-jsonld-1.1-context.jsonld"
+    },
+    "ImagingStudy.description": {
+      "@id": "fhir:ImagingStudy.description",
+      "@context": "https://fhircat.org/fhir/contexts/string-R5-jsonld-1.1-context.jsonld"
+    },
+    "ImagingStudy.series": {
+      "@id": "fhir:ImagingStudy.series"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

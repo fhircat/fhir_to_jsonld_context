@@ -1,0 +1,138 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhircat.org/fhir/contexts/string-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhircat.org/fhir/contexts/Meta-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhircat.org/fhir/contexts/uri-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhircat.org/fhir/contexts/code-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://fhircat.org/fhir/contexts/Narrative-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://fhircat.org/fhir/contexts/Resource-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://fhircat.org/fhir/contexts/Extension-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://fhircat.org/fhir/contexts/Extension-R5-jsonld-1.1-context.jsonld"
+    },
+    "CommunicationRequest.identifier": {
+      "@id": "fhir:CommunicationRequest.identifier",
+      "@context": "https://fhircat.org/fhir/contexts/Identifier-R5-jsonld-1.1-context.jsonld"
+    },
+    "CommunicationRequest.basedOn": {
+      "@id": "fhir:CommunicationRequest.basedOn",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "CommunicationRequest.replaces": {
+      "@id": "fhir:CommunicationRequest.replaces",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "CommunicationRequest.groupIdentifier": {
+      "@id": "fhir:CommunicationRequest.groupIdentifier",
+      "@context": "https://fhircat.org/fhir/contexts/Identifier-R5-jsonld-1.1-context.jsonld"
+    },
+    "CommunicationRequest.status": {
+      "@id": "fhir:CommunicationRequest.status"
+    },
+    "CommunicationRequest.statusReason": {
+      "@id": "fhir:CommunicationRequest.statusReason",
+      "@context": "https://fhircat.org/fhir/contexts/CodeableConcept-R5-jsonld-1.1-context.jsonld"
+    },
+    "CommunicationRequest.category": {
+      "@id": "fhir:CommunicationRequest.category",
+      "@context": "https://fhircat.org/fhir/contexts/CodeableConcept-R5-jsonld-1.1-context.jsonld"
+    },
+    "CommunicationRequest.priority": {
+      "@id": "fhir:CommunicationRequest.priority"
+    },
+    "CommunicationRequest.doNotPerform": {
+      "@id": "fhir:CommunicationRequest.doNotPerform",
+      "@context": "https://fhircat.org/fhir/contexts/boolean-R5-jsonld-1.1-context.jsonld"
+    },
+    "CommunicationRequest.medium": {
+      "@id": "fhir:CommunicationRequest.medium",
+      "@context": "https://fhircat.org/fhir/contexts/CodeableConcept-R5-jsonld-1.1-context.jsonld"
+    },
+    "CommunicationRequest.subject": {
+      "@id": "fhir:CommunicationRequest.subject",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "CommunicationRequest.about": {
+      "@id": "fhir:CommunicationRequest.about",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "CommunicationRequest.encounter": {
+      "@id": "fhir:CommunicationRequest.encounter",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "CommunicationRequest.payload": {
+      "@id": "fhir:CommunicationRequest.payload"
+    },
+    "CommunicationRequest.occurrenceDateTime": {
+      "@id": "fhir:CommunicationRequest.occurrenceDateTime",
+      "@context": "https://fhircat.org/fhir/contexts/dateTime-R5-jsonld-1.1-context.jsonld"
+    },
+    "CommunicationRequest.occurrencePeriod": {
+      "@id": "fhir:CommunicationRequest.occurrencePeriod",
+      "@context": "https://fhircat.org/fhir/contexts/Period-R5-jsonld-1.1-context.jsonld"
+    },
+    "CommunicationRequest.authoredOn": {
+      "@id": "fhir:CommunicationRequest.authoredOn",
+      "@context": "https://fhircat.org/fhir/contexts/dateTime-R5-jsonld-1.1-context.jsonld"
+    },
+    "CommunicationRequest.requester": {
+      "@id": "fhir:CommunicationRequest.requester",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "CommunicationRequest.recipient": {
+      "@id": "fhir:CommunicationRequest.recipient",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "CommunicationRequest.informationProvider": {
+      "@id": "fhir:CommunicationRequest.informationProvider",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "CommunicationRequest.reasonCode": {
+      "@id": "fhir:CommunicationRequest.reasonCode",
+      "@context": "https://fhircat.org/fhir/contexts/CodeableConcept-R5-jsonld-1.1-context.jsonld"
+    },
+    "CommunicationRequest.reasonReference": {
+      "@id": "fhir:CommunicationRequest.reasonReference",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "CommunicationRequest.note": {
+      "@id": "fhir:CommunicationRequest.note",
+      "@context": "https://fhircat.org/fhir/contexts/Annotation-R5-jsonld-1.1-context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

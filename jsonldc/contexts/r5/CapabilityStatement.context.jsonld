@@ -1,0 +1,143 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhircat.org/fhir/contexts/string-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhircat.org/fhir/contexts/Meta-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhircat.org/fhir/contexts/uri-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhircat.org/fhir/contexts/code-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://fhircat.org/fhir/contexts/Narrative-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://fhircat.org/fhir/contexts/Resource-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://fhircat.org/fhir/contexts/Extension-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://fhircat.org/fhir/contexts/Extension-R5-jsonld-1.1-context.jsonld"
+    },
+    "CapabilityStatement.url": {
+      "@id": "fhir:CapabilityStatement.url",
+      "@context": "https://fhircat.org/fhir/contexts/uri-R5-jsonld-1.1-context.jsonld"
+    },
+    "CapabilityStatement.version": {
+      "@id": "fhir:CapabilityStatement.version",
+      "@context": "https://fhircat.org/fhir/contexts/string-R5-jsonld-1.1-context.jsonld"
+    },
+    "CapabilityStatement.name": {
+      "@id": "fhir:CapabilityStatement.name",
+      "@context": "https://fhircat.org/fhir/contexts/string-R5-jsonld-1.1-context.jsonld"
+    },
+    "CapabilityStatement.title": {
+      "@id": "fhir:CapabilityStatement.title",
+      "@context": "https://fhircat.org/fhir/contexts/string-R5-jsonld-1.1-context.jsonld"
+    },
+    "CapabilityStatement.status": {
+      "@id": "fhir:CapabilityStatement.status"
+    },
+    "CapabilityStatement.experimental": {
+      "@id": "fhir:CapabilityStatement.experimental",
+      "@context": "https://fhircat.org/fhir/contexts/boolean-R5-jsonld-1.1-context.jsonld"
+    },
+    "CapabilityStatement.date": {
+      "@id": "fhir:CapabilityStatement.date",
+      "@context": "https://fhircat.org/fhir/contexts/dateTime-R5-jsonld-1.1-context.jsonld"
+    },
+    "CapabilityStatement.publisher": {
+      "@id": "fhir:CapabilityStatement.publisher",
+      "@context": "https://fhircat.org/fhir/contexts/string-R5-jsonld-1.1-context.jsonld"
+    },
+    "CapabilityStatement.contact": {
+      "@id": "fhir:CapabilityStatement.contact",
+      "@context": "https://fhircat.org/fhir/contexts/ContactDetail-R5-jsonld-1.1-context.jsonld"
+    },
+    "CapabilityStatement.description": {
+      "@id": "fhir:CapabilityStatement.description",
+      "@context": "https://fhircat.org/fhir/contexts/markdown-R5-jsonld-1.1-context.jsonld"
+    },
+    "CapabilityStatement.useContext": {
+      "@id": "fhir:CapabilityStatement.useContext",
+      "@context": "https://fhircat.org/fhir/contexts/UsageContext-R5-jsonld-1.1-context.jsonld"
+    },
+    "CapabilityStatement.jurisdiction": {
+      "@id": "fhir:CapabilityStatement.jurisdiction",
+      "@context": "https://fhircat.org/fhir/contexts/CodeableConcept-R5-jsonld-1.1-context.jsonld"
+    },
+    "CapabilityStatement.purpose": {
+      "@id": "fhir:CapabilityStatement.purpose",
+      "@context": "https://fhircat.org/fhir/contexts/markdown-R5-jsonld-1.1-context.jsonld"
+    },
+    "CapabilityStatement.copyright": {
+      "@id": "fhir:CapabilityStatement.copyright",
+      "@context": "https://fhircat.org/fhir/contexts/markdown-R5-jsonld-1.1-context.jsonld"
+    },
+    "CapabilityStatement.kind": {
+      "@id": "fhir:CapabilityStatement.kind"
+    },
+    "CapabilityStatement.instantiates": {
+      "@id": "fhir:CapabilityStatement.instantiates",
+      "@context": "https://fhircat.org/fhir/contexts/canonical-R5-jsonld-1.1-context.jsonld"
+    },
+    "CapabilityStatement.imports": {
+      "@id": "fhir:CapabilityStatement.imports",
+      "@context": "https://fhircat.org/fhir/contexts/canonical-R5-jsonld-1.1-context.jsonld"
+    },
+    "CapabilityStatement.software": {
+      "@id": "fhir:CapabilityStatement.software"
+    },
+    "CapabilityStatement.implementation": {
+      "@id": "fhir:CapabilityStatement.implementation"
+    },
+    "CapabilityStatement.fhirVersion": {
+      "@id": "fhir:CapabilityStatement.fhirVersion"
+    },
+    "CapabilityStatement.format": {
+      "@id": "fhir:CapabilityStatement.format"
+    },
+    "CapabilityStatement.patchFormat": {
+      "@id": "fhir:CapabilityStatement.patchFormat"
+    },
+    "CapabilityStatement.implementationGuide": {
+      "@id": "fhir:CapabilityStatement.implementationGuide",
+      "@context": "https://fhircat.org/fhir/contexts/canonical-R5-jsonld-1.1-context.jsonld"
+    },
+    "CapabilityStatement.rest": {
+      "@id": "fhir:CapabilityStatement.rest"
+    },
+    "CapabilityStatement.messaging": {
+      "@id": "fhir:CapabilityStatement.messaging"
+    },
+    "CapabilityStatement.document": {
+      "@id": "fhir:CapabilityStatement.document"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}
