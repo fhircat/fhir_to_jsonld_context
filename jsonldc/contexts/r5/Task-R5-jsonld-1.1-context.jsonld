@@ -11,70 +11,70 @@
     },
     "Resource.id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/string-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string-R5-jsonld-1.1-context.jsonld"
     },
     "Resource.meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Meta-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Meta-R5-jsonld-1.1-context.jsonld"
     },
     "Resource.implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/uri-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri-R5-jsonld-1.1-context.jsonld"
     },
     "Resource.language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/code-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code-R5-jsonld-1.1-context.jsonld"
     },
     "DomainResource.text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Narrative-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Narrative-R5-jsonld-1.1-context.jsonld"
     },
     "DomainResource.contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Resource-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Resource-R5-jsonld-1.1-context.jsonld"
     },
     "DomainResource.extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Extension-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension-R5-jsonld-1.1-context.jsonld"
     },
     "DomainResource.modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Extension-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension-R5-jsonld-1.1-context.jsonld"
     },
     "Task.identifier": {
       "@id": "fhir:Task.identifier",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Identifier-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier-R5-jsonld-1.1-context.jsonld"
     },
     "Task.instantiatesCanonical": {
       "@id": "fhir:Task.instantiatesCanonical",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/canonical-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/canonical-R5-jsonld-1.1-context.jsonld"
     },
     "Task.instantiatesUri": {
       "@id": "fhir:Task.instantiatesUri",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/uri-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri-R5-jsonld-1.1-context.jsonld"
     },
     "Task.basedOn": {
       "@id": "fhir:Task.basedOn",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Reference-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference-R5-jsonld-1.1-context.jsonld"
     },
     "Task.groupIdentifier": {
       "@id": "fhir:Task.groupIdentifier",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Identifier-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier-R5-jsonld-1.1-context.jsonld"
     },
     "Task.partOf": {
       "@id": "fhir:Task.partOf",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Reference-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference-R5-jsonld-1.1-context.jsonld"
     },
     "Task.status": {
       "@id": "fhir:Task.status"
     },
     "Task.statusReason": {
       "@id": "fhir:Task.statusReason",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/CodeableConcept-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept-R5-jsonld-1.1-context.jsonld"
     },
     "Task.businessStatus": {
       "@id": "fhir:Task.businessStatus",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/CodeableConcept-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept-R5-jsonld-1.1-context.jsonld"
     },
     "Task.intent": {
       "@id": "fhir:Task.intent"
@@ -84,71 +84,71 @@
     },
     "Task.code": {
       "@id": "fhir:Task.code",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/CodeableConcept-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept-R5-jsonld-1.1-context.jsonld"
     },
     "Task.description": {
       "@id": "fhir:Task.description",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/string-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string-R5-jsonld-1.1-context.jsonld"
     },
     "Task.focus": {
       "@id": "fhir:Task.focus",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Reference-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference-R5-jsonld-1.1-context.jsonld"
     },
     "Task.for": {
       "@id": "fhir:Task.for",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Reference-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference-R5-jsonld-1.1-context.jsonld"
     },
     "Task.encounter": {
       "@id": "fhir:Task.encounter",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Reference-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference-R5-jsonld-1.1-context.jsonld"
     },
     "Task.executionPeriod": {
       "@id": "fhir:Task.executionPeriod",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Period-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Period-R5-jsonld-1.1-context.jsonld"
     },
     "Task.authoredOn": {
       "@id": "fhir:Task.authoredOn",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/dateTime-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime-R5-jsonld-1.1-context.jsonld"
     },
     "Task.lastModified": {
       "@id": "fhir:Task.lastModified",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/dateTime-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime-R5-jsonld-1.1-context.jsonld"
     },
     "Task.requester": {
       "@id": "fhir:Task.requester",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Reference-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference-R5-jsonld-1.1-context.jsonld"
     },
     "Task.performerType": {
       "@id": "fhir:Task.performerType",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/CodeableConcept-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept-R5-jsonld-1.1-context.jsonld"
     },
     "Task.owner": {
       "@id": "fhir:Task.owner",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Reference-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference-R5-jsonld-1.1-context.jsonld"
     },
     "Task.location": {
       "@id": "fhir:Task.location",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Reference-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference-R5-jsonld-1.1-context.jsonld"
     },
     "Task.reasonCode": {
       "@id": "fhir:Task.reasonCode",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/CodeableConcept-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept-R5-jsonld-1.1-context.jsonld"
     },
     "Task.reasonReference": {
       "@id": "fhir:Task.reasonReference",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Reference-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference-R5-jsonld-1.1-context.jsonld"
     },
     "Task.insurance": {
       "@id": "fhir:Task.insurance",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Reference-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference-R5-jsonld-1.1-context.jsonld"
     },
     "Task.note": {
       "@id": "fhir:Task.note",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Annotation-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Annotation-R5-jsonld-1.1-context.jsonld"
     },
     "Task.relevantHistory": {
       "@id": "fhir:Task.relevantHistory",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Reference-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference-R5-jsonld-1.1-context.jsonld"
     },
     "Task.restriction": {
       "@id": "fhir:Task.restriction"

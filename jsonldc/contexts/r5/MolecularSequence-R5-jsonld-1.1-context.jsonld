@@ -11,66 +11,66 @@
     },
     "Resource.id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/string-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string-R5-jsonld-1.1-context.jsonld"
     },
     "Resource.meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Meta-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Meta-R5-jsonld-1.1-context.jsonld"
     },
     "Resource.implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/uri-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri-R5-jsonld-1.1-context.jsonld"
     },
     "Resource.language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/code-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code-R5-jsonld-1.1-context.jsonld"
     },
     "DomainResource.text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Narrative-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Narrative-R5-jsonld-1.1-context.jsonld"
     },
     "DomainResource.contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Resource-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Resource-R5-jsonld-1.1-context.jsonld"
     },
     "DomainResource.extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Extension-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension-R5-jsonld-1.1-context.jsonld"
     },
     "DomainResource.modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Extension-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension-R5-jsonld-1.1-context.jsonld"
     },
     "MolecularSequence.identifier": {
       "@id": "fhir:MolecularSequence.identifier",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Identifier-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier-R5-jsonld-1.1-context.jsonld"
     },
     "MolecularSequence.type": {
       "@id": "fhir:MolecularSequence.type"
     },
     "MolecularSequence.coordinateSystem": {
       "@id": "fhir:MolecularSequence.coordinateSystem",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/integer-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/integer-R5-jsonld-1.1-context.jsonld"
     },
     "MolecularSequence.patient": {
       "@id": "fhir:MolecularSequence.patient",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Reference-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference-R5-jsonld-1.1-context.jsonld"
     },
     "MolecularSequence.specimen": {
       "@id": "fhir:MolecularSequence.specimen",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Reference-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference-R5-jsonld-1.1-context.jsonld"
     },
     "MolecularSequence.device": {
       "@id": "fhir:MolecularSequence.device",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Reference-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference-R5-jsonld-1.1-context.jsonld"
     },
     "MolecularSequence.performer": {
       "@id": "fhir:MolecularSequence.performer",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Reference-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference-R5-jsonld-1.1-context.jsonld"
     },
     "MolecularSequence.quantity": {
       "@id": "fhir:MolecularSequence.quantity",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Quantity-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Quantity-R5-jsonld-1.1-context.jsonld"
     },
     "MolecularSequence.referenceSeq": {
       "@id": "fhir:MolecularSequence.referenceSeq"
@@ -80,21 +80,21 @@
     },
     "MolecularSequence.observedSeq": {
       "@id": "fhir:MolecularSequence.observedSeq",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/string-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string-R5-jsonld-1.1-context.jsonld"
     },
     "MolecularSequence.quality": {
       "@id": "fhir:MolecularSequence.quality"
     },
     "MolecularSequence.readCoverage": {
       "@id": "fhir:MolecularSequence.readCoverage",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/integer-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/integer-R5-jsonld-1.1-context.jsonld"
     },
     "MolecularSequence.repository": {
       "@id": "fhir:MolecularSequence.repository"
     },
     "MolecularSequence.pointer": {
       "@id": "fhir:MolecularSequence.pointer",
-      "@context": "https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/Reference-R5-jsonld-1.1-context.jsonld"
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference-R5-jsonld-1.1-context.jsonld"
     },
     "MolecularSequence.structureVariant": {
       "@id": "fhir:MolecularSequence.structureVariant"

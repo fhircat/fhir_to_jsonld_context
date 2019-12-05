@@ -7,7 +7,7 @@ import Shex from '@shexjs/core'
 const Ns_fh = 'http://hl7.org/fhir/'
 const Ns_fhsh = 'http://hl7.org/fhir/shape/'
 const Ns_rdf = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'
-const StupidBaseUrl = r => `https://raw.githubusercontent.com/fhircat/fhir_to_jsonld_context/master/jsonldc/contexts/r5/${r}-R5-jsonld-1.1-context.jsonld`
+const StupidBaseUrl = r => `https://fhir-jsonld-r5.s3.amazonaws.com/${r}-R5-jsonld-1.1-context.jsonld`
 const DTRegExp = RegExp('^(http://hl7.org/fhir/shape/[a-z]|http://www.w3.org/2001/XMLSchema#)')
 
 let logger = log4js.getLogger("app");
