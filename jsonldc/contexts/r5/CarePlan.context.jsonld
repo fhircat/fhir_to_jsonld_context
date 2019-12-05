@@ -1,0 +1,142 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhircat.org/fhir/contexts/string-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhircat.org/fhir/contexts/Meta-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhircat.org/fhir/contexts/uri-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhircat.org/fhir/contexts/code-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://fhircat.org/fhir/contexts/Narrative-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://fhircat.org/fhir/contexts/Resource-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://fhircat.org/fhir/contexts/Extension-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://fhircat.org/fhir/contexts/Extension-R5-jsonld-1.1-context.jsonld"
+    },
+    "CarePlan.identifier": {
+      "@id": "fhir:CarePlan.identifier",
+      "@context": "https://fhircat.org/fhir/contexts/Identifier-R5-jsonld-1.1-context.jsonld"
+    },
+    "CarePlan.instantiatesCanonical": {
+      "@id": "fhir:CarePlan.instantiatesCanonical",
+      "@context": "https://fhircat.org/fhir/contexts/canonical-R5-jsonld-1.1-context.jsonld"
+    },
+    "CarePlan.instantiatesUri": {
+      "@id": "fhir:CarePlan.instantiatesUri",
+      "@context": "https://fhircat.org/fhir/contexts/uri-R5-jsonld-1.1-context.jsonld"
+    },
+    "CarePlan.basedOn": {
+      "@id": "fhir:CarePlan.basedOn",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "CarePlan.replaces": {
+      "@id": "fhir:CarePlan.replaces",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "CarePlan.partOf": {
+      "@id": "fhir:CarePlan.partOf",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "CarePlan.status": {
+      "@id": "fhir:CarePlan.status"
+    },
+    "CarePlan.intent": {
+      "@id": "fhir:CarePlan.intent"
+    },
+    "CarePlan.category": {
+      "@id": "fhir:CarePlan.category",
+      "@context": "https://fhircat.org/fhir/contexts/CodeableConcept-R5-jsonld-1.1-context.jsonld"
+    },
+    "CarePlan.title": {
+      "@id": "fhir:CarePlan.title",
+      "@context": "https://fhircat.org/fhir/contexts/string-R5-jsonld-1.1-context.jsonld"
+    },
+    "CarePlan.description": {
+      "@id": "fhir:CarePlan.description",
+      "@context": "https://fhircat.org/fhir/contexts/string-R5-jsonld-1.1-context.jsonld"
+    },
+    "CarePlan.subject": {
+      "@id": "fhir:CarePlan.subject",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "CarePlan.encounter": {
+      "@id": "fhir:CarePlan.encounter",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "CarePlan.period": {
+      "@id": "fhir:CarePlan.period",
+      "@context": "https://fhircat.org/fhir/contexts/Period-R5-jsonld-1.1-context.jsonld"
+    },
+    "CarePlan.created": {
+      "@id": "fhir:CarePlan.created",
+      "@context": "https://fhircat.org/fhir/contexts/dateTime-R5-jsonld-1.1-context.jsonld"
+    },
+    "CarePlan.author": {
+      "@id": "fhir:CarePlan.author",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "CarePlan.contributor": {
+      "@id": "fhir:CarePlan.contributor",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "CarePlan.careTeam": {
+      "@id": "fhir:CarePlan.careTeam",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "CarePlan.addressesCode": {
+      "@id": "fhir:CarePlan.addressesCode",
+      "@context": "https://fhircat.org/fhir/contexts/CodeableConcept-R5-jsonld-1.1-context.jsonld"
+    },
+    "CarePlan.addressesReference": {
+      "@id": "fhir:CarePlan.addressesReference",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "CarePlan.supportingInfo": {
+      "@id": "fhir:CarePlan.supportingInfo",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "CarePlan.goal": {
+      "@id": "fhir:CarePlan.goal",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "CarePlan.activity": {
+      "@id": "fhir:CarePlan.activity"
+    },
+    "CarePlan.note": {
+      "@id": "fhir:CarePlan.note",
+      "@context": "https://fhircat.org/fhir/contexts/Annotation-R5-jsonld-1.1-context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

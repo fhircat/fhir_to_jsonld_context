@@ -1,0 +1,138 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhircat.org/fhir/contexts/string-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhircat.org/fhir/contexts/Meta-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhircat.org/fhir/contexts/uri-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhircat.org/fhir/contexts/code-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://fhircat.org/fhir/contexts/Narrative-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://fhircat.org/fhir/contexts/Resource-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://fhircat.org/fhir/contexts/Extension-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://fhircat.org/fhir/contexts/Extension-R5-jsonld-1.1-context.jsonld"
+    },
+    "ChargeItemDefinition.url": {
+      "@id": "fhir:ChargeItemDefinition.url",
+      "@context": "https://fhircat.org/fhir/contexts/uri-R5-jsonld-1.1-context.jsonld"
+    },
+    "ChargeItemDefinition.identifier": {
+      "@id": "fhir:ChargeItemDefinition.identifier",
+      "@context": "https://fhircat.org/fhir/contexts/Identifier-R5-jsonld-1.1-context.jsonld"
+    },
+    "ChargeItemDefinition.version": {
+      "@id": "fhir:ChargeItemDefinition.version",
+      "@context": "https://fhircat.org/fhir/contexts/string-R5-jsonld-1.1-context.jsonld"
+    },
+    "ChargeItemDefinition.title": {
+      "@id": "fhir:ChargeItemDefinition.title",
+      "@context": "https://fhircat.org/fhir/contexts/string-R5-jsonld-1.1-context.jsonld"
+    },
+    "ChargeItemDefinition.derivedFromUri": {
+      "@id": "fhir:ChargeItemDefinition.derivedFromUri",
+      "@context": "https://fhircat.org/fhir/contexts/uri-R5-jsonld-1.1-context.jsonld"
+    },
+    "ChargeItemDefinition.partOf": {
+      "@id": "fhir:ChargeItemDefinition.partOf",
+      "@context": "https://fhircat.org/fhir/contexts/canonical-R5-jsonld-1.1-context.jsonld"
+    },
+    "ChargeItemDefinition.replaces": {
+      "@id": "fhir:ChargeItemDefinition.replaces",
+      "@context": "https://fhircat.org/fhir/contexts/canonical-R5-jsonld-1.1-context.jsonld"
+    },
+    "ChargeItemDefinition.status": {
+      "@id": "fhir:ChargeItemDefinition.status"
+    },
+    "ChargeItemDefinition.experimental": {
+      "@id": "fhir:ChargeItemDefinition.experimental",
+      "@context": "https://fhircat.org/fhir/contexts/boolean-R5-jsonld-1.1-context.jsonld"
+    },
+    "ChargeItemDefinition.date": {
+      "@id": "fhir:ChargeItemDefinition.date",
+      "@context": "https://fhircat.org/fhir/contexts/dateTime-R5-jsonld-1.1-context.jsonld"
+    },
+    "ChargeItemDefinition.publisher": {
+      "@id": "fhir:ChargeItemDefinition.publisher",
+      "@context": "https://fhircat.org/fhir/contexts/string-R5-jsonld-1.1-context.jsonld"
+    },
+    "ChargeItemDefinition.contact": {
+      "@id": "fhir:ChargeItemDefinition.contact",
+      "@context": "https://fhircat.org/fhir/contexts/ContactDetail-R5-jsonld-1.1-context.jsonld"
+    },
+    "ChargeItemDefinition.description": {
+      "@id": "fhir:ChargeItemDefinition.description",
+      "@context": "https://fhircat.org/fhir/contexts/markdown-R5-jsonld-1.1-context.jsonld"
+    },
+    "ChargeItemDefinition.useContext": {
+      "@id": "fhir:ChargeItemDefinition.useContext",
+      "@context": "https://fhircat.org/fhir/contexts/UsageContext-R5-jsonld-1.1-context.jsonld"
+    },
+    "ChargeItemDefinition.jurisdiction": {
+      "@id": "fhir:ChargeItemDefinition.jurisdiction",
+      "@context": "https://fhircat.org/fhir/contexts/CodeableConcept-R5-jsonld-1.1-context.jsonld"
+    },
+    "ChargeItemDefinition.copyright": {
+      "@id": "fhir:ChargeItemDefinition.copyright",
+      "@context": "https://fhircat.org/fhir/contexts/markdown-R5-jsonld-1.1-context.jsonld"
+    },
+    "ChargeItemDefinition.approvalDate": {
+      "@id": "fhir:ChargeItemDefinition.approvalDate",
+      "@context": "https://fhircat.org/fhir/contexts/date-R5-jsonld-1.1-context.jsonld"
+    },
+    "ChargeItemDefinition.lastReviewDate": {
+      "@id": "fhir:ChargeItemDefinition.lastReviewDate",
+      "@context": "https://fhircat.org/fhir/contexts/date-R5-jsonld-1.1-context.jsonld"
+    },
+    "ChargeItemDefinition.effectivePeriod": {
+      "@id": "fhir:ChargeItemDefinition.effectivePeriod",
+      "@context": "https://fhircat.org/fhir/contexts/Period-R5-jsonld-1.1-context.jsonld"
+    },
+    "ChargeItemDefinition.code": {
+      "@id": "fhir:ChargeItemDefinition.code",
+      "@context": "https://fhircat.org/fhir/contexts/CodeableConcept-R5-jsonld-1.1-context.jsonld"
+    },
+    "ChargeItemDefinition.instance": {
+      "@id": "fhir:ChargeItemDefinition.instance",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "ChargeItemDefinition.applicability": {
+      "@id": "fhir:ChargeItemDefinition.applicability"
+    },
+    "ChargeItemDefinition.propertyGroup": {
+      "@id": "fhir:ChargeItemDefinition.propertyGroup"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

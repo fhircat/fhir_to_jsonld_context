@@ -1,0 +1,58 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhircat.org/fhir/contexts/string-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhircat.org/fhir/contexts/Meta-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhircat.org/fhir/contexts/uri-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhircat.org/fhir/contexts/code-R5-jsonld-1.1-context.jsonld"
+    },
+    "Bundle.identifier": {
+      "@id": "fhir:Bundle.identifier",
+      "@context": "https://fhircat.org/fhir/contexts/Identifier-R5-jsonld-1.1-context.jsonld"
+    },
+    "Bundle.type": {
+      "@id": "fhir:Bundle.type"
+    },
+    "Bundle.timestamp": {
+      "@id": "fhir:Bundle.timestamp",
+      "@context": "https://fhircat.org/fhir/contexts/instant-R5-jsonld-1.1-context.jsonld"
+    },
+    "Bundle.total": {
+      "@id": "fhir:Bundle.total",
+      "@context": "https://fhircat.org/fhir/contexts/unsignedInt-R5-jsonld-1.1-context.jsonld"
+    },
+    "Bundle.link": {
+      "@id": "fhir:Bundle.link"
+    },
+    "Bundle.entry": {
+      "@id": "fhir:Bundle.entry"
+    },
+    "Bundle.signature": {
+      "@id": "fhir:Bundle.signature",
+      "@context": "https://fhircat.org/fhir/contexts/Signature-R5-jsonld-1.1-context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhircat.org/fhir/contexts/string-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhircat.org/fhir/contexts/Meta-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhircat.org/fhir/contexts/uri-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhircat.org/fhir/contexts/code-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://fhircat.org/fhir/contexts/Narrative-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://fhircat.org/fhir/contexts/Resource-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://fhircat.org/fhir/contexts/Extension-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://fhircat.org/fhir/contexts/Extension-R5-jsonld-1.1-context.jsonld"
+    },
+    "Specimen.identifier": {
+      "@id": "fhir:Specimen.identifier",
+      "@context": "https://fhircat.org/fhir/contexts/Identifier-R5-jsonld-1.1-context.jsonld"
+    },
+    "Specimen.accessionIdentifier": {
+      "@id": "fhir:Specimen.accessionIdentifier",
+      "@context": "https://fhircat.org/fhir/contexts/Identifier-R5-jsonld-1.1-context.jsonld"
+    },
+    "Specimen.status": {
+      "@id": "fhir:Specimen.status"
+    },
+    "Specimen.type": {
+      "@id": "fhir:Specimen.type",
+      "@context": "https://fhircat.org/fhir/contexts/CodeableConcept-R5-jsonld-1.1-context.jsonld"
+    },
+    "Specimen.subject": {
+      "@id": "fhir:Specimen.subject",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "Specimen.receivedTime": {
+      "@id": "fhir:Specimen.receivedTime",
+      "@context": "https://fhircat.org/fhir/contexts/dateTime-R5-jsonld-1.1-context.jsonld"
+    },
+    "Specimen.parent": {
+      "@id": "fhir:Specimen.parent",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "Specimen.request": {
+      "@id": "fhir:Specimen.request",
+      "@context": "https://fhircat.org/fhir/contexts/Reference-R5-jsonld-1.1-context.jsonld"
+    },
+    "Specimen.collection": {
+      "@id": "fhir:Specimen.collection"
+    },
+    "Specimen.processing": {
+      "@id": "fhir:Specimen.processing"
+    },
+    "Specimen.container": {
+      "@id": "fhir:Specimen.container"
+    },
+    "Specimen.condition": {
+      "@id": "fhir:Specimen.condition",
+      "@context": "https://fhircat.org/fhir/contexts/CodeableConcept-R5-jsonld-1.1-context.jsonld"
+    },
+    "Specimen.note": {
+      "@id": "fhir:Specimen.note",
+      "@context": "https://fhircat.org/fhir/contexts/Annotation-R5-jsonld-1.1-context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhircat.org/fhir/contexts/string-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhircat.org/fhir/contexts/Meta-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhircat.org/fhir/contexts/uri-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhircat.org/fhir/contexts/code-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://fhircat.org/fhir/contexts/Narrative-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://fhircat.org/fhir/contexts/Resource-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://fhircat.org/fhir/contexts/Extension-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://fhircat.org/fhir/contexts/Extension-R5-jsonld-1.1-context.jsonld"
+    },
+    "OperationDefinition.url": {
+      "@id": "fhir:OperationDefinition.url",
+      "@context": "https://fhircat.org/fhir/contexts/uri-R5-jsonld-1.1-context.jsonld"
+    },
+    "OperationDefinition.version": {
+      "@id": "fhir:OperationDefinition.version",
+      "@context": "https://fhircat.org/fhir/contexts/string-R5-jsonld-1.1-context.jsonld"
+    },
+    "OperationDefinition.name": {
+      "@id": "fhir:OperationDefinition.name",
+      "@context": "https://fhircat.org/fhir/contexts/string-R5-jsonld-1.1-context.jsonld"
+    },
+    "OperationDefinition.title": {
+      "@id": "fhir:OperationDefinition.title",
+      "@context": "https://fhircat.org/fhir/contexts/string-R5-jsonld-1.1-context.jsonld"
+    },
+    "OperationDefinition.status": {
+      "@id": "fhir:OperationDefinition.status"
+    },
+    "OperationDefinition.kind": {
+      "@id": "fhir:OperationDefinition.kind"
+    },
+    "OperationDefinition.experimental": {
+      "@id": "fhir:OperationDefinition.experimental",
+      "@context": "https://fhircat.org/fhir/contexts/boolean-R5-jsonld-1.1-context.jsonld"
+    },
+    "OperationDefinition.date": {
+      "@id": "fhir:OperationDefinition.date",
+      "@context": "https://fhircat.org/fhir/contexts/dateTime-R5-jsonld-1.1-context.jsonld"
+    },
+    "OperationDefinition.publisher": {
+      "@id": "fhir:OperationDefinition.publisher",
+      "@context": "https://fhircat.org/fhir/contexts/string-R5-jsonld-1.1-context.jsonld"
+    },
+    "OperationDefinition.contact": {
+      "@id": "fhir:OperationDefinition.contact",
+      "@context": "https://fhircat.org/fhir/contexts/ContactDetail-R5-jsonld-1.1-context.jsonld"
+    },
+    "OperationDefinition.description": {
+      "@id": "fhir:OperationDefinition.description",
+      "@context": "https://fhircat.org/fhir/contexts/markdown-R5-jsonld-1.1-context.jsonld"
+    },
+    "OperationDefinition.useContext": {
+      "@id": "fhir:OperationDefinition.useContext",
+      "@context": "https://fhircat.org/fhir/contexts/UsageContext-R5-jsonld-1.1-context.jsonld"
+    },
+    "OperationDefinition.jurisdiction": {
+      "@id": "fhir:OperationDefinition.jurisdiction",
+      "@context": "https://fhircat.org/fhir/contexts/CodeableConcept-R5-jsonld-1.1-context.jsonld"
+    },
+    "OperationDefinition.purpose": {
+      "@id": "fhir:OperationDefinition.purpose",
+      "@context": "https://fhircat.org/fhir/contexts/markdown-R5-jsonld-1.1-context.jsonld"
+    },
+    "OperationDefinition.affectsState": {
+      "@id": "fhir:OperationDefinition.affectsState",
+      "@context": "https://fhircat.org/fhir/contexts/boolean-R5-jsonld-1.1-context.jsonld"
+    },
+    "OperationDefinition.code": {
+      "@id": "fhir:OperationDefinition.code",
+      "@context": "https://fhircat.org/fhir/contexts/code-R5-jsonld-1.1-context.jsonld"
+    },
+    "OperationDefinition.comment": {
+      "@id": "fhir:OperationDefinition.comment",
+      "@context": "https://fhircat.org/fhir/contexts/markdown-R5-jsonld-1.1-context.jsonld"
+    },
+    "OperationDefinition.base": {
+      "@id": "fhir:OperationDefinition.base",
+      "@context": "https://fhircat.org/fhir/contexts/canonical-R5-jsonld-1.1-context.jsonld"
+    },
+    "OperationDefinition.resource": {
+      "@id": "fhir:OperationDefinition.resource"
+    },
+    "OperationDefinition.system": {
+      "@id": "fhir:OperationDefinition.system",
+      "@context": "https://fhircat.org/fhir/contexts/boolean-R5-jsonld-1.1-context.jsonld"
+    },
+    "OperationDefinition.type": {
+      "@id": "fhir:OperationDefinition.type",
+      "@context": "https://fhircat.org/fhir/contexts/boolean-R5-jsonld-1.1-context.jsonld"
+    },
+    "OperationDefinition.instance": {
+      "@id": "fhir:OperationDefinition.instance",
+      "@context": "https://fhircat.org/fhir/contexts/boolean-R5-jsonld-1.1-context.jsonld"
+    },
+    "OperationDefinition.inputProfile": {
+      "@id": "fhir:OperationDefinition.inputProfile",
+      "@context": "https://fhircat.org/fhir/contexts/canonical-R5-jsonld-1.1-context.jsonld"
+    },
+    "OperationDefinition.outputProfile": {
+      "@id": "fhir:OperationDefinition.outputProfile",
+      "@context": "https://fhircat.org/fhir/contexts/canonical-R5-jsonld-1.1-context.jsonld"
+    },
+    "OperationDefinition.parameter": {
+      "@id": "fhir:OperationDefinition.parameter"
+    },
+    "OperationDefinition.overload": {
+      "@id": "fhir:OperationDefinition.overload"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

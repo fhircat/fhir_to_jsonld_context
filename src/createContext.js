@@ -6,7 +6,7 @@ const ShEx = require('@shexjs/core')
 const Ns_fh = 'http://hl7.org/fhir/'
 const Ns_fhsh = 'http://hl7.org/fhir/shape/'
 const Ns_rdf = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'
-const StupidBaseUrl = r => `http://uu3.org/fhir/${r}-R4-jsonld-1.1-context.jsonld`
+const StupidBaseUrl = r => `https://fhircat.org/fhir/contexts/${r}-R5-jsonld-1.1-context.jsonld`
 const DTRegExp = RegExp('^(http://hl7.org/fhir/shape/[a-z]|http://www.w3.org/2001/XMLSchema#)')
 
 var logger = log4js.getLogger("app");
@@ -179,7 +179,7 @@ function run (argv) {
           const res = c.convert(pair.shexpr)
           log(pair.name);
           //console.log(pair.name, '################################\n', JSON.stringify(res, null, 2))
-          Fs.writeFileSync(Path.join('jsonldc/contexts/r5', pair.name), JSON.stringify(res, null, 2))
+          Fs.writeFileSync(Path.join('jsonldc/contexts/r5', pair.name + ".context.jsonld"), JSON.stringify(res, null, 2))
         })
       }, function(err) {
         throw err;

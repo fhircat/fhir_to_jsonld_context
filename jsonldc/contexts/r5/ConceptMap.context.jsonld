@@ -1,0 +1,127 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhircat.org/fhir/contexts/string-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhircat.org/fhir/contexts/Meta-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhircat.org/fhir/contexts/uri-R5-jsonld-1.1-context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhircat.org/fhir/contexts/code-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://fhircat.org/fhir/contexts/Narrative-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://fhircat.org/fhir/contexts/Resource-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://fhircat.org/fhir/contexts/Extension-R5-jsonld-1.1-context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://fhircat.org/fhir/contexts/Extension-R5-jsonld-1.1-context.jsonld"
+    },
+    "ConceptMap.url": {
+      "@id": "fhir:ConceptMap.url",
+      "@context": "https://fhircat.org/fhir/contexts/uri-R5-jsonld-1.1-context.jsonld"
+    },
+    "ConceptMap.identifier": {
+      "@id": "fhir:ConceptMap.identifier",
+      "@context": "https://fhircat.org/fhir/contexts/Identifier-R5-jsonld-1.1-context.jsonld"
+    },
+    "ConceptMap.version": {
+      "@id": "fhir:ConceptMap.version",
+      "@context": "https://fhircat.org/fhir/contexts/string-R5-jsonld-1.1-context.jsonld"
+    },
+    "ConceptMap.name": {
+      "@id": "fhir:ConceptMap.name",
+      "@context": "https://fhircat.org/fhir/contexts/string-R5-jsonld-1.1-context.jsonld"
+    },
+    "ConceptMap.title": {
+      "@id": "fhir:ConceptMap.title",
+      "@context": "https://fhircat.org/fhir/contexts/string-R5-jsonld-1.1-context.jsonld"
+    },
+    "ConceptMap.status": {
+      "@id": "fhir:ConceptMap.status"
+    },
+    "ConceptMap.experimental": {
+      "@id": "fhir:ConceptMap.experimental",
+      "@context": "https://fhircat.org/fhir/contexts/boolean-R5-jsonld-1.1-context.jsonld"
+    },
+    "ConceptMap.date": {
+      "@id": "fhir:ConceptMap.date",
+      "@context": "https://fhircat.org/fhir/contexts/dateTime-R5-jsonld-1.1-context.jsonld"
+    },
+    "ConceptMap.publisher": {
+      "@id": "fhir:ConceptMap.publisher",
+      "@context": "https://fhircat.org/fhir/contexts/string-R5-jsonld-1.1-context.jsonld"
+    },
+    "ConceptMap.contact": {
+      "@id": "fhir:ConceptMap.contact",
+      "@context": "https://fhircat.org/fhir/contexts/ContactDetail-R5-jsonld-1.1-context.jsonld"
+    },
+    "ConceptMap.description": {
+      "@id": "fhir:ConceptMap.description",
+      "@context": "https://fhircat.org/fhir/contexts/markdown-R5-jsonld-1.1-context.jsonld"
+    },
+    "ConceptMap.useContext": {
+      "@id": "fhir:ConceptMap.useContext",
+      "@context": "https://fhircat.org/fhir/contexts/UsageContext-R5-jsonld-1.1-context.jsonld"
+    },
+    "ConceptMap.jurisdiction": {
+      "@id": "fhir:ConceptMap.jurisdiction",
+      "@context": "https://fhircat.org/fhir/contexts/CodeableConcept-R5-jsonld-1.1-context.jsonld"
+    },
+    "ConceptMap.purpose": {
+      "@id": "fhir:ConceptMap.purpose",
+      "@context": "https://fhircat.org/fhir/contexts/markdown-R5-jsonld-1.1-context.jsonld"
+    },
+    "ConceptMap.copyright": {
+      "@id": "fhir:ConceptMap.copyright",
+      "@context": "https://fhircat.org/fhir/contexts/markdown-R5-jsonld-1.1-context.jsonld"
+    },
+    "ConceptMap.sourceUri": {
+      "@id": "fhir:ConceptMap.sourceUri",
+      "@context": "https://fhircat.org/fhir/contexts/uri-R5-jsonld-1.1-context.jsonld"
+    },
+    "ConceptMap.sourceCanonical": {
+      "@id": "fhir:ConceptMap.sourceCanonical",
+      "@context": "https://fhircat.org/fhir/contexts/canonical-R5-jsonld-1.1-context.jsonld"
+    },
+    "ConceptMap.targetUri": {
+      "@id": "fhir:ConceptMap.targetUri",
+      "@context": "https://fhircat.org/fhir/contexts/uri-R5-jsonld-1.1-context.jsonld"
+    },
+    "ConceptMap.targetCanonical": {
+      "@id": "fhir:ConceptMap.targetCanonical",
+      "@context": "https://fhircat.org/fhir/contexts/canonical-R5-jsonld-1.1-context.jsonld"
+    },
+    "ConceptMap.group": {
+      "@id": "fhir:ConceptMap.group"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}
