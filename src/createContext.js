@@ -54,6 +54,7 @@ function run(argv) {
     const s = JSON.parse(content)
     const c = new Converter(s)
     const selected = filename
+    if (!s.shapes) return
     const todo = s.shapes.map(
         shexpr => ({ shexpr, name: shexpr.id.substr(Ns_fhsh.length)})
     ).filter(
