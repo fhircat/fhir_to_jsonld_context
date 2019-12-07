@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "BackboneElement.modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "ImplementationGuide.definition.grouping": {
+      "@id": "fhir:ImplementationGuide.definition.grouping",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ImplementationGuide.definition.grouping.context.jsonld"
+    },
+    "ImplementationGuide.definition.resource": {
+      "@id": "fhir:ImplementationGuide.definition.resource",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ImplementationGuide.definition.resource.context.jsonld"
+    },
+    "ImplementationGuide.definition.page": {
+      "@id": "fhir:ImplementationGuide.definition.page",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ImplementationGuide.definition.page.context.jsonld"
+    },
+    "ImplementationGuide.definition.parameter": {
+      "@id": "fhir:ImplementationGuide.definition.parameter",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ImplementationGuide.definition.parameter.context.jsonld"
+    },
+    "ImplementationGuide.definition.template": {
+      "@id": "fhir:ImplementationGuide.definition.template",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ImplementationGuide.definition.template.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

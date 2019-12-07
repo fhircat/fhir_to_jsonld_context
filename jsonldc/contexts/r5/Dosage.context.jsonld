@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "BackboneElement.modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "Dosage.sequence": {
+      "@id": "fhir:Dosage.sequence",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/integer.context.jsonld"
+    },
+    "Dosage.text": {
+      "@id": "fhir:Dosage.text",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Dosage.additionalInstruction": {
+      "@id": "fhir:Dosage.additionalInstruction",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "Dosage.patientInstruction": {
+      "@id": "fhir:Dosage.patientInstruction",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Dosage.timing": {
+      "@id": "fhir:Dosage.timing",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Timing.context.jsonld"
+    },
+    "Dosage.asNeededBoolean": {
+      "@id": "fhir:Dosage.asNeededBoolean",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+    },
+    "Dosage.asNeededCodeableConcept": {
+      "@id": "fhir:Dosage.asNeededCodeableConcept",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "Dosage.site": {
+      "@id": "fhir:Dosage.site",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "Dosage.route": {
+      "@id": "fhir:Dosage.route",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "Dosage.method": {
+      "@id": "fhir:Dosage.method",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "Dosage.doseAndRate": {
+      "@id": "fhir:Dosage.doseAndRate",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Dosage.doseAndRate.context.jsonld"
+    },
+    "Dosage.maxDosePerPeriod": {
+      "@id": "fhir:Dosage.maxDosePerPeriod",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Ratio.context.jsonld"
+    },
+    "Dosage.maxDosePerAdministration": {
+      "@id": "fhir:Dosage.maxDosePerAdministration",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SimpleQuantity.context.jsonld"
+    },
+    "Dosage.maxDosePerLifetime": {
+      "@id": "fhir:Dosage.maxDosePerLifetime",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SimpleQuantity.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

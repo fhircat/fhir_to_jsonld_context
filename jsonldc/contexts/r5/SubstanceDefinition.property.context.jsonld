@@ -1,0 +1,61 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "BackboneElement.modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "SubstanceDefinition.property.category": {
+      "@id": "fhir:SubstanceDefinition.property.category",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "SubstanceDefinition.property.code": {
+      "@id": "fhir:SubstanceDefinition.property.code",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "SubstanceDefinition.property.parameters": {
+      "@id": "fhir:SubstanceDefinition.property.parameters",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "SubstanceDefinition.property.definingSubstanceReference": {
+      "@id": "fhir:SubstanceDefinition.property.definingSubstanceReference",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "SubstanceDefinition.property.definingSubstanceCodeableConcept": {
+      "@id": "fhir:SubstanceDefinition.property.definingSubstanceCodeableConcept",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "SubstanceDefinition.property.amountQuantity": {
+      "@id": "fhir:SubstanceDefinition.property.amountQuantity",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Quantity.context.jsonld"
+    },
+    "SubstanceDefinition.property.amountString": {
+      "@id": "fhir:SubstanceDefinition.property.amountString",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "SubstanceDefinition.property.referenceRange": {
+      "@id": "fhir:SubstanceDefinition.property.referenceRange",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Range.context.jsonld"
+    },
+    "SubstanceDefinition.property.source": {
+      "@id": "fhir:SubstanceDefinition.property.source",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

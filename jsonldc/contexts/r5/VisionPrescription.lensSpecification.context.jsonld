@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "BackboneElement.modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "VisionPrescription.lensSpecification.product": {
+      "@id": "fhir:VisionPrescription.lensSpecification.product",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "VisionPrescription.lensSpecification.eye": {
+      "@id": "fhir:VisionPrescription.lensSpecification.eye"
+    },
+    "VisionPrescription.lensSpecification.sphere": {
+      "@id": "fhir:VisionPrescription.lensSpecification.sphere",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/decimal.context.jsonld"
+    },
+    "VisionPrescription.lensSpecification.cylinder": {
+      "@id": "fhir:VisionPrescription.lensSpecification.cylinder",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/decimal.context.jsonld"
+    },
+    "VisionPrescription.lensSpecification.axis": {
+      "@id": "fhir:VisionPrescription.lensSpecification.axis",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/integer.context.jsonld"
+    },
+    "VisionPrescription.lensSpecification.prism": {
+      "@id": "fhir:VisionPrescription.lensSpecification.prism",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/VisionPrescription.lensSpecification.prism.context.jsonld"
+    },
+    "VisionPrescription.lensSpecification.add": {
+      "@id": "fhir:VisionPrescription.lensSpecification.add",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/decimal.context.jsonld"
+    },
+    "VisionPrescription.lensSpecification.power": {
+      "@id": "fhir:VisionPrescription.lensSpecification.power",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/decimal.context.jsonld"
+    },
+    "VisionPrescription.lensSpecification.backCurve": {
+      "@id": "fhir:VisionPrescription.lensSpecification.backCurve",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/decimal.context.jsonld"
+    },
+    "VisionPrescription.lensSpecification.diameter": {
+      "@id": "fhir:VisionPrescription.lensSpecification.diameter",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/decimal.context.jsonld"
+    },
+    "VisionPrescription.lensSpecification.duration": {
+      "@id": "fhir:VisionPrescription.lensSpecification.duration",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SimpleQuantity.context.jsonld"
+    },
+    "VisionPrescription.lensSpecification.color": {
+      "@id": "fhir:VisionPrescription.lensSpecification.color",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "VisionPrescription.lensSpecification.brand": {
+      "@id": "fhir:VisionPrescription.lensSpecification.brand",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "VisionPrescription.lensSpecification.note": {
+      "@id": "fhir:VisionPrescription.lensSpecification.note",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Annotation.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

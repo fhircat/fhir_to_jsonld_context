@@ -1,0 +1,108 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Meta.context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code.context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Narrative.context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Resource.context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "ImmunizationEvaluation.identifier": {
+      "@id": "fhir:ImmunizationEvaluation.identifier",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+    },
+    "ImmunizationEvaluation.status": {
+      "@id": "fhir:ImmunizationEvaluation.status"
+    },
+    "ImmunizationEvaluation.patient": {
+      "@id": "fhir:ImmunizationEvaluation.patient",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "ImmunizationEvaluation.date": {
+      "@id": "fhir:ImmunizationEvaluation.date",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+    },
+    "ImmunizationEvaluation.authority": {
+      "@id": "fhir:ImmunizationEvaluation.authority",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "ImmunizationEvaluation.targetDisease": {
+      "@id": "fhir:ImmunizationEvaluation.targetDisease",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "ImmunizationEvaluation.immunizationEvent": {
+      "@id": "fhir:ImmunizationEvaluation.immunizationEvent",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "ImmunizationEvaluation.doseStatus": {
+      "@id": "fhir:ImmunizationEvaluation.doseStatus",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "ImmunizationEvaluation.doseStatusReason": {
+      "@id": "fhir:ImmunizationEvaluation.doseStatusReason",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "ImmunizationEvaluation.description": {
+      "@id": "fhir:ImmunizationEvaluation.description",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "ImmunizationEvaluation.series": {
+      "@id": "fhir:ImmunizationEvaluation.series",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "ImmunizationEvaluation.doseNumberPositiveInt": {
+      "@id": "fhir:ImmunizationEvaluation.doseNumberPositiveInt",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/positiveInt.context.jsonld"
+    },
+    "ImmunizationEvaluation.doseNumberString": {
+      "@id": "fhir:ImmunizationEvaluation.doseNumberString",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "ImmunizationEvaluation.seriesDosesPositiveInt": {
+      "@id": "fhir:ImmunizationEvaluation.seriesDosesPositiveInt",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/positiveInt.context.jsonld"
+    },
+    "ImmunizationEvaluation.seriesDosesString": {
+      "@id": "fhir:ImmunizationEvaluation.seriesDosesString",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

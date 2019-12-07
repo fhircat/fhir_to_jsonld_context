@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "BackboneElement.modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "OrderedDistribution.description": {
+      "@id": "fhir:OrderedDistribution.description",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "OrderedDistribution.note": {
+      "@id": "fhir:OrderedDistribution.note",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Annotation.context.jsonld"
+    },
+    "OrderedDistribution.numberOfIntervals": {
+      "@id": "fhir:OrderedDistribution.numberOfIntervals",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/integer.context.jsonld"
+    },
+    "OrderedDistribution.bottomOfFirstInterval": {
+      "@id": "fhir:OrderedDistribution.bottomOfFirstInterval",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Quantity.context.jsonld"
+    },
+    "OrderedDistribution.interval": {
+      "@id": "fhir:OrderedDistribution.interval",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/OrderedDistribution.interval.context.jsonld"
+    },
+    "OrderedDistribution.topOfInterval": {
+      "@id": "fhir:OrderedDistribution.topOfInterval",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Quantity.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

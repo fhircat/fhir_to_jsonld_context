@@ -1,0 +1,152 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Meta.context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code.context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Narrative.context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Resource.context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "Statistic.url": {
+      "@id": "fhir:Statistic.url",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "Statistic.identifier": {
+      "@id": "fhir:Statistic.identifier",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+    },
+    "Statistic.version": {
+      "@id": "fhir:Statistic.version",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Statistic.title": {
+      "@id": "fhir:Statistic.title",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Statistic.status": {
+      "@id": "fhir:Statistic.status"
+    },
+    "Statistic.date": {
+      "@id": "fhir:Statistic.date",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+    },
+    "Statistic.useContext": {
+      "@id": "fhir:Statistic.useContext",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/UsageContext.context.jsonld"
+    },
+    "Statistic.approvalDate": {
+      "@id": "fhir:Statistic.approvalDate",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/date.context.jsonld"
+    },
+    "Statistic.lastReviewDate": {
+      "@id": "fhir:Statistic.lastReviewDate",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/date.context.jsonld"
+    },
+    "Statistic.statisticPublisher": {
+      "@id": "fhir:Statistic.statisticPublisher",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Statistic.statisticPublisher.context.jsonld"
+    },
+    "Statistic.contributor": {
+      "@id": "fhir:Statistic.contributor",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Contributor.context.jsonld"
+    },
+    "Statistic.relatedArtifact": {
+      "@id": "fhir:Statistic.relatedArtifact",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/RelatedArtifact.context.jsonld"
+    },
+    "Statistic.description": {
+      "@id": "fhir:Statistic.description",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/markdown.context.jsonld"
+    },
+    "Statistic.note": {
+      "@id": "fhir:Statistic.note",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Annotation.context.jsonld"
+    },
+    "Statistic.synthesisType": {
+      "@id": "fhir:Statistic.synthesisType",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "Statistic.studyType": {
+      "@id": "fhir:Statistic.studyType",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "Statistic.exposureBackground": {
+      "@id": "fhir:Statistic.exposureBackground",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "Statistic.exposure": {
+      "@id": "fhir:Statistic.exposure",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "Statistic.exposureVariant": {
+      "@id": "fhir:Statistic.exposureVariant",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "Statistic.measuredVariable": {
+      "@id": "fhir:Statistic.measuredVariable",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "Statistic.statisticType": {
+      "@id": "fhir:Statistic.statisticType",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "Statistic.quantity": {
+      "@id": "fhir:Statistic.quantity",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Quantity.context.jsonld"
+    },
+    "Statistic.sampleSize": {
+      "@id": "fhir:Statistic.sampleSize",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Statistic.sampleSize.context.jsonld"
+    },
+    "Statistic.precisionEstimate": {
+      "@id": "fhir:Statistic.precisionEstimate",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Statistic.precisionEstimate.context.jsonld"
+    },
+    "Statistic.pValue": {
+      "@id": "fhir:Statistic.pValue",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Statistic.pValue.context.jsonld"
+    },
+    "Statistic.certainty": {
+      "@id": "fhir:Statistic.certainty",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Statistic.certainty.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

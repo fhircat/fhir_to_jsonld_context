@@ -1,0 +1,144 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Meta.context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code.context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Narrative.context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Resource.context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "MedicationAdministration.identifier": {
+      "@id": "fhir:MedicationAdministration.identifier",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+    },
+    "MedicationAdministration.instantiatesCanonical": {
+      "@id": "fhir:MedicationAdministration.instantiatesCanonical",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/canonical.context.jsonld"
+    },
+    "MedicationAdministration.instantiatesUri": {
+      "@id": "fhir:MedicationAdministration.instantiatesUri",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "MedicationAdministration.basedOn": {
+      "@id": "fhir:MedicationAdministration.basedOn",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "MedicationAdministration.partOf": {
+      "@id": "fhir:MedicationAdministration.partOf",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "MedicationAdministration.status": {
+      "@id": "fhir:MedicationAdministration.status"
+    },
+    "MedicationAdministration.statusReason": {
+      "@id": "fhir:MedicationAdministration.statusReason",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "MedicationAdministration.category": {
+      "@id": "fhir:MedicationAdministration.category",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "MedicationAdministration.medicationCodeableConcept": {
+      "@id": "fhir:MedicationAdministration.medicationCodeableConcept",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "MedicationAdministration.medicationReference": {
+      "@id": "fhir:MedicationAdministration.medicationReference",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "MedicationAdministration.subject": {
+      "@id": "fhir:MedicationAdministration.subject",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "MedicationAdministration.encounter": {
+      "@id": "fhir:MedicationAdministration.encounter",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "MedicationAdministration.supportingInformation": {
+      "@id": "fhir:MedicationAdministration.supportingInformation",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "MedicationAdministration.occurenceDateTime": {
+      "@id": "fhir:MedicationAdministration.occurenceDateTime",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+    },
+    "MedicationAdministration.occurencePeriod": {
+      "@id": "fhir:MedicationAdministration.occurencePeriod",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Period.context.jsonld"
+    },
+    "MedicationAdministration.recorded": {
+      "@id": "fhir:MedicationAdministration.recorded",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+    },
+    "MedicationAdministration.performer": {
+      "@id": "fhir:MedicationAdministration.performer",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/MedicationAdministration.performer.context.jsonld"
+    },
+    "MedicationAdministration.reasonCode": {
+      "@id": "fhir:MedicationAdministration.reasonCode",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "MedicationAdministration.reasonReference": {
+      "@id": "fhir:MedicationAdministration.reasonReference",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "MedicationAdministration.request": {
+      "@id": "fhir:MedicationAdministration.request",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "MedicationAdministration.device": {
+      "@id": "fhir:MedicationAdministration.device",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "MedicationAdministration.note": {
+      "@id": "fhir:MedicationAdministration.note",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Annotation.context.jsonld"
+    },
+    "MedicationAdministration.dosage": {
+      "@id": "fhir:MedicationAdministration.dosage",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/MedicationAdministration.dosage.context.jsonld"
+    },
+    "MedicationAdministration.eventHistory": {
+      "@id": "fhir:MedicationAdministration.eventHistory",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

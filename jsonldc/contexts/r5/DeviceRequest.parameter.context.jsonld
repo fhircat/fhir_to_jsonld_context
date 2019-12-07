@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "BackboneElement.modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "DeviceRequest.parameter.code": {
+      "@id": "fhir:DeviceRequest.parameter.code",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "DeviceRequest.parameter.valueCodeableConcept": {
+      "@id": "fhir:DeviceRequest.parameter.valueCodeableConcept",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "DeviceRequest.parameter.valueQuantity": {
+      "@id": "fhir:DeviceRequest.parameter.valueQuantity",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Quantity.context.jsonld"
+    },
+    "DeviceRequest.parameter.valueRange": {
+      "@id": "fhir:DeviceRequest.parameter.valueRange",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Range.context.jsonld"
+    },
+    "DeviceRequest.parameter.valueBoolean": {
+      "@id": "fhir:DeviceRequest.parameter.valueBoolean",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

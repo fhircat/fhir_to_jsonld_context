@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "Identifier.use": {
+      "@id": "fhir:Identifier.use"
+    },
+    "Identifier.type": {
+      "@id": "fhir:Identifier.type",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "Identifier.system": {
+      "@id": "fhir:Identifier.system",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "Identifier.value": {
+      "@id": "fhir:Identifier.value",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Identifier.period": {
+      "@id": "fhir:Identifier.period",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Period.context.jsonld"
+    },
+    "Identifier.assigner": {
+      "@id": "fhir:Identifier.assigner",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

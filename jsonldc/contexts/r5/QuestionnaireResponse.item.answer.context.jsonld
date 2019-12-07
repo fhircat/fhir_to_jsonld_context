@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "BackboneElement.modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "QuestionnaireResponse.item.answer.valueBoolean": {
+      "@id": "fhir:QuestionnaireResponse.item.answer.valueBoolean",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+    },
+    "QuestionnaireResponse.item.answer.valueDecimal": {
+      "@id": "fhir:QuestionnaireResponse.item.answer.valueDecimal",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/decimal.context.jsonld"
+    },
+    "QuestionnaireResponse.item.answer.valueInteger": {
+      "@id": "fhir:QuestionnaireResponse.item.answer.valueInteger",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/integer.context.jsonld"
+    },
+    "QuestionnaireResponse.item.answer.valueDate": {
+      "@id": "fhir:QuestionnaireResponse.item.answer.valueDate",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/date.context.jsonld"
+    },
+    "QuestionnaireResponse.item.answer.valueDateTime": {
+      "@id": "fhir:QuestionnaireResponse.item.answer.valueDateTime",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+    },
+    "QuestionnaireResponse.item.answer.valueTime": {
+      "@id": "fhir:QuestionnaireResponse.item.answer.valueTime",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/time.context.jsonld"
+    },
+    "QuestionnaireResponse.item.answer.valueString": {
+      "@id": "fhir:QuestionnaireResponse.item.answer.valueString",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "QuestionnaireResponse.item.answer.valueUri": {
+      "@id": "fhir:QuestionnaireResponse.item.answer.valueUri",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "QuestionnaireResponse.item.answer.valueAttachment": {
+      "@id": "fhir:QuestionnaireResponse.item.answer.valueAttachment",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Attachment.context.jsonld"
+    },
+    "QuestionnaireResponse.item.answer.valueCoding": {
+      "@id": "fhir:QuestionnaireResponse.item.answer.valueCoding",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Coding.context.jsonld"
+    },
+    "QuestionnaireResponse.item.answer.valueQuantity": {
+      "@id": "fhir:QuestionnaireResponse.item.answer.valueQuantity",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Quantity.context.jsonld"
+    },
+    "QuestionnaireResponse.item.answer.valueReference": {
+      "@id": "fhir:QuestionnaireResponse.item.answer.valueReference",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "QuestionnaireResponse.item.answer.item": {
+      "@id": "fhir:QuestionnaireResponse.item.answer.item",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/QuestionnaireResponse.item.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

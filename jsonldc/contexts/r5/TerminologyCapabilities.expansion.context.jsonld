@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "BackboneElement.modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "TerminologyCapabilities.expansion.hierarchical": {
+      "@id": "fhir:TerminologyCapabilities.expansion.hierarchical",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+    },
+    "TerminologyCapabilities.expansion.paging": {
+      "@id": "fhir:TerminologyCapabilities.expansion.paging",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+    },
+    "TerminologyCapabilities.expansion.incomplete": {
+      "@id": "fhir:TerminologyCapabilities.expansion.incomplete",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+    },
+    "TerminologyCapabilities.expansion.parameter": {
+      "@id": "fhir:TerminologyCapabilities.expansion.parameter",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/TerminologyCapabilities.expansion.parameter.context.jsonld"
+    },
+    "TerminologyCapabilities.expansion.textFilter": {
+      "@id": "fhir:TerminologyCapabilities.expansion.textFilter",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/markdown.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

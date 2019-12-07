@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Meta.context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code.context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Narrative.context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Resource.context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "SubstanceSourceMaterial.sourceMaterialClass": {
+      "@id": "fhir:SubstanceSourceMaterial.sourceMaterialClass",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "SubstanceSourceMaterial.sourceMaterialType": {
+      "@id": "fhir:SubstanceSourceMaterial.sourceMaterialType",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "SubstanceSourceMaterial.sourceMaterialState": {
+      "@id": "fhir:SubstanceSourceMaterial.sourceMaterialState",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "SubstanceSourceMaterial.organismId": {
+      "@id": "fhir:SubstanceSourceMaterial.organismId",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+    },
+    "SubstanceSourceMaterial.organismName": {
+      "@id": "fhir:SubstanceSourceMaterial.organismName",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "SubstanceSourceMaterial.parentSubstanceId": {
+      "@id": "fhir:SubstanceSourceMaterial.parentSubstanceId",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+    },
+    "SubstanceSourceMaterial.parentSubstanceName": {
+      "@id": "fhir:SubstanceSourceMaterial.parentSubstanceName",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "SubstanceSourceMaterial.countryOfOrigin": {
+      "@id": "fhir:SubstanceSourceMaterial.countryOfOrigin",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "SubstanceSourceMaterial.geographicalLocation": {
+      "@id": "fhir:SubstanceSourceMaterial.geographicalLocation",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "SubstanceSourceMaterial.developmentStage": {
+      "@id": "fhir:SubstanceSourceMaterial.developmentStage",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "SubstanceSourceMaterial.fractionDescription": {
+      "@id": "fhir:SubstanceSourceMaterial.fractionDescription",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SubstanceSourceMaterial.fractionDescription.context.jsonld"
+    },
+    "SubstanceSourceMaterial.organism": {
+      "@id": "fhir:SubstanceSourceMaterial.organism",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SubstanceSourceMaterial.organism.context.jsonld"
+    },
+    "SubstanceSourceMaterial.partDescription": {
+      "@id": "fhir:SubstanceSourceMaterial.partDescription",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SubstanceSourceMaterial.partDescription.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

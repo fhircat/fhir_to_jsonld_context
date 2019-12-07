@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "BackboneElement.modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "MolecularSequence.quality.type": {
+      "@id": "fhir:MolecularSequence.quality.type"
+    },
+    "MolecularSequence.quality.standardSequence": {
+      "@id": "fhir:MolecularSequence.quality.standardSequence",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "MolecularSequence.quality.start": {
+      "@id": "fhir:MolecularSequence.quality.start",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/integer.context.jsonld"
+    },
+    "MolecularSequence.quality.end": {
+      "@id": "fhir:MolecularSequence.quality.end",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/integer.context.jsonld"
+    },
+    "MolecularSequence.quality.score": {
+      "@id": "fhir:MolecularSequence.quality.score",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Quantity.context.jsonld"
+    },
+    "MolecularSequence.quality.method": {
+      "@id": "fhir:MolecularSequence.quality.method",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "MolecularSequence.quality.truthTP": {
+      "@id": "fhir:MolecularSequence.quality.truthTP",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/decimal.context.jsonld"
+    },
+    "MolecularSequence.quality.queryTP": {
+      "@id": "fhir:MolecularSequence.quality.queryTP",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/decimal.context.jsonld"
+    },
+    "MolecularSequence.quality.truthFN": {
+      "@id": "fhir:MolecularSequence.quality.truthFN",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/decimal.context.jsonld"
+    },
+    "MolecularSequence.quality.queryFP": {
+      "@id": "fhir:MolecularSequence.quality.queryFP",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/decimal.context.jsonld"
+    },
+    "MolecularSequence.quality.gtFP": {
+      "@id": "fhir:MolecularSequence.quality.gtFP",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/decimal.context.jsonld"
+    },
+    "MolecularSequence.quality.precision": {
+      "@id": "fhir:MolecularSequence.quality.precision",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/decimal.context.jsonld"
+    },
+    "MolecularSequence.quality.recall": {
+      "@id": "fhir:MolecularSequence.quality.recall",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/decimal.context.jsonld"
+    },
+    "MolecularSequence.quality.fScore": {
+      "@id": "fhir:MolecularSequence.quality.fScore",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/decimal.context.jsonld"
+    },
+    "MolecularSequence.quality.roc": {
+      "@id": "fhir:MolecularSequence.quality.roc",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/MolecularSequence.quality.roc.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

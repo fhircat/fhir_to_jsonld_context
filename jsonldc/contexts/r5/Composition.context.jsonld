@@ -1,0 +1,107 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Meta.context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code.context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Narrative.context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Resource.context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "Composition.identifier": {
+      "@id": "fhir:Composition.identifier",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+    },
+    "Composition.status": {
+      "@id": "fhir:Composition.status"
+    },
+    "Composition.type": {
+      "@id": "fhir:Composition.type",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "Composition.category": {
+      "@id": "fhir:Composition.category",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "Composition.subject": {
+      "@id": "fhir:Composition.subject",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "Composition.encounter": {
+      "@id": "fhir:Composition.encounter",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "Composition.date": {
+      "@id": "fhir:Composition.date",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+    },
+    "Composition.author": {
+      "@id": "fhir:Composition.author",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "Composition.title": {
+      "@id": "fhir:Composition.title",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Composition.confidentiality": {
+      "@id": "fhir:Composition.confidentiality"
+    },
+    "Composition.attester": {
+      "@id": "fhir:Composition.attester",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Composition.attester.context.jsonld"
+    },
+    "Composition.custodian": {
+      "@id": "fhir:Composition.custodian",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "Composition.relatesTo": {
+      "@id": "fhir:Composition.relatesTo",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Composition.relatesTo.context.jsonld"
+    },
+    "Composition.event": {
+      "@id": "fhir:Composition.event",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Composition.event.context.jsonld"
+    },
+    "Composition.section": {
+      "@id": "fhir:Composition.section",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Composition.section.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

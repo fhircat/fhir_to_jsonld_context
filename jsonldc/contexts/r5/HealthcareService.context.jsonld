@@ -1,0 +1,145 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Meta.context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code.context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Narrative.context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Resource.context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "HealthcareService.identifier": {
+      "@id": "fhir:HealthcareService.identifier",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+    },
+    "HealthcareService.active": {
+      "@id": "fhir:HealthcareService.active",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+    },
+    "HealthcareService.providedBy": {
+      "@id": "fhir:HealthcareService.providedBy",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "HealthcareService.category": {
+      "@id": "fhir:HealthcareService.category",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "HealthcareService.type": {
+      "@id": "fhir:HealthcareService.type",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "HealthcareService.specialty": {
+      "@id": "fhir:HealthcareService.specialty",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "HealthcareService.location": {
+      "@id": "fhir:HealthcareService.location",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "HealthcareService.name": {
+      "@id": "fhir:HealthcareService.name",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "HealthcareService.comment": {
+      "@id": "fhir:HealthcareService.comment",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "HealthcareService.extraDetails": {
+      "@id": "fhir:HealthcareService.extraDetails",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/markdown.context.jsonld"
+    },
+    "HealthcareService.photo": {
+      "@id": "fhir:HealthcareService.photo",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Attachment.context.jsonld"
+    },
+    "HealthcareService.telecom": {
+      "@id": "fhir:HealthcareService.telecom",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ContactPoint.context.jsonld"
+    },
+    "HealthcareService.coverageArea": {
+      "@id": "fhir:HealthcareService.coverageArea",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "HealthcareService.serviceProvisionCode": {
+      "@id": "fhir:HealthcareService.serviceProvisionCode",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "HealthcareService.eligibility": {
+      "@id": "fhir:HealthcareService.eligibility",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/HealthcareService.eligibility.context.jsonld"
+    },
+    "HealthcareService.program": {
+      "@id": "fhir:HealthcareService.program",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "HealthcareService.characteristic": {
+      "@id": "fhir:HealthcareService.characteristic",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "HealthcareService.communication": {
+      "@id": "fhir:HealthcareService.communication",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "HealthcareService.referralMethod": {
+      "@id": "fhir:HealthcareService.referralMethod",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "HealthcareService.appointmentRequired": {
+      "@id": "fhir:HealthcareService.appointmentRequired",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+    },
+    "HealthcareService.availableTime": {
+      "@id": "fhir:HealthcareService.availableTime",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/HealthcareService.availableTime.context.jsonld"
+    },
+    "HealthcareService.notAvailable": {
+      "@id": "fhir:HealthcareService.notAvailable",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/HealthcareService.notAvailable.context.jsonld"
+    },
+    "HealthcareService.availabilityExceptions": {
+      "@id": "fhir:HealthcareService.availabilityExceptions",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "HealthcareService.endpoint": {
+      "@id": "fhir:HealthcareService.endpoint",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

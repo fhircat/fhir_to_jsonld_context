@@ -1,0 +1,164 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Meta.context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code.context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Narrative.context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Resource.context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "ChargeItem.identifier": {
+      "@id": "fhir:ChargeItem.identifier",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+    },
+    "ChargeItem.definitionUri": {
+      "@id": "fhir:ChargeItem.definitionUri",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "ChargeItem.definitionCanonical": {
+      "@id": "fhir:ChargeItem.definitionCanonical",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/canonical.context.jsonld"
+    },
+    "ChargeItem.status": {
+      "@id": "fhir:ChargeItem.status"
+    },
+    "ChargeItem.partOf": {
+      "@id": "fhir:ChargeItem.partOf",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "ChargeItem.code": {
+      "@id": "fhir:ChargeItem.code",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "ChargeItem.subject": {
+      "@id": "fhir:ChargeItem.subject",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "ChargeItem.context": {
+      "@id": "fhir:ChargeItem.context",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "ChargeItem.occurrenceDateTime": {
+      "@id": "fhir:ChargeItem.occurrenceDateTime",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+    },
+    "ChargeItem.occurrencePeriod": {
+      "@id": "fhir:ChargeItem.occurrencePeriod",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Period.context.jsonld"
+    },
+    "ChargeItem.occurrenceTiming": {
+      "@id": "fhir:ChargeItem.occurrenceTiming",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Timing.context.jsonld"
+    },
+    "ChargeItem.performer": {
+      "@id": "fhir:ChargeItem.performer",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ChargeItem.performer.context.jsonld"
+    },
+    "ChargeItem.performingOrganization": {
+      "@id": "fhir:ChargeItem.performingOrganization",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "ChargeItem.requestingOrganization": {
+      "@id": "fhir:ChargeItem.requestingOrganization",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "ChargeItem.costCenter": {
+      "@id": "fhir:ChargeItem.costCenter",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "ChargeItem.quantity": {
+      "@id": "fhir:ChargeItem.quantity",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Quantity.context.jsonld"
+    },
+    "ChargeItem.bodysite": {
+      "@id": "fhir:ChargeItem.bodysite",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "ChargeItem.factorOverride": {
+      "@id": "fhir:ChargeItem.factorOverride",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/decimal.context.jsonld"
+    },
+    "ChargeItem.priceOverride": {
+      "@id": "fhir:ChargeItem.priceOverride",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Money.context.jsonld"
+    },
+    "ChargeItem.overrideReason": {
+      "@id": "fhir:ChargeItem.overrideReason",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "ChargeItem.enterer": {
+      "@id": "fhir:ChargeItem.enterer",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "ChargeItem.enteredDate": {
+      "@id": "fhir:ChargeItem.enteredDate",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+    },
+    "ChargeItem.reason": {
+      "@id": "fhir:ChargeItem.reason",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "ChargeItem.service": {
+      "@id": "fhir:ChargeItem.service",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "ChargeItem.productReference": {
+      "@id": "fhir:ChargeItem.productReference",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "ChargeItem.productCodeableConcept": {
+      "@id": "fhir:ChargeItem.productCodeableConcept",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "ChargeItem.account": {
+      "@id": "fhir:ChargeItem.account",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "ChargeItem.note": {
+      "@id": "fhir:ChargeItem.note",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Annotation.context.jsonld"
+    },
+    "ChargeItem.supportingInformation": {
+      "@id": "fhir:ChargeItem.supportingInformation",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "TriggerDefinition.type": {
+      "@id": "fhir:TriggerDefinition.type"
+    },
+    "TriggerDefinition.name": {
+      "@id": "fhir:TriggerDefinition.name",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "TriggerDefinition.timingTiming": {
+      "@id": "fhir:TriggerDefinition.timingTiming",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Timing.context.jsonld"
+    },
+    "TriggerDefinition.timingReference": {
+      "@id": "fhir:TriggerDefinition.timingReference",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "TriggerDefinition.timingDate": {
+      "@id": "fhir:TriggerDefinition.timingDate",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/date.context.jsonld"
+    },
+    "TriggerDefinition.timingDateTime": {
+      "@id": "fhir:TriggerDefinition.timingDateTime",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+    },
+    "TriggerDefinition.data": {
+      "@id": "fhir:TriggerDefinition.data",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/DataRequirement.context.jsonld"
+    },
+    "TriggerDefinition.condition": {
+      "@id": "fhir:TriggerDefinition.condition",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Expression.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "Dosage.doseAndRate.type": {
+      "@id": "fhir:Dosage.doseAndRate.type",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "Dosage.doseAndRate.doseRange": {
+      "@id": "fhir:Dosage.doseAndRate.doseRange",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Range.context.jsonld"
+    },
+    "Dosage.doseAndRate.doseQuantity": {
+      "@id": "fhir:Dosage.doseAndRate.doseQuantity",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SimpleQuantity.context.jsonld"
+    },
+    "Dosage.doseAndRate.rateRatio": {
+      "@id": "fhir:Dosage.doseAndRate.rateRatio",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Ratio.context.jsonld"
+    },
+    "Dosage.doseAndRate.rateRange": {
+      "@id": "fhir:Dosage.doseAndRate.rateRange",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Range.context.jsonld"
+    },
+    "Dosage.doseAndRate.rateQuantity": {
+      "@id": "fhir:Dosage.doseAndRate.rateQuantity",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SimpleQuantity.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

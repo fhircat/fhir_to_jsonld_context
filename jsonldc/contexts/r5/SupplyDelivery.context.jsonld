@@ -1,0 +1,100 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Meta.context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code.context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Narrative.context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Resource.context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "SupplyDelivery.identifier": {
+      "@id": "fhir:SupplyDelivery.identifier",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+    },
+    "SupplyDelivery.basedOn": {
+      "@id": "fhir:SupplyDelivery.basedOn",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "SupplyDelivery.partOf": {
+      "@id": "fhir:SupplyDelivery.partOf",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "SupplyDelivery.status": {
+      "@id": "fhir:SupplyDelivery.status"
+    },
+    "SupplyDelivery.patient": {
+      "@id": "fhir:SupplyDelivery.patient",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "SupplyDelivery.type": {
+      "@id": "fhir:SupplyDelivery.type",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "SupplyDelivery.suppliedItem": {
+      "@id": "fhir:SupplyDelivery.suppliedItem",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SupplyDelivery.suppliedItem.context.jsonld"
+    },
+    "SupplyDelivery.occurrenceDateTime": {
+      "@id": "fhir:SupplyDelivery.occurrenceDateTime",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+    },
+    "SupplyDelivery.occurrencePeriod": {
+      "@id": "fhir:SupplyDelivery.occurrencePeriod",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Period.context.jsonld"
+    },
+    "SupplyDelivery.occurrenceTiming": {
+      "@id": "fhir:SupplyDelivery.occurrenceTiming",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Timing.context.jsonld"
+    },
+    "SupplyDelivery.supplier": {
+      "@id": "fhir:SupplyDelivery.supplier",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "SupplyDelivery.destination": {
+      "@id": "fhir:SupplyDelivery.destination",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "SupplyDelivery.receiver": {
+      "@id": "fhir:SupplyDelivery.receiver",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "BackboneElement.modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "ClaimResponse.addItem.itemSequence": {
+      "@id": "fhir:ClaimResponse.addItem.itemSequence",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/positiveInt.context.jsonld"
+    },
+    "ClaimResponse.addItem.detailSequence": {
+      "@id": "fhir:ClaimResponse.addItem.detailSequence",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/positiveInt.context.jsonld"
+    },
+    "ClaimResponse.addItem.subdetailSequence": {
+      "@id": "fhir:ClaimResponse.addItem.subdetailSequence",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/positiveInt.context.jsonld"
+    },
+    "ClaimResponse.addItem.provider": {
+      "@id": "fhir:ClaimResponse.addItem.provider",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "ClaimResponse.addItem.productOrService": {
+      "@id": "fhir:ClaimResponse.addItem.productOrService",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "ClaimResponse.addItem.modifier": {
+      "@id": "fhir:ClaimResponse.addItem.modifier",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "ClaimResponse.addItem.programCode": {
+      "@id": "fhir:ClaimResponse.addItem.programCode",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "ClaimResponse.addItem.servicedDate": {
+      "@id": "fhir:ClaimResponse.addItem.servicedDate",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/date.context.jsonld"
+    },
+    "ClaimResponse.addItem.servicedPeriod": {
+      "@id": "fhir:ClaimResponse.addItem.servicedPeriod",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Period.context.jsonld"
+    },
+    "ClaimResponse.addItem.locationCodeableConcept": {
+      "@id": "fhir:ClaimResponse.addItem.locationCodeableConcept",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "ClaimResponse.addItem.locationAddress": {
+      "@id": "fhir:ClaimResponse.addItem.locationAddress",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Address.context.jsonld"
+    },
+    "ClaimResponse.addItem.locationReference": {
+      "@id": "fhir:ClaimResponse.addItem.locationReference",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "ClaimResponse.addItem.quantity": {
+      "@id": "fhir:ClaimResponse.addItem.quantity",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SimpleQuantity.context.jsonld"
+    },
+    "ClaimResponse.addItem.unitPrice": {
+      "@id": "fhir:ClaimResponse.addItem.unitPrice",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Money.context.jsonld"
+    },
+    "ClaimResponse.addItem.factor": {
+      "@id": "fhir:ClaimResponse.addItem.factor",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/decimal.context.jsonld"
+    },
+    "ClaimResponse.addItem.net": {
+      "@id": "fhir:ClaimResponse.addItem.net",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Money.context.jsonld"
+    },
+    "ClaimResponse.addItem.bodySite": {
+      "@id": "fhir:ClaimResponse.addItem.bodySite",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "ClaimResponse.addItem.subSite": {
+      "@id": "fhir:ClaimResponse.addItem.subSite",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "ClaimResponse.addItem.noteNumber": {
+      "@id": "fhir:ClaimResponse.addItem.noteNumber",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/positiveInt.context.jsonld"
+    },
+    "ClaimResponse.addItem.adjudication": {
+      "@id": "fhir:ClaimResponse.addItem.adjudication",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ClaimResponse.item.adjudication.context.jsonld"
+    },
+    "ClaimResponse.addItem.detail": {
+      "@id": "fhir:ClaimResponse.addItem.detail",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ClaimResponse.addItem.detail.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

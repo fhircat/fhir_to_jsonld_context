@@ -1,0 +1,54 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "BackboneElement.modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "StructureMap.group.rule.target.context": {
+      "@id": "fhir:StructureMap.group.rule.target.context",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/id.context.jsonld"
+    },
+    "StructureMap.group.rule.target.contextType": {
+      "@id": "fhir:StructureMap.group.rule.target.contextType"
+    },
+    "StructureMap.group.rule.target.element": {
+      "@id": "fhir:StructureMap.group.rule.target.element",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "StructureMap.group.rule.target.variable": {
+      "@id": "fhir:StructureMap.group.rule.target.variable",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/id.context.jsonld"
+    },
+    "StructureMap.group.rule.target.listMode": {
+      "@id": "fhir:StructureMap.group.rule.target.listMode"
+    },
+    "StructureMap.group.rule.target.listRuleId": {
+      "@id": "fhir:StructureMap.group.rule.target.listRuleId",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/id.context.jsonld"
+    },
+    "StructureMap.group.rule.target.transform": {
+      "@id": "fhir:StructureMap.group.rule.target.transform"
+    },
+    "StructureMap.group.rule.target.parameter": {
+      "@id": "fhir:StructureMap.group.rule.target.parameter",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/StructureMap.group.rule.target.parameter.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

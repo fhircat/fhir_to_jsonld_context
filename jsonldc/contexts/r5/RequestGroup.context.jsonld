@@ -1,0 +1,118 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Meta.context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code.context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Narrative.context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Resource.context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "RequestGroup.identifier": {
+      "@id": "fhir:RequestGroup.identifier",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+    },
+    "RequestGroup.instantiatesCanonical": {
+      "@id": "fhir:RequestGroup.instantiatesCanonical",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/canonical.context.jsonld"
+    },
+    "RequestGroup.instantiatesUri": {
+      "@id": "fhir:RequestGroup.instantiatesUri",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "RequestGroup.basedOn": {
+      "@id": "fhir:RequestGroup.basedOn",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "RequestGroup.replaces": {
+      "@id": "fhir:RequestGroup.replaces",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "RequestGroup.groupIdentifier": {
+      "@id": "fhir:RequestGroup.groupIdentifier",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+    },
+    "RequestGroup.status": {
+      "@id": "fhir:RequestGroup.status"
+    },
+    "RequestGroup.intent": {
+      "@id": "fhir:RequestGroup.intent"
+    },
+    "RequestGroup.priority": {
+      "@id": "fhir:RequestGroup.priority"
+    },
+    "RequestGroup.code": {
+      "@id": "fhir:RequestGroup.code",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "RequestGroup.subject": {
+      "@id": "fhir:RequestGroup.subject",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "RequestGroup.encounter": {
+      "@id": "fhir:RequestGroup.encounter",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "RequestGroup.authoredOn": {
+      "@id": "fhir:RequestGroup.authoredOn",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+    },
+    "RequestGroup.author": {
+      "@id": "fhir:RequestGroup.author",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "RequestGroup.reasonCode": {
+      "@id": "fhir:RequestGroup.reasonCode",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "RequestGroup.reasonReference": {
+      "@id": "fhir:RequestGroup.reasonReference",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "RequestGroup.note": {
+      "@id": "fhir:RequestGroup.note",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Annotation.context.jsonld"
+    },
+    "RequestGroup.action": {
+      "@id": "fhir:RequestGroup.action",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/RequestGroup.action.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "BackboneElement.modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "ValueSet.compose.lockedDate": {
+      "@id": "fhir:ValueSet.compose.lockedDate",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/date.context.jsonld"
+    },
+    "ValueSet.compose.inactive": {
+      "@id": "fhir:ValueSet.compose.inactive",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+    },
+    "ValueSet.compose.include": {
+      "@id": "fhir:ValueSet.compose.include",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ValueSet.compose.include.context.jsonld"
+    },
+    "ValueSet.compose.exclude": {
+      "@id": "fhir:ValueSet.compose.exclude",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ValueSet.compose.include.context.jsonld"
+    },
+    "ValueSet.compose.property": {
+      "@id": "fhir:ValueSet.compose.property",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

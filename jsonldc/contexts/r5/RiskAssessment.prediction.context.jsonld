@@ -1,0 +1,57 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "BackboneElement.modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "RiskAssessment.prediction.outcome": {
+      "@id": "fhir:RiskAssessment.prediction.outcome",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "RiskAssessment.prediction.probabilityDecimal": {
+      "@id": "fhir:RiskAssessment.prediction.probabilityDecimal",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/decimal.context.jsonld"
+    },
+    "RiskAssessment.prediction.probabilityRange": {
+      "@id": "fhir:RiskAssessment.prediction.probabilityRange",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Range.context.jsonld"
+    },
+    "RiskAssessment.prediction.qualitativeRisk": {
+      "@id": "fhir:RiskAssessment.prediction.qualitativeRisk",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "RiskAssessment.prediction.relativeRisk": {
+      "@id": "fhir:RiskAssessment.prediction.relativeRisk",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/decimal.context.jsonld"
+    },
+    "RiskAssessment.prediction.whenPeriod": {
+      "@id": "fhir:RiskAssessment.prediction.whenPeriod",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Period.context.jsonld"
+    },
+    "RiskAssessment.prediction.whenRange": {
+      "@id": "fhir:RiskAssessment.prediction.whenRange",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Range.context.jsonld"
+    },
+    "RiskAssessment.prediction.rationale": {
+      "@id": "fhir:RiskAssessment.prediction.rationale",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

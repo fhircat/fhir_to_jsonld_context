@@ -1,0 +1,136 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Meta.context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code.context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Narrative.context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Resource.context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "Appointment.identifier": {
+      "@id": "fhir:Appointment.identifier",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+    },
+    "Appointment.status": {
+      "@id": "fhir:Appointment.status"
+    },
+    "Appointment.cancelationReason": {
+      "@id": "fhir:Appointment.cancelationReason",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "Appointment.serviceCategory": {
+      "@id": "fhir:Appointment.serviceCategory",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "Appointment.serviceType": {
+      "@id": "fhir:Appointment.serviceType",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "Appointment.specialty": {
+      "@id": "fhir:Appointment.specialty",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "Appointment.appointmentType": {
+      "@id": "fhir:Appointment.appointmentType",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "Appointment.reasonCode": {
+      "@id": "fhir:Appointment.reasonCode",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "Appointment.reasonReference": {
+      "@id": "fhir:Appointment.reasonReference",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "Appointment.priority": {
+      "@id": "fhir:Appointment.priority",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/unsignedInt.context.jsonld"
+    },
+    "Appointment.description": {
+      "@id": "fhir:Appointment.description",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Appointment.supportingInformation": {
+      "@id": "fhir:Appointment.supportingInformation",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "Appointment.start": {
+      "@id": "fhir:Appointment.start",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/instant.context.jsonld"
+    },
+    "Appointment.end": {
+      "@id": "fhir:Appointment.end",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/instant.context.jsonld"
+    },
+    "Appointment.minutesDuration": {
+      "@id": "fhir:Appointment.minutesDuration",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/positiveInt.context.jsonld"
+    },
+    "Appointment.slot": {
+      "@id": "fhir:Appointment.slot",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "Appointment.created": {
+      "@id": "fhir:Appointment.created",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+    },
+    "Appointment.comment": {
+      "@id": "fhir:Appointment.comment",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Appointment.patientInstruction": {
+      "@id": "fhir:Appointment.patientInstruction",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Appointment.basedOn": {
+      "@id": "fhir:Appointment.basedOn",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "Appointment.participant": {
+      "@id": "fhir:Appointment.participant",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Appointment.participant.context.jsonld"
+    },
+    "Appointment.requestedPeriod": {
+      "@id": "fhir:Appointment.requestedPeriod",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Period.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

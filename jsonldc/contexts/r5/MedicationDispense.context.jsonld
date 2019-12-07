@@ -1,0 +1,156 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Meta.context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code.context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Narrative.context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Resource.context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "MedicationDispense.identifier": {
+      "@id": "fhir:MedicationDispense.identifier",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+    },
+    "MedicationDispense.basedOn": {
+      "@id": "fhir:MedicationDispense.basedOn",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "MedicationDispense.partOf": {
+      "@id": "fhir:MedicationDispense.partOf",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "MedicationDispense.status": {
+      "@id": "fhir:MedicationDispense.status"
+    },
+    "MedicationDispense.statusReasonCodeableConcept": {
+      "@id": "fhir:MedicationDispense.statusReasonCodeableConcept",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "MedicationDispense.statusReasonReference": {
+      "@id": "fhir:MedicationDispense.statusReasonReference",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "MedicationDispense.category": {
+      "@id": "fhir:MedicationDispense.category",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "MedicationDispense.medicationCodeableConcept": {
+      "@id": "fhir:MedicationDispense.medicationCodeableConcept",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "MedicationDispense.medicationReference": {
+      "@id": "fhir:MedicationDispense.medicationReference",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "MedicationDispense.subject": {
+      "@id": "fhir:MedicationDispense.subject",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "MedicationDispense.encounter": {
+      "@id": "fhir:MedicationDispense.encounter",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "MedicationDispense.supportingInformation": {
+      "@id": "fhir:MedicationDispense.supportingInformation",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "MedicationDispense.performer": {
+      "@id": "fhir:MedicationDispense.performer",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/MedicationDispense.performer.context.jsonld"
+    },
+    "MedicationDispense.location": {
+      "@id": "fhir:MedicationDispense.location",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "MedicationDispense.authorizingPrescription": {
+      "@id": "fhir:MedicationDispense.authorizingPrescription",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "MedicationDispense.type": {
+      "@id": "fhir:MedicationDispense.type",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "MedicationDispense.quantity": {
+      "@id": "fhir:MedicationDispense.quantity",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SimpleQuantity.context.jsonld"
+    },
+    "MedicationDispense.daysSupply": {
+      "@id": "fhir:MedicationDispense.daysSupply",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SimpleQuantity.context.jsonld"
+    },
+    "MedicationDispense.whenPrepared": {
+      "@id": "fhir:MedicationDispense.whenPrepared",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+    },
+    "MedicationDispense.whenHandedOver": {
+      "@id": "fhir:MedicationDispense.whenHandedOver",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+    },
+    "MedicationDispense.destination": {
+      "@id": "fhir:MedicationDispense.destination",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "MedicationDispense.receiver": {
+      "@id": "fhir:MedicationDispense.receiver",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "MedicationDispense.note": {
+      "@id": "fhir:MedicationDispense.note",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Annotation.context.jsonld"
+    },
+    "MedicationDispense.dosageInstruction": {
+      "@id": "fhir:MedicationDispense.dosageInstruction",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Dosage.context.jsonld"
+    },
+    "MedicationDispense.substitution": {
+      "@id": "fhir:MedicationDispense.substitution",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/MedicationDispense.substitution.context.jsonld"
+    },
+    "MedicationDispense.detectedIssue": {
+      "@id": "fhir:MedicationDispense.detectedIssue",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "MedicationDispense.eventHistory": {
+      "@id": "fhir:MedicationDispense.eventHistory",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

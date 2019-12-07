@@ -1,0 +1,61 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "BackboneElement.modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "SubstanceDefinition.moiety.role": {
+      "@id": "fhir:SubstanceDefinition.moiety.role",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "SubstanceDefinition.moiety.identifier": {
+      "@id": "fhir:SubstanceDefinition.moiety.identifier",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+    },
+    "SubstanceDefinition.moiety.name": {
+      "@id": "fhir:SubstanceDefinition.moiety.name",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "SubstanceDefinition.moiety.stereochemistry": {
+      "@id": "fhir:SubstanceDefinition.moiety.stereochemistry",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "SubstanceDefinition.moiety.opticalActivity": {
+      "@id": "fhir:SubstanceDefinition.moiety.opticalActivity",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "SubstanceDefinition.moiety.molecularFormula": {
+      "@id": "fhir:SubstanceDefinition.moiety.molecularFormula",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "SubstanceDefinition.moiety.amountQuantity": {
+      "@id": "fhir:SubstanceDefinition.moiety.amountQuantity",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Quantity.context.jsonld"
+    },
+    "SubstanceDefinition.moiety.amountString": {
+      "@id": "fhir:SubstanceDefinition.moiety.amountString",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "SubstanceDefinition.moiety.amountType": {
+      "@id": "fhir:SubstanceDefinition.moiety.amountType",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

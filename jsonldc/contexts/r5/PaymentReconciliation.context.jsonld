@@ -1,0 +1,107 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Meta.context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code.context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Narrative.context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Resource.context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "PaymentReconciliation.identifier": {
+      "@id": "fhir:PaymentReconciliation.identifier",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+    },
+    "PaymentReconciliation.status": {
+      "@id": "fhir:PaymentReconciliation.status"
+    },
+    "PaymentReconciliation.period": {
+      "@id": "fhir:PaymentReconciliation.period",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Period.context.jsonld"
+    },
+    "PaymentReconciliation.created": {
+      "@id": "fhir:PaymentReconciliation.created",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+    },
+    "PaymentReconciliation.paymentIssuer": {
+      "@id": "fhir:PaymentReconciliation.paymentIssuer",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "PaymentReconciliation.request": {
+      "@id": "fhir:PaymentReconciliation.request",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "PaymentReconciliation.requestor": {
+      "@id": "fhir:PaymentReconciliation.requestor",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "PaymentReconciliation.outcome": {
+      "@id": "fhir:PaymentReconciliation.outcome"
+    },
+    "PaymentReconciliation.disposition": {
+      "@id": "fhir:PaymentReconciliation.disposition",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "PaymentReconciliation.paymentDate": {
+      "@id": "fhir:PaymentReconciliation.paymentDate",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/date.context.jsonld"
+    },
+    "PaymentReconciliation.paymentAmount": {
+      "@id": "fhir:PaymentReconciliation.paymentAmount",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Money.context.jsonld"
+    },
+    "PaymentReconciliation.paymentIdentifier": {
+      "@id": "fhir:PaymentReconciliation.paymentIdentifier",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+    },
+    "PaymentReconciliation.detail": {
+      "@id": "fhir:PaymentReconciliation.detail",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/PaymentReconciliation.detail.context.jsonld"
+    },
+    "PaymentReconciliation.formCode": {
+      "@id": "fhir:PaymentReconciliation.formCode",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "PaymentReconciliation.processNote": {
+      "@id": "fhir:PaymentReconciliation.processNote",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/PaymentReconciliation.processNote.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

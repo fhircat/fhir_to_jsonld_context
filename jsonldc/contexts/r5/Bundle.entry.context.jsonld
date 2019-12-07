@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "BackboneElement.modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "Bundle.entry.link": {
+      "@id": "fhir:Bundle.entry.link",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Bundle.link.context.jsonld"
+    },
+    "Bundle.entry.fullUrl": {
+      "@id": "fhir:Bundle.entry.fullUrl",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "Bundle.entry.resource": {
+      "@id": "fhir:Bundle.entry.resource",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Resource.context.jsonld"
+    },
+    "Bundle.entry.search": {
+      "@id": "fhir:Bundle.entry.search",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Bundle.entry.search.context.jsonld"
+    },
+    "Bundle.entry.request": {
+      "@id": "fhir:Bundle.entry.request",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Bundle.entry.request.context.jsonld"
+    },
+    "Bundle.entry.response": {
+      "@id": "fhir:Bundle.entry.response",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Bundle.entry.response.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

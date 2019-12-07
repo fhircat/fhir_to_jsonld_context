@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "BackboneElement.modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "Contract.term.asset.scope": {
+      "@id": "fhir:Contract.term.asset.scope",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "Contract.term.asset.type": {
+      "@id": "fhir:Contract.term.asset.type",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "Contract.term.asset.typeReference": {
+      "@id": "fhir:Contract.term.asset.typeReference",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "Contract.term.asset.subtype": {
+      "@id": "fhir:Contract.term.asset.subtype",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "Contract.term.asset.relationship": {
+      "@id": "fhir:Contract.term.asset.relationship",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Coding.context.jsonld"
+    },
+    "Contract.term.asset.context": {
+      "@id": "fhir:Contract.term.asset.context",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Contract.term.asset.context.context.jsonld"
+    },
+    "Contract.term.asset.condition": {
+      "@id": "fhir:Contract.term.asset.condition",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Contract.term.asset.periodType": {
+      "@id": "fhir:Contract.term.asset.periodType",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "Contract.term.asset.period": {
+      "@id": "fhir:Contract.term.asset.period",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Period.context.jsonld"
+    },
+    "Contract.term.asset.usePeriod": {
+      "@id": "fhir:Contract.term.asset.usePeriod",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Period.context.jsonld"
+    },
+    "Contract.term.asset.text": {
+      "@id": "fhir:Contract.term.asset.text",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Contract.term.asset.linkId": {
+      "@id": "fhir:Contract.term.asset.linkId",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Contract.term.asset.answer": {
+      "@id": "fhir:Contract.term.asset.answer",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Contract.term.offer.answer.context.jsonld"
+    },
+    "Contract.term.asset.securityLabelNumber": {
+      "@id": "fhir:Contract.term.asset.securityLabelNumber",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/unsignedInt.context.jsonld"
+    },
+    "Contract.term.asset.valuedItem": {
+      "@id": "fhir:Contract.term.asset.valuedItem",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Contract.term.asset.valuedItem.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Meta.context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code.context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Narrative.context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Resource.context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "DeviceDefinition.identifier": {
+      "@id": "fhir:DeviceDefinition.identifier",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+    },
+    "DeviceDefinition.udiDeviceIdentifier": {
+      "@id": "fhir:DeviceDefinition.udiDeviceIdentifier",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/DeviceDefinition.udiDeviceIdentifier.context.jsonld"
+    },
+    "DeviceDefinition.manufacturerString": {
+      "@id": "fhir:DeviceDefinition.manufacturerString",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "DeviceDefinition.manufacturerReference": {
+      "@id": "fhir:DeviceDefinition.manufacturerReference",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "DeviceDefinition.deviceName": {
+      "@id": "fhir:DeviceDefinition.deviceName",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/DeviceDefinition.deviceName.context.jsonld"
+    },
+    "DeviceDefinition.modelNumber": {
+      "@id": "fhir:DeviceDefinition.modelNumber",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "DeviceDefinition.type": {
+      "@id": "fhir:DeviceDefinition.type",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "DeviceDefinition.specialization": {
+      "@id": "fhir:DeviceDefinition.specialization",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/DeviceDefinition.specialization.context.jsonld"
+    },
+    "DeviceDefinition.version": {
+      "@id": "fhir:DeviceDefinition.version",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "DeviceDefinition.safety": {
+      "@id": "fhir:DeviceDefinition.safety",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "DeviceDefinition.shelfLifeStorage": {
+      "@id": "fhir:DeviceDefinition.shelfLifeStorage",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ProductShelfLife.context.jsonld"
+    },
+    "DeviceDefinition.physicalCharacteristics": {
+      "@id": "fhir:DeviceDefinition.physicalCharacteristics",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ProdCharacteristic.context.jsonld"
+    },
+    "DeviceDefinition.languageCode": {
+      "@id": "fhir:DeviceDefinition.languageCode",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "DeviceDefinition.capability": {
+      "@id": "fhir:DeviceDefinition.capability",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/DeviceDefinition.capability.context.jsonld"
+    },
+    "DeviceDefinition.property": {
+      "@id": "fhir:DeviceDefinition.property",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/DeviceDefinition.property.context.jsonld"
+    },
+    "DeviceDefinition.owner": {
+      "@id": "fhir:DeviceDefinition.owner",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "DeviceDefinition.contact": {
+      "@id": "fhir:DeviceDefinition.contact",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ContactPoint.context.jsonld"
+    },
+    "DeviceDefinition.url": {
+      "@id": "fhir:DeviceDefinition.url",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "DeviceDefinition.onlineInformation": {
+      "@id": "fhir:DeviceDefinition.onlineInformation",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "DeviceDefinition.note": {
+      "@id": "fhir:DeviceDefinition.note",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Annotation.context.jsonld"
+    },
+    "DeviceDefinition.quantity": {
+      "@id": "fhir:DeviceDefinition.quantity",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Quantity.context.jsonld"
+    },
+    "DeviceDefinition.parentDevice": {
+      "@id": "fhir:DeviceDefinition.parentDevice",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "DeviceDefinition.material": {
+      "@id": "fhir:DeviceDefinition.material",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/DeviceDefinition.material.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

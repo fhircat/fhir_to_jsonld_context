@@ -1,0 +1,73 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "BackboneElement.modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "Claim.item.detail.sequence": {
+      "@id": "fhir:Claim.item.detail.sequence",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/positiveInt.context.jsonld"
+    },
+    "Claim.item.detail.revenue": {
+      "@id": "fhir:Claim.item.detail.revenue",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "Claim.item.detail.category": {
+      "@id": "fhir:Claim.item.detail.category",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "Claim.item.detail.productOrService": {
+      "@id": "fhir:Claim.item.detail.productOrService",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "Claim.item.detail.modifier": {
+      "@id": "fhir:Claim.item.detail.modifier",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "Claim.item.detail.programCode": {
+      "@id": "fhir:Claim.item.detail.programCode",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "Claim.item.detail.quantity": {
+      "@id": "fhir:Claim.item.detail.quantity",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SimpleQuantity.context.jsonld"
+    },
+    "Claim.item.detail.unitPrice": {
+      "@id": "fhir:Claim.item.detail.unitPrice",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Money.context.jsonld"
+    },
+    "Claim.item.detail.factor": {
+      "@id": "fhir:Claim.item.detail.factor",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/decimal.context.jsonld"
+    },
+    "Claim.item.detail.net": {
+      "@id": "fhir:Claim.item.detail.net",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Money.context.jsonld"
+    },
+    "Claim.item.detail.udi": {
+      "@id": "fhir:Claim.item.detail.udi",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "Claim.item.detail.subDetail": {
+      "@id": "fhir:Claim.item.detail.subDetail",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Claim.item.detail.subDetail.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

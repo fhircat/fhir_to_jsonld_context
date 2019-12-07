@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "BackboneElement.modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "GraphDefinition.link.target.compartment.use": {
+      "@id": "fhir:GraphDefinition.link.target.compartment.use"
+    },
+    "GraphDefinition.link.target.compartment.code": {
+      "@id": "fhir:GraphDefinition.link.target.compartment.code"
+    },
+    "GraphDefinition.link.target.compartment.rule": {
+      "@id": "fhir:GraphDefinition.link.target.compartment.rule"
+    },
+    "GraphDefinition.link.target.compartment.expression": {
+      "@id": "fhir:GraphDefinition.link.target.compartment.expression",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "GraphDefinition.link.target.compartment.description": {
+      "@id": "fhir:GraphDefinition.link.target.compartment.description",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

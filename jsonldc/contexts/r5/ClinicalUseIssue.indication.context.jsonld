@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "BackboneElement.modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "ClinicalUseIssue.indication.diseaseSymptomProcedure": {
+      "@id": "fhir:ClinicalUseIssue.indication.diseaseSymptomProcedure",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "ClinicalUseIssue.indication.diseaseStatus": {
+      "@id": "fhir:ClinicalUseIssue.indication.diseaseStatus",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "ClinicalUseIssue.indication.comorbidity": {
+      "@id": "fhir:ClinicalUseIssue.indication.comorbidity",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "ClinicalUseIssue.indication.intendedEffect": {
+      "@id": "fhir:ClinicalUseIssue.indication.intendedEffect",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "ClinicalUseIssue.indication.duration": {
+      "@id": "fhir:ClinicalUseIssue.indication.duration",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Quantity.context.jsonld"
+    },
+    "ClinicalUseIssue.indication.undesirableEffect": {
+      "@id": "fhir:ClinicalUseIssue.indication.undesirableEffect",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "ClinicalUseIssue.indication.otherTherapy": {
+      "@id": "fhir:ClinicalUseIssue.indication.otherTherapy",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ClinicalUseIssue.contraindication.otherTherapy.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Meta.context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code.context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Narrative.context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Resource.context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "Evidence.url": {
+      "@id": "fhir:Evidence.url",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "Evidence.identifier": {
+      "@id": "fhir:Evidence.identifier",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+    },
+    "Evidence.version": {
+      "@id": "fhir:Evidence.version",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Evidence.title": {
+      "@id": "fhir:Evidence.title",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Evidence.status": {
+      "@id": "fhir:Evidence.status"
+    },
+    "Evidence.useContext": {
+      "@id": "fhir:Evidence.useContext",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/UsageContext.context.jsonld"
+    },
+    "Evidence.date": {
+      "@id": "fhir:Evidence.date",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+    },
+    "Evidence.approvalDate": {
+      "@id": "fhir:Evidence.approvalDate",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/date.context.jsonld"
+    },
+    "Evidence.lastReviewDate": {
+      "@id": "fhir:Evidence.lastReviewDate",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/date.context.jsonld"
+    },
+    "Evidence.contributor": {
+      "@id": "fhir:Evidence.contributor",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Contributor.context.jsonld"
+    },
+    "Evidence.relatedArtifact": {
+      "@id": "fhir:Evidence.relatedArtifact",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/RelatedArtifact.context.jsonld"
+    },
+    "Evidence.description": {
+      "@id": "fhir:Evidence.description",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/markdown.context.jsonld"
+    },
+    "Evidence.assertion": {
+      "@id": "fhir:Evidence.assertion",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/markdown.context.jsonld"
+    },
+    "Evidence.note": {
+      "@id": "fhir:Evidence.note",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Annotation.context.jsonld"
+    },
+    "Evidence.referentGroup": {
+      "@id": "fhir:Evidence.referentGroup",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Evidence.referentGroup.context.jsonld"
+    },
+    "Evidence.variableDefinition": {
+      "@id": "fhir:Evidence.variableDefinition",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Evidence.variableDefinition.context.jsonld"
+    },
+    "Evidence.synthesisType": {
+      "@id": "fhir:Evidence.synthesisType",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "Evidence.studyType": {
+      "@id": "fhir:Evidence.studyType",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "Evidence.statistic": {
+      "@id": "fhir:Evidence.statistic",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Statistic.context.jsonld"
+    },
+    "Evidence.distribution": {
+      "@id": "fhir:Evidence.distribution",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/OrderedDistribution.context.jsonld"
+    },
+    "Evidence.certainty": {
+      "@id": "fhir:Evidence.certainty",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Evidence.certainty.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

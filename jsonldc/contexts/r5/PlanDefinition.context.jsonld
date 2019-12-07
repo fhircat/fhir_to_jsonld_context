@@ -1,0 +1,176 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Meta.context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code.context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Narrative.context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Resource.context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "PlanDefinition.url": {
+      "@id": "fhir:PlanDefinition.url",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "PlanDefinition.identifier": {
+      "@id": "fhir:PlanDefinition.identifier",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+    },
+    "PlanDefinition.version": {
+      "@id": "fhir:PlanDefinition.version",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "PlanDefinition.name": {
+      "@id": "fhir:PlanDefinition.name",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "PlanDefinition.title": {
+      "@id": "fhir:PlanDefinition.title",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "PlanDefinition.subtitle": {
+      "@id": "fhir:PlanDefinition.subtitle",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "PlanDefinition.type": {
+      "@id": "fhir:PlanDefinition.type",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "PlanDefinition.status": {
+      "@id": "fhir:PlanDefinition.status"
+    },
+    "PlanDefinition.experimental": {
+      "@id": "fhir:PlanDefinition.experimental",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+    },
+    "PlanDefinition.subjectCodeableConcept": {
+      "@id": "fhir:PlanDefinition.subjectCodeableConcept",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "PlanDefinition.subjectReference": {
+      "@id": "fhir:PlanDefinition.subjectReference",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "PlanDefinition.date": {
+      "@id": "fhir:PlanDefinition.date",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+    },
+    "PlanDefinition.publisher": {
+      "@id": "fhir:PlanDefinition.publisher",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "PlanDefinition.contact": {
+      "@id": "fhir:PlanDefinition.contact",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ContactDetail.context.jsonld"
+    },
+    "PlanDefinition.description": {
+      "@id": "fhir:PlanDefinition.description",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/markdown.context.jsonld"
+    },
+    "PlanDefinition.useContext": {
+      "@id": "fhir:PlanDefinition.useContext",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/UsageContext.context.jsonld"
+    },
+    "PlanDefinition.jurisdiction": {
+      "@id": "fhir:PlanDefinition.jurisdiction",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "PlanDefinition.purpose": {
+      "@id": "fhir:PlanDefinition.purpose",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/markdown.context.jsonld"
+    },
+    "PlanDefinition.usage": {
+      "@id": "fhir:PlanDefinition.usage",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "PlanDefinition.copyright": {
+      "@id": "fhir:PlanDefinition.copyright",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/markdown.context.jsonld"
+    },
+    "PlanDefinition.approvalDate": {
+      "@id": "fhir:PlanDefinition.approvalDate",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/date.context.jsonld"
+    },
+    "PlanDefinition.lastReviewDate": {
+      "@id": "fhir:PlanDefinition.lastReviewDate",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/date.context.jsonld"
+    },
+    "PlanDefinition.effectivePeriod": {
+      "@id": "fhir:PlanDefinition.effectivePeriod",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Period.context.jsonld"
+    },
+    "PlanDefinition.topic": {
+      "@id": "fhir:PlanDefinition.topic",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "PlanDefinition.author": {
+      "@id": "fhir:PlanDefinition.author",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ContactDetail.context.jsonld"
+    },
+    "PlanDefinition.editor": {
+      "@id": "fhir:PlanDefinition.editor",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ContactDetail.context.jsonld"
+    },
+    "PlanDefinition.reviewer": {
+      "@id": "fhir:PlanDefinition.reviewer",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ContactDetail.context.jsonld"
+    },
+    "PlanDefinition.endorser": {
+      "@id": "fhir:PlanDefinition.endorser",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ContactDetail.context.jsonld"
+    },
+    "PlanDefinition.relatedArtifact": {
+      "@id": "fhir:PlanDefinition.relatedArtifact",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/RelatedArtifact.context.jsonld"
+    },
+    "PlanDefinition.library": {
+      "@id": "fhir:PlanDefinition.library",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/canonical.context.jsonld"
+    },
+    "PlanDefinition.goal": {
+      "@id": "fhir:PlanDefinition.goal",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/PlanDefinition.goal.context.jsonld"
+    },
+    "PlanDefinition.action": {
+      "@id": "fhir:PlanDefinition.action",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/PlanDefinition.action.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Meta.context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code.context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Narrative.context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Resource.context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "RegulatedAuthorization.identifier": {
+      "@id": "fhir:RegulatedAuthorization.identifier",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+    },
+    "RegulatedAuthorization.subject": {
+      "@id": "fhir:RegulatedAuthorization.subject",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "RegulatedAuthorization.type": {
+      "@id": "fhir:RegulatedAuthorization.type",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "RegulatedAuthorization.description": {
+      "@id": "fhir:RegulatedAuthorization.description",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/markdown.context.jsonld"
+    },
+    "RegulatedAuthorization.region": {
+      "@id": "fhir:RegulatedAuthorization.region",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "RegulatedAuthorization.status": {
+      "@id": "fhir:RegulatedAuthorization.status",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "RegulatedAuthorization.statusDate": {
+      "@id": "fhir:RegulatedAuthorization.statusDate",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+    },
+    "RegulatedAuthorization.validityPeriod": {
+      "@id": "fhir:RegulatedAuthorization.validityPeriod",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Period.context.jsonld"
+    },
+    "RegulatedAuthorization.basis": {
+      "@id": "fhir:RegulatedAuthorization.basis",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "RegulatedAuthorization.relatedDate": {
+      "@id": "fhir:RegulatedAuthorization.relatedDate",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/RegulatedAuthorization.relatedDate.context.jsonld"
+    },
+    "RegulatedAuthorization.jurisdictionalAuthorization": {
+      "@id": "fhir:RegulatedAuthorization.jurisdictionalAuthorization",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "RegulatedAuthorization.holder": {
+      "@id": "fhir:RegulatedAuthorization.holder",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "RegulatedAuthorization.regulator": {
+      "@id": "fhir:RegulatedAuthorization.regulator",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "RegulatedAuthorization.case": {
+      "@id": "fhir:RegulatedAuthorization.case",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/RegulatedAuthorization.case.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

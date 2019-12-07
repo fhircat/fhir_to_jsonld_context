@@ -1,0 +1,69 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "BackboneElement.modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "SubstanceDefinition.name.name": {
+      "@id": "fhir:SubstanceDefinition.name.name",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "SubstanceDefinition.name.type": {
+      "@id": "fhir:SubstanceDefinition.name.type",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "SubstanceDefinition.name.status": {
+      "@id": "fhir:SubstanceDefinition.name.status",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "SubstanceDefinition.name.preferred": {
+      "@id": "fhir:SubstanceDefinition.name.preferred",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+    },
+    "SubstanceDefinition.name.language": {
+      "@id": "fhir:SubstanceDefinition.name.language",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "SubstanceDefinition.name.domain": {
+      "@id": "fhir:SubstanceDefinition.name.domain",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "SubstanceDefinition.name.jurisdiction": {
+      "@id": "fhir:SubstanceDefinition.name.jurisdiction",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "SubstanceDefinition.name.synonym": {
+      "@id": "fhir:SubstanceDefinition.name.synonym",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SubstanceDefinition.name.context.jsonld"
+    },
+    "SubstanceDefinition.name.translation": {
+      "@id": "fhir:SubstanceDefinition.name.translation",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SubstanceDefinition.name.context.jsonld"
+    },
+    "SubstanceDefinition.name.official": {
+      "@id": "fhir:SubstanceDefinition.name.official",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SubstanceDefinition.name.official.context.jsonld"
+    },
+    "SubstanceDefinition.name.source": {
+      "@id": "fhir:SubstanceDefinition.name.source",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

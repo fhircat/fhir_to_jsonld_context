@@ -1,0 +1,64 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "BackboneElement.modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "SpecimenDefinition.typeTested.isDerived": {
+      "@id": "fhir:SpecimenDefinition.typeTested.isDerived",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+    },
+    "SpecimenDefinition.typeTested.type": {
+      "@id": "fhir:SpecimenDefinition.typeTested.type",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "SpecimenDefinition.typeTested.preference": {
+      "@id": "fhir:SpecimenDefinition.typeTested.preference"
+    },
+    "SpecimenDefinition.typeTested.container": {
+      "@id": "fhir:SpecimenDefinition.typeTested.container",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SpecimenDefinition.typeTested.container.context.jsonld"
+    },
+    "SpecimenDefinition.typeTested.requirement": {
+      "@id": "fhir:SpecimenDefinition.typeTested.requirement",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "SpecimenDefinition.typeTested.retentionTime": {
+      "@id": "fhir:SpecimenDefinition.typeTested.retentionTime",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Duration.context.jsonld"
+    },
+    "SpecimenDefinition.typeTested.singleUse": {
+      "@id": "fhir:SpecimenDefinition.typeTested.singleUse",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+    },
+    "SpecimenDefinition.typeTested.rejectionCriterion": {
+      "@id": "fhir:SpecimenDefinition.typeTested.rejectionCriterion",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "SpecimenDefinition.typeTested.handling": {
+      "@id": "fhir:SpecimenDefinition.typeTested.handling",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SpecimenDefinition.typeTested.handling.context.jsonld"
+    },
+    "SpecimenDefinition.typeTested.testingDestination": {
+      "@id": "fhir:SpecimenDefinition.typeTested.testingDestination",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

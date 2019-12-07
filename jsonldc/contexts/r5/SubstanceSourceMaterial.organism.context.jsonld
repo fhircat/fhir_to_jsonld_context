@@ -1,0 +1,57 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "BackboneElement.modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "SubstanceSourceMaterial.organism.family": {
+      "@id": "fhir:SubstanceSourceMaterial.organism.family",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "SubstanceSourceMaterial.organism.genus": {
+      "@id": "fhir:SubstanceSourceMaterial.organism.genus",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "SubstanceSourceMaterial.organism.species": {
+      "@id": "fhir:SubstanceSourceMaterial.organism.species",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "SubstanceSourceMaterial.organism.intraspecificType": {
+      "@id": "fhir:SubstanceSourceMaterial.organism.intraspecificType",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "SubstanceSourceMaterial.organism.intraspecificDescription": {
+      "@id": "fhir:SubstanceSourceMaterial.organism.intraspecificDescription",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "SubstanceSourceMaterial.organism.author": {
+      "@id": "fhir:SubstanceSourceMaterial.organism.author",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SubstanceSourceMaterial.organism.author.context.jsonld"
+    },
+    "SubstanceSourceMaterial.organism.hybrid": {
+      "@id": "fhir:SubstanceSourceMaterial.organism.hybrid",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SubstanceSourceMaterial.organism.hybrid.context.jsonld"
+    },
+    "SubstanceSourceMaterial.organism.organismGeneral": {
+      "@id": "fhir:SubstanceSourceMaterial.organism.organismGeneral",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SubstanceSourceMaterial.organism.organismGeneral.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

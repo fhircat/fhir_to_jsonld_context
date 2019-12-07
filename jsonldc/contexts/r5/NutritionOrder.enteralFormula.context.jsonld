@@ -1,0 +1,61 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "BackboneElement.modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "NutritionOrder.enteralFormula.baseFormulaType": {
+      "@id": "fhir:NutritionOrder.enteralFormula.baseFormulaType",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "NutritionOrder.enteralFormula.baseFormulaProductName": {
+      "@id": "fhir:NutritionOrder.enteralFormula.baseFormulaProductName",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "NutritionOrder.enteralFormula.additiveType": {
+      "@id": "fhir:NutritionOrder.enteralFormula.additiveType",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "NutritionOrder.enteralFormula.additiveProductName": {
+      "@id": "fhir:NutritionOrder.enteralFormula.additiveProductName",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "NutritionOrder.enteralFormula.caloricDensity": {
+      "@id": "fhir:NutritionOrder.enteralFormula.caloricDensity",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SimpleQuantity.context.jsonld"
+    },
+    "NutritionOrder.enteralFormula.routeofAdministration": {
+      "@id": "fhir:NutritionOrder.enteralFormula.routeofAdministration",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "NutritionOrder.enteralFormula.administration": {
+      "@id": "fhir:NutritionOrder.enteralFormula.administration",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/NutritionOrder.enteralFormula.administration.context.jsonld"
+    },
+    "NutritionOrder.enteralFormula.maxVolumeToDeliver": {
+      "@id": "fhir:NutritionOrder.enteralFormula.maxVolumeToDeliver",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SimpleQuantity.context.jsonld"
+    },
+    "NutritionOrder.enteralFormula.administrationInstruction": {
+      "@id": "fhir:NutritionOrder.enteralFormula.administrationInstruction",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

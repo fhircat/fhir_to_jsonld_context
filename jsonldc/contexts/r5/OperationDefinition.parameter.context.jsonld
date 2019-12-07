@@ -1,0 +1,66 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "BackboneElement.modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "OperationDefinition.parameter.name": {
+      "@id": "fhir:OperationDefinition.parameter.name",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code.context.jsonld"
+    },
+    "OperationDefinition.parameter.use": {
+      "@id": "fhir:OperationDefinition.parameter.use"
+    },
+    "OperationDefinition.parameter.min": {
+      "@id": "fhir:OperationDefinition.parameter.min",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/integer.context.jsonld"
+    },
+    "OperationDefinition.parameter.max": {
+      "@id": "fhir:OperationDefinition.parameter.max",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "OperationDefinition.parameter.documentation": {
+      "@id": "fhir:OperationDefinition.parameter.documentation",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "OperationDefinition.parameter.type": {
+      "@id": "fhir:OperationDefinition.parameter.type"
+    },
+    "OperationDefinition.parameter.targetProfile": {
+      "@id": "fhir:OperationDefinition.parameter.targetProfile",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/canonical.context.jsonld"
+    },
+    "OperationDefinition.parameter.searchType": {
+      "@id": "fhir:OperationDefinition.parameter.searchType"
+    },
+    "OperationDefinition.parameter.binding": {
+      "@id": "fhir:OperationDefinition.parameter.binding",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/OperationDefinition.parameter.binding.context.jsonld"
+    },
+    "OperationDefinition.parameter.referencedFrom": {
+      "@id": "fhir:OperationDefinition.parameter.referencedFrom",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/OperationDefinition.parameter.referencedFrom.context.jsonld"
+    },
+    "OperationDefinition.parameter.part": {
+      "@id": "fhir:OperationDefinition.parameter.part",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/OperationDefinition.parameter.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

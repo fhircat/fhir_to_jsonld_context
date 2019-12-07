@@ -1,0 +1,65 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "BackboneElement.modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "ExampleScenario.process.step.operation.number": {
+      "@id": "fhir:ExampleScenario.process.step.operation.number",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "ExampleScenario.process.step.operation.type": {
+      "@id": "fhir:ExampleScenario.process.step.operation.type",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "ExampleScenario.process.step.operation.name": {
+      "@id": "fhir:ExampleScenario.process.step.operation.name",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "ExampleScenario.process.step.operation.initiator": {
+      "@id": "fhir:ExampleScenario.process.step.operation.initiator",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "ExampleScenario.process.step.operation.receiver": {
+      "@id": "fhir:ExampleScenario.process.step.operation.receiver",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "ExampleScenario.process.step.operation.description": {
+      "@id": "fhir:ExampleScenario.process.step.operation.description",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/markdown.context.jsonld"
+    },
+    "ExampleScenario.process.step.operation.initiatorActive": {
+      "@id": "fhir:ExampleScenario.process.step.operation.initiatorActive",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+    },
+    "ExampleScenario.process.step.operation.receiverActive": {
+      "@id": "fhir:ExampleScenario.process.step.operation.receiverActive",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+    },
+    "ExampleScenario.process.step.operation.request": {
+      "@id": "fhir:ExampleScenario.process.step.operation.request",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ExampleScenario.instance.containedInstance.context.jsonld"
+    },
+    "ExampleScenario.process.step.operation.response": {
+      "@id": "fhir:ExampleScenario.process.step.operation.response",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ExampleScenario.instance.containedInstance.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

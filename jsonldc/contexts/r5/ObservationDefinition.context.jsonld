@@ -1,0 +1,203 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Meta.context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code.context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Narrative.context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Resource.context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "ObservationDefinition.url": {
+      "@id": "fhir:ObservationDefinition.url",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "ObservationDefinition.identifier": {
+      "@id": "fhir:ObservationDefinition.identifier",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+    },
+    "ObservationDefinition.version": {
+      "@id": "fhir:ObservationDefinition.version",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "ObservationDefinition.title": {
+      "@id": "fhir:ObservationDefinition.title",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "ObservationDefinition.derivedFromCanonical": {
+      "@id": "fhir:ObservationDefinition.derivedFromCanonical",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/canonical.context.jsonld"
+    },
+    "ObservationDefinition.derivedFromUri": {
+      "@id": "fhir:ObservationDefinition.derivedFromUri",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "ObservationDefinition.status": {
+      "@id": "fhir:ObservationDefinition.status"
+    },
+    "ObservationDefinition.experimental": {
+      "@id": "fhir:ObservationDefinition.experimental",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+    },
+    "ObservationDefinition.subjectCodeableConcept": {
+      "@id": "fhir:ObservationDefinition.subjectCodeableConcept",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "ObservationDefinition.subjectReference": {
+      "@id": "fhir:ObservationDefinition.subjectReference",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "ObservationDefinition.date": {
+      "@id": "fhir:ObservationDefinition.date",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+    },
+    "ObservationDefinition.publisher": {
+      "@id": "fhir:ObservationDefinition.publisher",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "ObservationDefinition.contact": {
+      "@id": "fhir:ObservationDefinition.contact",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ContactDetail.context.jsonld"
+    },
+    "ObservationDefinition.description": {
+      "@id": "fhir:ObservationDefinition.description",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/markdown.context.jsonld"
+    },
+    "ObservationDefinition.useContext": {
+      "@id": "fhir:ObservationDefinition.useContext",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/UsageContext.context.jsonld"
+    },
+    "ObservationDefinition.jurisdiction": {
+      "@id": "fhir:ObservationDefinition.jurisdiction",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "ObservationDefinition.purpose": {
+      "@id": "fhir:ObservationDefinition.purpose",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/markdown.context.jsonld"
+    },
+    "ObservationDefinition.copyright": {
+      "@id": "fhir:ObservationDefinition.copyright",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/markdown.context.jsonld"
+    },
+    "ObservationDefinition.approvalDate": {
+      "@id": "fhir:ObservationDefinition.approvalDate",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/date.context.jsonld"
+    },
+    "ObservationDefinition.lastReviewDate": {
+      "@id": "fhir:ObservationDefinition.lastReviewDate",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/date.context.jsonld"
+    },
+    "ObservationDefinition.effectivePeriod": {
+      "@id": "fhir:ObservationDefinition.effectivePeriod",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Period.context.jsonld"
+    },
+    "ObservationDefinition.performerType": {
+      "@id": "fhir:ObservationDefinition.performerType",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "ObservationDefinition.category": {
+      "@id": "fhir:ObservationDefinition.category",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "ObservationDefinition.code": {
+      "@id": "fhir:ObservationDefinition.code",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "ObservationDefinition.permittedDataType": {
+      "@id": "fhir:ObservationDefinition.permittedDataType"
+    },
+    "ObservationDefinition.multipleResultsAllowed": {
+      "@id": "fhir:ObservationDefinition.multipleResultsAllowed",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+    },
+    "ObservationDefinition.bodySite": {
+      "@id": "fhir:ObservationDefinition.bodySite",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "ObservationDefinition.method": {
+      "@id": "fhir:ObservationDefinition.method",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "ObservationDefinition.specimen": {
+      "@id": "fhir:ObservationDefinition.specimen",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "ObservationDefinition.device": {
+      "@id": "fhir:ObservationDefinition.device",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "ObservationDefinition.preferredReportName": {
+      "@id": "fhir:ObservationDefinition.preferredReportName",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "ObservationDefinition.quantitativeDetails": {
+      "@id": "fhir:ObservationDefinition.quantitativeDetails",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ObservationDefinition.quantitativeDetails.context.jsonld"
+    },
+    "ObservationDefinition.qualifiedInterval": {
+      "@id": "fhir:ObservationDefinition.qualifiedInterval",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ObservationDefinition.qualifiedInterval.context.jsonld"
+    },
+    "ObservationDefinition.validCodedValueSet": {
+      "@id": "fhir:ObservationDefinition.validCodedValueSet",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "ObservationDefinition.normalCodedValueSet": {
+      "@id": "fhir:ObservationDefinition.normalCodedValueSet",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "ObservationDefinition.abnormalCodedValueSet": {
+      "@id": "fhir:ObservationDefinition.abnormalCodedValueSet",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "ObservationDefinition.criticalCodedValueSet": {
+      "@id": "fhir:ObservationDefinition.criticalCodedValueSet",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "ObservationDefinition.hasMember": {
+      "@id": "fhir:ObservationDefinition.hasMember",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "ObservationDefinition.component": {
+      "@id": "fhir:ObservationDefinition.component",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ObservationDefinition.component.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

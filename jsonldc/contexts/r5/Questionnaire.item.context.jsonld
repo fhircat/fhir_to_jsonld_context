@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "BackboneElement.modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "Questionnaire.item.linkId": {
+      "@id": "fhir:Questionnaire.item.linkId",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Questionnaire.item.definition": {
+      "@id": "fhir:Questionnaire.item.definition",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "Questionnaire.item.code": {
+      "@id": "fhir:Questionnaire.item.code",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Coding.context.jsonld"
+    },
+    "Questionnaire.item.prefix": {
+      "@id": "fhir:Questionnaire.item.prefix",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Questionnaire.item.text": {
+      "@id": "fhir:Questionnaire.item.text",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Questionnaire.item.type": {
+      "@id": "fhir:Questionnaire.item.type"
+    },
+    "Questionnaire.item.enableWhen": {
+      "@id": "fhir:Questionnaire.item.enableWhen",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Questionnaire.item.enableWhen.context.jsonld"
+    },
+    "Questionnaire.item.enableBehavior": {
+      "@id": "fhir:Questionnaire.item.enableBehavior"
+    },
+    "Questionnaire.item.required": {
+      "@id": "fhir:Questionnaire.item.required",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+    },
+    "Questionnaire.item.repeats": {
+      "@id": "fhir:Questionnaire.item.repeats",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+    },
+    "Questionnaire.item.readOnly": {
+      "@id": "fhir:Questionnaire.item.readOnly",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+    },
+    "Questionnaire.item.maxLength": {
+      "@id": "fhir:Questionnaire.item.maxLength",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/integer.context.jsonld"
+    },
+    "Questionnaire.item.answerValueSet": {
+      "@id": "fhir:Questionnaire.item.answerValueSet",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/canonical.context.jsonld"
+    },
+    "Questionnaire.item.answerOption": {
+      "@id": "fhir:Questionnaire.item.answerOption",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Questionnaire.item.answerOption.context.jsonld"
+    },
+    "Questionnaire.item.initial": {
+      "@id": "fhir:Questionnaire.item.initial",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Questionnaire.item.initial.context.jsonld"
+    },
+    "Questionnaire.item.item": {
+      "@id": "fhir:Questionnaire.item.item",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Questionnaire.item.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

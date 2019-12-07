@@ -1,0 +1,112 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Meta.context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code.context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Narrative.context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Resource.context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "MolecularSequence.identifier": {
+      "@id": "fhir:MolecularSequence.identifier",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+    },
+    "MolecularSequence.type": {
+      "@id": "fhir:MolecularSequence.type"
+    },
+    "MolecularSequence.coordinateSystem": {
+      "@id": "fhir:MolecularSequence.coordinateSystem",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/integer.context.jsonld"
+    },
+    "MolecularSequence.patient": {
+      "@id": "fhir:MolecularSequence.patient",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "MolecularSequence.specimen": {
+      "@id": "fhir:MolecularSequence.specimen",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "MolecularSequence.device": {
+      "@id": "fhir:MolecularSequence.device",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "MolecularSequence.performer": {
+      "@id": "fhir:MolecularSequence.performer",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "MolecularSequence.quantity": {
+      "@id": "fhir:MolecularSequence.quantity",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Quantity.context.jsonld"
+    },
+    "MolecularSequence.referenceSeq": {
+      "@id": "fhir:MolecularSequence.referenceSeq",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/MolecularSequence.referenceSeq.context.jsonld"
+    },
+    "MolecularSequence.variant": {
+      "@id": "fhir:MolecularSequence.variant",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/MolecularSequence.variant.context.jsonld"
+    },
+    "MolecularSequence.observedSeq": {
+      "@id": "fhir:MolecularSequence.observedSeq",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "MolecularSequence.quality": {
+      "@id": "fhir:MolecularSequence.quality",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/MolecularSequence.quality.context.jsonld"
+    },
+    "MolecularSequence.readCoverage": {
+      "@id": "fhir:MolecularSequence.readCoverage",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/integer.context.jsonld"
+    },
+    "MolecularSequence.repository": {
+      "@id": "fhir:MolecularSequence.repository",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/MolecularSequence.repository.context.jsonld"
+    },
+    "MolecularSequence.pointer": {
+      "@id": "fhir:MolecularSequence.pointer",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "MolecularSequence.structureVariant": {
+      "@id": "fhir:MolecularSequence.structureVariant",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/MolecularSequence.structureVariant.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

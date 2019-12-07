@@ -1,0 +1,61 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "BackboneElement.modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "SpecimenDefinition.typeTested.container.material": {
+      "@id": "fhir:SpecimenDefinition.typeTested.container.material",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "SpecimenDefinition.typeTested.container.type": {
+      "@id": "fhir:SpecimenDefinition.typeTested.container.type",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "SpecimenDefinition.typeTested.container.cap": {
+      "@id": "fhir:SpecimenDefinition.typeTested.container.cap",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "SpecimenDefinition.typeTested.container.description": {
+      "@id": "fhir:SpecimenDefinition.typeTested.container.description",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "SpecimenDefinition.typeTested.container.capacity": {
+      "@id": "fhir:SpecimenDefinition.typeTested.container.capacity",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SimpleQuantity.context.jsonld"
+    },
+    "SpecimenDefinition.typeTested.container.minimumVolumeQuantity": {
+      "@id": "fhir:SpecimenDefinition.typeTested.container.minimumVolumeQuantity",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SimpleQuantity.context.jsonld"
+    },
+    "SpecimenDefinition.typeTested.container.minimumVolumeString": {
+      "@id": "fhir:SpecimenDefinition.typeTested.container.minimumVolumeString",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "SpecimenDefinition.typeTested.container.additive": {
+      "@id": "fhir:SpecimenDefinition.typeTested.container.additive",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SpecimenDefinition.typeTested.container.additive.context.jsonld"
+    },
+    "SpecimenDefinition.typeTested.container.preparation": {
+      "@id": "fhir:SpecimenDefinition.typeTested.container.preparation",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

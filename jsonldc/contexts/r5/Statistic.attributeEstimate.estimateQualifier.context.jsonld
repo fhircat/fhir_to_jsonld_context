@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "Statistic.attributeEstimate.estimateQualifier.description": {
+      "@id": "fhir:Statistic.attributeEstimate.estimateQualifier.description",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Statistic.attributeEstimate.estimateQualifier.note": {
+      "@id": "fhir:Statistic.attributeEstimate.estimateQualifier.note",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Annotation.context.jsonld"
+    },
+    "Statistic.attributeEstimate.estimateQualifier.type": {
+      "@id": "fhir:Statistic.attributeEstimate.estimateQualifier.type",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "Statistic.attributeEstimate.estimateQualifier.quantity": {
+      "@id": "fhir:Statistic.attributeEstimate.estimateQualifier.quantity",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Quantity.context.jsonld"
+    },
+    "Statistic.attributeEstimate.estimateQualifier.level": {
+      "@id": "fhir:Statistic.attributeEstimate.estimateQualifier.level",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/decimal.context.jsonld"
+    },
+    "Statistic.attributeEstimate.estimateQualifier.range": {
+      "@id": "fhir:Statistic.attributeEstimate.estimateQualifier.range",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Range.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

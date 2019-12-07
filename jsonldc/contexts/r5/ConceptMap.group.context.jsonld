@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "BackboneElement.modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "ConceptMap.group.source": {
+      "@id": "fhir:ConceptMap.group.source",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "ConceptMap.group.sourceVersion": {
+      "@id": "fhir:ConceptMap.group.sourceVersion",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "ConceptMap.group.target": {
+      "@id": "fhir:ConceptMap.group.target",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "ConceptMap.group.targetVersion": {
+      "@id": "fhir:ConceptMap.group.targetVersion",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "ConceptMap.group.element": {
+      "@id": "fhir:ConceptMap.group.element",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ConceptMap.group.element.context.jsonld"
+    },
+    "ConceptMap.group.unmapped": {
+      "@id": "fhir:ConceptMap.group.unmapped",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ConceptMap.group.unmapped.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Meta.context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code.context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Narrative.context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Resource.context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "CoverageEligibilityResponse.identifier": {
+      "@id": "fhir:CoverageEligibilityResponse.identifier",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+    },
+    "CoverageEligibilityResponse.status": {
+      "@id": "fhir:CoverageEligibilityResponse.status"
+    },
+    "CoverageEligibilityResponse.purpose": {
+      "@id": "fhir:CoverageEligibilityResponse.purpose"
+    },
+    "CoverageEligibilityResponse.patient": {
+      "@id": "fhir:CoverageEligibilityResponse.patient",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "CoverageEligibilityResponse.servicedDate": {
+      "@id": "fhir:CoverageEligibilityResponse.servicedDate",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/date.context.jsonld"
+    },
+    "CoverageEligibilityResponse.servicedPeriod": {
+      "@id": "fhir:CoverageEligibilityResponse.servicedPeriod",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Period.context.jsonld"
+    },
+    "CoverageEligibilityResponse.created": {
+      "@id": "fhir:CoverageEligibilityResponse.created",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+    },
+    "CoverageEligibilityResponse.requestor": {
+      "@id": "fhir:CoverageEligibilityResponse.requestor",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "CoverageEligibilityResponse.request": {
+      "@id": "fhir:CoverageEligibilityResponse.request",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "CoverageEligibilityResponse.outcome": {
+      "@id": "fhir:CoverageEligibilityResponse.outcome"
+    },
+    "CoverageEligibilityResponse.disposition": {
+      "@id": "fhir:CoverageEligibilityResponse.disposition",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "CoverageEligibilityResponse.insurer": {
+      "@id": "fhir:CoverageEligibilityResponse.insurer",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "CoverageEligibilityResponse.insurance": {
+      "@id": "fhir:CoverageEligibilityResponse.insurance",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CoverageEligibilityResponse.insurance.context.jsonld"
+    },
+    "CoverageEligibilityResponse.preAuthRef": {
+      "@id": "fhir:CoverageEligibilityResponse.preAuthRef",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "CoverageEligibilityResponse.form": {
+      "@id": "fhir:CoverageEligibilityResponse.form",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "CoverageEligibilityResponse.error": {
+      "@id": "fhir:CoverageEligibilityResponse.error",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CoverageEligibilityResponse.error.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

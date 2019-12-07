@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "BackboneElement.modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "ImplementationGuide.manifest.rendering": {
+      "@id": "fhir:ImplementationGuide.manifest.rendering",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/url.context.jsonld"
+    },
+    "ImplementationGuide.manifest.resource": {
+      "@id": "fhir:ImplementationGuide.manifest.resource",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ImplementationGuide.manifest.resource.context.jsonld"
+    },
+    "ImplementationGuide.manifest.page": {
+      "@id": "fhir:ImplementationGuide.manifest.page",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ImplementationGuide.manifest.page.context.jsonld"
+    },
+    "ImplementationGuide.manifest.image": {
+      "@id": "fhir:ImplementationGuide.manifest.image",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "ImplementationGuide.manifest.other": {
+      "@id": "fhir:ImplementationGuide.manifest.other",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

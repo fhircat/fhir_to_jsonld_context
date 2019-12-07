@@ -1,0 +1,109 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "BackboneElement.modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "ExplanationOfBenefit.addItem.itemSequence": {
+      "@id": "fhir:ExplanationOfBenefit.addItem.itemSequence",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/positiveInt.context.jsonld"
+    },
+    "ExplanationOfBenefit.addItem.detailSequence": {
+      "@id": "fhir:ExplanationOfBenefit.addItem.detailSequence",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/positiveInt.context.jsonld"
+    },
+    "ExplanationOfBenefit.addItem.subDetailSequence": {
+      "@id": "fhir:ExplanationOfBenefit.addItem.subDetailSequence",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/positiveInt.context.jsonld"
+    },
+    "ExplanationOfBenefit.addItem.provider": {
+      "@id": "fhir:ExplanationOfBenefit.addItem.provider",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "ExplanationOfBenefit.addItem.productOrService": {
+      "@id": "fhir:ExplanationOfBenefit.addItem.productOrService",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "ExplanationOfBenefit.addItem.modifier": {
+      "@id": "fhir:ExplanationOfBenefit.addItem.modifier",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "ExplanationOfBenefit.addItem.programCode": {
+      "@id": "fhir:ExplanationOfBenefit.addItem.programCode",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "ExplanationOfBenefit.addItem.servicedDate": {
+      "@id": "fhir:ExplanationOfBenefit.addItem.servicedDate",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/date.context.jsonld"
+    },
+    "ExplanationOfBenefit.addItem.servicedPeriod": {
+      "@id": "fhir:ExplanationOfBenefit.addItem.servicedPeriod",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Period.context.jsonld"
+    },
+    "ExplanationOfBenefit.addItem.locationCodeableConcept": {
+      "@id": "fhir:ExplanationOfBenefit.addItem.locationCodeableConcept",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "ExplanationOfBenefit.addItem.locationAddress": {
+      "@id": "fhir:ExplanationOfBenefit.addItem.locationAddress",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Address.context.jsonld"
+    },
+    "ExplanationOfBenefit.addItem.locationReference": {
+      "@id": "fhir:ExplanationOfBenefit.addItem.locationReference",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "ExplanationOfBenefit.addItem.quantity": {
+      "@id": "fhir:ExplanationOfBenefit.addItem.quantity",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SimpleQuantity.context.jsonld"
+    },
+    "ExplanationOfBenefit.addItem.unitPrice": {
+      "@id": "fhir:ExplanationOfBenefit.addItem.unitPrice",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Money.context.jsonld"
+    },
+    "ExplanationOfBenefit.addItem.factor": {
+      "@id": "fhir:ExplanationOfBenefit.addItem.factor",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/decimal.context.jsonld"
+    },
+    "ExplanationOfBenefit.addItem.net": {
+      "@id": "fhir:ExplanationOfBenefit.addItem.net",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Money.context.jsonld"
+    },
+    "ExplanationOfBenefit.addItem.bodySite": {
+      "@id": "fhir:ExplanationOfBenefit.addItem.bodySite",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "ExplanationOfBenefit.addItem.subSite": {
+      "@id": "fhir:ExplanationOfBenefit.addItem.subSite",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "ExplanationOfBenefit.addItem.noteNumber": {
+      "@id": "fhir:ExplanationOfBenefit.addItem.noteNumber",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/positiveInt.context.jsonld"
+    },
+    "ExplanationOfBenefit.addItem.adjudication": {
+      "@id": "fhir:ExplanationOfBenefit.addItem.adjudication",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ExplanationOfBenefit.item.adjudication.context.jsonld"
+    },
+    "ExplanationOfBenefit.addItem.detail": {
+      "@id": "fhir:ExplanationOfBenefit.addItem.detail",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ExplanationOfBenefit.addItem.detail.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

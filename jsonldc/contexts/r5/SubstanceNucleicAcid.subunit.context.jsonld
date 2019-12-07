@@ -1,0 +1,57 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "BackboneElement.modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "SubstanceNucleicAcid.subunit.subunit": {
+      "@id": "fhir:SubstanceNucleicAcid.subunit.subunit",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/integer.context.jsonld"
+    },
+    "SubstanceNucleicAcid.subunit.sequence": {
+      "@id": "fhir:SubstanceNucleicAcid.subunit.sequence",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "SubstanceNucleicAcid.subunit.length": {
+      "@id": "fhir:SubstanceNucleicAcid.subunit.length",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/integer.context.jsonld"
+    },
+    "SubstanceNucleicAcid.subunit.sequenceAttachment": {
+      "@id": "fhir:SubstanceNucleicAcid.subunit.sequenceAttachment",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Attachment.context.jsonld"
+    },
+    "SubstanceNucleicAcid.subunit.fivePrime": {
+      "@id": "fhir:SubstanceNucleicAcid.subunit.fivePrime",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "SubstanceNucleicAcid.subunit.threePrime": {
+      "@id": "fhir:SubstanceNucleicAcid.subunit.threePrime",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "SubstanceNucleicAcid.subunit.linkage": {
+      "@id": "fhir:SubstanceNucleicAcid.subunit.linkage",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SubstanceNucleicAcid.subunit.linkage.context.jsonld"
+    },
+    "SubstanceNucleicAcid.subunit.sugar": {
+      "@id": "fhir:SubstanceNucleicAcid.subunit.sugar",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SubstanceNucleicAcid.subunit.sugar.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

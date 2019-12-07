@@ -1,0 +1,52 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "BackboneElement.modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "CapabilityStatement2.rest.resource.type": {
+      "@id": "fhir:CapabilityStatement2.rest.resource.type"
+    },
+    "CapabilityStatement2.rest.resource.profile": {
+      "@id": "fhir:CapabilityStatement2.rest.resource.profile",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/canonical.context.jsonld"
+    },
+    "CapabilityStatement2.rest.resource.supportedProfile": {
+      "@id": "fhir:CapabilityStatement2.rest.resource.supportedProfile",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/canonical.context.jsonld"
+    },
+    "CapabilityStatement2.rest.resource.documentation": {
+      "@id": "fhir:CapabilityStatement2.rest.resource.documentation",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/markdown.context.jsonld"
+    },
+    "CapabilityStatement2.rest.resource.interaction": {
+      "@id": "fhir:CapabilityStatement2.rest.resource.interaction",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CapabilityStatement2.rest.resource.interaction.context.jsonld"
+    },
+    "CapabilityStatement2.rest.resource.searchParam": {
+      "@id": "fhir:CapabilityStatement2.rest.resource.searchParam",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CapabilityStatement2.rest.resource.searchParam.context.jsonld"
+    },
+    "CapabilityStatement2.rest.resource.operation": {
+      "@id": "fhir:CapabilityStatement2.rest.resource.operation",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CapabilityStatement2.rest.resource.operation.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

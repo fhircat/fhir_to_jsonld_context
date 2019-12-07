@@ -1,0 +1,69 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "BackboneElement.modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "SubstanceDefinition.relationship.substanceDefinitionReference": {
+      "@id": "fhir:SubstanceDefinition.relationship.substanceDefinitionReference",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "SubstanceDefinition.relationship.substanceDefinitionCodeableConcept": {
+      "@id": "fhir:SubstanceDefinition.relationship.substanceDefinitionCodeableConcept",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "SubstanceDefinition.relationship.type": {
+      "@id": "fhir:SubstanceDefinition.relationship.type",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "SubstanceDefinition.relationship.isDefining": {
+      "@id": "fhir:SubstanceDefinition.relationship.isDefining",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+    },
+    "SubstanceDefinition.relationship.amountQuantity": {
+      "@id": "fhir:SubstanceDefinition.relationship.amountQuantity",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Quantity.context.jsonld"
+    },
+    "SubstanceDefinition.relationship.amountRange": {
+      "@id": "fhir:SubstanceDefinition.relationship.amountRange",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Range.context.jsonld"
+    },
+    "SubstanceDefinition.relationship.amountRatio": {
+      "@id": "fhir:SubstanceDefinition.relationship.amountRatio",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Ratio.context.jsonld"
+    },
+    "SubstanceDefinition.relationship.amountString": {
+      "@id": "fhir:SubstanceDefinition.relationship.amountString",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "SubstanceDefinition.relationship.amountRatioHighLimit": {
+      "@id": "fhir:SubstanceDefinition.relationship.amountRatioHighLimit",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Ratio.context.jsonld"
+    },
+    "SubstanceDefinition.relationship.amountType": {
+      "@id": "fhir:SubstanceDefinition.relationship.amountType",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "SubstanceDefinition.relationship.source": {
+      "@id": "fhir:SubstanceDefinition.relationship.source",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

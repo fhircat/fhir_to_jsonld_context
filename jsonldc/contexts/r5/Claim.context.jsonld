@@ -1,0 +1,155 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Meta.context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code.context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Narrative.context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Resource.context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "Claim.identifier": {
+      "@id": "fhir:Claim.identifier",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+    },
+    "Claim.status": {
+      "@id": "fhir:Claim.status"
+    },
+    "Claim.type": {
+      "@id": "fhir:Claim.type",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "Claim.subType": {
+      "@id": "fhir:Claim.subType",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "Claim.use": {
+      "@id": "fhir:Claim.use"
+    },
+    "Claim.patient": {
+      "@id": "fhir:Claim.patient",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "Claim.billablePeriod": {
+      "@id": "fhir:Claim.billablePeriod",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Period.context.jsonld"
+    },
+    "Claim.created": {
+      "@id": "fhir:Claim.created",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+    },
+    "Claim.enterer": {
+      "@id": "fhir:Claim.enterer",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "Claim.insurer": {
+      "@id": "fhir:Claim.insurer",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "Claim.provider": {
+      "@id": "fhir:Claim.provider",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "Claim.priority": {
+      "@id": "fhir:Claim.priority",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "Claim.fundsReserve": {
+      "@id": "fhir:Claim.fundsReserve",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "Claim.related": {
+      "@id": "fhir:Claim.related",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Claim.related.context.jsonld"
+    },
+    "Claim.prescription": {
+      "@id": "fhir:Claim.prescription",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "Claim.originalPrescription": {
+      "@id": "fhir:Claim.originalPrescription",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "Claim.payee": {
+      "@id": "fhir:Claim.payee",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Claim.payee.context.jsonld"
+    },
+    "Claim.referral": {
+      "@id": "fhir:Claim.referral",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "Claim.facility": {
+      "@id": "fhir:Claim.facility",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "Claim.careTeam": {
+      "@id": "fhir:Claim.careTeam",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Claim.careTeam.context.jsonld"
+    },
+    "Claim.supportingInfo": {
+      "@id": "fhir:Claim.supportingInfo",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Claim.supportingInfo.context.jsonld"
+    },
+    "Claim.diagnosis": {
+      "@id": "fhir:Claim.diagnosis",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Claim.diagnosis.context.jsonld"
+    },
+    "Claim.procedure": {
+      "@id": "fhir:Claim.procedure",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Claim.procedure.context.jsonld"
+    },
+    "Claim.insurance": {
+      "@id": "fhir:Claim.insurance",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Claim.insurance.context.jsonld"
+    },
+    "Claim.accident": {
+      "@id": "fhir:Claim.accident",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Claim.accident.context.jsonld"
+    },
+    "Claim.item": {
+      "@id": "fhir:Claim.item",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Claim.item.context.jsonld"
+    },
+    "Claim.total": {
+      "@id": "fhir:Claim.total",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Money.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

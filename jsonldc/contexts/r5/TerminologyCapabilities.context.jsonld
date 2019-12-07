@@ -1,0 +1,142 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Meta.context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code.context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Narrative.context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Resource.context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "TerminologyCapabilities.url": {
+      "@id": "fhir:TerminologyCapabilities.url",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "TerminologyCapabilities.version": {
+      "@id": "fhir:TerminologyCapabilities.version",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "TerminologyCapabilities.name": {
+      "@id": "fhir:TerminologyCapabilities.name",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "TerminologyCapabilities.title": {
+      "@id": "fhir:TerminologyCapabilities.title",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "TerminologyCapabilities.status": {
+      "@id": "fhir:TerminologyCapabilities.status"
+    },
+    "TerminologyCapabilities.experimental": {
+      "@id": "fhir:TerminologyCapabilities.experimental",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+    },
+    "TerminologyCapabilities.date": {
+      "@id": "fhir:TerminologyCapabilities.date",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+    },
+    "TerminologyCapabilities.publisher": {
+      "@id": "fhir:TerminologyCapabilities.publisher",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "TerminologyCapabilities.contact": {
+      "@id": "fhir:TerminologyCapabilities.contact",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ContactDetail.context.jsonld"
+    },
+    "TerminologyCapabilities.description": {
+      "@id": "fhir:TerminologyCapabilities.description",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/markdown.context.jsonld"
+    },
+    "TerminologyCapabilities.useContext": {
+      "@id": "fhir:TerminologyCapabilities.useContext",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/UsageContext.context.jsonld"
+    },
+    "TerminologyCapabilities.jurisdiction": {
+      "@id": "fhir:TerminologyCapabilities.jurisdiction",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "TerminologyCapabilities.purpose": {
+      "@id": "fhir:TerminologyCapabilities.purpose",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/markdown.context.jsonld"
+    },
+    "TerminologyCapabilities.copyright": {
+      "@id": "fhir:TerminologyCapabilities.copyright",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/markdown.context.jsonld"
+    },
+    "TerminologyCapabilities.kind": {
+      "@id": "fhir:TerminologyCapabilities.kind"
+    },
+    "TerminologyCapabilities.software": {
+      "@id": "fhir:TerminologyCapabilities.software",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/TerminologyCapabilities.software.context.jsonld"
+    },
+    "TerminologyCapabilities.implementation": {
+      "@id": "fhir:TerminologyCapabilities.implementation",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/TerminologyCapabilities.implementation.context.jsonld"
+    },
+    "TerminologyCapabilities.lockedDate": {
+      "@id": "fhir:TerminologyCapabilities.lockedDate",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+    },
+    "TerminologyCapabilities.codeSystem": {
+      "@id": "fhir:TerminologyCapabilities.codeSystem",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/TerminologyCapabilities.codeSystem.context.jsonld"
+    },
+    "TerminologyCapabilities.expansion": {
+      "@id": "fhir:TerminologyCapabilities.expansion",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/TerminologyCapabilities.expansion.context.jsonld"
+    },
+    "TerminologyCapabilities.codeSearch": {
+      "@id": "fhir:TerminologyCapabilities.codeSearch"
+    },
+    "TerminologyCapabilities.validateCode": {
+      "@id": "fhir:TerminologyCapabilities.validateCode",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/TerminologyCapabilities.validateCode.context.jsonld"
+    },
+    "TerminologyCapabilities.translation": {
+      "@id": "fhir:TerminologyCapabilities.translation",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/TerminologyCapabilities.translation.context.jsonld"
+    },
+    "TerminologyCapabilities.closure": {
+      "@id": "fhir:TerminologyCapabilities.closure",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/TerminologyCapabilities.closure.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

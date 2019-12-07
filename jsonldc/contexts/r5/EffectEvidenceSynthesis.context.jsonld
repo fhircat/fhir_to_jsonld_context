@@ -1,0 +1,180 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "Resource.id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Resource.meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Meta.context.jsonld"
+    },
+    "Resource.implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "Resource.language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code.context.jsonld"
+    },
+    "DomainResource.text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Narrative.context.jsonld"
+    },
+    "DomainResource.contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Resource.context.jsonld"
+    },
+    "DomainResource.extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "DomainResource.modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "EffectEvidenceSynthesis.url": {
+      "@id": "fhir:EffectEvidenceSynthesis.url",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+    },
+    "EffectEvidenceSynthesis.identifier": {
+      "@id": "fhir:EffectEvidenceSynthesis.identifier",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+    },
+    "EffectEvidenceSynthesis.version": {
+      "@id": "fhir:EffectEvidenceSynthesis.version",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "EffectEvidenceSynthesis.name": {
+      "@id": "fhir:EffectEvidenceSynthesis.name",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "EffectEvidenceSynthesis.title": {
+      "@id": "fhir:EffectEvidenceSynthesis.title",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "EffectEvidenceSynthesis.status": {
+      "@id": "fhir:EffectEvidenceSynthesis.status"
+    },
+    "EffectEvidenceSynthesis.date": {
+      "@id": "fhir:EffectEvidenceSynthesis.date",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+    },
+    "EffectEvidenceSynthesis.publisher": {
+      "@id": "fhir:EffectEvidenceSynthesis.publisher",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "EffectEvidenceSynthesis.contact": {
+      "@id": "fhir:EffectEvidenceSynthesis.contact",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ContactDetail.context.jsonld"
+    },
+    "EffectEvidenceSynthesis.description": {
+      "@id": "fhir:EffectEvidenceSynthesis.description",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/markdown.context.jsonld"
+    },
+    "EffectEvidenceSynthesis.note": {
+      "@id": "fhir:EffectEvidenceSynthesis.note",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Annotation.context.jsonld"
+    },
+    "EffectEvidenceSynthesis.useContext": {
+      "@id": "fhir:EffectEvidenceSynthesis.useContext",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/UsageContext.context.jsonld"
+    },
+    "EffectEvidenceSynthesis.jurisdiction": {
+      "@id": "fhir:EffectEvidenceSynthesis.jurisdiction",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "EffectEvidenceSynthesis.copyright": {
+      "@id": "fhir:EffectEvidenceSynthesis.copyright",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/markdown.context.jsonld"
+    },
+    "EffectEvidenceSynthesis.approvalDate": {
+      "@id": "fhir:EffectEvidenceSynthesis.approvalDate",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/date.context.jsonld"
+    },
+    "EffectEvidenceSynthesis.lastReviewDate": {
+      "@id": "fhir:EffectEvidenceSynthesis.lastReviewDate",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/date.context.jsonld"
+    },
+    "EffectEvidenceSynthesis.effectivePeriod": {
+      "@id": "fhir:EffectEvidenceSynthesis.effectivePeriod",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Period.context.jsonld"
+    },
+    "EffectEvidenceSynthesis.topic": {
+      "@id": "fhir:EffectEvidenceSynthesis.topic",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "EffectEvidenceSynthesis.author": {
+      "@id": "fhir:EffectEvidenceSynthesis.author",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ContactDetail.context.jsonld"
+    },
+    "EffectEvidenceSynthesis.editor": {
+      "@id": "fhir:EffectEvidenceSynthesis.editor",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ContactDetail.context.jsonld"
+    },
+    "EffectEvidenceSynthesis.reviewer": {
+      "@id": "fhir:EffectEvidenceSynthesis.reviewer",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ContactDetail.context.jsonld"
+    },
+    "EffectEvidenceSynthesis.endorser": {
+      "@id": "fhir:EffectEvidenceSynthesis.endorser",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ContactDetail.context.jsonld"
+    },
+    "EffectEvidenceSynthesis.relatedArtifact": {
+      "@id": "fhir:EffectEvidenceSynthesis.relatedArtifact",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/RelatedArtifact.context.jsonld"
+    },
+    "EffectEvidenceSynthesis.synthesisType": {
+      "@id": "fhir:EffectEvidenceSynthesis.synthesisType",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "EffectEvidenceSynthesis.studyType": {
+      "@id": "fhir:EffectEvidenceSynthesis.studyType",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "EffectEvidenceSynthesis.population": {
+      "@id": "fhir:EffectEvidenceSynthesis.population",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "EffectEvidenceSynthesis.exposure": {
+      "@id": "fhir:EffectEvidenceSynthesis.exposure",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "EffectEvidenceSynthesis.exposureAlternative": {
+      "@id": "fhir:EffectEvidenceSynthesis.exposureAlternative",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "EffectEvidenceSynthesis.outcome": {
+      "@id": "fhir:EffectEvidenceSynthesis.outcome",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+    },
+    "EffectEvidenceSynthesis.sampleSize": {
+      "@id": "fhir:EffectEvidenceSynthesis.sampleSize",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/EffectEvidenceSynthesis.sampleSize.context.jsonld"
+    },
+    "EffectEvidenceSynthesis.resultsByExposure": {
+      "@id": "fhir:EffectEvidenceSynthesis.resultsByExposure",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/EffectEvidenceSynthesis.resultsByExposure.context.jsonld"
+    },
+    "EffectEvidenceSynthesis.effectEstimate": {
+      "@id": "fhir:EffectEvidenceSynthesis.effectEstimate",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/EffectEvidenceSynthesis.effectEstimate.context.jsonld"
+    },
+    "EffectEvidenceSynthesis.certainty": {
+      "@id": "fhir:EffectEvidenceSynthesis.certainty",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/EffectEvidenceSynthesis.certainty.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

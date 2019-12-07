@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "Element.id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Element.extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+    },
+    "Statistic.attributeEstimate.description": {
+      "@id": "fhir:Statistic.attributeEstimate.description",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+    },
+    "Statistic.attributeEstimate.note": {
+      "@id": "fhir:Statistic.attributeEstimate.note",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Annotation.context.jsonld"
+    },
+    "Statistic.attributeEstimate.type": {
+      "@id": "fhir:Statistic.attributeEstimate.type",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+    },
+    "Statistic.attributeEstimate.quantity": {
+      "@id": "fhir:Statistic.attributeEstimate.quantity",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Quantity.context.jsonld"
+    },
+    "Statistic.attributeEstimate.level": {
+      "@id": "fhir:Statistic.attributeEstimate.level",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/decimal.context.jsonld"
+    },
+    "Statistic.attributeEstimate.range": {
+      "@id": "fhir:Statistic.attributeEstimate.range",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Range.context.jsonld"
+    },
+    "Statistic.attributeEstimate.estimateQualifier": {
+      "@id": "fhir:Statistic.attributeEstimate.estimateQualifier",
+      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Statistic.attributeEstimate.estimateQualifier.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}
