@@ -1,0 +1,144 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:Encounter.identifier",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:Encounter.status"
+    },
+    "statusHistory": {
+      "@id": "fhir:Encounter.statusHistory",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Encounter.statusHistory.context.jsonld"
+    },
+    "class": {
+      "@id": "fhir:Encounter.class",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Coding.context.jsonld"
+    },
+    "classHistory": {
+      "@id": "fhir:Encounter.classHistory",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Encounter.classHistory.context.jsonld"
+    },
+    "type": {
+      "@id": "fhir:Encounter.type",
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+    },
+    "serviceType": {
+      "@id": "fhir:Encounter.serviceType",
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+    },
+    "priority": {
+      "@id": "fhir:Encounter.priority",
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+    },
+    "subject": {
+      "@id": "fhir:Encounter.subject",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+    },
+    "subjectStatus": {
+      "@id": "fhir:Encounter.subjectStatus",
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+    },
+    "episodeOfCare": {
+      "@id": "fhir:Encounter.episodeOfCare",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+    },
+    "basedOn": {
+      "@id": "fhir:Encounter.basedOn",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+    },
+    "participant": {
+      "@id": "fhir:Encounter.participant",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Encounter.participant.context.jsonld"
+    },
+    "appointment": {
+      "@id": "fhir:Encounter.appointment",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+    },
+    "period": {
+      "@id": "fhir:Encounter.period",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
+    },
+    "length": {
+      "@id": "fhir:Encounter.length",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Duration.context.jsonld"
+    },
+    "reasonCode": {
+      "@id": "fhir:Encounter.reasonCode",
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+    },
+    "reasonReference": {
+      "@id": "fhir:Encounter.reasonReference",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+    },
+    "diagnosis": {
+      "@id": "fhir:Encounter.diagnosis",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Encounter.diagnosis.context.jsonld"
+    },
+    "account": {
+      "@id": "fhir:Encounter.account",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+    },
+    "hospitalization": {
+      "@id": "fhir:Encounter.hospitalization",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Encounter.hospitalization.context.jsonld"
+    },
+    "location": {
+      "@id": "fhir:Encounter.location",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Encounter.location.context.jsonld"
+    },
+    "serviceProvider": {
+      "@id": "fhir:Encounter.serviceProvider",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+    },
+    "partOf": {
+      "@id": "fhir:Encounter.partOf",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}
