@@ -1,61 +1,61 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "Element.id": {
+    "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Element.extension": {
+    "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "BackboneElement.modifierExtension": {
+    "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "PackagedProductDefinition.package.identifier": {
+    "identifier": {
       "@id": "fhir:PackagedProductDefinition.package.identifier",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
     },
-    "PackagedProductDefinition.package.type": {
+    "type": {
       "@id": "fhir:PackagedProductDefinition.package.type",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "PackagedProductDefinition.package.quantity": {
+    "quantity": {
       "@id": "fhir:PackagedProductDefinition.package.quantity",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Quantity.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Quantity.context.jsonld"
     },
-    "PackagedProductDefinition.package.material": {
+    "material": {
       "@id": "fhir:PackagedProductDefinition.package.material",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "PackagedProductDefinition.package.alternateMaterial": {
+    "alternateMaterial": {
       "@id": "fhir:PackagedProductDefinition.package.alternateMaterial",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "PackagedProductDefinition.package.shelfLifeStorage": {
+    "shelfLifeStorage": {
       "@id": "fhir:PackagedProductDefinition.package.shelfLifeStorage",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ProductShelfLife.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/ProductShelfLife.context.jsonld"
     },
-    "PackagedProductDefinition.package.manufacturer": {
+    "manufacturer": {
       "@id": "fhir:PackagedProductDefinition.package.manufacturer",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "PackagedProductDefinition.package.characteristic": {
+    "characteristic": {
       "@id": "fhir:PackagedProductDefinition.package.characteristic",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/PackagedProductDefinition.package.characteristic.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/PackagedProductDefinition.package.characteristic.context.jsonld"
     },
-    "PackagedProductDefinition.package.containedItem": {
+    "containedItem": {
       "@id": "fhir:PackagedProductDefinition.package.containedItem",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/PackagedProductDefinition.package.containedItem.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/PackagedProductDefinition.package.containedItem.context.jsonld"
     },
-    "PackagedProductDefinition.package.package": {
+    "package": {
       "@id": "fhir:PackagedProductDefinition.package.package",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/PackagedProductDefinition.package.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/PackagedProductDefinition.package.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

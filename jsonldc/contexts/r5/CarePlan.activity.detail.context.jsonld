@@ -1,107 +1,107 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "Element.id": {
+    "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Element.extension": {
+    "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "BackboneElement.modifierExtension": {
+    "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "CarePlan.activity.detail.kind": {
+    "kind": {
       "@id": "fhir:CarePlan.activity.detail.kind"
     },
-    "CarePlan.activity.detail.instantiatesCanonical": {
+    "instantiatesCanonical": {
       "@id": "fhir:CarePlan.activity.detail.instantiatesCanonical",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/canonical.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/canonical.context.jsonld"
     },
-    "CarePlan.activity.detail.instantiatesUri": {
+    "instantiatesUri": {
       "@id": "fhir:CarePlan.activity.detail.instantiatesUri",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
     },
-    "CarePlan.activity.detail.code": {
+    "code": {
       "@id": "fhir:CarePlan.activity.detail.code",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "CarePlan.activity.detail.reasonCode": {
+    "reasonCode": {
       "@id": "fhir:CarePlan.activity.detail.reasonCode",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "CarePlan.activity.detail.reasonReference": {
+    "reasonReference": {
       "@id": "fhir:CarePlan.activity.detail.reasonReference",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "CarePlan.activity.detail.goal": {
+    "goal": {
       "@id": "fhir:CarePlan.activity.detail.goal",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "CarePlan.activity.detail.status": {
+    "status": {
       "@id": "fhir:CarePlan.activity.detail.status"
     },
-    "CarePlan.activity.detail.statusReason": {
+    "statusReason": {
       "@id": "fhir:CarePlan.activity.detail.statusReason",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "CarePlan.activity.detail.doNotPerform": {
+    "doNotPerform": {
       "@id": "fhir:CarePlan.activity.detail.doNotPerform",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
     },
-    "CarePlan.activity.detail.scheduledTiming": {
+    "scheduledTiming": {
       "@id": "fhir:CarePlan.activity.detail.scheduledTiming",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Timing.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Timing.context.jsonld"
     },
-    "CarePlan.activity.detail.scheduledPeriod": {
+    "scheduledPeriod": {
       "@id": "fhir:CarePlan.activity.detail.scheduledPeriod",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Period.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
     },
-    "CarePlan.activity.detail.scheduledString": {
+    "scheduledString": {
       "@id": "fhir:CarePlan.activity.detail.scheduledString",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "CarePlan.activity.detail.location": {
+    "location": {
       "@id": "fhir:CarePlan.activity.detail.location",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "CarePlan.activity.detail.reportedBoolean": {
+    "reportedBoolean": {
       "@id": "fhir:CarePlan.activity.detail.reportedBoolean",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
     },
-    "CarePlan.activity.detail.reportedReference": {
+    "reportedReference": {
       "@id": "fhir:CarePlan.activity.detail.reportedReference",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "CarePlan.activity.detail.performer": {
+    "performer": {
       "@id": "fhir:CarePlan.activity.detail.performer",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "CarePlan.activity.detail.productCodeableConcept": {
+    "productCodeableConcept": {
       "@id": "fhir:CarePlan.activity.detail.productCodeableConcept",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "CarePlan.activity.detail.productReference": {
+    "productReference": {
       "@id": "fhir:CarePlan.activity.detail.productReference",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "CarePlan.activity.detail.dailyAmount": {
+    "dailyAmount": {
       "@id": "fhir:CarePlan.activity.detail.dailyAmount",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SimpleQuantity.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/SimpleQuantity.context.jsonld"
     },
-    "CarePlan.activity.detail.quantity": {
+    "quantity": {
       "@id": "fhir:CarePlan.activity.detail.quantity",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SimpleQuantity.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/SimpleQuantity.context.jsonld"
     },
-    "CarePlan.activity.detail.description": {
+    "description": {
       "@id": "fhir:CarePlan.activity.detail.description",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

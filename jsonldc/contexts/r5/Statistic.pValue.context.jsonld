@@ -1,41 +1,41 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "Element.id": {
+    "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Element.extension": {
+    "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "BackboneElement.modifierExtension": {
+    "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "Statistic.pValue.description": {
+    "description": {
       "@id": "fhir:Statistic.pValue.description",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Statistic.pValue.note": {
+    "note": {
       "@id": "fhir:Statistic.pValue.note",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Annotation.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Annotation.context.jsonld"
     },
-    "Statistic.pValue.type": {
+    "type": {
       "@id": "fhir:Statistic.pValue.type",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "Statistic.pValue.quantity": {
+    "quantity": {
       "@id": "fhir:Statistic.pValue.quantity",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Quantity.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Quantity.context.jsonld"
     },
-    "Statistic.pValue.range": {
+    "range": {
       "@id": "fhir:Statistic.pValue.range",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Range.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Range.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

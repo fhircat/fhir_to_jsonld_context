@@ -1,81 +1,81 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "Element.id": {
+    "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Element.extension": {
+    "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "Timing.repeat.boundsDuration": {
+    "boundsDuration": {
       "@id": "fhir:Timing.repeat.boundsDuration",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Duration.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Duration.context.jsonld"
     },
-    "Timing.repeat.boundsRange": {
+    "boundsRange": {
       "@id": "fhir:Timing.repeat.boundsRange",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Range.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Range.context.jsonld"
     },
-    "Timing.repeat.boundsPeriod": {
+    "boundsPeriod": {
       "@id": "fhir:Timing.repeat.boundsPeriod",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Period.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
     },
-    "Timing.repeat.count": {
+    "count": {
       "@id": "fhir:Timing.repeat.count",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/positiveInt.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/positiveInt.context.jsonld"
     },
-    "Timing.repeat.countMax": {
+    "countMax": {
       "@id": "fhir:Timing.repeat.countMax",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/positiveInt.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/positiveInt.context.jsonld"
     },
-    "Timing.repeat.duration": {
+    "duration": {
       "@id": "fhir:Timing.repeat.duration",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/decimal.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/decimal.context.jsonld"
     },
-    "Timing.repeat.durationMax": {
+    "durationMax": {
       "@id": "fhir:Timing.repeat.durationMax",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/decimal.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/decimal.context.jsonld"
     },
-    "Timing.repeat.durationUnit": {
+    "durationUnit": {
       "@id": "fhir:Timing.repeat.durationUnit"
     },
-    "Timing.repeat.frequency": {
+    "frequency": {
       "@id": "fhir:Timing.repeat.frequency",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/positiveInt.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/positiveInt.context.jsonld"
     },
-    "Timing.repeat.frequencyMax": {
+    "frequencyMax": {
       "@id": "fhir:Timing.repeat.frequencyMax",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/positiveInt.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/positiveInt.context.jsonld"
     },
-    "Timing.repeat.period": {
+    "period": {
       "@id": "fhir:Timing.repeat.period",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/decimal.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/decimal.context.jsonld"
     },
-    "Timing.repeat.periodMax": {
+    "periodMax": {
       "@id": "fhir:Timing.repeat.periodMax",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/decimal.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/decimal.context.jsonld"
     },
-    "Timing.repeat.periodUnit": {
+    "periodUnit": {
       "@id": "fhir:Timing.repeat.periodUnit"
     },
-    "Timing.repeat.dayOfWeek": {
+    "dayOfWeek": {
       "@id": "fhir:Timing.repeat.dayOfWeek"
     },
-    "Timing.repeat.timeOfDay": {
+    "timeOfDay": {
       "@id": "fhir:Timing.repeat.timeOfDay",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/time.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/time.context.jsonld"
     },
-    "Timing.repeat.when": {
+    "when": {
       "@id": "fhir:Timing.repeat.when"
     },
-    "Timing.repeat.offset": {
+    "offset": {
       "@id": "fhir:Timing.repeat.offset",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/unsignedInt.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/unsignedInt.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

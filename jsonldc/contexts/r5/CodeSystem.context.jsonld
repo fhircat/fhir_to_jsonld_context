@@ -1,7 +1,7 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
@@ -9,138 +9,138 @@
       "@id": "rdf:type",
       "@type": "@id"
     },
-    "Resource.id": {
+    "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Resource.meta": {
+    "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Meta.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
     },
-    "Resource.implicitRules": {
+    "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
     },
-    "Resource.language": {
+    "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
     },
-    "DomainResource.text": {
+    "text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Narrative.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
     },
-    "DomainResource.contained": {
+    "contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Resource.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
     },
-    "DomainResource.extension": {
+    "extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "DomainResource.modifierExtension": {
+    "modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "CodeSystem.url": {
+    "url": {
       "@id": "fhir:CodeSystem.url",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
     },
-    "CodeSystem.identifier": {
+    "identifier": {
       "@id": "fhir:CodeSystem.identifier",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
     },
-    "CodeSystem.version": {
+    "version": {
       "@id": "fhir:CodeSystem.version",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "CodeSystem.name": {
+    "name": {
       "@id": "fhir:CodeSystem.name",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "CodeSystem.title": {
+    "title": {
       "@id": "fhir:CodeSystem.title",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "CodeSystem.status": {
+    "status": {
       "@id": "fhir:CodeSystem.status"
     },
-    "CodeSystem.experimental": {
+    "experimental": {
       "@id": "fhir:CodeSystem.experimental",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
     },
-    "CodeSystem.date": {
+    "date": {
       "@id": "fhir:CodeSystem.date",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
     },
-    "CodeSystem.publisher": {
+    "publisher": {
       "@id": "fhir:CodeSystem.publisher",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "CodeSystem.contact": {
+    "contact": {
       "@id": "fhir:CodeSystem.contact",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ContactDetail.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/ContactDetail.context.jsonld"
     },
-    "CodeSystem.description": {
+    "description": {
       "@id": "fhir:CodeSystem.description",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/markdown.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
     },
-    "CodeSystem.useContext": {
+    "useContext": {
       "@id": "fhir:CodeSystem.useContext",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/UsageContext.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/UsageContext.context.jsonld"
     },
-    "CodeSystem.jurisdiction": {
+    "jurisdiction": {
       "@id": "fhir:CodeSystem.jurisdiction",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "CodeSystem.purpose": {
+    "purpose": {
       "@id": "fhir:CodeSystem.purpose",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/markdown.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
     },
-    "CodeSystem.copyright": {
+    "copyright": {
       "@id": "fhir:CodeSystem.copyright",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/markdown.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
     },
-    "CodeSystem.caseSensitive": {
+    "caseSensitive": {
       "@id": "fhir:CodeSystem.caseSensitive",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
     },
-    "CodeSystem.valueSet": {
+    "valueSet": {
       "@id": "fhir:CodeSystem.valueSet",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/canonical.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/canonical.context.jsonld"
     },
-    "CodeSystem.hierarchyMeaning": {
+    "hierarchyMeaning": {
       "@id": "fhir:CodeSystem.hierarchyMeaning"
     },
-    "CodeSystem.compositional": {
+    "compositional": {
       "@id": "fhir:CodeSystem.compositional",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
     },
-    "CodeSystem.versionNeeded": {
+    "versionNeeded": {
       "@id": "fhir:CodeSystem.versionNeeded",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
     },
-    "CodeSystem.content": {
+    "content": {
       "@id": "fhir:CodeSystem.content"
     },
-    "CodeSystem.supplements": {
+    "supplements": {
       "@id": "fhir:CodeSystem.supplements",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/canonical.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/canonical.context.jsonld"
     },
-    "CodeSystem.count": {
+    "count": {
       "@id": "fhir:CodeSystem.count",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/unsignedInt.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/unsignedInt.context.jsonld"
     },
-    "CodeSystem.filter": {
+    "filter": {
       "@id": "fhir:CodeSystem.filter",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeSystem.filter.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeSystem.filter.context.jsonld"
     },
-    "CodeSystem.property": {
+    "property": {
       "@id": "fhir:CodeSystem.property",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeSystem.property.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeSystem.property.context.jsonld"
     },
-    "CodeSystem.concept": {
+    "concept": {
       "@id": "fhir:CodeSystem.concept",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeSystem.concept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeSystem.concept.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

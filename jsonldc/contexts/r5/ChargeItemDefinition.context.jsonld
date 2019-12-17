@@ -1,7 +1,7 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
@@ -9,128 +9,128 @@
       "@id": "rdf:type",
       "@type": "@id"
     },
-    "Resource.id": {
+    "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Resource.meta": {
+    "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Meta.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
     },
-    "Resource.implicitRules": {
+    "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
     },
-    "Resource.language": {
+    "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
     },
-    "DomainResource.text": {
+    "text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Narrative.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
     },
-    "DomainResource.contained": {
+    "contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Resource.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
     },
-    "DomainResource.extension": {
+    "extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "DomainResource.modifierExtension": {
+    "modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "ChargeItemDefinition.url": {
+    "url": {
       "@id": "fhir:ChargeItemDefinition.url",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
     },
-    "ChargeItemDefinition.identifier": {
+    "identifier": {
       "@id": "fhir:ChargeItemDefinition.identifier",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
     },
-    "ChargeItemDefinition.version": {
+    "version": {
       "@id": "fhir:ChargeItemDefinition.version",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "ChargeItemDefinition.title": {
+    "title": {
       "@id": "fhir:ChargeItemDefinition.title",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "ChargeItemDefinition.derivedFromUri": {
+    "derivedFromUri": {
       "@id": "fhir:ChargeItemDefinition.derivedFromUri",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
     },
-    "ChargeItemDefinition.partOf": {
+    "partOf": {
       "@id": "fhir:ChargeItemDefinition.partOf",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/canonical.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/canonical.context.jsonld"
     },
-    "ChargeItemDefinition.replaces": {
+    "replaces": {
       "@id": "fhir:ChargeItemDefinition.replaces",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/canonical.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/canonical.context.jsonld"
     },
-    "ChargeItemDefinition.status": {
+    "status": {
       "@id": "fhir:ChargeItemDefinition.status"
     },
-    "ChargeItemDefinition.experimental": {
+    "experimental": {
       "@id": "fhir:ChargeItemDefinition.experimental",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
     },
-    "ChargeItemDefinition.date": {
+    "date": {
       "@id": "fhir:ChargeItemDefinition.date",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
     },
-    "ChargeItemDefinition.publisher": {
+    "publisher": {
       "@id": "fhir:ChargeItemDefinition.publisher",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "ChargeItemDefinition.contact": {
+    "contact": {
       "@id": "fhir:ChargeItemDefinition.contact",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ContactDetail.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/ContactDetail.context.jsonld"
     },
-    "ChargeItemDefinition.description": {
+    "description": {
       "@id": "fhir:ChargeItemDefinition.description",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/markdown.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
     },
-    "ChargeItemDefinition.useContext": {
+    "useContext": {
       "@id": "fhir:ChargeItemDefinition.useContext",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/UsageContext.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/UsageContext.context.jsonld"
     },
-    "ChargeItemDefinition.jurisdiction": {
+    "jurisdiction": {
       "@id": "fhir:ChargeItemDefinition.jurisdiction",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "ChargeItemDefinition.copyright": {
+    "copyright": {
       "@id": "fhir:ChargeItemDefinition.copyright",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/markdown.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
     },
-    "ChargeItemDefinition.approvalDate": {
+    "approvalDate": {
       "@id": "fhir:ChargeItemDefinition.approvalDate",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/date.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/date.context.jsonld"
     },
-    "ChargeItemDefinition.lastReviewDate": {
+    "lastReviewDate": {
       "@id": "fhir:ChargeItemDefinition.lastReviewDate",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/date.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/date.context.jsonld"
     },
-    "ChargeItemDefinition.effectivePeriod": {
+    "effectivePeriod": {
       "@id": "fhir:ChargeItemDefinition.effectivePeriod",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Period.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
     },
-    "ChargeItemDefinition.code": {
+    "code": {
       "@id": "fhir:ChargeItemDefinition.code",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "ChargeItemDefinition.instance": {
+    "instance": {
       "@id": "fhir:ChargeItemDefinition.instance",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "ChargeItemDefinition.applicability": {
+    "applicability": {
       "@id": "fhir:ChargeItemDefinition.applicability",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ChargeItemDefinition.applicability.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/ChargeItemDefinition.applicability.context.jsonld"
     },
-    "ChargeItemDefinition.propertyGroup": {
+    "propertyGroup": {
       "@id": "fhir:ChargeItemDefinition.propertyGroup",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ChargeItemDefinition.propertyGroup.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/ChargeItemDefinition.propertyGroup.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

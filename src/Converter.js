@@ -11,7 +11,7 @@ export default class Converter {
         const ret = {
             '@context': Object.assign({
                 '@version': 1.1,
-                '@vocab': 'http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#',
+                '@vocab': 'http://example.com/UNKNOWN#',
                 'xsd': 'http://www.w3.org/2001/XMLSchema#' ,
                 'fhir': 'http://hl7.org/fhir/',
                 'rdf': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#',
@@ -38,12 +38,15 @@ export default class Converter {
             case 'EachOf':
                 return Object.assign.apply({}, expr.expressions.map(e => this.visit(e)))
             case 'TripleConstraint':
-                const {id, attr} = shorten(expr.predicate)
+                let {id, attr} = shorten(expr.predicate)
                 if (id === 'fhir:nodeRole')
                     return {}
                 if (id === 'rdf:type')
                     return { "resourceType": { "@id": "rdf:type" , "@type": "@id" } }
                 const ret = { }
+                if (typeof(attr) !== 'undefined') {
+                    attr = attr.split('.').pop() // Convert "Resource.property" to "property"
+                }
                 ret[attr] = { '@id': id }
                 if (expr.predicate !== Ns_rdf + 'type' /* || typeof expr.valueExpr === 'string' */) {
                     // if (expr.valueExpr.match(DTRegExp))

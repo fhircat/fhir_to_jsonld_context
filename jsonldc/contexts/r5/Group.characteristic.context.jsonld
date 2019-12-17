@@ -1,53 +1,53 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "Element.id": {
+    "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Element.extension": {
+    "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "BackboneElement.modifierExtension": {
+    "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "Group.characteristic.code": {
+    "code": {
       "@id": "fhir:Group.characteristic.code",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "Group.characteristic.valueCodeableConcept": {
+    "valueCodeableConcept": {
       "@id": "fhir:Group.characteristic.valueCodeableConcept",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "Group.characteristic.valueBoolean": {
+    "valueBoolean": {
       "@id": "fhir:Group.characteristic.valueBoolean",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
     },
-    "Group.characteristic.valueQuantity": {
+    "valueQuantity": {
       "@id": "fhir:Group.characteristic.valueQuantity",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Quantity.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Quantity.context.jsonld"
     },
-    "Group.characteristic.valueRange": {
+    "valueRange": {
       "@id": "fhir:Group.characteristic.valueRange",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Range.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Range.context.jsonld"
     },
-    "Group.characteristic.valueReference": {
+    "valueReference": {
       "@id": "fhir:Group.characteristic.valueReference",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "Group.characteristic.exclude": {
+    "exclude": {
       "@id": "fhir:Group.characteristic.exclude",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
     },
-    "Group.characteristic.period": {
+    "period": {
       "@id": "fhir:Group.characteristic.period",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Period.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

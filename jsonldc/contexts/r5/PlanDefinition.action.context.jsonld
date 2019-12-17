@@ -1,151 +1,151 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "Element.id": {
+    "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Element.extension": {
+    "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "BackboneElement.modifierExtension": {
+    "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "PlanDefinition.action.prefix": {
+    "prefix": {
       "@id": "fhir:PlanDefinition.action.prefix",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "PlanDefinition.action.title": {
+    "title": {
       "@id": "fhir:PlanDefinition.action.title",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "PlanDefinition.action.description": {
+    "description": {
       "@id": "fhir:PlanDefinition.action.description",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "PlanDefinition.action.textEquivalent": {
+    "textEquivalent": {
       "@id": "fhir:PlanDefinition.action.textEquivalent",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "PlanDefinition.action.priority": {
+    "priority": {
       "@id": "fhir:PlanDefinition.action.priority"
     },
-    "PlanDefinition.action.code": {
+    "code": {
       "@id": "fhir:PlanDefinition.action.code",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "PlanDefinition.action.reason": {
+    "reason": {
       "@id": "fhir:PlanDefinition.action.reason",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "PlanDefinition.action.documentation": {
+    "documentation": {
       "@id": "fhir:PlanDefinition.action.documentation",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/RelatedArtifact.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/RelatedArtifact.context.jsonld"
     },
-    "PlanDefinition.action.goalId": {
+    "goalId": {
       "@id": "fhir:PlanDefinition.action.goalId",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/id.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/id.context.jsonld"
     },
-    "PlanDefinition.action.subjectCodeableConcept": {
+    "subjectCodeableConcept": {
       "@id": "fhir:PlanDefinition.action.subjectCodeableConcept",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "PlanDefinition.action.subjectReference": {
+    "subjectReference": {
       "@id": "fhir:PlanDefinition.action.subjectReference",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "PlanDefinition.action.trigger": {
+    "trigger": {
       "@id": "fhir:PlanDefinition.action.trigger",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/TriggerDefinition.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/TriggerDefinition.context.jsonld"
     },
-    "PlanDefinition.action.condition": {
+    "condition": {
       "@id": "fhir:PlanDefinition.action.condition",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/PlanDefinition.action.condition.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/PlanDefinition.action.condition.context.jsonld"
     },
-    "PlanDefinition.action.input": {
+    "input": {
       "@id": "fhir:PlanDefinition.action.input",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/DataRequirement.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/DataRequirement.context.jsonld"
     },
-    "PlanDefinition.action.output": {
+    "output": {
       "@id": "fhir:PlanDefinition.action.output",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/DataRequirement.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/DataRequirement.context.jsonld"
     },
-    "PlanDefinition.action.relatedAction": {
+    "relatedAction": {
       "@id": "fhir:PlanDefinition.action.relatedAction",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/PlanDefinition.action.relatedAction.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/PlanDefinition.action.relatedAction.context.jsonld"
     },
-    "PlanDefinition.action.timingDateTime": {
+    "timingDateTime": {
       "@id": "fhir:PlanDefinition.action.timingDateTime",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
     },
-    "PlanDefinition.action.timingAge": {
+    "timingAge": {
       "@id": "fhir:PlanDefinition.action.timingAge",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Age.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Age.context.jsonld"
     },
-    "PlanDefinition.action.timingPeriod": {
+    "timingPeriod": {
       "@id": "fhir:PlanDefinition.action.timingPeriod",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Period.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
     },
-    "PlanDefinition.action.timingDuration": {
+    "timingDuration": {
       "@id": "fhir:PlanDefinition.action.timingDuration",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Duration.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Duration.context.jsonld"
     },
-    "PlanDefinition.action.timingRange": {
+    "timingRange": {
       "@id": "fhir:PlanDefinition.action.timingRange",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Range.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Range.context.jsonld"
     },
-    "PlanDefinition.action.timingTiming": {
+    "timingTiming": {
       "@id": "fhir:PlanDefinition.action.timingTiming",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Timing.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Timing.context.jsonld"
     },
-    "PlanDefinition.action.participant": {
+    "participant": {
       "@id": "fhir:PlanDefinition.action.participant",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/PlanDefinition.action.participant.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/PlanDefinition.action.participant.context.jsonld"
     },
-    "PlanDefinition.action.type": {
+    "type": {
       "@id": "fhir:PlanDefinition.action.type",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "PlanDefinition.action.groupingBehavior": {
+    "groupingBehavior": {
       "@id": "fhir:PlanDefinition.action.groupingBehavior"
     },
-    "PlanDefinition.action.selectionBehavior": {
+    "selectionBehavior": {
       "@id": "fhir:PlanDefinition.action.selectionBehavior"
     },
-    "PlanDefinition.action.requiredBehavior": {
+    "requiredBehavior": {
       "@id": "fhir:PlanDefinition.action.requiredBehavior"
     },
-    "PlanDefinition.action.precheckBehavior": {
+    "precheckBehavior": {
       "@id": "fhir:PlanDefinition.action.precheckBehavior"
     },
-    "PlanDefinition.action.cardinalityBehavior": {
+    "cardinalityBehavior": {
       "@id": "fhir:PlanDefinition.action.cardinalityBehavior"
     },
-    "PlanDefinition.action.definitionCanonical": {
+    "definitionCanonical": {
       "@id": "fhir:PlanDefinition.action.definitionCanonical",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/canonical.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/canonical.context.jsonld"
     },
-    "PlanDefinition.action.definitionUri": {
+    "definitionUri": {
       "@id": "fhir:PlanDefinition.action.definitionUri",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
     },
-    "PlanDefinition.action.transform": {
+    "transform": {
       "@id": "fhir:PlanDefinition.action.transform",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/canonical.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/canonical.context.jsonld"
     },
-    "PlanDefinition.action.dynamicValue": {
+    "dynamicValue": {
       "@id": "fhir:PlanDefinition.action.dynamicValue",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/PlanDefinition.action.dynamicValue.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/PlanDefinition.action.dynamicValue.context.jsonld"
     },
-    "PlanDefinition.action.action": {
+    "action": {
       "@id": "fhir:PlanDefinition.action.action",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/PlanDefinition.action.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/PlanDefinition.action.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

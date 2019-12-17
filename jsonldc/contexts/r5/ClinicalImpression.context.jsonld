@@ -1,7 +1,7 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
@@ -9,112 +9,112 @@
       "@id": "rdf:type",
       "@type": "@id"
     },
-    "Resource.id": {
+    "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Resource.meta": {
+    "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Meta.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
     },
-    "Resource.implicitRules": {
+    "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
     },
-    "Resource.language": {
+    "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
     },
-    "DomainResource.text": {
+    "text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Narrative.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
     },
-    "DomainResource.contained": {
+    "contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Resource.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
     },
-    "DomainResource.extension": {
+    "extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "DomainResource.modifierExtension": {
+    "modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "ClinicalImpression.identifier": {
+    "identifier": {
       "@id": "fhir:ClinicalImpression.identifier",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
     },
-    "ClinicalImpression.status": {
+    "status": {
       "@id": "fhir:ClinicalImpression.status"
     },
-    "ClinicalImpression.statusReason": {
+    "statusReason": {
       "@id": "fhir:ClinicalImpression.statusReason",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "ClinicalImpression.description": {
+    "description": {
       "@id": "fhir:ClinicalImpression.description",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "ClinicalImpression.subject": {
+    "subject": {
       "@id": "fhir:ClinicalImpression.subject",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "ClinicalImpression.encounter": {
+    "encounter": {
       "@id": "fhir:ClinicalImpression.encounter",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "ClinicalImpression.effectiveDateTime": {
+    "effectiveDateTime": {
       "@id": "fhir:ClinicalImpression.effectiveDateTime",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
     },
-    "ClinicalImpression.effectivePeriod": {
+    "effectivePeriod": {
       "@id": "fhir:ClinicalImpression.effectivePeriod",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Period.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
     },
-    "ClinicalImpression.date": {
+    "date": {
       "@id": "fhir:ClinicalImpression.date",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
     },
-    "ClinicalImpression.performer": {
+    "performer": {
       "@id": "fhir:ClinicalImpression.performer",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "ClinicalImpression.previous": {
+    "previous": {
       "@id": "fhir:ClinicalImpression.previous",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "ClinicalImpression.problem": {
+    "problem": {
       "@id": "fhir:ClinicalImpression.problem",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "ClinicalImpression.protocol": {
+    "protocol": {
       "@id": "fhir:ClinicalImpression.protocol",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
     },
-    "ClinicalImpression.summary": {
+    "summary": {
       "@id": "fhir:ClinicalImpression.summary",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "ClinicalImpression.finding": {
+    "finding": {
       "@id": "fhir:ClinicalImpression.finding",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ClinicalImpression.finding.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/ClinicalImpression.finding.context.jsonld"
     },
-    "ClinicalImpression.prognosisCodeableConcept": {
+    "prognosisCodeableConcept": {
       "@id": "fhir:ClinicalImpression.prognosisCodeableConcept",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "ClinicalImpression.prognosisReference": {
+    "prognosisReference": {
       "@id": "fhir:ClinicalImpression.prognosisReference",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "ClinicalImpression.supportingInfo": {
+    "supportingInfo": {
       "@id": "fhir:ClinicalImpression.supportingInfo",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "ClinicalImpression.note": {
+    "note": {
       "@id": "fhir:ClinicalImpression.note",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Annotation.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Annotation.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

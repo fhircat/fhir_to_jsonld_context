@@ -1,225 +1,225 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "Element.id": {
+    "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Element.extension": {
+    "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "BackboneElement.modifierExtension": {
+    "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "Task.output.type": {
+    "type": {
       "@id": "fhir:Task.output.type",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "Task.output.valueBase64Binary": {
+    "valueBase64Binary": {
       "@id": "fhir:Task.output.valueBase64Binary",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/base64Binary.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/base64Binary.context.jsonld"
     },
-    "Task.output.valueBoolean": {
+    "valueBoolean": {
       "@id": "fhir:Task.output.valueBoolean",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
     },
-    "Task.output.valueCanonical": {
+    "valueCanonical": {
       "@id": "fhir:Task.output.valueCanonical",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/canonical.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/canonical.context.jsonld"
     },
-    "Task.output.valueCode": {
+    "valueCode": {
       "@id": "fhir:Task.output.valueCode",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
     },
-    "Task.output.valueDate": {
+    "valueDate": {
       "@id": "fhir:Task.output.valueDate",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/date.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/date.context.jsonld"
     },
-    "Task.output.valueDateTime": {
+    "valueDateTime": {
       "@id": "fhir:Task.output.valueDateTime",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
     },
-    "Task.output.valueDecimal": {
+    "valueDecimal": {
       "@id": "fhir:Task.output.valueDecimal",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/decimal.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/decimal.context.jsonld"
     },
-    "Task.output.valueId": {
+    "valueId": {
       "@id": "fhir:Task.output.valueId",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/id.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/id.context.jsonld"
     },
-    "Task.output.valueInstant": {
+    "valueInstant": {
       "@id": "fhir:Task.output.valueInstant",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/instant.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/instant.context.jsonld"
     },
-    "Task.output.valueInteger": {
+    "valueInteger": {
       "@id": "fhir:Task.output.valueInteger",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/integer.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/integer.context.jsonld"
     },
-    "Task.output.valueMarkdown": {
+    "valueMarkdown": {
       "@id": "fhir:Task.output.valueMarkdown",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/markdown.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
     },
-    "Task.output.valueOid": {
+    "valueOid": {
       "@id": "fhir:Task.output.valueOid",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/oid.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/oid.context.jsonld"
     },
-    "Task.output.valuePositiveInt": {
+    "valuePositiveInt": {
       "@id": "fhir:Task.output.valuePositiveInt",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/positiveInt.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/positiveInt.context.jsonld"
     },
-    "Task.output.valueString": {
+    "valueString": {
       "@id": "fhir:Task.output.valueString",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Task.output.valueTime": {
+    "valueTime": {
       "@id": "fhir:Task.output.valueTime",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/time.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/time.context.jsonld"
     },
-    "Task.output.valueUnsignedInt": {
+    "valueUnsignedInt": {
       "@id": "fhir:Task.output.valueUnsignedInt",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/unsignedInt.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/unsignedInt.context.jsonld"
     },
-    "Task.output.valueUri": {
+    "valueUri": {
       "@id": "fhir:Task.output.valueUri",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
     },
-    "Task.output.valueUrl": {
+    "valueUrl": {
       "@id": "fhir:Task.output.valueUrl",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/url.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/url.context.jsonld"
     },
-    "Task.output.valueUuid": {
+    "valueUuid": {
       "@id": "fhir:Task.output.valueUuid",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uuid.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/uuid.context.jsonld"
     },
-    "Task.output.valueAddress": {
+    "valueAddress": {
       "@id": "fhir:Task.output.valueAddress",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Address.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Address.context.jsonld"
     },
-    "Task.output.valueAge": {
+    "valueAge": {
       "@id": "fhir:Task.output.valueAge",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Age.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Age.context.jsonld"
     },
-    "Task.output.valueAnnotation": {
+    "valueAnnotation": {
       "@id": "fhir:Task.output.valueAnnotation",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Annotation.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Annotation.context.jsonld"
     },
-    "Task.output.valueAttachment": {
+    "valueAttachment": {
       "@id": "fhir:Task.output.valueAttachment",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Attachment.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Attachment.context.jsonld"
     },
-    "Task.output.valueCodeableConcept": {
+    "valueCodeableConcept": {
       "@id": "fhir:Task.output.valueCodeableConcept",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "Task.output.valueCoding": {
+    "valueCoding": {
       "@id": "fhir:Task.output.valueCoding",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Coding.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Coding.context.jsonld"
     },
-    "Task.output.valueContactPoint": {
+    "valueContactPoint": {
       "@id": "fhir:Task.output.valueContactPoint",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ContactPoint.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/ContactPoint.context.jsonld"
     },
-    "Task.output.valueCount": {
+    "valueCount": {
       "@id": "fhir:Task.output.valueCount",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Count.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Count.context.jsonld"
     },
-    "Task.output.valueDistance": {
+    "valueDistance": {
       "@id": "fhir:Task.output.valueDistance",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Distance.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Distance.context.jsonld"
     },
-    "Task.output.valueDuration": {
+    "valueDuration": {
       "@id": "fhir:Task.output.valueDuration",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Duration.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Duration.context.jsonld"
     },
-    "Task.output.valueHumanName": {
+    "valueHumanName": {
       "@id": "fhir:Task.output.valueHumanName",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/HumanName.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/HumanName.context.jsonld"
     },
-    "Task.output.valueIdentifier": {
+    "valueIdentifier": {
       "@id": "fhir:Task.output.valueIdentifier",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
     },
-    "Task.output.valueMoney": {
+    "valueMoney": {
       "@id": "fhir:Task.output.valueMoney",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Money.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Money.context.jsonld"
     },
-    "Task.output.valuePeriod": {
+    "valuePeriod": {
       "@id": "fhir:Task.output.valuePeriod",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Period.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
     },
-    "Task.output.valueQuantity": {
+    "valueQuantity": {
       "@id": "fhir:Task.output.valueQuantity",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Quantity.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Quantity.context.jsonld"
     },
-    "Task.output.valueRange": {
+    "valueRange": {
       "@id": "fhir:Task.output.valueRange",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Range.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Range.context.jsonld"
     },
-    "Task.output.valueRatio": {
+    "valueRatio": {
       "@id": "fhir:Task.output.valueRatio",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Ratio.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Ratio.context.jsonld"
     },
-    "Task.output.valueReference": {
+    "valueReference": {
       "@id": "fhir:Task.output.valueReference",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "Task.output.valueSampledData": {
+    "valueSampledData": {
       "@id": "fhir:Task.output.valueSampledData",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SampledData.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/SampledData.context.jsonld"
     },
-    "Task.output.valueSignature": {
+    "valueSignature": {
       "@id": "fhir:Task.output.valueSignature",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Signature.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Signature.context.jsonld"
     },
-    "Task.output.valueTiming": {
+    "valueTiming": {
       "@id": "fhir:Task.output.valueTiming",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Timing.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Timing.context.jsonld"
     },
-    "Task.output.valueContactDetail": {
+    "valueContactDetail": {
       "@id": "fhir:Task.output.valueContactDetail",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ContactDetail.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/ContactDetail.context.jsonld"
     },
-    "Task.output.valueContributor": {
+    "valueContributor": {
       "@id": "fhir:Task.output.valueContributor",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Contributor.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Contributor.context.jsonld"
     },
-    "Task.output.valueDataRequirement": {
+    "valueDataRequirement": {
       "@id": "fhir:Task.output.valueDataRequirement",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/DataRequirement.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/DataRequirement.context.jsonld"
     },
-    "Task.output.valueExpression": {
+    "valueExpression": {
       "@id": "fhir:Task.output.valueExpression",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Expression.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Expression.context.jsonld"
     },
-    "Task.output.valueParameterDefinition": {
+    "valueParameterDefinition": {
       "@id": "fhir:Task.output.valueParameterDefinition",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ParameterDefinition.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/ParameterDefinition.context.jsonld"
     },
-    "Task.output.valueRelatedArtifact": {
+    "valueRelatedArtifact": {
       "@id": "fhir:Task.output.valueRelatedArtifact",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/RelatedArtifact.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/RelatedArtifact.context.jsonld"
     },
-    "Task.output.valueTriggerDefinition": {
+    "valueTriggerDefinition": {
       "@id": "fhir:Task.output.valueTriggerDefinition",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/TriggerDefinition.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/TriggerDefinition.context.jsonld"
     },
-    "Task.output.valueUsageContext": {
+    "valueUsageContext": {
       "@id": "fhir:Task.output.valueUsageContext",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/UsageContext.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/UsageContext.context.jsonld"
     },
-    "Task.output.valueDosage": {
+    "valueDosage": {
       "@id": "fhir:Task.output.valueDosage",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Dosage.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Dosage.context.jsonld"
     },
-    "Task.output.valueMeta": {
+    "valueMeta": {
       "@id": "fhir:Task.output.valueMeta",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Meta.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

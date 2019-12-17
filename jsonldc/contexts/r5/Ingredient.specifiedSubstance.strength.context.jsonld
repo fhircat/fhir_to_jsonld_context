@@ -1,49 +1,49 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "Element.id": {
+    "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Element.extension": {
+    "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "BackboneElement.modifierExtension": {
+    "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "Ingredient.specifiedSubstance.strength.presentation": {
+    "presentation": {
       "@id": "fhir:Ingredient.specifiedSubstance.strength.presentation",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Ratio.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Ratio.context.jsonld"
     },
-    "Ingredient.specifiedSubstance.strength.presentationHighLimit": {
+    "presentationHighLimit": {
       "@id": "fhir:Ingredient.specifiedSubstance.strength.presentationHighLimit",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Ratio.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Ratio.context.jsonld"
     },
-    "Ingredient.specifiedSubstance.strength.concentration": {
+    "concentration": {
       "@id": "fhir:Ingredient.specifiedSubstance.strength.concentration",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Ratio.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Ratio.context.jsonld"
     },
-    "Ingredient.specifiedSubstance.strength.concentrationHighLimit": {
+    "concentrationHighLimit": {
       "@id": "fhir:Ingredient.specifiedSubstance.strength.concentrationHighLimit",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Ratio.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Ratio.context.jsonld"
     },
-    "Ingredient.specifiedSubstance.strength.measurementPoint": {
+    "measurementPoint": {
       "@id": "fhir:Ingredient.specifiedSubstance.strength.measurementPoint",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Ingredient.specifiedSubstance.strength.country": {
+    "country": {
       "@id": "fhir:Ingredient.specifiedSubstance.strength.country",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "Ingredient.specifiedSubstance.strength.referenceStrength": {
+    "referenceStrength": {
       "@id": "fhir:Ingredient.specifiedSubstance.strength.referenceStrength",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Ingredient.specifiedSubstance.strength.referenceStrength.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Ingredient.specifiedSubstance.strength.referenceStrength.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

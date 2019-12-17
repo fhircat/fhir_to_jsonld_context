@@ -1,61 +1,61 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "Element.id": {
+    "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Element.extension": {
+    "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "BackboneElement.modifierExtension": {
+    "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "Contract.term.offer.identifier": {
+    "identifier": {
       "@id": "fhir:Contract.term.offer.identifier",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
     },
-    "Contract.term.offer.party": {
+    "party": {
       "@id": "fhir:Contract.term.offer.party",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Contract.term.offer.party.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Contract.term.offer.party.context.jsonld"
     },
-    "Contract.term.offer.topic": {
+    "topic": {
       "@id": "fhir:Contract.term.offer.topic",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "Contract.term.offer.type": {
+    "type": {
       "@id": "fhir:Contract.term.offer.type",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "Contract.term.offer.decision": {
+    "decision": {
       "@id": "fhir:Contract.term.offer.decision",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "Contract.term.offer.decisionMode": {
+    "decisionMode": {
       "@id": "fhir:Contract.term.offer.decisionMode",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "Contract.term.offer.answer": {
+    "answer": {
       "@id": "fhir:Contract.term.offer.answer",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Contract.term.offer.answer.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Contract.term.offer.answer.context.jsonld"
     },
-    "Contract.term.offer.text": {
+    "text": {
       "@id": "fhir:Contract.term.offer.text",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Contract.term.offer.linkId": {
+    "linkId": {
       "@id": "fhir:Contract.term.offer.linkId",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Contract.term.offer.securityLabelNumber": {
+    "securityLabelNumber": {
       "@id": "fhir:Contract.term.offer.securityLabelNumber",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/unsignedInt.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/unsignedInt.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

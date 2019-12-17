@@ -1,7 +1,7 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
@@ -9,99 +9,99 @@
       "@id": "rdf:type",
       "@type": "@id"
     },
-    "Resource.id": {
+    "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Resource.meta": {
+    "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Meta.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
     },
-    "Resource.implicitRules": {
+    "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
     },
-    "Resource.language": {
+    "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
     },
-    "DomainResource.text": {
+    "text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Narrative.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
     },
-    "DomainResource.contained": {
+    "contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Resource.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
     },
-    "DomainResource.extension": {
+    "extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "DomainResource.modifierExtension": {
+    "modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "CatalogEntry.identifier": {
+    "identifier": {
       "@id": "fhir:CatalogEntry.identifier",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
     },
-    "CatalogEntry.name": {
+    "name": {
       "@id": "fhir:CatalogEntry.name",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "CatalogEntry.type": {
+    "type": {
       "@id": "fhir:CatalogEntry.type"
     },
-    "CatalogEntry.status": {
+    "status": {
       "@id": "fhir:CatalogEntry.status"
     },
-    "CatalogEntry.effectivePeriod": {
+    "effectivePeriod": {
       "@id": "fhir:CatalogEntry.effectivePeriod",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Period.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
     },
-    "CatalogEntry.orderable": {
+    "orderable": {
       "@id": "fhir:CatalogEntry.orderable",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
     },
-    "CatalogEntry.referencedItem": {
+    "referencedItem": {
       "@id": "fhir:CatalogEntry.referencedItem",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "CatalogEntry.relatedEntry": {
+    "relatedEntry": {
       "@id": "fhir:CatalogEntry.relatedEntry",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CatalogEntry.relatedEntry.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CatalogEntry.relatedEntry.context.jsonld"
     },
-    "CatalogEntry.updatedBy": {
+    "updatedBy": {
       "@id": "fhir:CatalogEntry.updatedBy",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "CatalogEntry.note": {
+    "note": {
       "@id": "fhir:CatalogEntry.note",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Annotation.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Annotation.context.jsonld"
     },
-    "CatalogEntry.estimatedDuration": {
+    "estimatedDuration": {
       "@id": "fhir:CatalogEntry.estimatedDuration",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Duration.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Duration.context.jsonld"
     },
-    "CatalogEntry.billingCode": {
+    "billingCode": {
       "@id": "fhir:CatalogEntry.billingCode",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "CatalogEntry.billingSummary": {
+    "billingSummary": {
       "@id": "fhir:CatalogEntry.billingSummary",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "CatalogEntry.scheduleSummary": {
+    "scheduleSummary": {
       "@id": "fhir:CatalogEntry.scheduleSummary",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "CatalogEntry.limitationSummary": {
+    "limitationSummary": {
       "@id": "fhir:CatalogEntry.limitationSummary",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "CatalogEntry.regulatorySummary": {
+    "regulatorySummary": {
       "@id": "fhir:CatalogEntry.regulatorySummary",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

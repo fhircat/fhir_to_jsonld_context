@@ -1,103 +1,103 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "Element.id": {
+    "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Element.extension": {
+    "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "BackboneElement.modifierExtension": {
+    "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "TestScript.setup.action.assert.label": {
+    "label": {
       "@id": "fhir:TestScript.setup.action.assert.label",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "TestScript.setup.action.assert.description": {
+    "description": {
       "@id": "fhir:TestScript.setup.action.assert.description",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "TestScript.setup.action.assert.direction": {
+    "direction": {
       "@id": "fhir:TestScript.setup.action.assert.direction"
     },
-    "TestScript.setup.action.assert.compareToSourceId": {
+    "compareToSourceId": {
       "@id": "fhir:TestScript.setup.action.assert.compareToSourceId",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "TestScript.setup.action.assert.compareToSourceExpression": {
+    "compareToSourceExpression": {
       "@id": "fhir:TestScript.setup.action.assert.compareToSourceExpression",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "TestScript.setup.action.assert.compareToSourcePath": {
+    "compareToSourcePath": {
       "@id": "fhir:TestScript.setup.action.assert.compareToSourcePath",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "TestScript.setup.action.assert.contentType": {
+    "contentType": {
       "@id": "fhir:TestScript.setup.action.assert.contentType"
     },
-    "TestScript.setup.action.assert.expression": {
+    "expression": {
       "@id": "fhir:TestScript.setup.action.assert.expression",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "TestScript.setup.action.assert.headerField": {
+    "headerField": {
       "@id": "fhir:TestScript.setup.action.assert.headerField",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "TestScript.setup.action.assert.minimumId": {
+    "minimumId": {
       "@id": "fhir:TestScript.setup.action.assert.minimumId",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "TestScript.setup.action.assert.navigationLinks": {
+    "navigationLinks": {
       "@id": "fhir:TestScript.setup.action.assert.navigationLinks",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
     },
-    "TestScript.setup.action.assert.operator": {
+    "operator": {
       "@id": "fhir:TestScript.setup.action.assert.operator"
     },
-    "TestScript.setup.action.assert.path": {
+    "path": {
       "@id": "fhir:TestScript.setup.action.assert.path",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "TestScript.setup.action.assert.requestMethod": {
+    "requestMethod": {
       "@id": "fhir:TestScript.setup.action.assert.requestMethod"
     },
-    "TestScript.setup.action.assert.requestURL": {
+    "requestURL": {
       "@id": "fhir:TestScript.setup.action.assert.requestURL",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "TestScript.setup.action.assert.resource": {
+    "resource": {
       "@id": "fhir:TestScript.setup.action.assert.resource"
     },
-    "TestScript.setup.action.assert.response": {
+    "response": {
       "@id": "fhir:TestScript.setup.action.assert.response"
     },
-    "TestScript.setup.action.assert.responseCode": {
+    "responseCode": {
       "@id": "fhir:TestScript.setup.action.assert.responseCode",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "TestScript.setup.action.assert.sourceId": {
+    "sourceId": {
       "@id": "fhir:TestScript.setup.action.assert.sourceId",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/id.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/id.context.jsonld"
     },
-    "TestScript.setup.action.assert.validateProfileId": {
+    "validateProfileId": {
       "@id": "fhir:TestScript.setup.action.assert.validateProfileId",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/id.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/id.context.jsonld"
     },
-    "TestScript.setup.action.assert.value": {
+    "value": {
       "@id": "fhir:TestScript.setup.action.assert.value",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "TestScript.setup.action.assert.warningOnly": {
+    "warningOnly": {
       "@id": "fhir:TestScript.setup.action.assert.warningOnly",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

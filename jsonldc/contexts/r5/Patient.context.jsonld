@@ -1,7 +1,7 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
@@ -9,108 +9,108 @@
       "@id": "rdf:type",
       "@type": "@id"
     },
-    "Resource.id": {
+    "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Resource.meta": {
+    "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Meta.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
     },
-    "Resource.implicitRules": {
+    "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
     },
-    "Resource.language": {
+    "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
     },
-    "DomainResource.text": {
+    "text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Narrative.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
     },
-    "DomainResource.contained": {
+    "contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Resource.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
     },
-    "DomainResource.extension": {
+    "extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "DomainResource.modifierExtension": {
+    "modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "Patient.identifier": {
+    "identifier": {
       "@id": "fhir:Patient.identifier",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
     },
-    "Patient.active": {
+    "active": {
       "@id": "fhir:Patient.active",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
     },
-    "Patient.name": {
+    "name": {
       "@id": "fhir:Patient.name",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/HumanName.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/HumanName.context.jsonld"
     },
-    "Patient.telecom": {
+    "telecom": {
       "@id": "fhir:Patient.telecom",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ContactPoint.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/ContactPoint.context.jsonld"
     },
-    "Patient.gender": {
+    "gender": {
       "@id": "fhir:Patient.gender"
     },
-    "Patient.birthDate": {
+    "birthDate": {
       "@id": "fhir:Patient.birthDate",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/date.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/date.context.jsonld"
     },
-    "Patient.deceasedBoolean": {
+    "deceasedBoolean": {
       "@id": "fhir:Patient.deceasedBoolean",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
     },
-    "Patient.deceasedDateTime": {
+    "deceasedDateTime": {
       "@id": "fhir:Patient.deceasedDateTime",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
     },
-    "Patient.address": {
+    "address": {
       "@id": "fhir:Patient.address",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Address.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Address.context.jsonld"
     },
-    "Patient.maritalStatus": {
+    "maritalStatus": {
       "@id": "fhir:Patient.maritalStatus",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "Patient.multipleBirthBoolean": {
+    "multipleBirthBoolean": {
       "@id": "fhir:Patient.multipleBirthBoolean",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
     },
-    "Patient.multipleBirthInteger": {
+    "multipleBirthInteger": {
       "@id": "fhir:Patient.multipleBirthInteger",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/integer.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/integer.context.jsonld"
     },
-    "Patient.photo": {
+    "photo": {
       "@id": "fhir:Patient.photo",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Attachment.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Attachment.context.jsonld"
     },
-    "Patient.contact": {
+    "contact": {
       "@id": "fhir:Patient.contact",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Patient.contact.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Patient.contact.context.jsonld"
     },
-    "Patient.communication": {
+    "communication": {
       "@id": "fhir:Patient.communication",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Patient.communication.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Patient.communication.context.jsonld"
     },
-    "Patient.generalPractitioner": {
+    "generalPractitioner": {
       "@id": "fhir:Patient.generalPractitioner",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "Patient.managingOrganization": {
+    "managingOrganization": {
       "@id": "fhir:Patient.managingOrganization",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "Patient.link": {
+    "link": {
       "@id": "fhir:Patient.link",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Patient.link.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Patient.link.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

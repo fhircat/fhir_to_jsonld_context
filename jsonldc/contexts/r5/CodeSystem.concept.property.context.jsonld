@@ -1,53 +1,53 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "Element.id": {
+    "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Element.extension": {
+    "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "BackboneElement.modifierExtension": {
+    "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "CodeSystem.concept.property.code": {
+    "code": {
       "@id": "fhir:CodeSystem.concept.property.code",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
     },
-    "CodeSystem.concept.property.valueCode": {
+    "valueCode": {
       "@id": "fhir:CodeSystem.concept.property.valueCode",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
     },
-    "CodeSystem.concept.property.valueCoding": {
+    "valueCoding": {
       "@id": "fhir:CodeSystem.concept.property.valueCoding",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Coding.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Coding.context.jsonld"
     },
-    "CodeSystem.concept.property.valueString": {
+    "valueString": {
       "@id": "fhir:CodeSystem.concept.property.valueString",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "CodeSystem.concept.property.valueInteger": {
+    "valueInteger": {
       "@id": "fhir:CodeSystem.concept.property.valueInteger",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/integer.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/integer.context.jsonld"
     },
-    "CodeSystem.concept.property.valueBoolean": {
+    "valueBoolean": {
       "@id": "fhir:CodeSystem.concept.property.valueBoolean",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
     },
-    "CodeSystem.concept.property.valueDateTime": {
+    "valueDateTime": {
       "@id": "fhir:CodeSystem.concept.property.valueDateTime",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
     },
-    "CodeSystem.concept.property.valueDecimal": {
+    "valueDecimal": {
       "@id": "fhir:CodeSystem.concept.property.valueDecimal",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/decimal.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/decimal.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

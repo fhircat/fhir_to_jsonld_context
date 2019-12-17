@@ -1,85 +1,85 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "Element.id": {
+    "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Element.extension": {
+    "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "BackboneElement.modifierExtension": {
+    "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "Observation.component.code": {
+    "code": {
       "@id": "fhir:Observation.component.code",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "Observation.component.valueQuantity": {
+    "valueQuantity": {
       "@id": "fhir:Observation.component.valueQuantity",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Quantity.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Quantity.context.jsonld"
     },
-    "Observation.component.valueCodeableConcept": {
+    "valueCodeableConcept": {
       "@id": "fhir:Observation.component.valueCodeableConcept",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "Observation.component.valueString": {
+    "valueString": {
       "@id": "fhir:Observation.component.valueString",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Observation.component.valueBoolean": {
+    "valueBoolean": {
       "@id": "fhir:Observation.component.valueBoolean",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
     },
-    "Observation.component.valueInteger": {
+    "valueInteger": {
       "@id": "fhir:Observation.component.valueInteger",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/integer.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/integer.context.jsonld"
     },
-    "Observation.component.valueRange": {
+    "valueRange": {
       "@id": "fhir:Observation.component.valueRange",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Range.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Range.context.jsonld"
     },
-    "Observation.component.valueRatio": {
+    "valueRatio": {
       "@id": "fhir:Observation.component.valueRatio",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Ratio.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Ratio.context.jsonld"
     },
-    "Observation.component.valueSampledData": {
+    "valueSampledData": {
       "@id": "fhir:Observation.component.valueSampledData",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SampledData.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/SampledData.context.jsonld"
     },
-    "Observation.component.valueTime": {
+    "valueTime": {
       "@id": "fhir:Observation.component.valueTime",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/time.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/time.context.jsonld"
     },
-    "Observation.component.valueDateTime": {
+    "valueDateTime": {
       "@id": "fhir:Observation.component.valueDateTime",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
     },
-    "Observation.component.valuePeriod": {
+    "valuePeriod": {
       "@id": "fhir:Observation.component.valuePeriod",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Period.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
     },
-    "Observation.component.valueAttachment": {
+    "valueAttachment": {
       "@id": "fhir:Observation.component.valueAttachment",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Attachment.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Attachment.context.jsonld"
     },
-    "Observation.component.dataAbsentReason": {
+    "dataAbsentReason": {
       "@id": "fhir:Observation.component.dataAbsentReason",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "Observation.component.interpretation": {
+    "interpretation": {
       "@id": "fhir:Observation.component.interpretation",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "Observation.component.referenceRange": {
+    "referenceRange": {
       "@id": "fhir:Observation.component.referenceRange",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Observation.referenceRange.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Observation.referenceRange.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

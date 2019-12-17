@@ -1,50 +1,50 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "Element.id": {
+    "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Element.extension": {
+    "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "BackboneElement.modifierExtension": {
+    "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "StructureMap.group.rule.target.context": {
+    "context": {
       "@id": "fhir:StructureMap.group.rule.target.context",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/id.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/id.context.jsonld"
     },
-    "StructureMap.group.rule.target.contextType": {
+    "contextType": {
       "@id": "fhir:StructureMap.group.rule.target.contextType"
     },
-    "StructureMap.group.rule.target.element": {
+    "element": {
       "@id": "fhir:StructureMap.group.rule.target.element",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "StructureMap.group.rule.target.variable": {
+    "variable": {
       "@id": "fhir:StructureMap.group.rule.target.variable",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/id.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/id.context.jsonld"
     },
-    "StructureMap.group.rule.target.listMode": {
+    "listMode": {
       "@id": "fhir:StructureMap.group.rule.target.listMode"
     },
-    "StructureMap.group.rule.target.listRuleId": {
+    "listRuleId": {
       "@id": "fhir:StructureMap.group.rule.target.listRuleId",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/id.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/id.context.jsonld"
     },
-    "StructureMap.group.rule.target.transform": {
+    "transform": {
       "@id": "fhir:StructureMap.group.rule.target.transform"
     },
-    "StructureMap.group.rule.target.parameter": {
+    "parameter": {
       "@id": "fhir:StructureMap.group.rule.target.parameter",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/StructureMap.group.rule.target.parameter.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/StructureMap.group.rule.target.parameter.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

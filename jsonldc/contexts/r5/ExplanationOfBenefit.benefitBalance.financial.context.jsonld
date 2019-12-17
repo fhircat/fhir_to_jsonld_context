@@ -1,45 +1,45 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "Element.id": {
+    "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Element.extension": {
+    "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "BackboneElement.modifierExtension": {
+    "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "ExplanationOfBenefit.benefitBalance.financial.type": {
+    "type": {
       "@id": "fhir:ExplanationOfBenefit.benefitBalance.financial.type",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "ExplanationOfBenefit.benefitBalance.financial.allowedUnsignedInt": {
+    "allowedUnsignedInt": {
       "@id": "fhir:ExplanationOfBenefit.benefitBalance.financial.allowedUnsignedInt",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/unsignedInt.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/unsignedInt.context.jsonld"
     },
-    "ExplanationOfBenefit.benefitBalance.financial.allowedString": {
+    "allowedString": {
       "@id": "fhir:ExplanationOfBenefit.benefitBalance.financial.allowedString",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "ExplanationOfBenefit.benefitBalance.financial.allowedMoney": {
+    "allowedMoney": {
       "@id": "fhir:ExplanationOfBenefit.benefitBalance.financial.allowedMoney",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Money.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Money.context.jsonld"
     },
-    "ExplanationOfBenefit.benefitBalance.financial.usedUnsignedInt": {
+    "usedUnsignedInt": {
       "@id": "fhir:ExplanationOfBenefit.benefitBalance.financial.usedUnsignedInt",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/unsignedInt.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/unsignedInt.context.jsonld"
     },
-    "ExplanationOfBenefit.benefitBalance.financial.usedMoney": {
+    "usedMoney": {
       "@id": "fhir:ExplanationOfBenefit.benefitBalance.financial.usedMoney",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Money.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Money.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

@@ -1,49 +1,49 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "Element.id": {
+    "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Element.extension": {
+    "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "BackboneElement.modifierExtension": {
+    "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "AdministrableProductDefinition.routeOfAdministration.code": {
+    "code": {
       "@id": "fhir:AdministrableProductDefinition.routeOfAdministration.code",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "AdministrableProductDefinition.routeOfAdministration.firstDose": {
+    "firstDose": {
       "@id": "fhir:AdministrableProductDefinition.routeOfAdministration.firstDose",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Quantity.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Quantity.context.jsonld"
     },
-    "AdministrableProductDefinition.routeOfAdministration.maxSingleDose": {
+    "maxSingleDose": {
       "@id": "fhir:AdministrableProductDefinition.routeOfAdministration.maxSingleDose",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Quantity.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Quantity.context.jsonld"
     },
-    "AdministrableProductDefinition.routeOfAdministration.maxDosePerDay": {
+    "maxDosePerDay": {
       "@id": "fhir:AdministrableProductDefinition.routeOfAdministration.maxDosePerDay",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Quantity.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Quantity.context.jsonld"
     },
-    "AdministrableProductDefinition.routeOfAdministration.maxDosePerTreatmentPeriod": {
+    "maxDosePerTreatmentPeriod": {
       "@id": "fhir:AdministrableProductDefinition.routeOfAdministration.maxDosePerTreatmentPeriod",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Ratio.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Ratio.context.jsonld"
     },
-    "AdministrableProductDefinition.routeOfAdministration.maxTreatmentPeriod": {
+    "maxTreatmentPeriod": {
       "@id": "fhir:AdministrableProductDefinition.routeOfAdministration.maxTreatmentPeriod",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Duration.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Duration.context.jsonld"
     },
-    "AdministrableProductDefinition.routeOfAdministration.targetSpecies": {
+    "targetSpecies": {
       "@id": "fhir:AdministrableProductDefinition.routeOfAdministration.targetSpecies",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/AdministrableProductDefinition.routeOfAdministration.targetSpecies.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/AdministrableProductDefinition.routeOfAdministration.targetSpecies.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

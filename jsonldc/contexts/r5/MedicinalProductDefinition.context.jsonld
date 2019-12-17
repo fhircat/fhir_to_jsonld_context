@@ -1,7 +1,7 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
@@ -9,125 +9,125 @@
       "@id": "rdf:type",
       "@type": "@id"
     },
-    "Resource.id": {
+    "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Resource.meta": {
+    "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Meta.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
     },
-    "Resource.implicitRules": {
+    "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
     },
-    "Resource.language": {
+    "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
     },
-    "DomainResource.text": {
+    "text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Narrative.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
     },
-    "DomainResource.contained": {
+    "contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Resource.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
     },
-    "DomainResource.extension": {
+    "extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "DomainResource.modifierExtension": {
+    "modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "MedicinalProductDefinition.identifier": {
+    "identifier": {
       "@id": "fhir:MedicinalProductDefinition.identifier",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
     },
-    "MedicinalProductDefinition.type": {
+    "type": {
       "@id": "fhir:MedicinalProductDefinition.type",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "MedicinalProductDefinition.domain": {
+    "domain": {
       "@id": "fhir:MedicinalProductDefinition.domain",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Coding.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Coding.context.jsonld"
     },
-    "MedicinalProductDefinition.description": {
+    "description": {
       "@id": "fhir:MedicinalProductDefinition.description",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "MedicinalProductDefinition.combinedPharmaceuticalDoseForm": {
+    "combinedPharmaceuticalDoseForm": {
       "@id": "fhir:MedicinalProductDefinition.combinedPharmaceuticalDoseForm",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "MedicinalProductDefinition.indication": {
+    "indication": {
       "@id": "fhir:MedicinalProductDefinition.indication",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/markdown.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
     },
-    "MedicinalProductDefinition.legalStatusOfSupply": {
+    "legalStatusOfSupply": {
       "@id": "fhir:MedicinalProductDefinition.legalStatusOfSupply",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "MedicinalProductDefinition.additionalMonitoringIndicator": {
+    "additionalMonitoringIndicator": {
       "@id": "fhir:MedicinalProductDefinition.additionalMonitoringIndicator",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "MedicinalProductDefinition.specialMeasures": {
+    "specialMeasures": {
       "@id": "fhir:MedicinalProductDefinition.specialMeasures",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "MedicinalProductDefinition.paediatricUseIndicator": {
+    "paediatricUseIndicator": {
       "@id": "fhir:MedicinalProductDefinition.paediatricUseIndicator",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "MedicinalProductDefinition.productClassification": {
+    "productClassification": {
       "@id": "fhir:MedicinalProductDefinition.productClassification",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "MedicinalProductDefinition.marketingStatus": {
+    "marketingStatus": {
       "@id": "fhir:MedicinalProductDefinition.marketingStatus",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/MarketingStatus.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/MarketingStatus.context.jsonld"
     },
-    "MedicinalProductDefinition.pharmaceuticalProduct": {
+    "pharmaceuticalProduct": {
       "@id": "fhir:MedicinalProductDefinition.pharmaceuticalProduct",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "MedicinalProductDefinition.packagedMedicinalProduct": {
+    "packagedMedicinalProduct": {
       "@id": "fhir:MedicinalProductDefinition.packagedMedicinalProduct",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "MedicinalProductDefinition.ingredient": {
+    "ingredient": {
       "@id": "fhir:MedicinalProductDefinition.ingredient",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "MedicinalProductDefinition.attachedDocument": {
+    "attachedDocument": {
       "@id": "fhir:MedicinalProductDefinition.attachedDocument",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "MedicinalProductDefinition.masterFile": {
+    "masterFile": {
       "@id": "fhir:MedicinalProductDefinition.masterFile",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "MedicinalProductDefinition.contact": {
+    "contact": {
       "@id": "fhir:MedicinalProductDefinition.contact",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/MedicinalProductDefinition.contact.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/MedicinalProductDefinition.contact.context.jsonld"
     },
-    "MedicinalProductDefinition.clinicalTrial": {
+    "clinicalTrial": {
       "@id": "fhir:MedicinalProductDefinition.clinicalTrial",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "MedicinalProductDefinition.name": {
+    "name": {
       "@id": "fhir:MedicinalProductDefinition.name",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/MedicinalProductDefinition.name.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/MedicinalProductDefinition.name.context.jsonld"
     },
-    "MedicinalProductDefinition.crossReference": {
+    "crossReference": {
       "@id": "fhir:MedicinalProductDefinition.crossReference",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/MedicinalProductDefinition.crossReference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/MedicinalProductDefinition.crossReference.context.jsonld"
     },
-    "MedicinalProductDefinition.manufacturingBusinessOperation": {
+    "manufacturingBusinessOperation": {
       "@id": "fhir:MedicinalProductDefinition.manufacturingBusinessOperation",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/MedicinalProductDefinition.manufacturingBusinessOperation.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/MedicinalProductDefinition.manufacturingBusinessOperation.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

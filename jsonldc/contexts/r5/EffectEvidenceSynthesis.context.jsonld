@@ -1,7 +1,7 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
@@ -9,168 +9,168 @@
       "@id": "rdf:type",
       "@type": "@id"
     },
-    "Resource.id": {
+    "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Resource.meta": {
+    "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Meta.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
     },
-    "Resource.implicitRules": {
+    "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
     },
-    "Resource.language": {
+    "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
     },
-    "DomainResource.text": {
+    "text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Narrative.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
     },
-    "DomainResource.contained": {
+    "contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Resource.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
     },
-    "DomainResource.extension": {
+    "extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "DomainResource.modifierExtension": {
+    "modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "EffectEvidenceSynthesis.url": {
+    "url": {
       "@id": "fhir:EffectEvidenceSynthesis.url",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
     },
-    "EffectEvidenceSynthesis.identifier": {
+    "identifier": {
       "@id": "fhir:EffectEvidenceSynthesis.identifier",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
     },
-    "EffectEvidenceSynthesis.version": {
+    "version": {
       "@id": "fhir:EffectEvidenceSynthesis.version",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "EffectEvidenceSynthesis.name": {
+    "name": {
       "@id": "fhir:EffectEvidenceSynthesis.name",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "EffectEvidenceSynthesis.title": {
+    "title": {
       "@id": "fhir:EffectEvidenceSynthesis.title",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "EffectEvidenceSynthesis.status": {
+    "status": {
       "@id": "fhir:EffectEvidenceSynthesis.status"
     },
-    "EffectEvidenceSynthesis.date": {
+    "date": {
       "@id": "fhir:EffectEvidenceSynthesis.date",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
     },
-    "EffectEvidenceSynthesis.publisher": {
+    "publisher": {
       "@id": "fhir:EffectEvidenceSynthesis.publisher",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "EffectEvidenceSynthesis.contact": {
+    "contact": {
       "@id": "fhir:EffectEvidenceSynthesis.contact",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ContactDetail.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/ContactDetail.context.jsonld"
     },
-    "EffectEvidenceSynthesis.description": {
+    "description": {
       "@id": "fhir:EffectEvidenceSynthesis.description",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/markdown.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
     },
-    "EffectEvidenceSynthesis.note": {
+    "note": {
       "@id": "fhir:EffectEvidenceSynthesis.note",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Annotation.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Annotation.context.jsonld"
     },
-    "EffectEvidenceSynthesis.useContext": {
+    "useContext": {
       "@id": "fhir:EffectEvidenceSynthesis.useContext",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/UsageContext.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/UsageContext.context.jsonld"
     },
-    "EffectEvidenceSynthesis.jurisdiction": {
+    "jurisdiction": {
       "@id": "fhir:EffectEvidenceSynthesis.jurisdiction",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "EffectEvidenceSynthesis.copyright": {
+    "copyright": {
       "@id": "fhir:EffectEvidenceSynthesis.copyright",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/markdown.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
     },
-    "EffectEvidenceSynthesis.approvalDate": {
+    "approvalDate": {
       "@id": "fhir:EffectEvidenceSynthesis.approvalDate",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/date.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/date.context.jsonld"
     },
-    "EffectEvidenceSynthesis.lastReviewDate": {
+    "lastReviewDate": {
       "@id": "fhir:EffectEvidenceSynthesis.lastReviewDate",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/date.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/date.context.jsonld"
     },
-    "EffectEvidenceSynthesis.effectivePeriod": {
+    "effectivePeriod": {
       "@id": "fhir:EffectEvidenceSynthesis.effectivePeriod",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Period.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
     },
-    "EffectEvidenceSynthesis.topic": {
+    "topic": {
       "@id": "fhir:EffectEvidenceSynthesis.topic",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "EffectEvidenceSynthesis.author": {
+    "author": {
       "@id": "fhir:EffectEvidenceSynthesis.author",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ContactDetail.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/ContactDetail.context.jsonld"
     },
-    "EffectEvidenceSynthesis.editor": {
+    "editor": {
       "@id": "fhir:EffectEvidenceSynthesis.editor",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ContactDetail.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/ContactDetail.context.jsonld"
     },
-    "EffectEvidenceSynthesis.reviewer": {
+    "reviewer": {
       "@id": "fhir:EffectEvidenceSynthesis.reviewer",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ContactDetail.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/ContactDetail.context.jsonld"
     },
-    "EffectEvidenceSynthesis.endorser": {
+    "endorser": {
       "@id": "fhir:EffectEvidenceSynthesis.endorser",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ContactDetail.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/ContactDetail.context.jsonld"
     },
-    "EffectEvidenceSynthesis.relatedArtifact": {
+    "relatedArtifact": {
       "@id": "fhir:EffectEvidenceSynthesis.relatedArtifact",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/RelatedArtifact.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/RelatedArtifact.context.jsonld"
     },
-    "EffectEvidenceSynthesis.synthesisType": {
+    "synthesisType": {
       "@id": "fhir:EffectEvidenceSynthesis.synthesisType",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "EffectEvidenceSynthesis.studyType": {
+    "studyType": {
       "@id": "fhir:EffectEvidenceSynthesis.studyType",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "EffectEvidenceSynthesis.population": {
+    "population": {
       "@id": "fhir:EffectEvidenceSynthesis.population",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "EffectEvidenceSynthesis.exposure": {
+    "exposure": {
       "@id": "fhir:EffectEvidenceSynthesis.exposure",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "EffectEvidenceSynthesis.exposureAlternative": {
+    "exposureAlternative": {
       "@id": "fhir:EffectEvidenceSynthesis.exposureAlternative",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "EffectEvidenceSynthesis.outcome": {
+    "outcome": {
       "@id": "fhir:EffectEvidenceSynthesis.outcome",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "EffectEvidenceSynthesis.sampleSize": {
+    "sampleSize": {
       "@id": "fhir:EffectEvidenceSynthesis.sampleSize",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/EffectEvidenceSynthesis.sampleSize.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/EffectEvidenceSynthesis.sampleSize.context.jsonld"
     },
-    "EffectEvidenceSynthesis.resultsByExposure": {
+    "resultsByExposure": {
       "@id": "fhir:EffectEvidenceSynthesis.resultsByExposure",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/EffectEvidenceSynthesis.resultsByExposure.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/EffectEvidenceSynthesis.resultsByExposure.context.jsonld"
     },
-    "EffectEvidenceSynthesis.effectEstimate": {
+    "effectEstimate": {
       "@id": "fhir:EffectEvidenceSynthesis.effectEstimate",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/EffectEvidenceSynthesis.effectEstimate.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/EffectEvidenceSynthesis.effectEstimate.context.jsonld"
     },
-    "EffectEvidenceSynthesis.certainty": {
+    "certainty": {
       "@id": "fhir:EffectEvidenceSynthesis.certainty",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/EffectEvidenceSynthesis.certainty.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/EffectEvidenceSynthesis.certainty.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

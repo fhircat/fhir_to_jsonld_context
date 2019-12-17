@@ -1,57 +1,57 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "Element.id": {
+    "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Element.extension": {
+    "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "BackboneElement.modifierExtension": {
+    "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "NutritionOrder.enteralFormula.baseFormulaType": {
+    "baseFormulaType": {
       "@id": "fhir:NutritionOrder.enteralFormula.baseFormulaType",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "NutritionOrder.enteralFormula.baseFormulaProductName": {
+    "baseFormulaProductName": {
       "@id": "fhir:NutritionOrder.enteralFormula.baseFormulaProductName",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "NutritionOrder.enteralFormula.additiveType": {
+    "additiveType": {
       "@id": "fhir:NutritionOrder.enteralFormula.additiveType",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "NutritionOrder.enteralFormula.additiveProductName": {
+    "additiveProductName": {
       "@id": "fhir:NutritionOrder.enteralFormula.additiveProductName",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "NutritionOrder.enteralFormula.caloricDensity": {
+    "caloricDensity": {
       "@id": "fhir:NutritionOrder.enteralFormula.caloricDensity",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SimpleQuantity.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/SimpleQuantity.context.jsonld"
     },
-    "NutritionOrder.enteralFormula.routeofAdministration": {
+    "routeofAdministration": {
       "@id": "fhir:NutritionOrder.enteralFormula.routeofAdministration",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "NutritionOrder.enteralFormula.administration": {
+    "administration": {
       "@id": "fhir:NutritionOrder.enteralFormula.administration",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/NutritionOrder.enteralFormula.administration.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/NutritionOrder.enteralFormula.administration.context.jsonld"
     },
-    "NutritionOrder.enteralFormula.maxVolumeToDeliver": {
+    "maxVolumeToDeliver": {
       "@id": "fhir:NutritionOrder.enteralFormula.maxVolumeToDeliver",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SimpleQuantity.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/SimpleQuantity.context.jsonld"
     },
-    "NutritionOrder.enteralFormula.administrationInstruction": {
+    "administrationInstruction": {
       "@id": "fhir:NutritionOrder.enteralFormula.administrationInstruction",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

@@ -1,43 +1,43 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "Element.id": {
+    "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Element.extension": {
+    "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "Signature.type": {
+    "type": {
       "@id": "fhir:Signature.type",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Coding.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Coding.context.jsonld"
     },
-    "Signature.when": {
+    "when": {
       "@id": "fhir:Signature.when",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/instant.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/instant.context.jsonld"
     },
-    "Signature.who": {
+    "who": {
       "@id": "fhir:Signature.who",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "Signature.onBehalfOf": {
+    "onBehalfOf": {
       "@id": "fhir:Signature.onBehalfOf",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "Signature.targetFormat": {
+    "targetFormat": {
       "@id": "fhir:Signature.targetFormat"
     },
-    "Signature.sigFormat": {
+    "sigFormat": {
       "@id": "fhir:Signature.sigFormat"
     },
-    "Signature.data": {
+    "data": {
       "@id": "fhir:Signature.data",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/base64Binary.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/base64Binary.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

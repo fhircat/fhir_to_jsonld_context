@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Element.id",
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:Element.extension",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:BackboneElement.modifierExtension",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+    },
+    "description": {
+      "@id": "fhir:Statistic.description",
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+    },
+    "note": {
+      "@id": "fhir:Statistic.note",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Annotation.context.jsonld"
+    },
+    "statisticType": {
+      "@id": "fhir:Statistic.statisticType",
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+    },
+    "quantity": {
+      "@id": "fhir:Statistic.quantity",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Quantity.context.jsonld"
+    },
+    "sampleSize": {
+      "@id": "fhir:Statistic.sampleSize",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Statistic.sampleSize.context.jsonld"
+    },
+    "attributeEstimate": {
+      "@id": "fhir:Statistic.attributeEstimate",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Statistic.attributeEstimate.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

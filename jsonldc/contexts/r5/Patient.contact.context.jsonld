@@ -1,48 +1,48 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "Element.id": {
+    "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Element.extension": {
+    "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "BackboneElement.modifierExtension": {
+    "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "Patient.contact.relationship": {
+    "relationship": {
       "@id": "fhir:Patient.contact.relationship",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "Patient.contact.name": {
+    "name": {
       "@id": "fhir:Patient.contact.name",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/HumanName.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/HumanName.context.jsonld"
     },
-    "Patient.contact.telecom": {
+    "telecom": {
       "@id": "fhir:Patient.contact.telecom",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ContactPoint.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/ContactPoint.context.jsonld"
     },
-    "Patient.contact.address": {
+    "address": {
       "@id": "fhir:Patient.contact.address",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Address.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Address.context.jsonld"
     },
-    "Patient.contact.gender": {
+    "gender": {
       "@id": "fhir:Patient.contact.gender"
     },
-    "Patient.contact.organization": {
+    "organization": {
       "@id": "fhir:Patient.contact.organization",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "Patient.contact.period": {
+    "period": {
       "@id": "fhir:Patient.contact.period",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Period.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

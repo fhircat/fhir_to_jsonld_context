@@ -1,87 +1,87 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "Element.id": {
+    "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Element.extension": {
+    "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "BackboneElement.modifierExtension": {
+    "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "EvidenceVariable.characteristic.description": {
+    "description": {
       "@id": "fhir:EvidenceVariable.characteristic.description",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "EvidenceVariable.characteristic.definitionReference": {
+    "definitionReference": {
       "@id": "fhir:EvidenceVariable.characteristic.definitionReference",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "EvidenceVariable.characteristic.definitionCanonical": {
+    "definitionCanonical": {
       "@id": "fhir:EvidenceVariable.characteristic.definitionCanonical",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/canonical.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/canonical.context.jsonld"
     },
-    "EvidenceVariable.characteristic.definitionCodeableConcept": {
+    "definitionCodeableConcept": {
       "@id": "fhir:EvidenceVariable.characteristic.definitionCodeableConcept",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "EvidenceVariable.characteristic.definitionExpression": {
+    "definitionExpression": {
       "@id": "fhir:EvidenceVariable.characteristic.definitionExpression",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Expression.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Expression.context.jsonld"
     },
-    "EvidenceVariable.characteristic.definitionDataRequirement": {
+    "definitionDataRequirement": {
       "@id": "fhir:EvidenceVariable.characteristic.definitionDataRequirement",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/DataRequirement.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/DataRequirement.context.jsonld"
     },
-    "EvidenceVariable.characteristic.definitionTriggerDefinition": {
+    "definitionTriggerDefinition": {
       "@id": "fhir:EvidenceVariable.characteristic.definitionTriggerDefinition",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/TriggerDefinition.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/TriggerDefinition.context.jsonld"
     },
-    "EvidenceVariable.characteristic.method": {
+    "method": {
       "@id": "fhir:EvidenceVariable.characteristic.method",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "EvidenceVariable.characteristic.device": {
+    "device": {
       "@id": "fhir:EvidenceVariable.characteristic.device",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "EvidenceVariable.characteristic.booleanSet": {
+    "booleanSet": {
       "@id": "fhir:EvidenceVariable.characteristic.booleanSet",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "EvidenceVariable.characteristic.exclude": {
+    "exclude": {
       "@id": "fhir:EvidenceVariable.characteristic.exclude",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
     },
-    "EvidenceVariable.characteristic.participantEffectiveDateTime": {
+    "participantEffectiveDateTime": {
       "@id": "fhir:EvidenceVariable.characteristic.participantEffectiveDateTime",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
     },
-    "EvidenceVariable.characteristic.participantEffectivePeriod": {
+    "participantEffectivePeriod": {
       "@id": "fhir:EvidenceVariable.characteristic.participantEffectivePeriod",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Period.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
     },
-    "EvidenceVariable.characteristic.participantEffectiveDuration": {
+    "participantEffectiveDuration": {
       "@id": "fhir:EvidenceVariable.characteristic.participantEffectiveDuration",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Duration.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Duration.context.jsonld"
     },
-    "EvidenceVariable.characteristic.participantEffectiveTiming": {
+    "participantEffectiveTiming": {
       "@id": "fhir:EvidenceVariable.characteristic.participantEffectiveTiming",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Timing.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Timing.context.jsonld"
     },
-    "EvidenceVariable.characteristic.timeFromStart": {
+    "timeFromStart": {
       "@id": "fhir:EvidenceVariable.characteristic.timeFromStart",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Duration.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Duration.context.jsonld"
     },
-    "EvidenceVariable.characteristic.groupMeasure": {
+    "groupMeasure": {
       "@id": "fhir:EvidenceVariable.characteristic.groupMeasure"
     },
     "index": {

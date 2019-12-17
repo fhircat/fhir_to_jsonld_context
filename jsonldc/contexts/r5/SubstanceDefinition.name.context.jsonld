@@ -1,65 +1,65 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "Element.id": {
+    "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Element.extension": {
+    "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "BackboneElement.modifierExtension": {
+    "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "SubstanceDefinition.name.name": {
+    "name": {
       "@id": "fhir:SubstanceDefinition.name.name",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "SubstanceDefinition.name.type": {
+    "type": {
       "@id": "fhir:SubstanceDefinition.name.type",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "SubstanceDefinition.name.status": {
+    "status": {
       "@id": "fhir:SubstanceDefinition.name.status",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "SubstanceDefinition.name.preferred": {
+    "preferred": {
       "@id": "fhir:SubstanceDefinition.name.preferred",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
     },
-    "SubstanceDefinition.name.language": {
+    "language": {
       "@id": "fhir:SubstanceDefinition.name.language",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "SubstanceDefinition.name.domain": {
+    "domain": {
       "@id": "fhir:SubstanceDefinition.name.domain",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "SubstanceDefinition.name.jurisdiction": {
+    "jurisdiction": {
       "@id": "fhir:SubstanceDefinition.name.jurisdiction",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "SubstanceDefinition.name.synonym": {
+    "synonym": {
       "@id": "fhir:SubstanceDefinition.name.synonym",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SubstanceDefinition.name.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/SubstanceDefinition.name.context.jsonld"
     },
-    "SubstanceDefinition.name.translation": {
+    "translation": {
       "@id": "fhir:SubstanceDefinition.name.translation",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SubstanceDefinition.name.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/SubstanceDefinition.name.context.jsonld"
     },
-    "SubstanceDefinition.name.official": {
+    "official": {
       "@id": "fhir:SubstanceDefinition.name.official",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SubstanceDefinition.name.official.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/SubstanceDefinition.name.official.context.jsonld"
     },
-    "SubstanceDefinition.name.source": {
+    "source": {
       "@id": "fhir:SubstanceDefinition.name.source",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

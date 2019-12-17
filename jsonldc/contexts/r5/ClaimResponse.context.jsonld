@@ -1,0 +1,154 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:ClaimResponse.identifier",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:ClaimResponse.status"
+    },
+    "type": {
+      "@id": "fhir:ClaimResponse.type",
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+    },
+    "subType": {
+      "@id": "fhir:ClaimResponse.subType",
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+    },
+    "use": {
+      "@id": "fhir:ClaimResponse.use"
+    },
+    "patient": {
+      "@id": "fhir:ClaimResponse.patient",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+    },
+    "created": {
+      "@id": "fhir:ClaimResponse.created",
+      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
+    },
+    "insurer": {
+      "@id": "fhir:ClaimResponse.insurer",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+    },
+    "requestor": {
+      "@id": "fhir:ClaimResponse.requestor",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+    },
+    "request": {
+      "@id": "fhir:ClaimResponse.request",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+    },
+    "outcome": {
+      "@id": "fhir:ClaimResponse.outcome"
+    },
+    "disposition": {
+      "@id": "fhir:ClaimResponse.disposition",
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+    },
+    "preAuthRef": {
+      "@id": "fhir:ClaimResponse.preAuthRef",
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+    },
+    "preAuthPeriod": {
+      "@id": "fhir:ClaimResponse.preAuthPeriod",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
+    },
+    "payeeType": {
+      "@id": "fhir:ClaimResponse.payeeType",
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+    },
+    "item": {
+      "@id": "fhir:ClaimResponse.item",
+      "@context": "https://fhircat.org/fhir/contexts/r5/ClaimResponse.item.context.jsonld"
+    },
+    "addItem": {
+      "@id": "fhir:ClaimResponse.addItem",
+      "@context": "https://fhircat.org/fhir/contexts/r5/ClaimResponse.addItem.context.jsonld"
+    },
+    "adjudication": {
+      "@id": "fhir:ClaimResponse.adjudication",
+      "@context": "https://fhircat.org/fhir/contexts/r5/ClaimResponse.item.adjudication.context.jsonld"
+    },
+    "total": {
+      "@id": "fhir:ClaimResponse.total",
+      "@context": "https://fhircat.org/fhir/contexts/r5/ClaimResponse.total.context.jsonld"
+    },
+    "payment": {
+      "@id": "fhir:ClaimResponse.payment",
+      "@context": "https://fhircat.org/fhir/contexts/r5/ClaimResponse.payment.context.jsonld"
+    },
+    "fundsReserve": {
+      "@id": "fhir:ClaimResponse.fundsReserve",
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+    },
+    "formCode": {
+      "@id": "fhir:ClaimResponse.formCode",
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+    },
+    "form": {
+      "@id": "fhir:ClaimResponse.form",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Attachment.context.jsonld"
+    },
+    "processNote": {
+      "@id": "fhir:ClaimResponse.processNote",
+      "@context": "https://fhircat.org/fhir/contexts/r5/ClaimResponse.processNote.context.jsonld"
+    },
+    "communicationRequest": {
+      "@id": "fhir:ClaimResponse.communicationRequest",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+    },
+    "insurance": {
+      "@id": "fhir:ClaimResponse.insurance",
+      "@context": "https://fhircat.org/fhir/contexts/r5/ClaimResponse.insurance.context.jsonld"
+    },
+    "error": {
+      "@id": "fhir:ClaimResponse.error",
+      "@context": "https://fhircat.org/fhir/contexts/r5/ClaimResponse.error.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

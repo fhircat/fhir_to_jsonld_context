@@ -1,53 +1,53 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "Element.id": {
+    "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Element.extension": {
+    "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "BackboneElement.modifierExtension": {
+    "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "SubstanceSourceMaterial.organism.family": {
+    "family": {
       "@id": "fhir:SubstanceSourceMaterial.organism.family",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "SubstanceSourceMaterial.organism.genus": {
+    "genus": {
       "@id": "fhir:SubstanceSourceMaterial.organism.genus",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "SubstanceSourceMaterial.organism.species": {
+    "species": {
       "@id": "fhir:SubstanceSourceMaterial.organism.species",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "SubstanceSourceMaterial.organism.intraspecificType": {
+    "intraspecificType": {
       "@id": "fhir:SubstanceSourceMaterial.organism.intraspecificType",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "SubstanceSourceMaterial.organism.intraspecificDescription": {
+    "intraspecificDescription": {
       "@id": "fhir:SubstanceSourceMaterial.organism.intraspecificDescription",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "SubstanceSourceMaterial.organism.author": {
+    "author": {
       "@id": "fhir:SubstanceSourceMaterial.organism.author",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SubstanceSourceMaterial.organism.author.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/SubstanceSourceMaterial.organism.author.context.jsonld"
     },
-    "SubstanceSourceMaterial.organism.hybrid": {
+    "hybrid": {
       "@id": "fhir:SubstanceSourceMaterial.organism.hybrid",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SubstanceSourceMaterial.organism.hybrid.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/SubstanceSourceMaterial.organism.hybrid.context.jsonld"
     },
-    "SubstanceSourceMaterial.organism.organismGeneral": {
+    "organismGeneral": {
       "@id": "fhir:SubstanceSourceMaterial.organism.organismGeneral",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SubstanceSourceMaterial.organism.organismGeneral.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/SubstanceSourceMaterial.organism.organismGeneral.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

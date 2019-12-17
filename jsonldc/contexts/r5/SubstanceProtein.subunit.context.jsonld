@@ -1,53 +1,53 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "Element.id": {
+    "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Element.extension": {
+    "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "BackboneElement.modifierExtension": {
+    "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "SubstanceProtein.subunit.subunit": {
+    "subunit": {
       "@id": "fhir:SubstanceProtein.subunit.subunit",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/integer.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/integer.context.jsonld"
     },
-    "SubstanceProtein.subunit.sequence": {
+    "sequence": {
       "@id": "fhir:SubstanceProtein.subunit.sequence",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "SubstanceProtein.subunit.length": {
+    "length": {
       "@id": "fhir:SubstanceProtein.subunit.length",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/integer.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/integer.context.jsonld"
     },
-    "SubstanceProtein.subunit.sequenceAttachment": {
+    "sequenceAttachment": {
       "@id": "fhir:SubstanceProtein.subunit.sequenceAttachment",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Attachment.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Attachment.context.jsonld"
     },
-    "SubstanceProtein.subunit.nTerminalModificationId": {
+    "nTerminalModificationId": {
       "@id": "fhir:SubstanceProtein.subunit.nTerminalModificationId",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
     },
-    "SubstanceProtein.subunit.nTerminalModification": {
+    "nTerminalModification": {
       "@id": "fhir:SubstanceProtein.subunit.nTerminalModification",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "SubstanceProtein.subunit.cTerminalModificationId": {
+    "cTerminalModificationId": {
       "@id": "fhir:SubstanceProtein.subunit.cTerminalModificationId",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
     },
-    "SubstanceProtein.subunit.cTerminalModification": {
+    "cTerminalModification": {
       "@id": "fhir:SubstanceProtein.subunit.cTerminalModification",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

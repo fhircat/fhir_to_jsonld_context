@@ -1,0 +1,92 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+    },
+    "url": {
+      "@id": "fhir:MetadataResource.url",
+      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+    },
+    "version": {
+      "@id": "fhir:MetadataResource.version",
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+    },
+    "name": {
+      "@id": "fhir:MetadataResource.name",
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+    },
+    "title": {
+      "@id": "fhir:MetadataResource.title",
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:MetadataResource.status"
+    },
+    "experimental": {
+      "@id": "fhir:MetadataResource.experimental",
+      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+    },
+    "date": {
+      "@id": "fhir:MetadataResource.date",
+      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
+    },
+    "publisher": {
+      "@id": "fhir:MetadataResource.publisher",
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+    },
+    "contact": {
+      "@id": "fhir:MetadataResource.contact",
+      "@context": "https://fhircat.org/fhir/contexts/r5/ContactDetail.context.jsonld"
+    },
+    "description": {
+      "@id": "fhir:MetadataResource.description",
+      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
+    },
+    "useContext": {
+      "@id": "fhir:MetadataResource.useContext",
+      "@context": "https://fhircat.org/fhir/contexts/r5/UsageContext.context.jsonld"
+    },
+    "jurisdiction": {
+      "@id": "fhir:MetadataResource.jurisdiction",
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

@@ -1,51 +1,51 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "Element.id": {
+    "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Element.extension": {
+    "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "BackboneElement.modifierExtension": {
+    "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "ObservationDefinition.qualifiedInterval.category": {
+    "category": {
       "@id": "fhir:ObservationDefinition.qualifiedInterval.category"
     },
-    "ObservationDefinition.qualifiedInterval.range": {
+    "range": {
       "@id": "fhir:ObservationDefinition.qualifiedInterval.range",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Range.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Range.context.jsonld"
     },
-    "ObservationDefinition.qualifiedInterval.context": {
+    "context": {
       "@id": "fhir:ObservationDefinition.qualifiedInterval.context",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "ObservationDefinition.qualifiedInterval.appliesTo": {
+    "appliesTo": {
       "@id": "fhir:ObservationDefinition.qualifiedInterval.appliesTo",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "ObservationDefinition.qualifiedInterval.gender": {
+    "gender": {
       "@id": "fhir:ObservationDefinition.qualifiedInterval.gender"
     },
-    "ObservationDefinition.qualifiedInterval.age": {
+    "age": {
       "@id": "fhir:ObservationDefinition.qualifiedInterval.age",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Range.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Range.context.jsonld"
     },
-    "ObservationDefinition.qualifiedInterval.gestationalAge": {
+    "gestationalAge": {
       "@id": "fhir:ObservationDefinition.qualifiedInterval.gestationalAge",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Range.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Range.context.jsonld"
     },
-    "ObservationDefinition.qualifiedInterval.condition": {
+    "condition": {
       "@id": "fhir:ObservationDefinition.qualifiedInterval.condition",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

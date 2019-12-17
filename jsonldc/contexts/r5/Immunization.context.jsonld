@@ -1,7 +1,7 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
@@ -9,156 +9,156 @@
       "@id": "rdf:type",
       "@type": "@id"
     },
-    "Resource.id": {
+    "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Resource.meta": {
+    "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Meta.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
     },
-    "Resource.implicitRules": {
+    "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
     },
-    "Resource.language": {
+    "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
     },
-    "DomainResource.text": {
+    "text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Narrative.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
     },
-    "DomainResource.contained": {
+    "contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Resource.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
     },
-    "DomainResource.extension": {
+    "extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "DomainResource.modifierExtension": {
+    "modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "Immunization.identifier": {
+    "identifier": {
       "@id": "fhir:Immunization.identifier",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
     },
-    "Immunization.status": {
+    "status": {
       "@id": "fhir:Immunization.status"
     },
-    "Immunization.statusReason": {
+    "statusReason": {
       "@id": "fhir:Immunization.statusReason",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "Immunization.vaccineCode": {
+    "vaccineCode": {
       "@id": "fhir:Immunization.vaccineCode",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "Immunization.patient": {
+    "patient": {
       "@id": "fhir:Immunization.patient",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "Immunization.encounter": {
+    "encounter": {
       "@id": "fhir:Immunization.encounter",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "Immunization.occurrenceDateTime": {
+    "occurrenceDateTime": {
       "@id": "fhir:Immunization.occurrenceDateTime",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
     },
-    "Immunization.occurrenceString": {
+    "occurrenceString": {
       "@id": "fhir:Immunization.occurrenceString",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Immunization.recorded": {
+    "recorded": {
       "@id": "fhir:Immunization.recorded",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
     },
-    "Immunization.primarySource": {
+    "primarySource": {
       "@id": "fhir:Immunization.primarySource",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
     },
-    "Immunization.informationSourceCodeableConcept": {
+    "informationSourceCodeableConcept": {
       "@id": "fhir:Immunization.informationSourceCodeableConcept",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "Immunization.informationSourceReference": {
+    "informationSourceReference": {
       "@id": "fhir:Immunization.informationSourceReference",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "Immunization.location": {
+    "location": {
       "@id": "fhir:Immunization.location",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "Immunization.manufacturer": {
+    "manufacturer": {
       "@id": "fhir:Immunization.manufacturer",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "Immunization.lotNumber": {
+    "lotNumber": {
       "@id": "fhir:Immunization.lotNumber",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Immunization.expirationDate": {
+    "expirationDate": {
       "@id": "fhir:Immunization.expirationDate",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/date.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/date.context.jsonld"
     },
-    "Immunization.site": {
+    "site": {
       "@id": "fhir:Immunization.site",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "Immunization.route": {
+    "route": {
       "@id": "fhir:Immunization.route",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "Immunization.doseQuantity": {
+    "doseQuantity": {
       "@id": "fhir:Immunization.doseQuantity",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SimpleQuantity.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/SimpleQuantity.context.jsonld"
     },
-    "Immunization.performer": {
+    "performer": {
       "@id": "fhir:Immunization.performer",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Immunization.performer.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Immunization.performer.context.jsonld"
     },
-    "Immunization.note": {
+    "note": {
       "@id": "fhir:Immunization.note",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Annotation.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Annotation.context.jsonld"
     },
-    "Immunization.reasonCode": {
+    "reasonCode": {
       "@id": "fhir:Immunization.reasonCode",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "Immunization.reasonReference": {
+    "reasonReference": {
       "@id": "fhir:Immunization.reasonReference",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "Immunization.isSubpotent": {
+    "isSubpotent": {
       "@id": "fhir:Immunization.isSubpotent",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
     },
-    "Immunization.subpotentReason": {
+    "subpotentReason": {
       "@id": "fhir:Immunization.subpotentReason",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "Immunization.education": {
+    "education": {
       "@id": "fhir:Immunization.education",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Immunization.education.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Immunization.education.context.jsonld"
     },
-    "Immunization.programEligibility": {
+    "programEligibility": {
       "@id": "fhir:Immunization.programEligibility",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "Immunization.fundingSource": {
+    "fundingSource": {
       "@id": "fhir:Immunization.fundingSource",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "Immunization.reaction": {
+    "reaction": {
       "@id": "fhir:Immunization.reaction",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Immunization.reaction.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Immunization.reaction.context.jsonld"
     },
-    "Immunization.protocolApplied": {
+    "protocolApplied": {
       "@id": "fhir:Immunization.protocolApplied",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Immunization.protocolApplied.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Immunization.protocolApplied.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

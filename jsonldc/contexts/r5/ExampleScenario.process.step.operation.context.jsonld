@@ -1,61 +1,61 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "Element.id": {
+    "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Element.extension": {
+    "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "BackboneElement.modifierExtension": {
+    "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "ExampleScenario.process.step.operation.number": {
+    "number": {
       "@id": "fhir:ExampleScenario.process.step.operation.number",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "ExampleScenario.process.step.operation.type": {
+    "type": {
       "@id": "fhir:ExampleScenario.process.step.operation.type",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "ExampleScenario.process.step.operation.name": {
+    "name": {
       "@id": "fhir:ExampleScenario.process.step.operation.name",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "ExampleScenario.process.step.operation.initiator": {
+    "initiator": {
       "@id": "fhir:ExampleScenario.process.step.operation.initiator",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "ExampleScenario.process.step.operation.receiver": {
+    "receiver": {
       "@id": "fhir:ExampleScenario.process.step.operation.receiver",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "ExampleScenario.process.step.operation.description": {
+    "description": {
       "@id": "fhir:ExampleScenario.process.step.operation.description",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/markdown.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
     },
-    "ExampleScenario.process.step.operation.initiatorActive": {
+    "initiatorActive": {
       "@id": "fhir:ExampleScenario.process.step.operation.initiatorActive",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
     },
-    "ExampleScenario.process.step.operation.receiverActive": {
+    "receiverActive": {
       "@id": "fhir:ExampleScenario.process.step.operation.receiverActive",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
     },
-    "ExampleScenario.process.step.operation.request": {
+    "request": {
       "@id": "fhir:ExampleScenario.process.step.operation.request",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ExampleScenario.instance.containedInstance.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/ExampleScenario.instance.containedInstance.context.jsonld"
     },
-    "ExampleScenario.process.step.operation.response": {
+    "response": {
       "@id": "fhir:ExampleScenario.process.step.operation.response",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ExampleScenario.instance.containedInstance.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/ExampleScenario.instance.containedInstance.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

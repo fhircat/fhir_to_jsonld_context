@@ -1,55 +1,55 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "Element.id": {
+    "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Element.extension": {
+    "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "BackboneElement.modifierExtension": {
+    "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "MolecularSequence.referenceSeq.chromosome": {
+    "chromosome": {
       "@id": "fhir:MolecularSequence.referenceSeq.chromosome",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "MolecularSequence.referenceSeq.genomeBuild": {
+    "genomeBuild": {
       "@id": "fhir:MolecularSequence.referenceSeq.genomeBuild",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "MolecularSequence.referenceSeq.orientation": {
+    "orientation": {
       "@id": "fhir:MolecularSequence.referenceSeq.orientation"
     },
-    "MolecularSequence.referenceSeq.referenceSeqId": {
+    "referenceSeqId": {
       "@id": "fhir:MolecularSequence.referenceSeq.referenceSeqId",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "MolecularSequence.referenceSeq.referenceSeqPointer": {
+    "referenceSeqPointer": {
       "@id": "fhir:MolecularSequence.referenceSeq.referenceSeqPointer",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "MolecularSequence.referenceSeq.referenceSeqString": {
+    "referenceSeqString": {
       "@id": "fhir:MolecularSequence.referenceSeq.referenceSeqString",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "MolecularSequence.referenceSeq.strand": {
+    "strand": {
       "@id": "fhir:MolecularSequence.referenceSeq.strand"
     },
-    "MolecularSequence.referenceSeq.windowStart": {
+    "windowStart": {
       "@id": "fhir:MolecularSequence.referenceSeq.windowStart",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/integer.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/integer.context.jsonld"
     },
-    "MolecularSequence.referenceSeq.windowEnd": {
+    "windowEnd": {
       "@id": "fhir:MolecularSequence.referenceSeq.windowEnd",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/integer.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/integer.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

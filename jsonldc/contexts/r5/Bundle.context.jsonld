@@ -1,7 +1,7 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
@@ -9,48 +9,48 @@
       "@id": "rdf:type",
       "@type": "@id"
     },
-    "Resource.id": {
+    "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Resource.meta": {
+    "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Meta.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
     },
-    "Resource.implicitRules": {
+    "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
     },
-    "Resource.language": {
+    "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
     },
-    "Bundle.identifier": {
+    "identifier": {
       "@id": "fhir:Bundle.identifier",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
     },
-    "Bundle.type": {
+    "type": {
       "@id": "fhir:Bundle.type"
     },
-    "Bundle.timestamp": {
+    "timestamp": {
       "@id": "fhir:Bundle.timestamp",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/instant.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/instant.context.jsonld"
     },
-    "Bundle.total": {
+    "total": {
       "@id": "fhir:Bundle.total",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/unsignedInt.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/unsignedInt.context.jsonld"
     },
-    "Bundle.link": {
+    "link": {
       "@id": "fhir:Bundle.link",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Bundle.link.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Bundle.link.context.jsonld"
     },
-    "Bundle.entry": {
+    "entry": {
       "@id": "fhir:Bundle.entry",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Bundle.entry.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Bundle.entry.context.jsonld"
     },
-    "Bundle.signature": {
+    "signature": {
       "@id": "fhir:Bundle.signature",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Signature.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Signature.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

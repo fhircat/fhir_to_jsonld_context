@@ -1,57 +1,57 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "Element.id": {
+    "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Element.extension": {
+    "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "BackboneElement.modifierExtension": {
+    "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "SubstanceDefinition.structure.stereochemistry": {
+    "stereochemistry": {
       "@id": "fhir:SubstanceDefinition.structure.stereochemistry",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "SubstanceDefinition.structure.opticalActivity": {
+    "opticalActivity": {
       "@id": "fhir:SubstanceDefinition.structure.opticalActivity",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "SubstanceDefinition.structure.molecularFormula": {
+    "molecularFormula": {
       "@id": "fhir:SubstanceDefinition.structure.molecularFormula",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "SubstanceDefinition.structure.molecularFormulaByMoiety": {
+    "molecularFormulaByMoiety": {
       "@id": "fhir:SubstanceDefinition.structure.molecularFormulaByMoiety",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "SubstanceDefinition.structure.isotope": {
+    "isotope": {
       "@id": "fhir:SubstanceDefinition.structure.isotope",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SubstanceDefinition.structure.isotope.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/SubstanceDefinition.structure.isotope.context.jsonld"
     },
-    "SubstanceDefinition.structure.molecularWeight": {
+    "molecularWeight": {
       "@id": "fhir:SubstanceDefinition.structure.molecularWeight",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SubstanceDefinition.structure.isotope.molecularWeight.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/SubstanceDefinition.structure.isotope.molecularWeight.context.jsonld"
     },
-    "SubstanceDefinition.structure.sourceCoding": {
+    "sourceCoding": {
       "@id": "fhir:SubstanceDefinition.structure.sourceCoding",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Coding.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Coding.context.jsonld"
     },
-    "SubstanceDefinition.structure.sourceDocument": {
+    "sourceDocument": {
       "@id": "fhir:SubstanceDefinition.structure.sourceDocument",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "SubstanceDefinition.structure.representation": {
+    "representation": {
       "@id": "fhir:SubstanceDefinition.structure.representation",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SubstanceDefinition.structure.representation.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/SubstanceDefinition.structure.representation.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

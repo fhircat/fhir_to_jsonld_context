@@ -1,102 +1,102 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "Element.id": {
+    "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Element.extension": {
+    "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "BackboneElement.modifierExtension": {
+    "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "ResearchElementDefinition.characteristic.definitionCodeableConcept": {
+    "definitionCodeableConcept": {
       "@id": "fhir:ResearchElementDefinition.characteristic.definitionCodeableConcept",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "ResearchElementDefinition.characteristic.definitionCanonical": {
+    "definitionCanonical": {
       "@id": "fhir:ResearchElementDefinition.characteristic.definitionCanonical",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/canonical.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/canonical.context.jsonld"
     },
-    "ResearchElementDefinition.characteristic.definitionExpression": {
+    "definitionExpression": {
       "@id": "fhir:ResearchElementDefinition.characteristic.definitionExpression",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Expression.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Expression.context.jsonld"
     },
-    "ResearchElementDefinition.characteristic.definitionDataRequirement": {
+    "definitionDataRequirement": {
       "@id": "fhir:ResearchElementDefinition.characteristic.definitionDataRequirement",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/DataRequirement.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/DataRequirement.context.jsonld"
     },
-    "ResearchElementDefinition.characteristic.usageContext": {
+    "usageContext": {
       "@id": "fhir:ResearchElementDefinition.characteristic.usageContext",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/UsageContext.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/UsageContext.context.jsonld"
     },
-    "ResearchElementDefinition.characteristic.exclude": {
+    "exclude": {
       "@id": "fhir:ResearchElementDefinition.characteristic.exclude",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
     },
-    "ResearchElementDefinition.characteristic.unitOfMeasure": {
+    "unitOfMeasure": {
       "@id": "fhir:ResearchElementDefinition.characteristic.unitOfMeasure",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "ResearchElementDefinition.characteristic.studyEffectiveDescription": {
+    "studyEffectiveDescription": {
       "@id": "fhir:ResearchElementDefinition.characteristic.studyEffectiveDescription",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "ResearchElementDefinition.characteristic.studyEffectiveDateTime": {
+    "studyEffectiveDateTime": {
       "@id": "fhir:ResearchElementDefinition.characteristic.studyEffectiveDateTime",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
     },
-    "ResearchElementDefinition.characteristic.studyEffectivePeriod": {
+    "studyEffectivePeriod": {
       "@id": "fhir:ResearchElementDefinition.characteristic.studyEffectivePeriod",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Period.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
     },
-    "ResearchElementDefinition.characteristic.studyEffectiveDuration": {
+    "studyEffectiveDuration": {
       "@id": "fhir:ResearchElementDefinition.characteristic.studyEffectiveDuration",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Duration.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Duration.context.jsonld"
     },
-    "ResearchElementDefinition.characteristic.studyEffectiveTiming": {
+    "studyEffectiveTiming": {
       "@id": "fhir:ResearchElementDefinition.characteristic.studyEffectiveTiming",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Timing.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Timing.context.jsonld"
     },
-    "ResearchElementDefinition.characteristic.studyEffectiveTimeFromStart": {
+    "studyEffectiveTimeFromStart": {
       "@id": "fhir:ResearchElementDefinition.characteristic.studyEffectiveTimeFromStart",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Duration.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Duration.context.jsonld"
     },
-    "ResearchElementDefinition.characteristic.studyEffectiveGroupMeasure": {
+    "studyEffectiveGroupMeasure": {
       "@id": "fhir:ResearchElementDefinition.characteristic.studyEffectiveGroupMeasure"
     },
-    "ResearchElementDefinition.characteristic.participantEffectiveDescription": {
+    "participantEffectiveDescription": {
       "@id": "fhir:ResearchElementDefinition.characteristic.participantEffectiveDescription",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "ResearchElementDefinition.characteristic.participantEffectiveDateTime": {
+    "participantEffectiveDateTime": {
       "@id": "fhir:ResearchElementDefinition.characteristic.participantEffectiveDateTime",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
     },
-    "ResearchElementDefinition.characteristic.participantEffectivePeriod": {
+    "participantEffectivePeriod": {
       "@id": "fhir:ResearchElementDefinition.characteristic.participantEffectivePeriod",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Period.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
     },
-    "ResearchElementDefinition.characteristic.participantEffectiveDuration": {
+    "participantEffectiveDuration": {
       "@id": "fhir:ResearchElementDefinition.characteristic.participantEffectiveDuration",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Duration.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Duration.context.jsonld"
     },
-    "ResearchElementDefinition.characteristic.participantEffectiveTiming": {
+    "participantEffectiveTiming": {
       "@id": "fhir:ResearchElementDefinition.characteristic.participantEffectiveTiming",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Timing.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Timing.context.jsonld"
     },
-    "ResearchElementDefinition.characteristic.participantEffectiveTimeFromStart": {
+    "participantEffectiveTimeFromStart": {
       "@id": "fhir:ResearchElementDefinition.characteristic.participantEffectiveTimeFromStart",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Duration.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Duration.context.jsonld"
     },
-    "ResearchElementDefinition.characteristic.participantEffectiveGroupMeasure": {
+    "participantEffectiveGroupMeasure": {
       "@id": "fhir:ResearchElementDefinition.characteristic.participantEffectiveGroupMeasure"
     },
     "index": {

@@ -1,37 +1,37 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "Element.id": {
+    "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Element.extension": {
+    "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "BackboneElement.modifierExtension": {
+    "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "CapabilityStatement.messaging.endpoint": {
+    "endpoint": {
       "@id": "fhir:CapabilityStatement.messaging.endpoint",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CapabilityStatement.messaging.endpoint.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CapabilityStatement.messaging.endpoint.context.jsonld"
     },
-    "CapabilityStatement.messaging.reliableCache": {
+    "reliableCache": {
       "@id": "fhir:CapabilityStatement.messaging.reliableCache",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/unsignedInt.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/unsignedInt.context.jsonld"
     },
-    "CapabilityStatement.messaging.documentation": {
+    "documentation": {
       "@id": "fhir:CapabilityStatement.messaging.documentation",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/markdown.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
     },
-    "CapabilityStatement.messaging.supportedMessage": {
+    "supportedMessage": {
       "@id": "fhir:CapabilityStatement.messaging.supportedMessage",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CapabilityStatement.messaging.supportedMessage.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CapabilityStatement.messaging.supportedMessage.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

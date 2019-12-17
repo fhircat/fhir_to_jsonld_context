@@ -1,81 +1,81 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "Element.id": {
+    "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Element.extension": {
+    "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "BackboneElement.modifierExtension": {
+    "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "Contract.term.asset.valuedItem.entityCodeableConcept": {
+    "entityCodeableConcept": {
       "@id": "fhir:Contract.term.asset.valuedItem.entityCodeableConcept",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "Contract.term.asset.valuedItem.entityReference": {
+    "entityReference": {
       "@id": "fhir:Contract.term.asset.valuedItem.entityReference",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "Contract.term.asset.valuedItem.identifier": {
+    "identifier": {
       "@id": "fhir:Contract.term.asset.valuedItem.identifier",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
     },
-    "Contract.term.asset.valuedItem.effectiveTime": {
+    "effectiveTime": {
       "@id": "fhir:Contract.term.asset.valuedItem.effectiveTime",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
     },
-    "Contract.term.asset.valuedItem.quantity": {
+    "quantity": {
       "@id": "fhir:Contract.term.asset.valuedItem.quantity",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SimpleQuantity.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/SimpleQuantity.context.jsonld"
     },
-    "Contract.term.asset.valuedItem.unitPrice": {
+    "unitPrice": {
       "@id": "fhir:Contract.term.asset.valuedItem.unitPrice",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Money.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Money.context.jsonld"
     },
-    "Contract.term.asset.valuedItem.factor": {
+    "factor": {
       "@id": "fhir:Contract.term.asset.valuedItem.factor",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/decimal.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/decimal.context.jsonld"
     },
-    "Contract.term.asset.valuedItem.points": {
+    "points": {
       "@id": "fhir:Contract.term.asset.valuedItem.points",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/decimal.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/decimal.context.jsonld"
     },
-    "Contract.term.asset.valuedItem.net": {
+    "net": {
       "@id": "fhir:Contract.term.asset.valuedItem.net",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Money.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Money.context.jsonld"
     },
-    "Contract.term.asset.valuedItem.payment": {
+    "payment": {
       "@id": "fhir:Contract.term.asset.valuedItem.payment",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Contract.term.asset.valuedItem.paymentDate": {
+    "paymentDate": {
       "@id": "fhir:Contract.term.asset.valuedItem.paymentDate",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
     },
-    "Contract.term.asset.valuedItem.responsible": {
+    "responsible": {
       "@id": "fhir:Contract.term.asset.valuedItem.responsible",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "Contract.term.asset.valuedItem.recipient": {
+    "recipient": {
       "@id": "fhir:Contract.term.asset.valuedItem.recipient",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "Contract.term.asset.valuedItem.linkId": {
+    "linkId": {
       "@id": "fhir:Contract.term.asset.valuedItem.linkId",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Contract.term.asset.valuedItem.securityLabelNumber": {
+    "securityLabelNumber": {
       "@id": "fhir:Contract.term.asset.valuedItem.securityLabelNumber",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/unsignedInt.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/unsignedInt.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

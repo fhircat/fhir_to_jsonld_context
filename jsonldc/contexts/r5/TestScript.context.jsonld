@@ -1,0 +1,144 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "http://example.com/UNKNOWN#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fhir": "http://hl7.org/fhir/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "resourceType": {
+      "@id": "rdf:type",
+      "@type": "@id"
+    },
+    "id": {
+      "@id": "fhir:Resource.id",
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+    },
+    "meta": {
+      "@id": "fhir:Resource.meta",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
+    },
+    "implicitRules": {
+      "@id": "fhir:Resource.implicitRules",
+      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+    },
+    "language": {
+      "@id": "fhir:Resource.language",
+      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+    },
+    "text": {
+      "@id": "fhir:DomainResource.text",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
+    },
+    "contained": {
+      "@id": "fhir:DomainResource.contained",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
+    },
+    "extension": {
+      "@id": "fhir:DomainResource.extension",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+    },
+    "modifierExtension": {
+      "@id": "fhir:DomainResource.modifierExtension",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+    },
+    "url": {
+      "@id": "fhir:TestScript.url",
+      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+    },
+    "identifier": {
+      "@id": "fhir:TestScript.identifier",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
+    },
+    "version": {
+      "@id": "fhir:TestScript.version",
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+    },
+    "name": {
+      "@id": "fhir:TestScript.name",
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+    },
+    "title": {
+      "@id": "fhir:TestScript.title",
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+    },
+    "status": {
+      "@id": "fhir:TestScript.status"
+    },
+    "experimental": {
+      "@id": "fhir:TestScript.experimental",
+      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+    },
+    "date": {
+      "@id": "fhir:TestScript.date",
+      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
+    },
+    "publisher": {
+      "@id": "fhir:TestScript.publisher",
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+    },
+    "contact": {
+      "@id": "fhir:TestScript.contact",
+      "@context": "https://fhircat.org/fhir/contexts/r5/ContactDetail.context.jsonld"
+    },
+    "description": {
+      "@id": "fhir:TestScript.description",
+      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
+    },
+    "useContext": {
+      "@id": "fhir:TestScript.useContext",
+      "@context": "https://fhircat.org/fhir/contexts/r5/UsageContext.context.jsonld"
+    },
+    "jurisdiction": {
+      "@id": "fhir:TestScript.jurisdiction",
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+    },
+    "purpose": {
+      "@id": "fhir:TestScript.purpose",
+      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
+    },
+    "copyright": {
+      "@id": "fhir:TestScript.copyright",
+      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
+    },
+    "origin": {
+      "@id": "fhir:TestScript.origin",
+      "@context": "https://fhircat.org/fhir/contexts/r5/TestScript.origin.context.jsonld"
+    },
+    "destination": {
+      "@id": "fhir:TestScript.destination",
+      "@context": "https://fhircat.org/fhir/contexts/r5/TestScript.destination.context.jsonld"
+    },
+    "metadata": {
+      "@id": "fhir:TestScript.metadata",
+      "@context": "https://fhircat.org/fhir/contexts/r5/TestScript.metadata.context.jsonld"
+    },
+    "fixture": {
+      "@id": "fhir:TestScript.fixture",
+      "@context": "https://fhircat.org/fhir/contexts/r5/TestScript.fixture.context.jsonld"
+    },
+    "profile": {
+      "@id": "fhir:TestScript.profile",
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+    },
+    "variable": {
+      "@id": "fhir:TestScript.variable",
+      "@context": "https://fhircat.org/fhir/contexts/r5/TestScript.variable.context.jsonld"
+    },
+    "setup": {
+      "@id": "fhir:TestScript.setup",
+      "@context": "https://fhircat.org/fhir/contexts/r5/TestScript.setup.context.jsonld"
+    },
+    "test": {
+      "@id": "fhir:TestScript.test",
+      "@context": "https://fhircat.org/fhir/contexts/r5/TestScript.test.context.jsonld"
+    },
+    "teardown": {
+      "@id": "fhir:TestScript.teardown",
+      "@context": "https://fhircat.org/fhir/contexts/r5/TestScript.teardown.context.jsonld"
+    },
+    "index": {
+      "@id": "fhir:index",
+      "@type": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}

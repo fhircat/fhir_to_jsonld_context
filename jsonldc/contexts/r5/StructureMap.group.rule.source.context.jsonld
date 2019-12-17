@@ -1,260 +1,260 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "Element.id": {
+    "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Element.extension": {
+    "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "BackboneElement.modifierExtension": {
+    "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "StructureMap.group.rule.source.context": {
+    "context": {
       "@id": "fhir:StructureMap.group.rule.source.context",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/id.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/id.context.jsonld"
     },
-    "StructureMap.group.rule.source.min": {
+    "min": {
       "@id": "fhir:StructureMap.group.rule.source.min",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/integer.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/integer.context.jsonld"
     },
-    "StructureMap.group.rule.source.max": {
+    "max": {
       "@id": "fhir:StructureMap.group.rule.source.max",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "StructureMap.group.rule.source.type": {
+    "type": {
       "@id": "fhir:StructureMap.group.rule.source.type",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueBase64Binary": {
+    "defaultValueBase64Binary": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueBase64Binary",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/base64Binary.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/base64Binary.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueBoolean": {
+    "defaultValueBoolean": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueBoolean",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/boolean.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueCanonical": {
+    "defaultValueCanonical": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueCanonical",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/canonical.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/canonical.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueCode": {
+    "defaultValueCode": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueCode",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/code.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueDate": {
+    "defaultValueDate": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueDate",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/date.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/date.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueDateTime": {
+    "defaultValueDateTime": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueDateTime",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/dateTime.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueDecimal": {
+    "defaultValueDecimal": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueDecimal",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/decimal.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/decimal.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueId": {
+    "defaultValueId": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueId",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/id.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/id.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueInstant": {
+    "defaultValueInstant": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueInstant",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/instant.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/instant.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueInteger": {
+    "defaultValueInteger": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueInteger",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/integer.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/integer.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueMarkdown": {
+    "defaultValueMarkdown": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueMarkdown",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/markdown.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueOid": {
+    "defaultValueOid": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueOid",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/oid.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/oid.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValuePositiveInt": {
+    "defaultValuePositiveInt": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValuePositiveInt",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/positiveInt.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/positiveInt.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueString": {
+    "defaultValueString": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueString",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueTime": {
+    "defaultValueTime": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueTime",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/time.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/time.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueUnsignedInt": {
+    "defaultValueUnsignedInt": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueUnsignedInt",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/unsignedInt.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/unsignedInt.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueUri": {
+    "defaultValueUri": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueUri",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uri.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueUrl": {
+    "defaultValueUrl": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueUrl",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/url.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/url.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueUuid": {
+    "defaultValueUuid": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueUuid",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/uuid.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/uuid.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueAddress": {
+    "defaultValueAddress": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueAddress",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Address.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Address.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueAge": {
+    "defaultValueAge": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueAge",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Age.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Age.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueAnnotation": {
+    "defaultValueAnnotation": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueAnnotation",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Annotation.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Annotation.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueAttachment": {
+    "defaultValueAttachment": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueAttachment",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Attachment.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Attachment.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueCodeableConcept": {
+    "defaultValueCodeableConcept": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueCodeableConcept",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/CodeableConcept.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueCoding": {
+    "defaultValueCoding": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueCoding",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Coding.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Coding.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueContactPoint": {
+    "defaultValueContactPoint": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueContactPoint",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ContactPoint.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/ContactPoint.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueCount": {
+    "defaultValueCount": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueCount",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Count.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Count.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueDistance": {
+    "defaultValueDistance": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueDistance",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Distance.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Distance.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueDuration": {
+    "defaultValueDuration": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueDuration",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Duration.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Duration.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueHumanName": {
+    "defaultValueHumanName": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueHumanName",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/HumanName.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/HumanName.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueIdentifier": {
+    "defaultValueIdentifier": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueIdentifier",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Identifier.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueMoney": {
+    "defaultValueMoney": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueMoney",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Money.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Money.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValuePeriod": {
+    "defaultValuePeriod": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValuePeriod",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Period.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueQuantity": {
+    "defaultValueQuantity": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueQuantity",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Quantity.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Quantity.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueRange": {
+    "defaultValueRange": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueRange",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Range.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Range.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueRatio": {
+    "defaultValueRatio": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueRatio",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Ratio.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Ratio.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueReference": {
+    "defaultValueReference": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueReference",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Reference.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueSampledData": {
+    "defaultValueSampledData": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueSampledData",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/SampledData.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/SampledData.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueSignature": {
+    "defaultValueSignature": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueSignature",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Signature.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Signature.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueTiming": {
+    "defaultValueTiming": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueTiming",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Timing.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Timing.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueContactDetail": {
+    "defaultValueContactDetail": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueContactDetail",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ContactDetail.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/ContactDetail.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueContributor": {
+    "defaultValueContributor": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueContributor",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Contributor.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Contributor.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueDataRequirement": {
+    "defaultValueDataRequirement": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueDataRequirement",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/DataRequirement.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/DataRequirement.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueExpression": {
+    "defaultValueExpression": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueExpression",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Expression.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Expression.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueParameterDefinition": {
+    "defaultValueParameterDefinition": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueParameterDefinition",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/ParameterDefinition.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/ParameterDefinition.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueRelatedArtifact": {
+    "defaultValueRelatedArtifact": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueRelatedArtifact",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/RelatedArtifact.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/RelatedArtifact.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueTriggerDefinition": {
+    "defaultValueTriggerDefinition": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueTriggerDefinition",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/TriggerDefinition.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/TriggerDefinition.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueUsageContext": {
+    "defaultValueUsageContext": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueUsageContext",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/UsageContext.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/UsageContext.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueDosage": {
+    "defaultValueDosage": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueDosage",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Dosage.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Dosage.context.jsonld"
     },
-    "StructureMap.group.rule.source.defaultValueMeta": {
+    "defaultValueMeta": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueMeta",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Meta.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
     },
-    "StructureMap.group.rule.source.element": {
+    "element": {
       "@id": "fhir:StructureMap.group.rule.source.element",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "StructureMap.group.rule.source.listMode": {
+    "listMode": {
       "@id": "fhir:StructureMap.group.rule.source.listMode"
     },
-    "StructureMap.group.rule.source.variable": {
+    "variable": {
       "@id": "fhir:StructureMap.group.rule.source.variable",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/id.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/id.context.jsonld"
     },
-    "StructureMap.group.rule.source.condition": {
+    "condition": {
       "@id": "fhir:StructureMap.group.rule.source.condition",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "StructureMap.group.rule.source.check": {
+    "check": {
       "@id": "fhir:StructureMap.group.rule.source.check",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "StructureMap.group.rule.source.logMessage": {
+    "logMessage": {
       "@id": "fhir:StructureMap.group.rule.source.logMessage",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

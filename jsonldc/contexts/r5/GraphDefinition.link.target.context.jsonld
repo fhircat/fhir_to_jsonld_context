@@ -1,40 +1,40 @@
 {
   "@context": {
     "@version": 1.1,
-    "@vocab": "http://janeirodigital.github.io/nhs-care-plan/flat-FHIR.ttl#",
+    "@vocab": "http://example.com/UNKNOWN#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "fhir": "http://hl7.org/fhir/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "Element.id": {
+    "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "Element.extension": {
+    "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "BackboneElement.modifierExtension": {
+    "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/Extension.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
     },
-    "GraphDefinition.link.target.type": {
+    "type": {
       "@id": "fhir:GraphDefinition.link.target.type"
     },
-    "GraphDefinition.link.target.params": {
+    "params": {
       "@id": "fhir:GraphDefinition.link.target.params",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/string.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
     },
-    "GraphDefinition.link.target.profile": {
+    "profile": {
       "@id": "fhir:GraphDefinition.link.target.profile",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/canonical.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/canonical.context.jsonld"
     },
-    "GraphDefinition.link.target.compartment": {
+    "compartment": {
       "@id": "fhir:GraphDefinition.link.target.compartment",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/GraphDefinition.link.target.compartment.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/GraphDefinition.link.target.compartment.context.jsonld"
     },
-    "GraphDefinition.link.target.link": {
+    "link": {
       "@id": "fhir:GraphDefinition.link.target.link",
-      "@context": "https://fhir-jsonld-r5.s3.amazonaws.com/GraphDefinition.link.context.jsonld"
+      "@context": "https://fhircat.org/fhir/contexts/r5/GraphDefinition.link.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",
