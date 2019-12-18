@@ -13,6 +13,16 @@ const zip = new StreamZip({
     storeEntries: true
 })
 
+if (!fs.existsSync(`${argv.t}`)) {
+    fs.mkdirSync(`${argv.t}`)
+}
+if (!fs.existsSync(`${argv.t}/json`)) {
+    fs.mkdirSync(`${argv.t}/json`)
+}
+if (!fs.existsSync(`${argv.t}/nquads`)) {
+    fs.mkdirSync(`${argv.t}/nquads`)
+}
+
 zip.on('ready', () => {
     logger.info('Entries read: ' + zip.entriesCount)
     for (const entry of Object.values(zip.entries())) {
