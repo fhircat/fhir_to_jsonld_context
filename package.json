@@ -8,7 +8,7 @@
     "generate": "babel-node src/createContext",
     "expand": "babel-node src/expand.js",
     "clean": "rm -fr logs/* jsonldc/contexts/r5/*",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -47,6 +47,8 @@
     "@babel/cli": "^7.7.5",
     "@babel/core": "^7.7.5",
     "@babel/node": "^7.7.4",
-    "@babel/preset-env": "^7.7.5"
+    "@babel/preset-env": "^7.7.5",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0"
   }
 }
