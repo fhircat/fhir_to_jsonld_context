@@ -11,74 +11,74 @@
     },
     "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
+      "@context": "meta.context.jsonld"
     },
     "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+      "@context": "code.context.jsonld"
     },
     "text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
+      "@context": "narrative.context.jsonld"
     },
     "contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
+      "@context": "resource.context.jsonld"
     },
     "extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "identifier": {
       "@id": "fhir:Group.identifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
+      "@context": "identifier.context.jsonld"
     },
     "active": {
       "@id": "fhir:Group.active",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "type": {
       "@id": "fhir:Group.type"
     },
     "actual": {
       "@id": "fhir:Group.actual",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "code": {
       "@id": "fhir:Group.code",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "name": {
       "@id": "fhir:Group.name",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "quantity": {
       "@id": "fhir:Group.quantity",
-      "@context": "https://fhircat.org/fhir/contexts/r5/unsignedInt.context.jsonld"
+      "@context": "unsignedint.context.jsonld"
     },
     "managingEntity": {
       "@id": "fhir:Group.managingEntity",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "characteristic": {
       "@id": "fhir:Group.characteristic",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Group.characteristic.context.jsonld"
+      "@context": "group.characteristic.context.jsonld"
     },
     "member": {
       "@id": "fhir:Group.member",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Group.member.context.jsonld"
+      "@context": "group.member.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

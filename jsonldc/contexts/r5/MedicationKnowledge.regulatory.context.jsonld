@@ -7,31 +7,31 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "regulatoryAuthority": {
       "@id": "fhir:MedicationKnowledge.regulatory.regulatoryAuthority",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "substitution": {
       "@id": "fhir:MedicationKnowledge.regulatory.substitution",
-      "@context": "https://fhircat.org/fhir/contexts/r5/MedicationKnowledge.regulatory.substitution.context.jsonld"
+      "@context": "medicationknowledge.regulatory.substitution.context.jsonld"
     },
     "schedule": {
       "@id": "fhir:MedicationKnowledge.regulatory.schedule",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "maxDispense": {
       "@id": "fhir:MedicationKnowledge.regulatory.maxDispense",
-      "@context": "https://fhircat.org/fhir/contexts/r5/MedicationKnowledge.regulatory.maxDispense.context.jsonld"
+      "@context": "medicationknowledge.regulatory.maxdispense.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

@@ -11,119 +11,119 @@
     },
     "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
+      "@context": "meta.context.jsonld"
     },
     "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+      "@context": "code.context.jsonld"
     },
     "text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
+      "@context": "narrative.context.jsonld"
     },
     "contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
+      "@context": "resource.context.jsonld"
     },
     "extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "identifier": {
       "@id": "fhir:SubstanceDefinition.identifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
+      "@context": "identifier.context.jsonld"
     },
     "status": {
       "@id": "fhir:SubstanceDefinition.status",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "category": {
       "@id": "fhir:SubstanceDefinition.category",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "domain": {
       "@id": "fhir:SubstanceDefinition.domain",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "description": {
       "@id": "fhir:SubstanceDefinition.description",
-      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
+      "@context": "markdown.context.jsonld"
     },
     "source": {
       "@id": "fhir:SubstanceDefinition.source",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "note": {
       "@id": "fhir:SubstanceDefinition.note",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Annotation.context.jsonld"
+      "@context": "annotation.context.jsonld"
     },
     "manufacturer": {
       "@id": "fhir:SubstanceDefinition.manufacturer",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "supplier": {
       "@id": "fhir:SubstanceDefinition.supplier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "moiety": {
       "@id": "fhir:SubstanceDefinition.moiety",
-      "@context": "https://fhircat.org/fhir/contexts/r5/SubstanceDefinition.moiety.context.jsonld"
+      "@context": "substancedefinition.moiety.context.jsonld"
     },
     "property": {
       "@id": "fhir:SubstanceDefinition.property",
-      "@context": "https://fhircat.org/fhir/contexts/r5/SubstanceDefinition.property.context.jsonld"
+      "@context": "substancedefinition.property.context.jsonld"
     },
     "referenceInformation": {
       "@id": "fhir:SubstanceDefinition.referenceInformation",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "structure": {
       "@id": "fhir:SubstanceDefinition.structure",
-      "@context": "https://fhircat.org/fhir/contexts/r5/SubstanceDefinition.structure.context.jsonld"
+      "@context": "substancedefinition.structure.context.jsonld"
     },
     "code": {
       "@id": "fhir:SubstanceDefinition.code",
-      "@context": "https://fhircat.org/fhir/contexts/r5/SubstanceDefinition.code.context.jsonld"
+      "@context": "substancedefinition.code.context.jsonld"
     },
     "name": {
       "@id": "fhir:SubstanceDefinition.name",
-      "@context": "https://fhircat.org/fhir/contexts/r5/SubstanceDefinition.name.context.jsonld"
+      "@context": "substancedefinition.name.context.jsonld"
     },
     "molecularWeight": {
       "@id": "fhir:SubstanceDefinition.molecularWeight",
-      "@context": "https://fhircat.org/fhir/contexts/r5/SubstanceDefinition.structure.isotope.molecularWeight.context.jsonld"
+      "@context": "substancedefinition.structure.isotope.molecularweight.context.jsonld"
     },
     "relationship": {
       "@id": "fhir:SubstanceDefinition.relationship",
-      "@context": "https://fhircat.org/fhir/contexts/r5/SubstanceDefinition.relationship.context.jsonld"
+      "@context": "substancedefinition.relationship.context.jsonld"
     },
     "nucleicAcid": {
       "@id": "fhir:SubstanceDefinition.nucleicAcid",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "polymer": {
       "@id": "fhir:SubstanceDefinition.polymer",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "protein": {
       "@id": "fhir:SubstanceDefinition.protein",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "sourceMaterial": {
       "@id": "fhir:SubstanceDefinition.sourceMaterial",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

@@ -11,74 +11,74 @@
     },
     "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
+      "@context": "meta.context.jsonld"
     },
     "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+      "@context": "code.context.jsonld"
     },
     "text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
+      "@context": "narrative.context.jsonld"
     },
     "contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
+      "@context": "resource.context.jsonld"
     },
     "extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "identifier": {
       "@id": "fhir:Person.identifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
+      "@context": "identifier.context.jsonld"
     },
     "name": {
       "@id": "fhir:Person.name",
-      "@context": "https://fhircat.org/fhir/contexts/r5/HumanName.context.jsonld"
+      "@context": "humanname.context.jsonld"
     },
     "telecom": {
       "@id": "fhir:Person.telecom",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ContactPoint.context.jsonld"
+      "@context": "contactpoint.context.jsonld"
     },
     "gender": {
       "@id": "fhir:Person.gender"
     },
     "birthDate": {
       "@id": "fhir:Person.birthDate",
-      "@context": "https://fhircat.org/fhir/contexts/r5/date.context.jsonld"
+      "@context": "date.context.jsonld"
     },
     "address": {
       "@id": "fhir:Person.address",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Address.context.jsonld"
+      "@context": "address.context.jsonld"
     },
     "photo": {
       "@id": "fhir:Person.photo",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Attachment.context.jsonld"
+      "@context": "attachment.context.jsonld"
     },
     "managingOrganization": {
       "@id": "fhir:Person.managingOrganization",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "active": {
       "@id": "fhir:Person.active",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "link": {
       "@id": "fhir:Person.link",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Person.link.context.jsonld"
+      "@context": "person.link.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

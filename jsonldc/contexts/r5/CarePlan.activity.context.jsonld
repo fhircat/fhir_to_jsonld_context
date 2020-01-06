@@ -7,35 +7,35 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "outcomeCodeableConcept": {
       "@id": "fhir:CarePlan.activity.outcomeCodeableConcept",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "outcomeReference": {
       "@id": "fhir:CarePlan.activity.outcomeReference",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "progress": {
       "@id": "fhir:CarePlan.activity.progress",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Annotation.context.jsonld"
+      "@context": "annotation.context.jsonld"
     },
     "reference": {
       "@id": "fhir:CarePlan.activity.reference",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "detail": {
       "@id": "fhir:CarePlan.activity.detail",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CarePlan.activity.detail.context.jsonld"
+      "@context": "careplan.activity.detail.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

@@ -11,91 +11,91 @@
     },
     "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
+      "@context": "meta.context.jsonld"
     },
     "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+      "@context": "code.context.jsonld"
     },
     "text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
+      "@context": "narrative.context.jsonld"
     },
     "contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
+      "@context": "resource.context.jsonld"
     },
     "extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "identifier": {
       "@id": "fhir:RegulatedAuthorization.identifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
+      "@context": "identifier.context.jsonld"
     },
     "subject": {
       "@id": "fhir:RegulatedAuthorization.subject",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "type": {
       "@id": "fhir:RegulatedAuthorization.type",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "description": {
       "@id": "fhir:RegulatedAuthorization.description",
-      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
+      "@context": "markdown.context.jsonld"
     },
     "region": {
       "@id": "fhir:RegulatedAuthorization.region",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "status": {
       "@id": "fhir:RegulatedAuthorization.status",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "statusDate": {
       "@id": "fhir:RegulatedAuthorization.statusDate",
-      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
+      "@context": "datetime.context.jsonld"
     },
     "validityPeriod": {
       "@id": "fhir:RegulatedAuthorization.validityPeriod",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
+      "@context": "period.context.jsonld"
     },
     "basis": {
       "@id": "fhir:RegulatedAuthorization.basis",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "relatedDate": {
       "@id": "fhir:RegulatedAuthorization.relatedDate",
-      "@context": "https://fhircat.org/fhir/contexts/r5/RegulatedAuthorization.relatedDate.context.jsonld"
+      "@context": "regulatedauthorization.relateddate.context.jsonld"
     },
     "jurisdictionalAuthorization": {
       "@id": "fhir:RegulatedAuthorization.jurisdictionalAuthorization",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "holder": {
       "@id": "fhir:RegulatedAuthorization.holder",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "regulator": {
       "@id": "fhir:RegulatedAuthorization.regulator",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "case": {
       "@id": "fhir:RegulatedAuthorization.case",
-      "@context": "https://fhircat.org/fhir/contexts/r5/RegulatedAuthorization.case.context.jsonld"
+      "@context": "regulatedauthorization.case.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

@@ -7,38 +7,38 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "method": {
       "@id": "fhir:Bundle.entry.request.method"
     },
     "url": {
       "@id": "fhir:Bundle.entry.request.url",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "ifNoneMatch": {
       "@id": "fhir:Bundle.entry.request.ifNoneMatch",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "ifModifiedSince": {
       "@id": "fhir:Bundle.entry.request.ifModifiedSince",
-      "@context": "https://fhircat.org/fhir/contexts/r5/instant.context.jsonld"
+      "@context": "instant.context.jsonld"
     },
     "ifMatch": {
       "@id": "fhir:Bundle.entry.request.ifMatch",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "ifNoneExist": {
       "@id": "fhir:Bundle.entry.request.ifNoneExist",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

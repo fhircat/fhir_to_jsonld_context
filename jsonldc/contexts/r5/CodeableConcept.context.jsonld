@@ -11,19 +11,19 @@
     },
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "coding": {
       "@id": "fhir:CodeableConcept.coding",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Coding.context.jsonld"
+      "@context": "coding.context.jsonld"
     },
     "text": {
       "@id": "fhir:CodeableConcept.text",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

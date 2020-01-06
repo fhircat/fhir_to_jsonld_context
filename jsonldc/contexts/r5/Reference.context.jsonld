@@ -10,27 +10,27 @@
     },
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "reference": {
       "@id": "fhir:Reference.reference",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "type": {
       "@id": "fhir:Reference.type",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "identifier": {
       "@id": "fhir:Reference.identifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
+      "@context": "identifier.context.jsonld"
     },
     "display": {
       "@id": "fhir:Reference.display",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

@@ -11,158 +11,158 @@
     },
     "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
+      "@context": "meta.context.jsonld"
     },
     "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+      "@context": "code.context.jsonld"
     },
     "text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
+      "@context": "narrative.context.jsonld"
     },
     "contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
+      "@context": "resource.context.jsonld"
     },
     "extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "url": {
       "@id": "fhir:ResearchElementDefinition.url",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "identifier": {
       "@id": "fhir:ResearchElementDefinition.identifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
+      "@context": "identifier.context.jsonld"
     },
     "version": {
       "@id": "fhir:ResearchElementDefinition.version",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "name": {
       "@id": "fhir:ResearchElementDefinition.name",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "title": {
       "@id": "fhir:ResearchElementDefinition.title",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "shortTitle": {
       "@id": "fhir:ResearchElementDefinition.shortTitle",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "subtitle": {
       "@id": "fhir:ResearchElementDefinition.subtitle",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "status": {
       "@id": "fhir:ResearchElementDefinition.status"
     },
     "experimental": {
       "@id": "fhir:ResearchElementDefinition.experimental",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "subjectCodeableConcept": {
       "@id": "fhir:ResearchElementDefinition.subjectCodeableConcept",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "subjectReference": {
       "@id": "fhir:ResearchElementDefinition.subjectReference",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "date": {
       "@id": "fhir:ResearchElementDefinition.date",
-      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
+      "@context": "datetime.context.jsonld"
     },
     "publisher": {
       "@id": "fhir:ResearchElementDefinition.publisher",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "contact": {
       "@id": "fhir:ResearchElementDefinition.contact",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ContactDetail.context.jsonld"
+      "@context": "contactdetail.context.jsonld"
     },
     "description": {
       "@id": "fhir:ResearchElementDefinition.description",
-      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
+      "@context": "markdown.context.jsonld"
     },
     "comment": {
       "@id": "fhir:ResearchElementDefinition.comment",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "useContext": {
       "@id": "fhir:ResearchElementDefinition.useContext",
-      "@context": "https://fhircat.org/fhir/contexts/r5/UsageContext.context.jsonld"
+      "@context": "usagecontext.context.jsonld"
     },
     "jurisdiction": {
       "@id": "fhir:ResearchElementDefinition.jurisdiction",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "purpose": {
       "@id": "fhir:ResearchElementDefinition.purpose",
-      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
+      "@context": "markdown.context.jsonld"
     },
     "usage": {
       "@id": "fhir:ResearchElementDefinition.usage",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "copyright": {
       "@id": "fhir:ResearchElementDefinition.copyright",
-      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
+      "@context": "markdown.context.jsonld"
     },
     "approvalDate": {
       "@id": "fhir:ResearchElementDefinition.approvalDate",
-      "@context": "https://fhircat.org/fhir/contexts/r5/date.context.jsonld"
+      "@context": "date.context.jsonld"
     },
     "lastReviewDate": {
       "@id": "fhir:ResearchElementDefinition.lastReviewDate",
-      "@context": "https://fhircat.org/fhir/contexts/r5/date.context.jsonld"
+      "@context": "date.context.jsonld"
     },
     "effectivePeriod": {
       "@id": "fhir:ResearchElementDefinition.effectivePeriod",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
+      "@context": "period.context.jsonld"
     },
     "topic": {
       "@id": "fhir:ResearchElementDefinition.topic",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "author": {
       "@id": "fhir:ResearchElementDefinition.author",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ContactDetail.context.jsonld"
+      "@context": "contactdetail.context.jsonld"
     },
     "editor": {
       "@id": "fhir:ResearchElementDefinition.editor",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ContactDetail.context.jsonld"
+      "@context": "contactdetail.context.jsonld"
     },
     "reviewer": {
       "@id": "fhir:ResearchElementDefinition.reviewer",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ContactDetail.context.jsonld"
+      "@context": "contactdetail.context.jsonld"
     },
     "endorser": {
       "@id": "fhir:ResearchElementDefinition.endorser",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ContactDetail.context.jsonld"
+      "@context": "contactdetail.context.jsonld"
     },
     "relatedArtifact": {
       "@id": "fhir:ResearchElementDefinition.relatedArtifact",
-      "@context": "https://fhircat.org/fhir/contexts/r5/RelatedArtifact.context.jsonld"
+      "@context": "relatedartifact.context.jsonld"
     },
     "library": {
       "@id": "fhir:ResearchElementDefinition.library",
-      "@context": "https://fhircat.org/fhir/contexts/r5/canonical.context.jsonld"
+      "@context": "canonical.context.jsonld"
     },
     "type": {
       "@id": "fhir:ResearchElementDefinition.type"
@@ -172,7 +172,7 @@
     },
     "characteristic": {
       "@id": "fhir:ResearchElementDefinition.characteristic",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ResearchElementDefinition.characteristic.context.jsonld"
+      "@context": "researchelementdefinition.characteristic.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

@@ -11,43 +11,43 @@
     },
     "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
+      "@context": "meta.context.jsonld"
     },
     "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+      "@context": "code.context.jsonld"
     },
     "text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
+      "@context": "narrative.context.jsonld"
     },
     "contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
+      "@context": "resource.context.jsonld"
     },
     "extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "type": {
       "@id": "fhir:AuditEvent.type",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Coding.context.jsonld"
+      "@context": "coding.context.jsonld"
     },
     "subtype": {
       "@id": "fhir:AuditEvent.subtype",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Coding.context.jsonld"
+      "@context": "coding.context.jsonld"
     },
     "action": {
       "@id": "fhir:AuditEvent.action"
@@ -57,34 +57,34 @@
     },
     "period": {
       "@id": "fhir:AuditEvent.period",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
+      "@context": "period.context.jsonld"
     },
     "recorded": {
       "@id": "fhir:AuditEvent.recorded",
-      "@context": "https://fhircat.org/fhir/contexts/r5/instant.context.jsonld"
+      "@context": "instant.context.jsonld"
     },
     "outcome": {
       "@id": "fhir:AuditEvent.outcome"
     },
     "outcomeDesc": {
       "@id": "fhir:AuditEvent.outcomeDesc",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "purposeOfEvent": {
       "@id": "fhir:AuditEvent.purposeOfEvent",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "agent": {
       "@id": "fhir:AuditEvent.agent",
-      "@context": "https://fhircat.org/fhir/contexts/r5/AuditEvent.agent.context.jsonld"
+      "@context": "auditevent.agent.context.jsonld"
     },
     "source": {
       "@id": "fhir:AuditEvent.source",
-      "@context": "https://fhircat.org/fhir/contexts/r5/AuditEvent.source.context.jsonld"
+      "@context": "auditevent.source.context.jsonld"
     },
     "entity": {
       "@id": "fhir:AuditEvent.entity",
-      "@context": "https://fhircat.org/fhir/contexts/r5/AuditEvent.entity.context.jsonld"
+      "@context": "auditevent.entity.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

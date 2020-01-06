@@ -7,82 +7,82 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "prefix": {
       "@id": "fhir:RequestGroup.action.prefix",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "title": {
       "@id": "fhir:RequestGroup.action.title",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "description": {
       "@id": "fhir:RequestGroup.action.description",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "textEquivalent": {
       "@id": "fhir:RequestGroup.action.textEquivalent",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "priority": {
       "@id": "fhir:RequestGroup.action.priority"
     },
     "code": {
       "@id": "fhir:RequestGroup.action.code",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "documentation": {
       "@id": "fhir:RequestGroup.action.documentation",
-      "@context": "https://fhircat.org/fhir/contexts/r5/RelatedArtifact.context.jsonld"
+      "@context": "relatedartifact.context.jsonld"
     },
     "condition": {
       "@id": "fhir:RequestGroup.action.condition",
-      "@context": "https://fhircat.org/fhir/contexts/r5/RequestGroup.action.condition.context.jsonld"
+      "@context": "requestgroup.action.condition.context.jsonld"
     },
     "relatedAction": {
       "@id": "fhir:RequestGroup.action.relatedAction",
-      "@context": "https://fhircat.org/fhir/contexts/r5/RequestGroup.action.relatedAction.context.jsonld"
+      "@context": "requestgroup.action.relatedaction.context.jsonld"
     },
     "timingDateTime": {
       "@id": "fhir:RequestGroup.action.timingDateTime",
-      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
+      "@context": "datetime.context.jsonld"
     },
     "timingAge": {
       "@id": "fhir:RequestGroup.action.timingAge",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Age.context.jsonld"
+      "@context": "age.context.jsonld"
     },
     "timingPeriod": {
       "@id": "fhir:RequestGroup.action.timingPeriod",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
+      "@context": "period.context.jsonld"
     },
     "timingDuration": {
       "@id": "fhir:RequestGroup.action.timingDuration",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Duration.context.jsonld"
+      "@context": "duration.context.jsonld"
     },
     "timingRange": {
       "@id": "fhir:RequestGroup.action.timingRange",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Range.context.jsonld"
+      "@context": "range.context.jsonld"
     },
     "timingTiming": {
       "@id": "fhir:RequestGroup.action.timingTiming",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Timing.context.jsonld"
+      "@context": "timing.context.jsonld"
     },
     "participant": {
       "@id": "fhir:RequestGroup.action.participant",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "type": {
       "@id": "fhir:RequestGroup.action.type",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "groupingBehavior": {
       "@id": "fhir:RequestGroup.action.groupingBehavior"
@@ -101,11 +101,11 @@
     },
     "resource": {
       "@id": "fhir:RequestGroup.action.resource",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "action": {
       "@id": "fhir:RequestGroup.action.action",
-      "@context": "https://fhircat.org/fhir/contexts/r5/RequestGroup.action.context.jsonld"
+      "@context": "requestgroup.action.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

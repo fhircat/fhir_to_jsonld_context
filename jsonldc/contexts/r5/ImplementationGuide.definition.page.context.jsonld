@@ -7,34 +7,34 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "nameUrl": {
       "@id": "fhir:ImplementationGuide.definition.page.nameUrl",
-      "@context": "https://fhircat.org/fhir/contexts/r5/url.context.jsonld"
+      "@context": "url.context.jsonld"
     },
     "nameReference": {
       "@id": "fhir:ImplementationGuide.definition.page.nameReference",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "title": {
       "@id": "fhir:ImplementationGuide.definition.page.title",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "generation": {
       "@id": "fhir:ImplementationGuide.definition.page.generation"
     },
     "page": {
       "@id": "fhir:ImplementationGuide.definition.page.page",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ImplementationGuide.definition.page.context.jsonld"
+      "@context": "implementationguide.definition.page.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

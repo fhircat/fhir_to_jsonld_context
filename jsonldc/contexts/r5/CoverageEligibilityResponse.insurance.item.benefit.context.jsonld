@@ -7,43 +7,43 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "type": {
       "@id": "fhir:CoverageEligibilityResponse.insurance.item.benefit.type",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "allowedUnsignedInt": {
       "@id": "fhir:CoverageEligibilityResponse.insurance.item.benefit.allowedUnsignedInt",
-      "@context": "https://fhircat.org/fhir/contexts/r5/unsignedInt.context.jsonld"
+      "@context": "unsignedint.context.jsonld"
     },
     "allowedString": {
       "@id": "fhir:CoverageEligibilityResponse.insurance.item.benefit.allowedString",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "allowedMoney": {
       "@id": "fhir:CoverageEligibilityResponse.insurance.item.benefit.allowedMoney",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Money.context.jsonld"
+      "@context": "money.context.jsonld"
     },
     "usedUnsignedInt": {
       "@id": "fhir:CoverageEligibilityResponse.insurance.item.benefit.usedUnsignedInt",
-      "@context": "https://fhircat.org/fhir/contexts/r5/unsignedInt.context.jsonld"
+      "@context": "unsignedint.context.jsonld"
     },
     "usedString": {
       "@id": "fhir:CoverageEligibilityResponse.insurance.item.benefit.usedString",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "usedMoney": {
       "@id": "fhir:CoverageEligibilityResponse.insurance.item.benefit.usedMoney",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Money.context.jsonld"
+      "@context": "money.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

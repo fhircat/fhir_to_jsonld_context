@@ -7,67 +7,67 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "identifier": {
       "@id": "fhir:Contract.term.identifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
+      "@context": "identifier.context.jsonld"
     },
     "issued": {
       "@id": "fhir:Contract.term.issued",
-      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
+      "@context": "datetime.context.jsonld"
     },
     "applies": {
       "@id": "fhir:Contract.term.applies",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
+      "@context": "period.context.jsonld"
     },
     "topicCodeableConcept": {
       "@id": "fhir:Contract.term.topicCodeableConcept",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "topicReference": {
       "@id": "fhir:Contract.term.topicReference",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "type": {
       "@id": "fhir:Contract.term.type",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "subType": {
       "@id": "fhir:Contract.term.subType",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "text": {
       "@id": "fhir:Contract.term.text",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "securityLabel": {
       "@id": "fhir:Contract.term.securityLabel",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Contract.term.securityLabel.context.jsonld"
+      "@context": "contract.term.securitylabel.context.jsonld"
     },
     "offer": {
       "@id": "fhir:Contract.term.offer",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Contract.term.offer.context.jsonld"
+      "@context": "contract.term.offer.context.jsonld"
     },
     "asset": {
       "@id": "fhir:Contract.term.asset",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Contract.term.asset.context.jsonld"
+      "@context": "contract.term.asset.context.jsonld"
     },
     "action": {
       "@id": "fhir:Contract.term.action",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Contract.term.action.context.jsonld"
+      "@context": "contract.term.action.context.jsonld"
     },
     "group": {
       "@id": "fhir:Contract.term.group",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Contract.term.context.jsonld"
+      "@context": "contract.term.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

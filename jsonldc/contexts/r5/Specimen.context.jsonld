@@ -11,86 +11,86 @@
     },
     "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
+      "@context": "meta.context.jsonld"
     },
     "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+      "@context": "code.context.jsonld"
     },
     "text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
+      "@context": "narrative.context.jsonld"
     },
     "contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
+      "@context": "resource.context.jsonld"
     },
     "extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "identifier": {
       "@id": "fhir:Specimen.identifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
+      "@context": "identifier.context.jsonld"
     },
     "accessionIdentifier": {
       "@id": "fhir:Specimen.accessionIdentifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
+      "@context": "identifier.context.jsonld"
     },
     "status": {
       "@id": "fhir:Specimen.status"
     },
     "type": {
       "@id": "fhir:Specimen.type",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "subject": {
       "@id": "fhir:Specimen.subject",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "receivedTime": {
       "@id": "fhir:Specimen.receivedTime",
-      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
+      "@context": "datetime.context.jsonld"
     },
     "parent": {
       "@id": "fhir:Specimen.parent",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "request": {
       "@id": "fhir:Specimen.request",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "collection": {
       "@id": "fhir:Specimen.collection",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Specimen.collection.context.jsonld"
+      "@context": "specimen.collection.context.jsonld"
     },
     "processing": {
       "@id": "fhir:Specimen.processing",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Specimen.processing.context.jsonld"
+      "@context": "specimen.processing.context.jsonld"
     },
     "container": {
       "@id": "fhir:Specimen.container",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Specimen.container.context.jsonld"
+      "@context": "specimen.container.context.jsonld"
     },
     "condition": {
       "@id": "fhir:Specimen.condition",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "note": {
       "@id": "fhir:Specimen.note",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Annotation.context.jsonld"
+      "@context": "annotation.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

@@ -11,89 +11,89 @@
     },
     "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
+      "@context": "meta.context.jsonld"
     },
     "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+      "@context": "code.context.jsonld"
     },
     "text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
+      "@context": "narrative.context.jsonld"
     },
     "contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
+      "@context": "resource.context.jsonld"
     },
     "extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "url": {
       "@id": "fhir:CompartmentDefinition.url",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "version": {
       "@id": "fhir:CompartmentDefinition.version",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "name": {
       "@id": "fhir:CompartmentDefinition.name",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "status": {
       "@id": "fhir:CompartmentDefinition.status"
     },
     "experimental": {
       "@id": "fhir:CompartmentDefinition.experimental",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "date": {
       "@id": "fhir:CompartmentDefinition.date",
-      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
+      "@context": "datetime.context.jsonld"
     },
     "publisher": {
       "@id": "fhir:CompartmentDefinition.publisher",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "contact": {
       "@id": "fhir:CompartmentDefinition.contact",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ContactDetail.context.jsonld"
+      "@context": "contactdetail.context.jsonld"
     },
     "description": {
       "@id": "fhir:CompartmentDefinition.description",
-      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
+      "@context": "markdown.context.jsonld"
     },
     "useContext": {
       "@id": "fhir:CompartmentDefinition.useContext",
-      "@context": "https://fhircat.org/fhir/contexts/r5/UsageContext.context.jsonld"
+      "@context": "usagecontext.context.jsonld"
     },
     "purpose": {
       "@id": "fhir:CompartmentDefinition.purpose",
-      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
+      "@context": "markdown.context.jsonld"
     },
     "code": {
       "@id": "fhir:CompartmentDefinition.code"
     },
     "search": {
       "@id": "fhir:CompartmentDefinition.search",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "resource": {
       "@id": "fhir:CompartmentDefinition.resource",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CompartmentDefinition.resource.context.jsonld"
+      "@context": "compartmentdefinition.resource.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

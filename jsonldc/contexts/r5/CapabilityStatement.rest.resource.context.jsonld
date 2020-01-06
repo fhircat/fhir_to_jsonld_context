@@ -7,56 +7,56 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "type": {
       "@id": "fhir:CapabilityStatement.rest.resource.type"
     },
     "profile": {
       "@id": "fhir:CapabilityStatement.rest.resource.profile",
-      "@context": "https://fhircat.org/fhir/contexts/r5/canonical.context.jsonld"
+      "@context": "canonical.context.jsonld"
     },
     "supportedProfile": {
       "@id": "fhir:CapabilityStatement.rest.resource.supportedProfile",
-      "@context": "https://fhircat.org/fhir/contexts/r5/canonical.context.jsonld"
+      "@context": "canonical.context.jsonld"
     },
     "documentation": {
       "@id": "fhir:CapabilityStatement.rest.resource.documentation",
-      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
+      "@context": "markdown.context.jsonld"
     },
     "interaction": {
       "@id": "fhir:CapabilityStatement.rest.resource.interaction",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CapabilityStatement.rest.resource.interaction.context.jsonld"
+      "@context": "capabilitystatement.rest.resource.interaction.context.jsonld"
     },
     "versioning": {
       "@id": "fhir:CapabilityStatement.rest.resource.versioning"
     },
     "readHistory": {
       "@id": "fhir:CapabilityStatement.rest.resource.readHistory",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "updateCreate": {
       "@id": "fhir:CapabilityStatement.rest.resource.updateCreate",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "conditionalCreate": {
       "@id": "fhir:CapabilityStatement.rest.resource.conditionalCreate",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "conditionalRead": {
       "@id": "fhir:CapabilityStatement.rest.resource.conditionalRead"
     },
     "conditionalUpdate": {
       "@id": "fhir:CapabilityStatement.rest.resource.conditionalUpdate",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "conditionalDelete": {
       "@id": "fhir:CapabilityStatement.rest.resource.conditionalDelete"
@@ -66,19 +66,19 @@
     },
     "searchInclude": {
       "@id": "fhir:CapabilityStatement.rest.resource.searchInclude",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "searchRevInclude": {
       "@id": "fhir:CapabilityStatement.rest.resource.searchRevInclude",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "searchParam": {
       "@id": "fhir:CapabilityStatement.rest.resource.searchParam",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CapabilityStatement.rest.resource.searchParam.context.jsonld"
+      "@context": "capabilitystatement.rest.resource.searchparam.context.jsonld"
     },
     "operation": {
       "@id": "fhir:CapabilityStatement.rest.resource.operation",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CapabilityStatement.rest.resource.operation.context.jsonld"
+      "@context": "capabilitystatement.rest.resource.operation.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

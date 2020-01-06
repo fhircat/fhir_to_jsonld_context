@@ -11,127 +11,127 @@
     },
     "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
+      "@context": "meta.context.jsonld"
     },
     "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+      "@context": "code.context.jsonld"
     },
     "text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
+      "@context": "narrative.context.jsonld"
     },
     "contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
+      "@context": "resource.context.jsonld"
     },
     "extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "identifier": {
       "@id": "fhir:DeviceDefinition.identifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
+      "@context": "identifier.context.jsonld"
     },
     "udiDeviceIdentifier": {
       "@id": "fhir:DeviceDefinition.udiDeviceIdentifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/DeviceDefinition.udiDeviceIdentifier.context.jsonld"
+      "@context": "devicedefinition.udideviceidentifier.context.jsonld"
     },
     "manufacturerString": {
       "@id": "fhir:DeviceDefinition.manufacturerString",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "manufacturerReference": {
       "@id": "fhir:DeviceDefinition.manufacturerReference",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "deviceName": {
       "@id": "fhir:DeviceDefinition.deviceName",
-      "@context": "https://fhircat.org/fhir/contexts/r5/DeviceDefinition.deviceName.context.jsonld"
+      "@context": "devicedefinition.devicename.context.jsonld"
     },
     "modelNumber": {
       "@id": "fhir:DeviceDefinition.modelNumber",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "type": {
       "@id": "fhir:DeviceDefinition.type",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "specialization": {
       "@id": "fhir:DeviceDefinition.specialization",
-      "@context": "https://fhircat.org/fhir/contexts/r5/DeviceDefinition.specialization.context.jsonld"
+      "@context": "devicedefinition.specialization.context.jsonld"
     },
     "version": {
       "@id": "fhir:DeviceDefinition.version",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "safety": {
       "@id": "fhir:DeviceDefinition.safety",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "shelfLifeStorage": {
       "@id": "fhir:DeviceDefinition.shelfLifeStorage",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ProductShelfLife.context.jsonld"
+      "@context": "productshelflife.context.jsonld"
     },
     "physicalCharacteristics": {
       "@id": "fhir:DeviceDefinition.physicalCharacteristics",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ProdCharacteristic.context.jsonld"
+      "@context": "prodcharacteristic.context.jsonld"
     },
     "languageCode": {
       "@id": "fhir:DeviceDefinition.languageCode",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "capability": {
       "@id": "fhir:DeviceDefinition.capability",
-      "@context": "https://fhircat.org/fhir/contexts/r5/DeviceDefinition.capability.context.jsonld"
+      "@context": "devicedefinition.capability.context.jsonld"
     },
     "property": {
       "@id": "fhir:DeviceDefinition.property",
-      "@context": "https://fhircat.org/fhir/contexts/r5/DeviceDefinition.property.context.jsonld"
+      "@context": "devicedefinition.property.context.jsonld"
     },
     "owner": {
       "@id": "fhir:DeviceDefinition.owner",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "contact": {
       "@id": "fhir:DeviceDefinition.contact",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ContactPoint.context.jsonld"
+      "@context": "contactpoint.context.jsonld"
     },
     "url": {
       "@id": "fhir:DeviceDefinition.url",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "onlineInformation": {
       "@id": "fhir:DeviceDefinition.onlineInformation",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "note": {
       "@id": "fhir:DeviceDefinition.note",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Annotation.context.jsonld"
+      "@context": "annotation.context.jsonld"
     },
     "quantity": {
       "@id": "fhir:DeviceDefinition.quantity",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Quantity.context.jsonld"
+      "@context": "quantity.context.jsonld"
     },
     "parentDevice": {
       "@id": "fhir:DeviceDefinition.parentDevice",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "material": {
       "@id": "fhir:DeviceDefinition.material",
-      "@context": "https://fhircat.org/fhir/contexts/r5/DeviceDefinition.material.context.jsonld"
+      "@context": "devicedefinition.material.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

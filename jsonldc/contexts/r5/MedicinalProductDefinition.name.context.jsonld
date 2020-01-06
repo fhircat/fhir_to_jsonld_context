@@ -7,31 +7,31 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "productName": {
       "@id": "fhir:MedicinalProductDefinition.name.productName",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "type": {
       "@id": "fhir:MedicinalProductDefinition.name.type",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Coding.context.jsonld"
+      "@context": "coding.context.jsonld"
     },
     "namePart": {
       "@id": "fhir:MedicinalProductDefinition.name.namePart",
-      "@context": "https://fhircat.org/fhir/contexts/r5/MedicinalProductDefinition.name.namePart.context.jsonld"
+      "@context": "medicinalproductdefinition.name.namepart.context.jsonld"
     },
     "countryLanguage": {
       "@id": "fhir:MedicinalProductDefinition.name.countryLanguage",
-      "@context": "https://fhircat.org/fhir/contexts/r5/MedicinalProductDefinition.name.countryLanguage.context.jsonld"
+      "@context": "medicinalproductdefinition.name.countrylanguage.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

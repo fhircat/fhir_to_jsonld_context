@@ -7,47 +7,47 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "what": {
       "@id": "fhir:AuditEvent.entity.what",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "type": {
       "@id": "fhir:AuditEvent.entity.type",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Coding.context.jsonld"
+      "@context": "coding.context.jsonld"
     },
     "role": {
       "@id": "fhir:AuditEvent.entity.role",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Coding.context.jsonld"
+      "@context": "coding.context.jsonld"
     },
     "lifecycle": {
       "@id": "fhir:AuditEvent.entity.lifecycle",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Coding.context.jsonld"
+      "@context": "coding.context.jsonld"
     },
     "securityLabel": {
       "@id": "fhir:AuditEvent.entity.securityLabel",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Coding.context.jsonld"
+      "@context": "coding.context.jsonld"
     },
     "name": {
       "@id": "fhir:AuditEvent.entity.name",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "query": {
       "@id": "fhir:AuditEvent.entity.query",
-      "@context": "https://fhircat.org/fhir/contexts/r5/base64Binary.context.jsonld"
+      "@context": "base64binary.context.jsonld"
     },
     "detail": {
       "@id": "fhir:AuditEvent.entity.detail",
-      "@context": "https://fhircat.org/fhir/contexts/r5/AuditEvent.entity.detail.context.jsonld"
+      "@context": "auditevent.entity.detail.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

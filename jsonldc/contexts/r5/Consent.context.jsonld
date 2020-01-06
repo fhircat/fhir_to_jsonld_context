@@ -11,90 +11,90 @@
     },
     "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
+      "@context": "meta.context.jsonld"
     },
     "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+      "@context": "code.context.jsonld"
     },
     "text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
+      "@context": "narrative.context.jsonld"
     },
     "contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
+      "@context": "resource.context.jsonld"
     },
     "extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "identifier": {
       "@id": "fhir:Consent.identifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
+      "@context": "identifier.context.jsonld"
     },
     "status": {
       "@id": "fhir:Consent.status"
     },
     "scope": {
       "@id": "fhir:Consent.scope",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "category": {
       "@id": "fhir:Consent.category",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "patient": {
       "@id": "fhir:Consent.patient",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "dateTime": {
       "@id": "fhir:Consent.dateTime",
-      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
+      "@context": "datetime.context.jsonld"
     },
     "performer": {
       "@id": "fhir:Consent.performer",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "organization": {
       "@id": "fhir:Consent.organization",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "sourceAttachment": {
       "@id": "fhir:Consent.sourceAttachment",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Attachment.context.jsonld"
+      "@context": "attachment.context.jsonld"
     },
     "sourceReference": {
       "@id": "fhir:Consent.sourceReference",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "policy": {
       "@id": "fhir:Consent.policy",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Consent.policy.context.jsonld"
+      "@context": "consent.policy.context.jsonld"
     },
     "policyRule": {
       "@id": "fhir:Consent.policyRule",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "verification": {
       "@id": "fhir:Consent.verification",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Consent.verification.context.jsonld"
+      "@context": "consent.verification.context.jsonld"
     },
     "provision": {
       "@id": "fhir:Consent.provision",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Consent.provision.context.jsonld"
+      "@context": "consent.provision.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

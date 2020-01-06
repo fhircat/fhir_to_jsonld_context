@@ -7,35 +7,35 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "role": {
       "@id": "fhir:CareTeam.participant.role",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "member": {
       "@id": "fhir:CareTeam.participant.member",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "onBehalfOf": {
       "@id": "fhir:CareTeam.participant.onBehalfOf",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "coveragePeriod": {
       "@id": "fhir:CareTeam.participant.coveragePeriod",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
+      "@context": "period.context.jsonld"
     },
     "coverageTiming": {
       "@id": "fhir:CareTeam.participant.coverageTiming",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Timing.context.jsonld"
+      "@context": "timing.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

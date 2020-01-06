@@ -7,71 +7,71 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "vaccineCode": {
       "@id": "fhir:ImmunizationRecommendation.recommendation.vaccineCode",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "targetDisease": {
       "@id": "fhir:ImmunizationRecommendation.recommendation.targetDisease",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "contraindicatedVaccineCode": {
       "@id": "fhir:ImmunizationRecommendation.recommendation.contraindicatedVaccineCode",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "forecastStatus": {
       "@id": "fhir:ImmunizationRecommendation.recommendation.forecastStatus",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "forecastReason": {
       "@id": "fhir:ImmunizationRecommendation.recommendation.forecastReason",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "dateCriterion": {
       "@id": "fhir:ImmunizationRecommendation.recommendation.dateCriterion",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ImmunizationRecommendation.recommendation.dateCriterion.context.jsonld"
+      "@context": "immunizationrecommendation.recommendation.datecriterion.context.jsonld"
     },
     "description": {
       "@id": "fhir:ImmunizationRecommendation.recommendation.description",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "series": {
       "@id": "fhir:ImmunizationRecommendation.recommendation.series",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "doseNumberPositiveInt": {
       "@id": "fhir:ImmunizationRecommendation.recommendation.doseNumberPositiveInt",
-      "@context": "https://fhircat.org/fhir/contexts/r5/positiveInt.context.jsonld"
+      "@context": "positiveint.context.jsonld"
     },
     "doseNumberString": {
       "@id": "fhir:ImmunizationRecommendation.recommendation.doseNumberString",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "seriesDosesPositiveInt": {
       "@id": "fhir:ImmunizationRecommendation.recommendation.seriesDosesPositiveInt",
-      "@context": "https://fhircat.org/fhir/contexts/r5/positiveInt.context.jsonld"
+      "@context": "positiveint.context.jsonld"
     },
     "seriesDosesString": {
       "@id": "fhir:ImmunizationRecommendation.recommendation.seriesDosesString",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "supportingImmunization": {
       "@id": "fhir:ImmunizationRecommendation.recommendation.supportingImmunization",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "supportingPatientInformation": {
       "@id": "fhir:ImmunizationRecommendation.recommendation.supportingPatientInformation",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

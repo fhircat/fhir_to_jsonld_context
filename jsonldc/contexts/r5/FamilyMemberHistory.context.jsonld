@@ -11,142 +11,142 @@
     },
     "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
+      "@context": "meta.context.jsonld"
     },
     "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+      "@context": "code.context.jsonld"
     },
     "text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
+      "@context": "narrative.context.jsonld"
     },
     "contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
+      "@context": "resource.context.jsonld"
     },
     "extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "identifier": {
       "@id": "fhir:FamilyMemberHistory.identifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
+      "@context": "identifier.context.jsonld"
     },
     "instantiatesCanonical": {
       "@id": "fhir:FamilyMemberHistory.instantiatesCanonical",
-      "@context": "https://fhircat.org/fhir/contexts/r5/canonical.context.jsonld"
+      "@context": "canonical.context.jsonld"
     },
     "instantiatesUri": {
       "@id": "fhir:FamilyMemberHistory.instantiatesUri",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "status": {
       "@id": "fhir:FamilyMemberHistory.status"
     },
     "dataAbsentReason": {
       "@id": "fhir:FamilyMemberHistory.dataAbsentReason",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "patient": {
       "@id": "fhir:FamilyMemberHistory.patient",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "date": {
       "@id": "fhir:FamilyMemberHistory.date",
-      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
+      "@context": "datetime.context.jsonld"
     },
     "name": {
       "@id": "fhir:FamilyMemberHistory.name",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "relationship": {
       "@id": "fhir:FamilyMemberHistory.relationship",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "sex": {
       "@id": "fhir:FamilyMemberHistory.sex",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "bornPeriod": {
       "@id": "fhir:FamilyMemberHistory.bornPeriod",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
+      "@context": "period.context.jsonld"
     },
     "bornDate": {
       "@id": "fhir:FamilyMemberHistory.bornDate",
-      "@context": "https://fhircat.org/fhir/contexts/r5/date.context.jsonld"
+      "@context": "date.context.jsonld"
     },
     "bornString": {
       "@id": "fhir:FamilyMemberHistory.bornString",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "ageAge": {
       "@id": "fhir:FamilyMemberHistory.ageAge",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Age.context.jsonld"
+      "@context": "age.context.jsonld"
     },
     "ageRange": {
       "@id": "fhir:FamilyMemberHistory.ageRange",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Range.context.jsonld"
+      "@context": "range.context.jsonld"
     },
     "ageString": {
       "@id": "fhir:FamilyMemberHistory.ageString",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "estimatedAge": {
       "@id": "fhir:FamilyMemberHistory.estimatedAge",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "deceasedBoolean": {
       "@id": "fhir:FamilyMemberHistory.deceasedBoolean",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "deceasedAge": {
       "@id": "fhir:FamilyMemberHistory.deceasedAge",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Age.context.jsonld"
+      "@context": "age.context.jsonld"
     },
     "deceasedRange": {
       "@id": "fhir:FamilyMemberHistory.deceasedRange",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Range.context.jsonld"
+      "@context": "range.context.jsonld"
     },
     "deceasedDate": {
       "@id": "fhir:FamilyMemberHistory.deceasedDate",
-      "@context": "https://fhircat.org/fhir/contexts/r5/date.context.jsonld"
+      "@context": "date.context.jsonld"
     },
     "deceasedString": {
       "@id": "fhir:FamilyMemberHistory.deceasedString",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "reasonCode": {
       "@id": "fhir:FamilyMemberHistory.reasonCode",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "reasonReference": {
       "@id": "fhir:FamilyMemberHistory.reasonReference",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "note": {
       "@id": "fhir:FamilyMemberHistory.note",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Annotation.context.jsonld"
+      "@context": "annotation.context.jsonld"
     },
     "condition": {
       "@id": "fhir:FamilyMemberHistory.condition",
-      "@context": "https://fhircat.org/fhir/contexts/r5/FamilyMemberHistory.condition.context.jsonld"
+      "@context": "familymemberhistory.condition.context.jsonld"
     },
     "procedure": {
       "@id": "fhir:FamilyMemberHistory.procedure",
-      "@context": "https://fhircat.org/fhir/contexts/r5/FamilyMemberHistory.procedure.context.jsonld"
+      "@context": "familymemberhistory.procedure.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

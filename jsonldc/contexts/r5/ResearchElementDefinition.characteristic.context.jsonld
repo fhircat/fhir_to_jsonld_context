@@ -7,94 +7,94 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "definitionCodeableConcept": {
       "@id": "fhir:ResearchElementDefinition.characteristic.definitionCodeableConcept",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "definitionCanonical": {
       "@id": "fhir:ResearchElementDefinition.characteristic.definitionCanonical",
-      "@context": "https://fhircat.org/fhir/contexts/r5/canonical.context.jsonld"
+      "@context": "canonical.context.jsonld"
     },
     "definitionExpression": {
       "@id": "fhir:ResearchElementDefinition.characteristic.definitionExpression",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Expression.context.jsonld"
+      "@context": "expression.context.jsonld"
     },
     "definitionDataRequirement": {
       "@id": "fhir:ResearchElementDefinition.characteristic.definitionDataRequirement",
-      "@context": "https://fhircat.org/fhir/contexts/r5/DataRequirement.context.jsonld"
+      "@context": "datarequirement.context.jsonld"
     },
     "usageContext": {
       "@id": "fhir:ResearchElementDefinition.characteristic.usageContext",
-      "@context": "https://fhircat.org/fhir/contexts/r5/UsageContext.context.jsonld"
+      "@context": "usagecontext.context.jsonld"
     },
     "exclude": {
       "@id": "fhir:ResearchElementDefinition.characteristic.exclude",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "unitOfMeasure": {
       "@id": "fhir:ResearchElementDefinition.characteristic.unitOfMeasure",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "studyEffectiveDescription": {
       "@id": "fhir:ResearchElementDefinition.characteristic.studyEffectiveDescription",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "studyEffectiveDateTime": {
       "@id": "fhir:ResearchElementDefinition.characteristic.studyEffectiveDateTime",
-      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
+      "@context": "datetime.context.jsonld"
     },
     "studyEffectivePeriod": {
       "@id": "fhir:ResearchElementDefinition.characteristic.studyEffectivePeriod",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
+      "@context": "period.context.jsonld"
     },
     "studyEffectiveDuration": {
       "@id": "fhir:ResearchElementDefinition.characteristic.studyEffectiveDuration",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Duration.context.jsonld"
+      "@context": "duration.context.jsonld"
     },
     "studyEffectiveTiming": {
       "@id": "fhir:ResearchElementDefinition.characteristic.studyEffectiveTiming",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Timing.context.jsonld"
+      "@context": "timing.context.jsonld"
     },
     "studyEffectiveTimeFromStart": {
       "@id": "fhir:ResearchElementDefinition.characteristic.studyEffectiveTimeFromStart",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Duration.context.jsonld"
+      "@context": "duration.context.jsonld"
     },
     "studyEffectiveGroupMeasure": {
       "@id": "fhir:ResearchElementDefinition.characteristic.studyEffectiveGroupMeasure"
     },
     "participantEffectiveDescription": {
       "@id": "fhir:ResearchElementDefinition.characteristic.participantEffectiveDescription",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "participantEffectiveDateTime": {
       "@id": "fhir:ResearchElementDefinition.characteristic.participantEffectiveDateTime",
-      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
+      "@context": "datetime.context.jsonld"
     },
     "participantEffectivePeriod": {
       "@id": "fhir:ResearchElementDefinition.characteristic.participantEffectivePeriod",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
+      "@context": "period.context.jsonld"
     },
     "participantEffectiveDuration": {
       "@id": "fhir:ResearchElementDefinition.characteristic.participantEffectiveDuration",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Duration.context.jsonld"
+      "@context": "duration.context.jsonld"
     },
     "participantEffectiveTiming": {
       "@id": "fhir:ResearchElementDefinition.characteristic.participantEffectiveTiming",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Timing.context.jsonld"
+      "@context": "timing.context.jsonld"
     },
     "participantEffectiveTimeFromStart": {
       "@id": "fhir:ResearchElementDefinition.characteristic.participantEffectiveTimeFromStart",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Duration.context.jsonld"
+      "@context": "duration.context.jsonld"
     },
     "participantEffectiveGroupMeasure": {
       "@id": "fhir:ResearchElementDefinition.characteristic.participantEffectiveGroupMeasure"

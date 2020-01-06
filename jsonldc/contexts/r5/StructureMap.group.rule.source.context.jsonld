@@ -7,254 +7,254 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "context": {
       "@id": "fhir:StructureMap.group.rule.source.context",
-      "@context": "https://fhircat.org/fhir/contexts/r5/id.context.jsonld"
+      "@context": "id.context.jsonld"
     },
     "min": {
       "@id": "fhir:StructureMap.group.rule.source.min",
-      "@context": "https://fhircat.org/fhir/contexts/r5/integer.context.jsonld"
+      "@context": "integer.context.jsonld"
     },
     "max": {
       "@id": "fhir:StructureMap.group.rule.source.max",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "type": {
       "@id": "fhir:StructureMap.group.rule.source.type",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "defaultValueBase64Binary": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueBase64Binary",
-      "@context": "https://fhircat.org/fhir/contexts/r5/base64Binary.context.jsonld"
+      "@context": "base64binary.context.jsonld"
     },
     "defaultValueBoolean": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueBoolean",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "defaultValueCanonical": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueCanonical",
-      "@context": "https://fhircat.org/fhir/contexts/r5/canonical.context.jsonld"
+      "@context": "canonical.context.jsonld"
     },
     "defaultValueCode": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueCode",
-      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+      "@context": "code.context.jsonld"
     },
     "defaultValueDate": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueDate",
-      "@context": "https://fhircat.org/fhir/contexts/r5/date.context.jsonld"
+      "@context": "date.context.jsonld"
     },
     "defaultValueDateTime": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueDateTime",
-      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
+      "@context": "datetime.context.jsonld"
     },
     "defaultValueDecimal": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueDecimal",
-      "@context": "https://fhircat.org/fhir/contexts/r5/decimal.context.jsonld"
+      "@context": "decimal.context.jsonld"
     },
     "defaultValueId": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueId",
-      "@context": "https://fhircat.org/fhir/contexts/r5/id.context.jsonld"
+      "@context": "id.context.jsonld"
     },
     "defaultValueInstant": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueInstant",
-      "@context": "https://fhircat.org/fhir/contexts/r5/instant.context.jsonld"
+      "@context": "instant.context.jsonld"
     },
     "defaultValueInteger": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueInteger",
-      "@context": "https://fhircat.org/fhir/contexts/r5/integer.context.jsonld"
+      "@context": "integer.context.jsonld"
     },
     "defaultValueMarkdown": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueMarkdown",
-      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
+      "@context": "markdown.context.jsonld"
     },
     "defaultValueOid": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueOid",
-      "@context": "https://fhircat.org/fhir/contexts/r5/oid.context.jsonld"
+      "@context": "oid.context.jsonld"
     },
     "defaultValuePositiveInt": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValuePositiveInt",
-      "@context": "https://fhircat.org/fhir/contexts/r5/positiveInt.context.jsonld"
+      "@context": "positiveint.context.jsonld"
     },
     "defaultValueString": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueString",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "defaultValueTime": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueTime",
-      "@context": "https://fhircat.org/fhir/contexts/r5/time.context.jsonld"
+      "@context": "time.context.jsonld"
     },
     "defaultValueUnsignedInt": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueUnsignedInt",
-      "@context": "https://fhircat.org/fhir/contexts/r5/unsignedInt.context.jsonld"
+      "@context": "unsignedint.context.jsonld"
     },
     "defaultValueUri": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueUri",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "defaultValueUrl": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueUrl",
-      "@context": "https://fhircat.org/fhir/contexts/r5/url.context.jsonld"
+      "@context": "url.context.jsonld"
     },
     "defaultValueUuid": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueUuid",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uuid.context.jsonld"
+      "@context": "uuid.context.jsonld"
     },
     "defaultValueAddress": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueAddress",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Address.context.jsonld"
+      "@context": "address.context.jsonld"
     },
     "defaultValueAge": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueAge",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Age.context.jsonld"
+      "@context": "age.context.jsonld"
     },
     "defaultValueAnnotation": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueAnnotation",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Annotation.context.jsonld"
+      "@context": "annotation.context.jsonld"
     },
     "defaultValueAttachment": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueAttachment",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Attachment.context.jsonld"
+      "@context": "attachment.context.jsonld"
     },
     "defaultValueCodeableConcept": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueCodeableConcept",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "defaultValueCoding": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueCoding",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Coding.context.jsonld"
+      "@context": "coding.context.jsonld"
     },
     "defaultValueContactPoint": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueContactPoint",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ContactPoint.context.jsonld"
+      "@context": "contactpoint.context.jsonld"
     },
     "defaultValueCount": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueCount",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Count.context.jsonld"
+      "@context": "count.context.jsonld"
     },
     "defaultValueDistance": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueDistance",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Distance.context.jsonld"
+      "@context": "distance.context.jsonld"
     },
     "defaultValueDuration": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueDuration",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Duration.context.jsonld"
+      "@context": "duration.context.jsonld"
     },
     "defaultValueHumanName": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueHumanName",
-      "@context": "https://fhircat.org/fhir/contexts/r5/HumanName.context.jsonld"
+      "@context": "humanname.context.jsonld"
     },
     "defaultValueIdentifier": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueIdentifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
+      "@context": "identifier.context.jsonld"
     },
     "defaultValueMoney": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueMoney",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Money.context.jsonld"
+      "@context": "money.context.jsonld"
     },
     "defaultValuePeriod": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValuePeriod",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
+      "@context": "period.context.jsonld"
     },
     "defaultValueQuantity": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueQuantity",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Quantity.context.jsonld"
+      "@context": "quantity.context.jsonld"
     },
     "defaultValueRange": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueRange",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Range.context.jsonld"
+      "@context": "range.context.jsonld"
     },
     "defaultValueRatio": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueRatio",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Ratio.context.jsonld"
+      "@context": "ratio.context.jsonld"
     },
     "defaultValueReference": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueReference",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "defaultValueSampledData": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueSampledData",
-      "@context": "https://fhircat.org/fhir/contexts/r5/SampledData.context.jsonld"
+      "@context": "sampleddata.context.jsonld"
     },
     "defaultValueSignature": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueSignature",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Signature.context.jsonld"
+      "@context": "signature.context.jsonld"
     },
     "defaultValueTiming": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueTiming",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Timing.context.jsonld"
+      "@context": "timing.context.jsonld"
     },
     "defaultValueContactDetail": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueContactDetail",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ContactDetail.context.jsonld"
+      "@context": "contactdetail.context.jsonld"
     },
     "defaultValueContributor": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueContributor",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Contributor.context.jsonld"
+      "@context": "contributor.context.jsonld"
     },
     "defaultValueDataRequirement": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueDataRequirement",
-      "@context": "https://fhircat.org/fhir/contexts/r5/DataRequirement.context.jsonld"
+      "@context": "datarequirement.context.jsonld"
     },
     "defaultValueExpression": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueExpression",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Expression.context.jsonld"
+      "@context": "expression.context.jsonld"
     },
     "defaultValueParameterDefinition": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueParameterDefinition",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ParameterDefinition.context.jsonld"
+      "@context": "parameterdefinition.context.jsonld"
     },
     "defaultValueRelatedArtifact": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueRelatedArtifact",
-      "@context": "https://fhircat.org/fhir/contexts/r5/RelatedArtifact.context.jsonld"
+      "@context": "relatedartifact.context.jsonld"
     },
     "defaultValueTriggerDefinition": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueTriggerDefinition",
-      "@context": "https://fhircat.org/fhir/contexts/r5/TriggerDefinition.context.jsonld"
+      "@context": "triggerdefinition.context.jsonld"
     },
     "defaultValueUsageContext": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueUsageContext",
-      "@context": "https://fhircat.org/fhir/contexts/r5/UsageContext.context.jsonld"
+      "@context": "usagecontext.context.jsonld"
     },
     "defaultValueDosage": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueDosage",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Dosage.context.jsonld"
+      "@context": "dosage.context.jsonld"
     },
     "defaultValueMeta": {
       "@id": "fhir:StructureMap.group.rule.source.defaultValueMeta",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
+      "@context": "meta.context.jsonld"
     },
     "element": {
       "@id": "fhir:StructureMap.group.rule.source.element",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "listMode": {
       "@id": "fhir:StructureMap.group.rule.source.listMode"
     },
     "variable": {
       "@id": "fhir:StructureMap.group.rule.source.variable",
-      "@context": "https://fhircat.org/fhir/contexts/r5/id.context.jsonld"
+      "@context": "id.context.jsonld"
     },
     "condition": {
       "@id": "fhir:StructureMap.group.rule.source.condition",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "check": {
       "@id": "fhir:StructureMap.group.rule.source.check",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "logMessage": {
       "@id": "fhir:StructureMap.group.rule.source.logMessage",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

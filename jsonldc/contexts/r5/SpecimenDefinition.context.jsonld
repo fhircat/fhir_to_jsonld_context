@@ -11,138 +11,138 @@
     },
     "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
+      "@context": "meta.context.jsonld"
     },
     "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+      "@context": "code.context.jsonld"
     },
     "text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
+      "@context": "narrative.context.jsonld"
     },
     "contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
+      "@context": "resource.context.jsonld"
     },
     "extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "url": {
       "@id": "fhir:SpecimenDefinition.url",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "identifier": {
       "@id": "fhir:SpecimenDefinition.identifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
+      "@context": "identifier.context.jsonld"
     },
     "version": {
       "@id": "fhir:SpecimenDefinition.version",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "title": {
       "@id": "fhir:SpecimenDefinition.title",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "derivedFromCanonical": {
       "@id": "fhir:SpecimenDefinition.derivedFromCanonical",
-      "@context": "https://fhircat.org/fhir/contexts/r5/canonical.context.jsonld"
+      "@context": "canonical.context.jsonld"
     },
     "derivedFromUri": {
       "@id": "fhir:SpecimenDefinition.derivedFromUri",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "status": {
       "@id": "fhir:SpecimenDefinition.status"
     },
     "experimental": {
       "@id": "fhir:SpecimenDefinition.experimental",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "subjectCodeableConcept": {
       "@id": "fhir:SpecimenDefinition.subjectCodeableConcept",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "subjectReference": {
       "@id": "fhir:SpecimenDefinition.subjectReference",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "date": {
       "@id": "fhir:SpecimenDefinition.date",
-      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
+      "@context": "datetime.context.jsonld"
     },
     "publisher": {
       "@id": "fhir:SpecimenDefinition.publisher",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "contact": {
       "@id": "fhir:SpecimenDefinition.contact",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ContactDetail.context.jsonld"
+      "@context": "contactdetail.context.jsonld"
     },
     "description": {
       "@id": "fhir:SpecimenDefinition.description",
-      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
+      "@context": "markdown.context.jsonld"
     },
     "useContext": {
       "@id": "fhir:SpecimenDefinition.useContext",
-      "@context": "https://fhircat.org/fhir/contexts/r5/UsageContext.context.jsonld"
+      "@context": "usagecontext.context.jsonld"
     },
     "jurisdiction": {
       "@id": "fhir:SpecimenDefinition.jurisdiction",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "purpose": {
       "@id": "fhir:SpecimenDefinition.purpose",
-      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
+      "@context": "markdown.context.jsonld"
     },
     "copyright": {
       "@id": "fhir:SpecimenDefinition.copyright",
-      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
+      "@context": "markdown.context.jsonld"
     },
     "approvalDate": {
       "@id": "fhir:SpecimenDefinition.approvalDate",
-      "@context": "https://fhircat.org/fhir/contexts/r5/date.context.jsonld"
+      "@context": "date.context.jsonld"
     },
     "lastReviewDate": {
       "@id": "fhir:SpecimenDefinition.lastReviewDate",
-      "@context": "https://fhircat.org/fhir/contexts/r5/date.context.jsonld"
+      "@context": "date.context.jsonld"
     },
     "effectivePeriod": {
       "@id": "fhir:SpecimenDefinition.effectivePeriod",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
+      "@context": "period.context.jsonld"
     },
     "typeCollected": {
       "@id": "fhir:SpecimenDefinition.typeCollected",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "patientPreparation": {
       "@id": "fhir:SpecimenDefinition.patientPreparation",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "timeAspect": {
       "@id": "fhir:SpecimenDefinition.timeAspect",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "collection": {
       "@id": "fhir:SpecimenDefinition.collection",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "typeTested": {
       "@id": "fhir:SpecimenDefinition.typeTested",
-      "@context": "https://fhircat.org/fhir/contexts/r5/SpecimenDefinition.typeTested.context.jsonld"
+      "@context": "specimendefinition.typetested.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

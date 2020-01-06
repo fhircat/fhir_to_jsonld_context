@@ -7,39 +7,39 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "low": {
       "@id": "fhir:Observation.referenceRange.low",
-      "@context": "https://fhircat.org/fhir/contexts/r5/SimpleQuantity.context.jsonld"
+      "@context": "simplequantity.context.jsonld"
     },
     "high": {
       "@id": "fhir:Observation.referenceRange.high",
-      "@context": "https://fhircat.org/fhir/contexts/r5/SimpleQuantity.context.jsonld"
+      "@context": "simplequantity.context.jsonld"
     },
     "type": {
       "@id": "fhir:Observation.referenceRange.type",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "appliesTo": {
       "@id": "fhir:Observation.referenceRange.appliesTo",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "age": {
       "@id": "fhir:Observation.referenceRange.age",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Range.context.jsonld"
+      "@context": "range.context.jsonld"
     },
     "text": {
       "@id": "fhir:Observation.referenceRange.text",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

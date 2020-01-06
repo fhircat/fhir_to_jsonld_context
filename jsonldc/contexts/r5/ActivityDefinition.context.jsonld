@@ -11,161 +11,161 @@
     },
     "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
+      "@context": "meta.context.jsonld"
     },
     "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+      "@context": "code.context.jsonld"
     },
     "text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
+      "@context": "narrative.context.jsonld"
     },
     "contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
+      "@context": "resource.context.jsonld"
     },
     "extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "url": {
       "@id": "fhir:ActivityDefinition.url",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "identifier": {
       "@id": "fhir:ActivityDefinition.identifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
+      "@context": "identifier.context.jsonld"
     },
     "version": {
       "@id": "fhir:ActivityDefinition.version",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "name": {
       "@id": "fhir:ActivityDefinition.name",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "title": {
       "@id": "fhir:ActivityDefinition.title",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "subtitle": {
       "@id": "fhir:ActivityDefinition.subtitle",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "status": {
       "@id": "fhir:ActivityDefinition.status"
     },
     "experimental": {
       "@id": "fhir:ActivityDefinition.experimental",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "subjectCodeableConcept": {
       "@id": "fhir:ActivityDefinition.subjectCodeableConcept",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "subjectReference": {
       "@id": "fhir:ActivityDefinition.subjectReference",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "date": {
       "@id": "fhir:ActivityDefinition.date",
-      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
+      "@context": "datetime.context.jsonld"
     },
     "publisher": {
       "@id": "fhir:ActivityDefinition.publisher",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "contact": {
       "@id": "fhir:ActivityDefinition.contact",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ContactDetail.context.jsonld"
+      "@context": "contactdetail.context.jsonld"
     },
     "description": {
       "@id": "fhir:ActivityDefinition.description",
-      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
+      "@context": "markdown.context.jsonld"
     },
     "useContext": {
       "@id": "fhir:ActivityDefinition.useContext",
-      "@context": "https://fhircat.org/fhir/contexts/r5/UsageContext.context.jsonld"
+      "@context": "usagecontext.context.jsonld"
     },
     "jurisdiction": {
       "@id": "fhir:ActivityDefinition.jurisdiction",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "purpose": {
       "@id": "fhir:ActivityDefinition.purpose",
-      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
+      "@context": "markdown.context.jsonld"
     },
     "usage": {
       "@id": "fhir:ActivityDefinition.usage",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "copyright": {
       "@id": "fhir:ActivityDefinition.copyright",
-      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
+      "@context": "markdown.context.jsonld"
     },
     "approvalDate": {
       "@id": "fhir:ActivityDefinition.approvalDate",
-      "@context": "https://fhircat.org/fhir/contexts/r5/date.context.jsonld"
+      "@context": "date.context.jsonld"
     },
     "lastReviewDate": {
       "@id": "fhir:ActivityDefinition.lastReviewDate",
-      "@context": "https://fhircat.org/fhir/contexts/r5/date.context.jsonld"
+      "@context": "date.context.jsonld"
     },
     "effectivePeriod": {
       "@id": "fhir:ActivityDefinition.effectivePeriod",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
+      "@context": "period.context.jsonld"
     },
     "topic": {
       "@id": "fhir:ActivityDefinition.topic",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "author": {
       "@id": "fhir:ActivityDefinition.author",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ContactDetail.context.jsonld"
+      "@context": "contactdetail.context.jsonld"
     },
     "editor": {
       "@id": "fhir:ActivityDefinition.editor",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ContactDetail.context.jsonld"
+      "@context": "contactdetail.context.jsonld"
     },
     "reviewer": {
       "@id": "fhir:ActivityDefinition.reviewer",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ContactDetail.context.jsonld"
+      "@context": "contactdetail.context.jsonld"
     },
     "endorser": {
       "@id": "fhir:ActivityDefinition.endorser",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ContactDetail.context.jsonld"
+      "@context": "contactdetail.context.jsonld"
     },
     "relatedArtifact": {
       "@id": "fhir:ActivityDefinition.relatedArtifact",
-      "@context": "https://fhircat.org/fhir/contexts/r5/RelatedArtifact.context.jsonld"
+      "@context": "relatedartifact.context.jsonld"
     },
     "library": {
       "@id": "fhir:ActivityDefinition.library",
-      "@context": "https://fhircat.org/fhir/contexts/r5/canonical.context.jsonld"
+      "@context": "canonical.context.jsonld"
     },
     "kind": {
       "@id": "fhir:ActivityDefinition.kind"
     },
     "profile": {
       "@id": "fhir:ActivityDefinition.profile",
-      "@context": "https://fhircat.org/fhir/contexts/r5/canonical.context.jsonld"
+      "@context": "canonical.context.jsonld"
     },
     "code": {
       "@id": "fhir:ActivityDefinition.code",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "intent": {
       "@id": "fhir:ActivityDefinition.intent"
@@ -175,79 +175,79 @@
     },
     "doNotPerform": {
       "@id": "fhir:ActivityDefinition.doNotPerform",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "timingTiming": {
       "@id": "fhir:ActivityDefinition.timingTiming",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Timing.context.jsonld"
+      "@context": "timing.context.jsonld"
     },
     "timingDateTime": {
       "@id": "fhir:ActivityDefinition.timingDateTime",
-      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
+      "@context": "datetime.context.jsonld"
     },
     "timingAge": {
       "@id": "fhir:ActivityDefinition.timingAge",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Age.context.jsonld"
+      "@context": "age.context.jsonld"
     },
     "timingPeriod": {
       "@id": "fhir:ActivityDefinition.timingPeriod",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
+      "@context": "period.context.jsonld"
     },
     "timingRange": {
       "@id": "fhir:ActivityDefinition.timingRange",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Range.context.jsonld"
+      "@context": "range.context.jsonld"
     },
     "timingDuration": {
       "@id": "fhir:ActivityDefinition.timingDuration",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Duration.context.jsonld"
+      "@context": "duration.context.jsonld"
     },
     "location": {
       "@id": "fhir:ActivityDefinition.location",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "participant": {
       "@id": "fhir:ActivityDefinition.participant",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ActivityDefinition.participant.context.jsonld"
+      "@context": "activitydefinition.participant.context.jsonld"
     },
     "productReference": {
       "@id": "fhir:ActivityDefinition.productReference",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "productCodeableConcept": {
       "@id": "fhir:ActivityDefinition.productCodeableConcept",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "quantity": {
       "@id": "fhir:ActivityDefinition.quantity",
-      "@context": "https://fhircat.org/fhir/contexts/r5/SimpleQuantity.context.jsonld"
+      "@context": "simplequantity.context.jsonld"
     },
     "dosage": {
       "@id": "fhir:ActivityDefinition.dosage",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Dosage.context.jsonld"
+      "@context": "dosage.context.jsonld"
     },
     "bodySite": {
       "@id": "fhir:ActivityDefinition.bodySite",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "specimenRequirement": {
       "@id": "fhir:ActivityDefinition.specimenRequirement",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "observationRequirement": {
       "@id": "fhir:ActivityDefinition.observationRequirement",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "observationResultRequirement": {
       "@id": "fhir:ActivityDefinition.observationResultRequirement",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "transform": {
       "@id": "fhir:ActivityDefinition.transform",
-      "@context": "https://fhircat.org/fhir/contexts/r5/canonical.context.jsonld"
+      "@context": "canonical.context.jsonld"
     },
     "dynamicValue": {
       "@id": "fhir:ActivityDefinition.dynamicValue",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ActivityDefinition.dynamicValue.context.jsonld"
+      "@context": "activitydefinition.dynamicvalue.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

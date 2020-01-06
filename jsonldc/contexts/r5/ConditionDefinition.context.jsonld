@@ -11,146 +11,146 @@
     },
     "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
+      "@context": "meta.context.jsonld"
     },
     "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+      "@context": "code.context.jsonld"
     },
     "text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
+      "@context": "narrative.context.jsonld"
     },
     "contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
+      "@context": "resource.context.jsonld"
     },
     "extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "url": {
       "@id": "fhir:ConditionDefinition.url",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "identifier": {
       "@id": "fhir:ConditionDefinition.identifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
+      "@context": "identifier.context.jsonld"
     },
     "version": {
       "@id": "fhir:ConditionDefinition.version",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "name": {
       "@id": "fhir:ConditionDefinition.name",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "title": {
       "@id": "fhir:ConditionDefinition.title",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "subtitle": {
       "@id": "fhir:ConditionDefinition.subtitle",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "status": {
       "@id": "fhir:ConditionDefinition.status"
     },
     "experimental": {
       "@id": "fhir:ConditionDefinition.experimental",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "date": {
       "@id": "fhir:ConditionDefinition.date",
-      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
+      "@context": "datetime.context.jsonld"
     },
     "publisher": {
       "@id": "fhir:ConditionDefinition.publisher",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "contact": {
       "@id": "fhir:ConditionDefinition.contact",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ContactDetail.context.jsonld"
+      "@context": "contactdetail.context.jsonld"
     },
     "description": {
       "@id": "fhir:ConditionDefinition.description",
-      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
+      "@context": "markdown.context.jsonld"
     },
     "useContext": {
       "@id": "fhir:ConditionDefinition.useContext",
-      "@context": "https://fhircat.org/fhir/contexts/r5/UsageContext.context.jsonld"
+      "@context": "usagecontext.context.jsonld"
     },
     "jurisdiction": {
       "@id": "fhir:ConditionDefinition.jurisdiction",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "code": {
       "@id": "fhir:ConditionDefinition.code",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "severity": {
       "@id": "fhir:ConditionDefinition.severity",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "bodySite": {
       "@id": "fhir:ConditionDefinition.bodySite",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "stage": {
       "@id": "fhir:ConditionDefinition.stage",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "hasSeverity": {
       "@id": "fhir:ConditionDefinition.hasSeverity",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "hasBodySite": {
       "@id": "fhir:ConditionDefinition.hasBodySite",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "hasStage": {
       "@id": "fhir:ConditionDefinition.hasStage",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "definition": {
       "@id": "fhir:ConditionDefinition.definition",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "observation": {
       "@id": "fhir:ConditionDefinition.observation",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ConditionDefinition.observation.context.jsonld"
+      "@context": "conditiondefinition.observation.context.jsonld"
     },
     "medication": {
       "@id": "fhir:ConditionDefinition.medication",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ConditionDefinition.medication.context.jsonld"
+      "@context": "conditiondefinition.medication.context.jsonld"
     },
     "precondition": {
       "@id": "fhir:ConditionDefinition.precondition",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ConditionDefinition.precondition.context.jsonld"
+      "@context": "conditiondefinition.precondition.context.jsonld"
     },
     "team": {
       "@id": "fhir:ConditionDefinition.team",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "questionnaire": {
       "@id": "fhir:ConditionDefinition.questionnaire",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ConditionDefinition.questionnaire.context.jsonld"
+      "@context": "conditiondefinition.questionnaire.context.jsonld"
     },
     "plan": {
       "@id": "fhir:ConditionDefinition.plan",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ConditionDefinition.plan.context.jsonld"
+      "@context": "conditiondefinition.plan.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

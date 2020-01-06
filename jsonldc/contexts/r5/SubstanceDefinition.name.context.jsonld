@@ -7,59 +7,59 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "name": {
       "@id": "fhir:SubstanceDefinition.name.name",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "type": {
       "@id": "fhir:SubstanceDefinition.name.type",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "status": {
       "@id": "fhir:SubstanceDefinition.name.status",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "preferred": {
       "@id": "fhir:SubstanceDefinition.name.preferred",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "language": {
       "@id": "fhir:SubstanceDefinition.name.language",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "domain": {
       "@id": "fhir:SubstanceDefinition.name.domain",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "jurisdiction": {
       "@id": "fhir:SubstanceDefinition.name.jurisdiction",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "synonym": {
       "@id": "fhir:SubstanceDefinition.name.synonym",
-      "@context": "https://fhircat.org/fhir/contexts/r5/SubstanceDefinition.name.context.jsonld"
+      "@context": "substancedefinition.name.context.jsonld"
     },
     "translation": {
       "@id": "fhir:SubstanceDefinition.name.translation",
-      "@context": "https://fhircat.org/fhir/contexts/r5/SubstanceDefinition.name.context.jsonld"
+      "@context": "substancedefinition.name.context.jsonld"
     },
     "official": {
       "@id": "fhir:SubstanceDefinition.name.official",
-      "@context": "https://fhircat.org/fhir/contexts/r5/SubstanceDefinition.name.official.context.jsonld"
+      "@context": "substancedefinition.name.official.context.jsonld"
     },
     "source": {
       "@id": "fhir:SubstanceDefinition.name.source",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

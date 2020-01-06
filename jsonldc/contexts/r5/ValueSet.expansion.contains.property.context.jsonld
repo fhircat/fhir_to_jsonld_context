@@ -7,47 +7,47 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "code": {
       "@id": "fhir:ValueSet.expansion.contains.property.code",
-      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+      "@context": "code.context.jsonld"
     },
     "valueCode": {
       "@id": "fhir:ValueSet.expansion.contains.property.valueCode",
-      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+      "@context": "code.context.jsonld"
     },
     "valueCoding": {
       "@id": "fhir:ValueSet.expansion.contains.property.valueCoding",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Coding.context.jsonld"
+      "@context": "coding.context.jsonld"
     },
     "valueString": {
       "@id": "fhir:ValueSet.expansion.contains.property.valueString",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "valueInteger": {
       "@id": "fhir:ValueSet.expansion.contains.property.valueInteger",
-      "@context": "https://fhircat.org/fhir/contexts/r5/integer.context.jsonld"
+      "@context": "integer.context.jsonld"
     },
     "valueBoolean": {
       "@id": "fhir:ValueSet.expansion.contains.property.valueBoolean",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "valueDateTime": {
       "@id": "fhir:ValueSet.expansion.contains.property.valueDateTime",
-      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
+      "@context": "datetime.context.jsonld"
     },
     "valueDecimal": {
       "@id": "fhir:ValueSet.expansion.contains.property.valueDecimal",
-      "@context": "https://fhircat.org/fhir/contexts/r5/decimal.context.jsonld"
+      "@context": "decimal.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

@@ -7,39 +7,39 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "name": {
       "@id": "fhir:StructureMap.group.rule.name",
-      "@context": "https://fhircat.org/fhir/contexts/r5/id.context.jsonld"
+      "@context": "id.context.jsonld"
     },
     "source": {
       "@id": "fhir:StructureMap.group.rule.source",
-      "@context": "https://fhircat.org/fhir/contexts/r5/StructureMap.group.rule.source.context.jsonld"
+      "@context": "structuremap.group.rule.source.context.jsonld"
     },
     "target": {
       "@id": "fhir:StructureMap.group.rule.target",
-      "@context": "https://fhircat.org/fhir/contexts/r5/StructureMap.group.rule.target.context.jsonld"
+      "@context": "structuremap.group.rule.target.context.jsonld"
     },
     "rule": {
       "@id": "fhir:StructureMap.group.rule.rule",
-      "@context": "https://fhircat.org/fhir/contexts/r5/StructureMap.group.rule.context.jsonld"
+      "@context": "structuremap.group.rule.context.jsonld"
     },
     "dependent": {
       "@id": "fhir:StructureMap.group.rule.dependent",
-      "@context": "https://fhircat.org/fhir/contexts/r5/StructureMap.group.rule.dependent.context.jsonld"
+      "@context": "structuremap.group.rule.dependent.context.jsonld"
     },
     "documentation": {
       "@id": "fhir:StructureMap.group.rule.documentation",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

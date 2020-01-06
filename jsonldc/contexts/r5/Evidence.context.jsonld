@@ -11,118 +11,118 @@
     },
     "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
+      "@context": "meta.context.jsonld"
     },
     "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+      "@context": "code.context.jsonld"
     },
     "text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
+      "@context": "narrative.context.jsonld"
     },
     "contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
+      "@context": "resource.context.jsonld"
     },
     "extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "url": {
       "@id": "fhir:Evidence.url",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "identifier": {
       "@id": "fhir:Evidence.identifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
+      "@context": "identifier.context.jsonld"
     },
     "version": {
       "@id": "fhir:Evidence.version",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "title": {
       "@id": "fhir:Evidence.title",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "status": {
       "@id": "fhir:Evidence.status"
     },
     "useContext": {
       "@id": "fhir:Evidence.useContext",
-      "@context": "https://fhircat.org/fhir/contexts/r5/UsageContext.context.jsonld"
+      "@context": "usagecontext.context.jsonld"
     },
     "date": {
       "@id": "fhir:Evidence.date",
-      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
+      "@context": "datetime.context.jsonld"
     },
     "approvalDate": {
       "@id": "fhir:Evidence.approvalDate",
-      "@context": "https://fhircat.org/fhir/contexts/r5/date.context.jsonld"
+      "@context": "date.context.jsonld"
     },
     "lastReviewDate": {
       "@id": "fhir:Evidence.lastReviewDate",
-      "@context": "https://fhircat.org/fhir/contexts/r5/date.context.jsonld"
+      "@context": "date.context.jsonld"
     },
     "contributor": {
       "@id": "fhir:Evidence.contributor",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Contributor.context.jsonld"
+      "@context": "contributor.context.jsonld"
     },
     "relatedArtifact": {
       "@id": "fhir:Evidence.relatedArtifact",
-      "@context": "https://fhircat.org/fhir/contexts/r5/RelatedArtifact.context.jsonld"
+      "@context": "relatedartifact.context.jsonld"
     },
     "description": {
       "@id": "fhir:Evidence.description",
-      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
+      "@context": "markdown.context.jsonld"
     },
     "assertion": {
       "@id": "fhir:Evidence.assertion",
-      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
+      "@context": "markdown.context.jsonld"
     },
     "note": {
       "@id": "fhir:Evidence.note",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Annotation.context.jsonld"
+      "@context": "annotation.context.jsonld"
     },
     "referentGroup": {
       "@id": "fhir:Evidence.referentGroup",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Evidence.referentGroup.context.jsonld"
+      "@context": "evidence.referentgroup.context.jsonld"
     },
     "variableDefinition": {
       "@id": "fhir:Evidence.variableDefinition",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Evidence.variableDefinition.context.jsonld"
+      "@context": "evidence.variabledefinition.context.jsonld"
     },
     "synthesisType": {
       "@id": "fhir:Evidence.synthesisType",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "studyType": {
       "@id": "fhir:Evidence.studyType",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "statistic": {
       "@id": "fhir:Evidence.statistic",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Statistic.context.jsonld"
+      "@context": "statistic.context.jsonld"
     },
     "distribution": {
       "@id": "fhir:Evidence.distribution",
-      "@context": "https://fhircat.org/fhir/contexts/r5/OrderedDistribution.context.jsonld"
+      "@context": "ordereddistribution.context.jsonld"
     },
     "certainty": {
       "@id": "fhir:Evidence.certainty",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Evidence.certainty.context.jsonld"
+      "@context": "evidence.certainty.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

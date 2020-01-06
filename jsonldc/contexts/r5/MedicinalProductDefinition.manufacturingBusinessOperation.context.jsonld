@@ -7,39 +7,39 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "operationType": {
       "@id": "fhir:MedicinalProductDefinition.manufacturingBusinessOperation.operationType",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "authorisationReferenceNumber": {
       "@id": "fhir:MedicinalProductDefinition.manufacturingBusinessOperation.authorisationReferenceNumber",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
+      "@context": "identifier.context.jsonld"
     },
     "effectiveDate": {
       "@id": "fhir:MedicinalProductDefinition.manufacturingBusinessOperation.effectiveDate",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
+      "@context": "period.context.jsonld"
     },
     "confidentialityIndicator": {
       "@id": "fhir:MedicinalProductDefinition.manufacturingBusinessOperation.confidentialityIndicator",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "manufacturer": {
       "@id": "fhir:MedicinalProductDefinition.manufacturingBusinessOperation.manufacturer",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "regulator": {
       "@id": "fhir:MedicinalProductDefinition.manufacturingBusinessOperation.regulator",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

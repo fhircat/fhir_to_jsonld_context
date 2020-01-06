@@ -7,43 +7,43 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "diseaseSymptomProcedure": {
       "@id": "fhir:ClinicalUseIssue.indication.diseaseSymptomProcedure",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "diseaseStatus": {
       "@id": "fhir:ClinicalUseIssue.indication.diseaseStatus",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "comorbidity": {
       "@id": "fhir:ClinicalUseIssue.indication.comorbidity",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "intendedEffect": {
       "@id": "fhir:ClinicalUseIssue.indication.intendedEffect",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "duration": {
       "@id": "fhir:ClinicalUseIssue.indication.duration",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Quantity.context.jsonld"
+      "@context": "quantity.context.jsonld"
     },
     "undesirableEffect": {
       "@id": "fhir:ClinicalUseIssue.indication.undesirableEffect",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "otherTherapy": {
       "@id": "fhir:ClinicalUseIssue.indication.otherTherapy",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ClinicalUseIssue.contraindication.otherTherapy.context.jsonld"
+      "@context": "clinicaluseissue.contraindication.othertherapy.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

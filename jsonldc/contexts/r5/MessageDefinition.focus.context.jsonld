@@ -7,30 +7,30 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "code": {
       "@id": "fhir:MessageDefinition.focus.code"
     },
     "profile": {
       "@id": "fhir:MessageDefinition.focus.profile",
-      "@context": "https://fhircat.org/fhir/contexts/r5/canonical.context.jsonld"
+      "@context": "canonical.context.jsonld"
     },
     "min": {
       "@id": "fhir:MessageDefinition.focus.min",
-      "@context": "https://fhircat.org/fhir/contexts/r5/unsignedInt.context.jsonld"
+      "@context": "unsignedint.context.jsonld"
     },
     "max": {
       "@id": "fhir:MessageDefinition.focus.max",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

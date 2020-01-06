@@ -7,79 +7,79 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "description": {
       "@id": "fhir:EvidenceVariable.characteristic.description",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "definitionReference": {
       "@id": "fhir:EvidenceVariable.characteristic.definitionReference",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "definitionCanonical": {
       "@id": "fhir:EvidenceVariable.characteristic.definitionCanonical",
-      "@context": "https://fhircat.org/fhir/contexts/r5/canonical.context.jsonld"
+      "@context": "canonical.context.jsonld"
     },
     "definitionCodeableConcept": {
       "@id": "fhir:EvidenceVariable.characteristic.definitionCodeableConcept",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "definitionExpression": {
       "@id": "fhir:EvidenceVariable.characteristic.definitionExpression",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Expression.context.jsonld"
+      "@context": "expression.context.jsonld"
     },
     "definitionDataRequirement": {
       "@id": "fhir:EvidenceVariable.characteristic.definitionDataRequirement",
-      "@context": "https://fhircat.org/fhir/contexts/r5/DataRequirement.context.jsonld"
+      "@context": "datarequirement.context.jsonld"
     },
     "definitionTriggerDefinition": {
       "@id": "fhir:EvidenceVariable.characteristic.definitionTriggerDefinition",
-      "@context": "https://fhircat.org/fhir/contexts/r5/TriggerDefinition.context.jsonld"
+      "@context": "triggerdefinition.context.jsonld"
     },
     "method": {
       "@id": "fhir:EvidenceVariable.characteristic.method",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "device": {
       "@id": "fhir:EvidenceVariable.characteristic.device",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "booleanSet": {
       "@id": "fhir:EvidenceVariable.characteristic.booleanSet",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "exclude": {
       "@id": "fhir:EvidenceVariable.characteristic.exclude",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "participantEffectiveDateTime": {
       "@id": "fhir:EvidenceVariable.characteristic.participantEffectiveDateTime",
-      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
+      "@context": "datetime.context.jsonld"
     },
     "participantEffectivePeriod": {
       "@id": "fhir:EvidenceVariable.characteristic.participantEffectivePeriod",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
+      "@context": "period.context.jsonld"
     },
     "participantEffectiveDuration": {
       "@id": "fhir:EvidenceVariable.characteristic.participantEffectiveDuration",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Duration.context.jsonld"
+      "@context": "duration.context.jsonld"
     },
     "participantEffectiveTiming": {
       "@id": "fhir:EvidenceVariable.characteristic.participantEffectiveTiming",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Timing.context.jsonld"
+      "@context": "timing.context.jsonld"
     },
     "timeFromStart": {
       "@id": "fhir:EvidenceVariable.characteristic.timeFromStart",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Duration.context.jsonld"
+      "@context": "duration.context.jsonld"
     },
     "groupMeasure": {
       "@id": "fhir:EvidenceVariable.characteristic.groupMeasure"

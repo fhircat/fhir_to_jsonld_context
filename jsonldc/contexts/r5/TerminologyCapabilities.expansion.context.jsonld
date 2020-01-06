@@ -7,35 +7,35 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "hierarchical": {
       "@id": "fhir:TerminologyCapabilities.expansion.hierarchical",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "paging": {
       "@id": "fhir:TerminologyCapabilities.expansion.paging",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "incomplete": {
       "@id": "fhir:TerminologyCapabilities.expansion.incomplete",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "parameter": {
       "@id": "fhir:TerminologyCapabilities.expansion.parameter",
-      "@context": "https://fhircat.org/fhir/contexts/r5/TerminologyCapabilities.expansion.parameter.context.jsonld"
+      "@context": "terminologycapabilities.expansion.parameter.context.jsonld"
     },
     "textFilter": {
       "@id": "fhir:TerminologyCapabilities.expansion.textFilter",
-      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
+      "@context": "markdown.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

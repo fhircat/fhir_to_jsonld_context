@@ -11,75 +11,75 @@
     },
     "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
+      "@context": "meta.context.jsonld"
     },
     "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+      "@context": "code.context.jsonld"
     },
     "text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
+      "@context": "narrative.context.jsonld"
     },
     "contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
+      "@context": "resource.context.jsonld"
     },
     "extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "identifier": {
       "@id": "fhir:PackagedProductDefinition.identifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
+      "@context": "identifier.context.jsonld"
     },
     "subject": {
       "@id": "fhir:PackagedProductDefinition.subject",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "description": {
       "@id": "fhir:PackagedProductDefinition.description",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "legalStatusOfSupply": {
       "@id": "fhir:PackagedProductDefinition.legalStatusOfSupply",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "marketingStatus": {
       "@id": "fhir:PackagedProductDefinition.marketingStatus",
-      "@context": "https://fhircat.org/fhir/contexts/r5/MarketingStatus.context.jsonld"
+      "@context": "marketingstatus.context.jsonld"
     },
     "copackagedIndicator": {
       "@id": "fhir:PackagedProductDefinition.copackagedIndicator",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "marketingAuthorization": {
       "@id": "fhir:PackagedProductDefinition.marketingAuthorization",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "manufacturer": {
       "@id": "fhir:PackagedProductDefinition.manufacturer",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "batchIdentifier": {
       "@id": "fhir:PackagedProductDefinition.batchIdentifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/PackagedProductDefinition.batchIdentifier.context.jsonld"
+      "@context": "packagedproductdefinition.batchidentifier.context.jsonld"
     },
     "package": {
       "@id": "fhir:PackagedProductDefinition.package",
-      "@context": "https://fhircat.org/fhir/contexts/r5/PackagedProductDefinition.package.context.jsonld"
+      "@context": "packagedproductdefinition.package.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

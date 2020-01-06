@@ -7,55 +7,55 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "number": {
       "@id": "fhir:ExampleScenario.process.step.operation.number",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "type": {
       "@id": "fhir:ExampleScenario.process.step.operation.type",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "name": {
       "@id": "fhir:ExampleScenario.process.step.operation.name",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "initiator": {
       "@id": "fhir:ExampleScenario.process.step.operation.initiator",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "receiver": {
       "@id": "fhir:ExampleScenario.process.step.operation.receiver",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "description": {
       "@id": "fhir:ExampleScenario.process.step.operation.description",
-      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
+      "@context": "markdown.context.jsonld"
     },
     "initiatorActive": {
       "@id": "fhir:ExampleScenario.process.step.operation.initiatorActive",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "receiverActive": {
       "@id": "fhir:ExampleScenario.process.step.operation.receiverActive",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "request": {
       "@id": "fhir:ExampleScenario.process.step.operation.request",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ExampleScenario.instance.containedInstance.context.jsonld"
+      "@context": "examplescenario.instance.containedinstance.context.jsonld"
     },
     "response": {
       "@id": "fhir:ExampleScenario.process.step.operation.response",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ExampleScenario.instance.containedInstance.context.jsonld"
+      "@context": "examplescenario.instance.containedinstance.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

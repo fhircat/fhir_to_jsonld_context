@@ -11,158 +11,158 @@
     },
     "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
+      "@context": "meta.context.jsonld"
     },
     "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+      "@context": "code.context.jsonld"
     },
     "text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
+      "@context": "narrative.context.jsonld"
     },
     "contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
+      "@context": "resource.context.jsonld"
     },
     "extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "url": {
       "@id": "fhir:RiskEvidenceSynthesis.url",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "identifier": {
       "@id": "fhir:RiskEvidenceSynthesis.identifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
+      "@context": "identifier.context.jsonld"
     },
     "version": {
       "@id": "fhir:RiskEvidenceSynthesis.version",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "name": {
       "@id": "fhir:RiskEvidenceSynthesis.name",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "title": {
       "@id": "fhir:RiskEvidenceSynthesis.title",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "status": {
       "@id": "fhir:RiskEvidenceSynthesis.status"
     },
     "date": {
       "@id": "fhir:RiskEvidenceSynthesis.date",
-      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
+      "@context": "datetime.context.jsonld"
     },
     "publisher": {
       "@id": "fhir:RiskEvidenceSynthesis.publisher",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "contact": {
       "@id": "fhir:RiskEvidenceSynthesis.contact",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ContactDetail.context.jsonld"
+      "@context": "contactdetail.context.jsonld"
     },
     "description": {
       "@id": "fhir:RiskEvidenceSynthesis.description",
-      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
+      "@context": "markdown.context.jsonld"
     },
     "note": {
       "@id": "fhir:RiskEvidenceSynthesis.note",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Annotation.context.jsonld"
+      "@context": "annotation.context.jsonld"
     },
     "useContext": {
       "@id": "fhir:RiskEvidenceSynthesis.useContext",
-      "@context": "https://fhircat.org/fhir/contexts/r5/UsageContext.context.jsonld"
+      "@context": "usagecontext.context.jsonld"
     },
     "jurisdiction": {
       "@id": "fhir:RiskEvidenceSynthesis.jurisdiction",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "copyright": {
       "@id": "fhir:RiskEvidenceSynthesis.copyright",
-      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
+      "@context": "markdown.context.jsonld"
     },
     "approvalDate": {
       "@id": "fhir:RiskEvidenceSynthesis.approvalDate",
-      "@context": "https://fhircat.org/fhir/contexts/r5/date.context.jsonld"
+      "@context": "date.context.jsonld"
     },
     "lastReviewDate": {
       "@id": "fhir:RiskEvidenceSynthesis.lastReviewDate",
-      "@context": "https://fhircat.org/fhir/contexts/r5/date.context.jsonld"
+      "@context": "date.context.jsonld"
     },
     "effectivePeriod": {
       "@id": "fhir:RiskEvidenceSynthesis.effectivePeriod",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
+      "@context": "period.context.jsonld"
     },
     "topic": {
       "@id": "fhir:RiskEvidenceSynthesis.topic",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "author": {
       "@id": "fhir:RiskEvidenceSynthesis.author",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ContactDetail.context.jsonld"
+      "@context": "contactdetail.context.jsonld"
     },
     "editor": {
       "@id": "fhir:RiskEvidenceSynthesis.editor",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ContactDetail.context.jsonld"
+      "@context": "contactdetail.context.jsonld"
     },
     "reviewer": {
       "@id": "fhir:RiskEvidenceSynthesis.reviewer",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ContactDetail.context.jsonld"
+      "@context": "contactdetail.context.jsonld"
     },
     "endorser": {
       "@id": "fhir:RiskEvidenceSynthesis.endorser",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ContactDetail.context.jsonld"
+      "@context": "contactdetail.context.jsonld"
     },
     "relatedArtifact": {
       "@id": "fhir:RiskEvidenceSynthesis.relatedArtifact",
-      "@context": "https://fhircat.org/fhir/contexts/r5/RelatedArtifact.context.jsonld"
+      "@context": "relatedartifact.context.jsonld"
     },
     "synthesisType": {
       "@id": "fhir:RiskEvidenceSynthesis.synthesisType",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "studyType": {
       "@id": "fhir:RiskEvidenceSynthesis.studyType",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "population": {
       "@id": "fhir:RiskEvidenceSynthesis.population",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "exposure": {
       "@id": "fhir:RiskEvidenceSynthesis.exposure",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "outcome": {
       "@id": "fhir:RiskEvidenceSynthesis.outcome",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "sampleSize": {
       "@id": "fhir:RiskEvidenceSynthesis.sampleSize",
-      "@context": "https://fhircat.org/fhir/contexts/r5/RiskEvidenceSynthesis.sampleSize.context.jsonld"
+      "@context": "riskevidencesynthesis.samplesize.context.jsonld"
     },
     "riskEstimate": {
       "@id": "fhir:RiskEvidenceSynthesis.riskEstimate",
-      "@context": "https://fhircat.org/fhir/contexts/r5/RiskEvidenceSynthesis.riskEstimate.context.jsonld"
+      "@context": "riskevidencesynthesis.riskestimate.context.jsonld"
     },
     "certainty": {
       "@id": "fhir:RiskEvidenceSynthesis.certainty",
-      "@context": "https://fhircat.org/fhir/contexts/r5/RiskEvidenceSynthesis.certainty.context.jsonld"
+      "@context": "riskevidencesynthesis.certainty.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

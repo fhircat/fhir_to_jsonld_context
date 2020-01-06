@@ -7,27 +7,27 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "type": {
       "@id": "fhir:Signature.type",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Coding.context.jsonld"
+      "@context": "coding.context.jsonld"
     },
     "when": {
       "@id": "fhir:Signature.when",
-      "@context": "https://fhircat.org/fhir/contexts/r5/instant.context.jsonld"
+      "@context": "instant.context.jsonld"
     },
     "who": {
       "@id": "fhir:Signature.who",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "onBehalfOf": {
       "@id": "fhir:Signature.onBehalfOf",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "targetFormat": {
       "@id": "fhir:Signature.targetFormat"
@@ -37,7 +37,7 @@
     },
     "data": {
       "@id": "fhir:Signature.data",
-      "@context": "https://fhircat.org/fhir/contexts/r5/base64Binary.context.jsonld"
+      "@context": "base64binary.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

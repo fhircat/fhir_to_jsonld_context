@@ -7,35 +7,35 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "deviceIdentifier": {
       "@id": "fhir:Device.udiCarrier.deviceIdentifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "issuer": {
       "@id": "fhir:Device.udiCarrier.issuer",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "jurisdiction": {
       "@id": "fhir:Device.udiCarrier.jurisdiction",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "carrierAIDC": {
       "@id": "fhir:Device.udiCarrier.carrierAIDC",
-      "@context": "https://fhircat.org/fhir/contexts/r5/base64Binary.context.jsonld"
+      "@context": "base64binary.context.jsonld"
     },
     "carrierHRF": {
       "@id": "fhir:Device.udiCarrier.carrierHRF",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "entryType": {
       "@id": "fhir:Device.udiCarrier.entryType"

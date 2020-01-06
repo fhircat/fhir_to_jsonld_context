@@ -7,51 +7,51 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "code": {
       "@id": "fhir:FamilyMemberHistory.procedure.code",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "outcome": {
       "@id": "fhir:FamilyMemberHistory.procedure.outcome",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "contributedToDeath": {
       "@id": "fhir:FamilyMemberHistory.procedure.contributedToDeath",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "performedAge": {
       "@id": "fhir:FamilyMemberHistory.procedure.performedAge",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Age.context.jsonld"
+      "@context": "age.context.jsonld"
     },
     "performedRange": {
       "@id": "fhir:FamilyMemberHistory.procedure.performedRange",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Range.context.jsonld"
+      "@context": "range.context.jsonld"
     },
     "performedPeriod": {
       "@id": "fhir:FamilyMemberHistory.procedure.performedPeriod",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
+      "@context": "period.context.jsonld"
     },
     "performedString": {
       "@id": "fhir:FamilyMemberHistory.procedure.performedString",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "performedDateTime": {
       "@id": "fhir:FamilyMemberHistory.procedure.performedDateTime",
-      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
+      "@context": "datetime.context.jsonld"
     },
     "note": {
       "@id": "fhir:FamilyMemberHistory.procedure.note",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Annotation.context.jsonld"
+      "@context": "annotation.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

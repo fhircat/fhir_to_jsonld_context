@@ -7,31 +7,31 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "schedule": {
       "@id": "fhir:NutritionOrder.enteralFormula.administration.schedule",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Timing.context.jsonld"
+      "@context": "timing.context.jsonld"
     },
     "quantity": {
       "@id": "fhir:NutritionOrder.enteralFormula.administration.quantity",
-      "@context": "https://fhircat.org/fhir/contexts/r5/SimpleQuantity.context.jsonld"
+      "@context": "simplequantity.context.jsonld"
     },
     "rateQuantity": {
       "@id": "fhir:NutritionOrder.enteralFormula.administration.rateQuantity",
-      "@context": "https://fhircat.org/fhir/contexts/r5/SimpleQuantity.context.jsonld"
+      "@context": "simplequantity.context.jsonld"
     },
     "rateRatio": {
       "@id": "fhir:NutritionOrder.enteralFormula.administration.rateRatio",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Ratio.context.jsonld"
+      "@context": "ratio.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

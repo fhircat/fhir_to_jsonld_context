@@ -11,128 +11,128 @@
     },
     "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
+      "@context": "meta.context.jsonld"
     },
     "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+      "@context": "code.context.jsonld"
     },
     "text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
+      "@context": "narrative.context.jsonld"
     },
     "contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
+      "@context": "resource.context.jsonld"
     },
     "extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "url": {
       "@id": "fhir:TerminologyCapabilities.url",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "version": {
       "@id": "fhir:TerminologyCapabilities.version",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "name": {
       "@id": "fhir:TerminologyCapabilities.name",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "title": {
       "@id": "fhir:TerminologyCapabilities.title",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "status": {
       "@id": "fhir:TerminologyCapabilities.status"
     },
     "experimental": {
       "@id": "fhir:TerminologyCapabilities.experimental",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "date": {
       "@id": "fhir:TerminologyCapabilities.date",
-      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
+      "@context": "datetime.context.jsonld"
     },
     "publisher": {
       "@id": "fhir:TerminologyCapabilities.publisher",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "contact": {
       "@id": "fhir:TerminologyCapabilities.contact",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ContactDetail.context.jsonld"
+      "@context": "contactdetail.context.jsonld"
     },
     "description": {
       "@id": "fhir:TerminologyCapabilities.description",
-      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
+      "@context": "markdown.context.jsonld"
     },
     "useContext": {
       "@id": "fhir:TerminologyCapabilities.useContext",
-      "@context": "https://fhircat.org/fhir/contexts/r5/UsageContext.context.jsonld"
+      "@context": "usagecontext.context.jsonld"
     },
     "jurisdiction": {
       "@id": "fhir:TerminologyCapabilities.jurisdiction",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "purpose": {
       "@id": "fhir:TerminologyCapabilities.purpose",
-      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
+      "@context": "markdown.context.jsonld"
     },
     "copyright": {
       "@id": "fhir:TerminologyCapabilities.copyright",
-      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
+      "@context": "markdown.context.jsonld"
     },
     "kind": {
       "@id": "fhir:TerminologyCapabilities.kind"
     },
     "software": {
       "@id": "fhir:TerminologyCapabilities.software",
-      "@context": "https://fhircat.org/fhir/contexts/r5/TerminologyCapabilities.software.context.jsonld"
+      "@context": "terminologycapabilities.software.context.jsonld"
     },
     "implementation": {
       "@id": "fhir:TerminologyCapabilities.implementation",
-      "@context": "https://fhircat.org/fhir/contexts/r5/TerminologyCapabilities.implementation.context.jsonld"
+      "@context": "terminologycapabilities.implementation.context.jsonld"
     },
     "lockedDate": {
       "@id": "fhir:TerminologyCapabilities.lockedDate",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "codeSystem": {
       "@id": "fhir:TerminologyCapabilities.codeSystem",
-      "@context": "https://fhircat.org/fhir/contexts/r5/TerminologyCapabilities.codeSystem.context.jsonld"
+      "@context": "terminologycapabilities.codesystem.context.jsonld"
     },
     "expansion": {
       "@id": "fhir:TerminologyCapabilities.expansion",
-      "@context": "https://fhircat.org/fhir/contexts/r5/TerminologyCapabilities.expansion.context.jsonld"
+      "@context": "terminologycapabilities.expansion.context.jsonld"
     },
     "codeSearch": {
       "@id": "fhir:TerminologyCapabilities.codeSearch"
     },
     "validateCode": {
       "@id": "fhir:TerminologyCapabilities.validateCode",
-      "@context": "https://fhircat.org/fhir/contexts/r5/TerminologyCapabilities.validateCode.context.jsonld"
+      "@context": "terminologycapabilities.validatecode.context.jsonld"
     },
     "translation": {
       "@id": "fhir:TerminologyCapabilities.translation",
-      "@context": "https://fhircat.org/fhir/contexts/r5/TerminologyCapabilities.translation.context.jsonld"
+      "@context": "terminologycapabilities.translation.context.jsonld"
     },
     "closure": {
       "@id": "fhir:TerminologyCapabilities.closure",
-      "@context": "https://fhircat.org/fhir/contexts/r5/TerminologyCapabilities.closure.context.jsonld"
+      "@context": "terminologycapabilities.closure.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

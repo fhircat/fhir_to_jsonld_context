@@ -11,51 +11,51 @@
     },
     "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
+      "@context": "meta.context.jsonld"
     },
     "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+      "@context": "code.context.jsonld"
     },
     "text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
+      "@context": "narrative.context.jsonld"
     },
     "contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
+      "@context": "resource.context.jsonld"
     },
     "extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "identifier": {
       "@id": "fhir:NutritionOrder.identifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
+      "@context": "identifier.context.jsonld"
     },
     "instantiatesCanonical": {
       "@id": "fhir:NutritionOrder.instantiatesCanonical",
-      "@context": "https://fhircat.org/fhir/contexts/r5/canonical.context.jsonld"
+      "@context": "canonical.context.jsonld"
     },
     "instantiatesUri": {
       "@id": "fhir:NutritionOrder.instantiatesUri",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "instantiates": {
       "@id": "fhir:NutritionOrder.instantiates",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "status": {
       "@id": "fhir:NutritionOrder.status"
@@ -65,47 +65,47 @@
     },
     "patient": {
       "@id": "fhir:NutritionOrder.patient",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "encounter": {
       "@id": "fhir:NutritionOrder.encounter",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "dateTime": {
       "@id": "fhir:NutritionOrder.dateTime",
-      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
+      "@context": "datetime.context.jsonld"
     },
     "orderer": {
       "@id": "fhir:NutritionOrder.orderer",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "allergyIntolerance": {
       "@id": "fhir:NutritionOrder.allergyIntolerance",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "foodPreferenceModifier": {
       "@id": "fhir:NutritionOrder.foodPreferenceModifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "excludeFoodModifier": {
       "@id": "fhir:NutritionOrder.excludeFoodModifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "oralDiet": {
       "@id": "fhir:NutritionOrder.oralDiet",
-      "@context": "https://fhircat.org/fhir/contexts/r5/NutritionOrder.oralDiet.context.jsonld"
+      "@context": "nutritionorder.oraldiet.context.jsonld"
     },
     "supplement": {
       "@id": "fhir:NutritionOrder.supplement",
-      "@context": "https://fhircat.org/fhir/contexts/r5/NutritionOrder.supplement.context.jsonld"
+      "@context": "nutritionorder.supplement.context.jsonld"
     },
     "enteralFormula": {
       "@id": "fhir:NutritionOrder.enteralFormula",
-      "@context": "https://fhircat.org/fhir/contexts/r5/NutritionOrder.enteralFormula.context.jsonld"
+      "@context": "nutritionorder.enteralformula.context.jsonld"
     },
     "note": {
       "@id": "fhir:NutritionOrder.note",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Annotation.context.jsonld"
+      "@context": "annotation.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

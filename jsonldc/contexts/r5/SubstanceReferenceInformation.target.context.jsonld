@@ -7,55 +7,55 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "target": {
       "@id": "fhir:SubstanceReferenceInformation.target.target",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
+      "@context": "identifier.context.jsonld"
     },
     "type": {
       "@id": "fhir:SubstanceReferenceInformation.target.type",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "interaction": {
       "@id": "fhir:SubstanceReferenceInformation.target.interaction",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "organism": {
       "@id": "fhir:SubstanceReferenceInformation.target.organism",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "organismType": {
       "@id": "fhir:SubstanceReferenceInformation.target.organismType",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "amountQuantity": {
       "@id": "fhir:SubstanceReferenceInformation.target.amountQuantity",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Quantity.context.jsonld"
+      "@context": "quantity.context.jsonld"
     },
     "amountRange": {
       "@id": "fhir:SubstanceReferenceInformation.target.amountRange",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Range.context.jsonld"
+      "@context": "range.context.jsonld"
     },
     "amountString": {
       "@id": "fhir:SubstanceReferenceInformation.target.amountString",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "amountType": {
       "@id": "fhir:SubstanceReferenceInformation.target.amountType",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "source": {
       "@id": "fhir:SubstanceReferenceInformation.target.source",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

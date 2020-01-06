@@ -7,49 +7,49 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "chromosome": {
       "@id": "fhir:MolecularSequence.referenceSeq.chromosome",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "genomeBuild": {
       "@id": "fhir:MolecularSequence.referenceSeq.genomeBuild",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "orientation": {
       "@id": "fhir:MolecularSequence.referenceSeq.orientation"
     },
     "referenceSeqId": {
       "@id": "fhir:MolecularSequence.referenceSeq.referenceSeqId",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "referenceSeqPointer": {
       "@id": "fhir:MolecularSequence.referenceSeq.referenceSeqPointer",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "referenceSeqString": {
       "@id": "fhir:MolecularSequence.referenceSeq.referenceSeqString",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "strand": {
       "@id": "fhir:MolecularSequence.referenceSeq.strand"
     },
     "windowStart": {
       "@id": "fhir:MolecularSequence.referenceSeq.windowStart",
-      "@context": "https://fhircat.org/fhir/contexts/r5/integer.context.jsonld"
+      "@context": "integer.context.jsonld"
     },
     "windowEnd": {
       "@id": "fhir:MolecularSequence.referenceSeq.windowEnd",
-      "@context": "https://fhircat.org/fhir/contexts/r5/integer.context.jsonld"
+      "@context": "integer.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

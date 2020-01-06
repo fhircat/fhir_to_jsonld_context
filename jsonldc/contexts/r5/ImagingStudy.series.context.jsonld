@@ -7,63 +7,63 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "uid": {
       "@id": "fhir:ImagingStudy.series.uid",
-      "@context": "https://fhircat.org/fhir/contexts/r5/id.context.jsonld"
+      "@context": "id.context.jsonld"
     },
     "number": {
       "@id": "fhir:ImagingStudy.series.number",
-      "@context": "https://fhircat.org/fhir/contexts/r5/unsignedInt.context.jsonld"
+      "@context": "unsignedint.context.jsonld"
     },
     "modality": {
       "@id": "fhir:ImagingStudy.series.modality",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Coding.context.jsonld"
+      "@context": "coding.context.jsonld"
     },
     "description": {
       "@id": "fhir:ImagingStudy.series.description",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "numberOfInstances": {
       "@id": "fhir:ImagingStudy.series.numberOfInstances",
-      "@context": "https://fhircat.org/fhir/contexts/r5/unsignedInt.context.jsonld"
+      "@context": "unsignedint.context.jsonld"
     },
     "endpoint": {
       "@id": "fhir:ImagingStudy.series.endpoint",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "bodySite": {
       "@id": "fhir:ImagingStudy.series.bodySite",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Coding.context.jsonld"
+      "@context": "coding.context.jsonld"
     },
     "laterality": {
       "@id": "fhir:ImagingStudy.series.laterality",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Coding.context.jsonld"
+      "@context": "coding.context.jsonld"
     },
     "specimen": {
       "@id": "fhir:ImagingStudy.series.specimen",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "started": {
       "@id": "fhir:ImagingStudy.series.started",
-      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
+      "@context": "datetime.context.jsonld"
     },
     "performer": {
       "@id": "fhir:ImagingStudy.series.performer",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ImagingStudy.series.performer.context.jsonld"
+      "@context": "imagingstudy.series.performer.context.jsonld"
     },
     "instance": {
       "@id": "fhir:ImagingStudy.series.instance",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ImagingStudy.series.instance.context.jsonld"
+      "@context": "imagingstudy.series.instance.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

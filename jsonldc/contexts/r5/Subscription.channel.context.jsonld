@@ -7,35 +7,35 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "type": {
       "@id": "fhir:Subscription.channel.type",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "endpoint": {
       "@id": "fhir:Subscription.channel.endpoint",
-      "@context": "https://fhircat.org/fhir/contexts/r5/url.context.jsonld"
+      "@context": "url.context.jsonld"
     },
     "header": {
       "@id": "fhir:Subscription.channel.header",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "heartbeatPeriod": {
       "@id": "fhir:Subscription.channel.heartbeatPeriod",
-      "@context": "https://fhircat.org/fhir/contexts/r5/unsignedInt.context.jsonld"
+      "@context": "unsignedint.context.jsonld"
     },
     "payload": {
       "@id": "fhir:Subscription.channel.payload",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Subscription.channel.payload.context.jsonld"
+      "@context": "subscription.channel.payload.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

@@ -7,55 +7,55 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "identifier": {
       "@id": "fhir:PackagedProductDefinition.package.identifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
+      "@context": "identifier.context.jsonld"
     },
     "type": {
       "@id": "fhir:PackagedProductDefinition.package.type",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "quantity": {
       "@id": "fhir:PackagedProductDefinition.package.quantity",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Quantity.context.jsonld"
+      "@context": "quantity.context.jsonld"
     },
     "material": {
       "@id": "fhir:PackagedProductDefinition.package.material",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "alternateMaterial": {
       "@id": "fhir:PackagedProductDefinition.package.alternateMaterial",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "shelfLifeStorage": {
       "@id": "fhir:PackagedProductDefinition.package.shelfLifeStorage",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ProductShelfLife.context.jsonld"
+      "@context": "productshelflife.context.jsonld"
     },
     "manufacturer": {
       "@id": "fhir:PackagedProductDefinition.package.manufacturer",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "characteristic": {
       "@id": "fhir:PackagedProductDefinition.package.characteristic",
-      "@context": "https://fhircat.org/fhir/contexts/r5/PackagedProductDefinition.package.characteristic.context.jsonld"
+      "@context": "packagedproductdefinition.package.characteristic.context.jsonld"
     },
     "containedItem": {
       "@id": "fhir:PackagedProductDefinition.package.containedItem",
-      "@context": "https://fhircat.org/fhir/contexts/r5/PackagedProductDefinition.package.containedItem.context.jsonld"
+      "@context": "packagedproductdefinition.package.containeditem.context.jsonld"
     },
     "package": {
       "@id": "fhir:PackagedProductDefinition.package.package",
-      "@context": "https://fhircat.org/fhir/contexts/r5/PackagedProductDefinition.package.context.jsonld"
+      "@context": "packagedproductdefinition.package.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

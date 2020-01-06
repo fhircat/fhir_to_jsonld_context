@@ -11,93 +11,93 @@
     },
     "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
+      "@context": "meta.context.jsonld"
     },
     "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+      "@context": "code.context.jsonld"
     },
     "text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
+      "@context": "narrative.context.jsonld"
     },
     "contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
+      "@context": "resource.context.jsonld"
     },
     "extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "identifier": {
       "@id": "fhir:PaymentReconciliation.identifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
+      "@context": "identifier.context.jsonld"
     },
     "status": {
       "@id": "fhir:PaymentReconciliation.status"
     },
     "period": {
       "@id": "fhir:PaymentReconciliation.period",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
+      "@context": "period.context.jsonld"
     },
     "created": {
       "@id": "fhir:PaymentReconciliation.created",
-      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
+      "@context": "datetime.context.jsonld"
     },
     "paymentIssuer": {
       "@id": "fhir:PaymentReconciliation.paymentIssuer",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "request": {
       "@id": "fhir:PaymentReconciliation.request",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "requestor": {
       "@id": "fhir:PaymentReconciliation.requestor",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "outcome": {
       "@id": "fhir:PaymentReconciliation.outcome"
     },
     "disposition": {
       "@id": "fhir:PaymentReconciliation.disposition",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "paymentDate": {
       "@id": "fhir:PaymentReconciliation.paymentDate",
-      "@context": "https://fhircat.org/fhir/contexts/r5/date.context.jsonld"
+      "@context": "date.context.jsonld"
     },
     "paymentAmount": {
       "@id": "fhir:PaymentReconciliation.paymentAmount",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Money.context.jsonld"
+      "@context": "money.context.jsonld"
     },
     "paymentIdentifier": {
       "@id": "fhir:PaymentReconciliation.paymentIdentifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
+      "@context": "identifier.context.jsonld"
     },
     "detail": {
       "@id": "fhir:PaymentReconciliation.detail",
-      "@context": "https://fhircat.org/fhir/contexts/r5/PaymentReconciliation.detail.context.jsonld"
+      "@context": "paymentreconciliation.detail.context.jsonld"
     },
     "formCode": {
       "@id": "fhir:PaymentReconciliation.formCode",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "processNote": {
       "@id": "fhir:PaymentReconciliation.processNote",
-      "@context": "https://fhircat.org/fhir/contexts/r5/PaymentReconciliation.processNote.context.jsonld"
+      "@context": "paymentreconciliation.processnote.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

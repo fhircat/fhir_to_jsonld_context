@@ -7,47 +7,47 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "subunit": {
       "@id": "fhir:SubstanceNucleicAcid.subunit.subunit",
-      "@context": "https://fhircat.org/fhir/contexts/r5/integer.context.jsonld"
+      "@context": "integer.context.jsonld"
     },
     "sequence": {
       "@id": "fhir:SubstanceNucleicAcid.subunit.sequence",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "length": {
       "@id": "fhir:SubstanceNucleicAcid.subunit.length",
-      "@context": "https://fhircat.org/fhir/contexts/r5/integer.context.jsonld"
+      "@context": "integer.context.jsonld"
     },
     "sequenceAttachment": {
       "@id": "fhir:SubstanceNucleicAcid.subunit.sequenceAttachment",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Attachment.context.jsonld"
+      "@context": "attachment.context.jsonld"
     },
     "fivePrime": {
       "@id": "fhir:SubstanceNucleicAcid.subunit.fivePrime",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "threePrime": {
       "@id": "fhir:SubstanceNucleicAcid.subunit.threePrime",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "linkage": {
       "@id": "fhir:SubstanceNucleicAcid.subunit.linkage",
-      "@context": "https://fhircat.org/fhir/contexts/r5/SubstanceNucleicAcid.subunit.linkage.context.jsonld"
+      "@context": "substancenucleicacid.subunit.linkage.context.jsonld"
     },
     "sugar": {
       "@id": "fhir:SubstanceNucleicAcid.subunit.sugar",
-      "@context": "https://fhircat.org/fhir/contexts/r5/SubstanceNucleicAcid.subunit.sugar.context.jsonld"
+      "@context": "substancenucleicacid.subunit.sugar.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

@@ -11,130 +11,130 @@
     },
     "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
+      "@context": "meta.context.jsonld"
     },
     "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+      "@context": "code.context.jsonld"
     },
     "text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
+      "@context": "narrative.context.jsonld"
     },
     "contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
+      "@context": "resource.context.jsonld"
     },
     "extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "identifier": {
       "@id": "fhir:Encounter.identifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
+      "@context": "identifier.context.jsonld"
     },
     "status": {
       "@id": "fhir:Encounter.status"
     },
     "statusHistory": {
       "@id": "fhir:Encounter.statusHistory",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Encounter.statusHistory.context.jsonld"
+      "@context": "encounter.statushistory.context.jsonld"
     },
     "class": {
       "@id": "fhir:Encounter.class",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Coding.context.jsonld"
+      "@context": "coding.context.jsonld"
     },
     "classHistory": {
       "@id": "fhir:Encounter.classHistory",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Encounter.classHistory.context.jsonld"
+      "@context": "encounter.classhistory.context.jsonld"
     },
     "type": {
       "@id": "fhir:Encounter.type",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "serviceType": {
       "@id": "fhir:Encounter.serviceType",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "priority": {
       "@id": "fhir:Encounter.priority",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "subject": {
       "@id": "fhir:Encounter.subject",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "subjectStatus": {
       "@id": "fhir:Encounter.subjectStatus",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "episodeOfCare": {
       "@id": "fhir:Encounter.episodeOfCare",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "basedOn": {
       "@id": "fhir:Encounter.basedOn",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "participant": {
       "@id": "fhir:Encounter.participant",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Encounter.participant.context.jsonld"
+      "@context": "encounter.participant.context.jsonld"
     },
     "appointment": {
       "@id": "fhir:Encounter.appointment",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "period": {
       "@id": "fhir:Encounter.period",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
+      "@context": "period.context.jsonld"
     },
     "length": {
       "@id": "fhir:Encounter.length",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Duration.context.jsonld"
+      "@context": "duration.context.jsonld"
     },
     "reasonCode": {
       "@id": "fhir:Encounter.reasonCode",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "reasonReference": {
       "@id": "fhir:Encounter.reasonReference",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "diagnosis": {
       "@id": "fhir:Encounter.diagnosis",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Encounter.diagnosis.context.jsonld"
+      "@context": "encounter.diagnosis.context.jsonld"
     },
     "account": {
       "@id": "fhir:Encounter.account",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "hospitalization": {
       "@id": "fhir:Encounter.hospitalization",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Encounter.hospitalization.context.jsonld"
+      "@context": "encounter.hospitalization.context.jsonld"
     },
     "location": {
       "@id": "fhir:Encounter.location",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Encounter.location.context.jsonld"
+      "@context": "encounter.location.context.jsonld"
     },
     "serviceProvider": {
       "@id": "fhir:Encounter.serviceProvider",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "partOf": {
       "@id": "fhir:Encounter.partOf",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

@@ -7,70 +7,70 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "product": {
       "@id": "fhir:VisionPrescription.lensSpecification.product",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "eye": {
       "@id": "fhir:VisionPrescription.lensSpecification.eye"
     },
     "sphere": {
       "@id": "fhir:VisionPrescription.lensSpecification.sphere",
-      "@context": "https://fhircat.org/fhir/contexts/r5/decimal.context.jsonld"
+      "@context": "decimal.context.jsonld"
     },
     "cylinder": {
       "@id": "fhir:VisionPrescription.lensSpecification.cylinder",
-      "@context": "https://fhircat.org/fhir/contexts/r5/decimal.context.jsonld"
+      "@context": "decimal.context.jsonld"
     },
     "axis": {
       "@id": "fhir:VisionPrescription.lensSpecification.axis",
-      "@context": "https://fhircat.org/fhir/contexts/r5/integer.context.jsonld"
+      "@context": "integer.context.jsonld"
     },
     "prism": {
       "@id": "fhir:VisionPrescription.lensSpecification.prism",
-      "@context": "https://fhircat.org/fhir/contexts/r5/VisionPrescription.lensSpecification.prism.context.jsonld"
+      "@context": "visionprescription.lensspecification.prism.context.jsonld"
     },
     "add": {
       "@id": "fhir:VisionPrescription.lensSpecification.add",
-      "@context": "https://fhircat.org/fhir/contexts/r5/decimal.context.jsonld"
+      "@context": "decimal.context.jsonld"
     },
     "power": {
       "@id": "fhir:VisionPrescription.lensSpecification.power",
-      "@context": "https://fhircat.org/fhir/contexts/r5/decimal.context.jsonld"
+      "@context": "decimal.context.jsonld"
     },
     "backCurve": {
       "@id": "fhir:VisionPrescription.lensSpecification.backCurve",
-      "@context": "https://fhircat.org/fhir/contexts/r5/decimal.context.jsonld"
+      "@context": "decimal.context.jsonld"
     },
     "diameter": {
       "@id": "fhir:VisionPrescription.lensSpecification.diameter",
-      "@context": "https://fhircat.org/fhir/contexts/r5/decimal.context.jsonld"
+      "@context": "decimal.context.jsonld"
     },
     "duration": {
       "@id": "fhir:VisionPrescription.lensSpecification.duration",
-      "@context": "https://fhircat.org/fhir/contexts/r5/SimpleQuantity.context.jsonld"
+      "@context": "simplequantity.context.jsonld"
     },
     "color": {
       "@id": "fhir:VisionPrescription.lensSpecification.color",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "brand": {
       "@id": "fhir:VisionPrescription.lensSpecification.brand",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "note": {
       "@id": "fhir:VisionPrescription.lensSpecification.note",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Annotation.context.jsonld"
+      "@context": "annotation.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

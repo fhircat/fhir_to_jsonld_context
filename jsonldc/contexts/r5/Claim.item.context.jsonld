@@ -7,111 +7,111 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "sequence": {
       "@id": "fhir:Claim.item.sequence",
-      "@context": "https://fhircat.org/fhir/contexts/r5/positiveInt.context.jsonld"
+      "@context": "positiveint.context.jsonld"
     },
     "careTeamSequence": {
       "@id": "fhir:Claim.item.careTeamSequence",
-      "@context": "https://fhircat.org/fhir/contexts/r5/positiveInt.context.jsonld"
+      "@context": "positiveint.context.jsonld"
     },
     "diagnosisSequence": {
       "@id": "fhir:Claim.item.diagnosisSequence",
-      "@context": "https://fhircat.org/fhir/contexts/r5/positiveInt.context.jsonld"
+      "@context": "positiveint.context.jsonld"
     },
     "procedureSequence": {
       "@id": "fhir:Claim.item.procedureSequence",
-      "@context": "https://fhircat.org/fhir/contexts/r5/positiveInt.context.jsonld"
+      "@context": "positiveint.context.jsonld"
     },
     "informationSequence": {
       "@id": "fhir:Claim.item.informationSequence",
-      "@context": "https://fhircat.org/fhir/contexts/r5/positiveInt.context.jsonld"
+      "@context": "positiveint.context.jsonld"
     },
     "revenue": {
       "@id": "fhir:Claim.item.revenue",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "category": {
       "@id": "fhir:Claim.item.category",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "productOrService": {
       "@id": "fhir:Claim.item.productOrService",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "modifier": {
       "@id": "fhir:Claim.item.modifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "programCode": {
       "@id": "fhir:Claim.item.programCode",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "servicedDate": {
       "@id": "fhir:Claim.item.servicedDate",
-      "@context": "https://fhircat.org/fhir/contexts/r5/date.context.jsonld"
+      "@context": "date.context.jsonld"
     },
     "servicedPeriod": {
       "@id": "fhir:Claim.item.servicedPeriod",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
+      "@context": "period.context.jsonld"
     },
     "locationCodeableConcept": {
       "@id": "fhir:Claim.item.locationCodeableConcept",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "locationAddress": {
       "@id": "fhir:Claim.item.locationAddress",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Address.context.jsonld"
+      "@context": "address.context.jsonld"
     },
     "locationReference": {
       "@id": "fhir:Claim.item.locationReference",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "quantity": {
       "@id": "fhir:Claim.item.quantity",
-      "@context": "https://fhircat.org/fhir/contexts/r5/SimpleQuantity.context.jsonld"
+      "@context": "simplequantity.context.jsonld"
     },
     "unitPrice": {
       "@id": "fhir:Claim.item.unitPrice",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Money.context.jsonld"
+      "@context": "money.context.jsonld"
     },
     "factor": {
       "@id": "fhir:Claim.item.factor",
-      "@context": "https://fhircat.org/fhir/contexts/r5/decimal.context.jsonld"
+      "@context": "decimal.context.jsonld"
     },
     "net": {
       "@id": "fhir:Claim.item.net",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Money.context.jsonld"
+      "@context": "money.context.jsonld"
     },
     "udi": {
       "@id": "fhir:Claim.item.udi",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "bodySite": {
       "@id": "fhir:Claim.item.bodySite",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "subSite": {
       "@id": "fhir:Claim.item.subSite",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "encounter": {
       "@id": "fhir:Claim.item.encounter",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "detail": {
       "@id": "fhir:Claim.item.detail",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Claim.item.detail.context.jsonld"
+      "@context": "claim.item.detail.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

@@ -7,51 +7,51 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "material": {
       "@id": "fhir:SpecimenDefinition.typeTested.container.material",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "type": {
       "@id": "fhir:SpecimenDefinition.typeTested.container.type",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "cap": {
       "@id": "fhir:SpecimenDefinition.typeTested.container.cap",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "description": {
       "@id": "fhir:SpecimenDefinition.typeTested.container.description",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "capacity": {
       "@id": "fhir:SpecimenDefinition.typeTested.container.capacity",
-      "@context": "https://fhircat.org/fhir/contexts/r5/SimpleQuantity.context.jsonld"
+      "@context": "simplequantity.context.jsonld"
     },
     "minimumVolumeQuantity": {
       "@id": "fhir:SpecimenDefinition.typeTested.container.minimumVolumeQuantity",
-      "@context": "https://fhircat.org/fhir/contexts/r5/SimpleQuantity.context.jsonld"
+      "@context": "simplequantity.context.jsonld"
     },
     "minimumVolumeString": {
       "@id": "fhir:SpecimenDefinition.typeTested.container.minimumVolumeString",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "additive": {
       "@id": "fhir:SpecimenDefinition.typeTested.container.additive",
-      "@context": "https://fhircat.org/fhir/contexts/r5/SpecimenDefinition.typeTested.container.additive.context.jsonld"
+      "@context": "specimendefinition.typetested.container.additive.context.jsonld"
     },
     "preparation": {
       "@id": "fhir:SpecimenDefinition.typeTested.container.preparation",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

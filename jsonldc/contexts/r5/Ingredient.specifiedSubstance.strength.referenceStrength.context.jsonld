@@ -7,39 +7,39 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "substanceCodeableConcept": {
       "@id": "fhir:Ingredient.specifiedSubstance.strength.referenceStrength.substanceCodeableConcept",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "substanceReference": {
       "@id": "fhir:Ingredient.specifiedSubstance.strength.referenceStrength.substanceReference",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "strength": {
       "@id": "fhir:Ingredient.specifiedSubstance.strength.referenceStrength.strength",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Ratio.context.jsonld"
+      "@context": "ratio.context.jsonld"
     },
     "strengthHighLimit": {
       "@id": "fhir:Ingredient.specifiedSubstance.strength.referenceStrength.strengthHighLimit",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Ratio.context.jsonld"
+      "@context": "ratio.context.jsonld"
     },
     "measurementPoint": {
       "@id": "fhir:Ingredient.specifiedSubstance.strength.referenceStrength.measurementPoint",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "country": {
       "@id": "fhir:Ingredient.specifiedSubstance.strength.referenceStrength.country",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

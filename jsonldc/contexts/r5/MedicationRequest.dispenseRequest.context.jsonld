@@ -7,43 +7,43 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "initialFill": {
       "@id": "fhir:MedicationRequest.dispenseRequest.initialFill",
-      "@context": "https://fhircat.org/fhir/contexts/r5/MedicationRequest.dispenseRequest.initialFill.context.jsonld"
+      "@context": "medicationrequest.dispenserequest.initialfill.context.jsonld"
     },
     "dispenseInterval": {
       "@id": "fhir:MedicationRequest.dispenseRequest.dispenseInterval",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Duration.context.jsonld"
+      "@context": "duration.context.jsonld"
     },
     "validityPeriod": {
       "@id": "fhir:MedicationRequest.dispenseRequest.validityPeriod",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
+      "@context": "period.context.jsonld"
     },
     "numberOfRepeatsAllowed": {
       "@id": "fhir:MedicationRequest.dispenseRequest.numberOfRepeatsAllowed",
-      "@context": "https://fhircat.org/fhir/contexts/r5/unsignedInt.context.jsonld"
+      "@context": "unsignedint.context.jsonld"
     },
     "quantity": {
       "@id": "fhir:MedicationRequest.dispenseRequest.quantity",
-      "@context": "https://fhircat.org/fhir/contexts/r5/SimpleQuantity.context.jsonld"
+      "@context": "simplequantity.context.jsonld"
     },
     "expectedSupplyDuration": {
       "@id": "fhir:MedicationRequest.dispenseRequest.expectedSupplyDuration",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Duration.context.jsonld"
+      "@context": "duration.context.jsonld"
     },
     "performer": {
       "@id": "fhir:MedicationRequest.dispenseRequest.performer",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

@@ -7,74 +7,74 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "type": {
       "@id": "fhir:MolecularSequence.quality.type"
     },
     "standardSequence": {
       "@id": "fhir:MolecularSequence.quality.standardSequence",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "start": {
       "@id": "fhir:MolecularSequence.quality.start",
-      "@context": "https://fhircat.org/fhir/contexts/r5/integer.context.jsonld"
+      "@context": "integer.context.jsonld"
     },
     "end": {
       "@id": "fhir:MolecularSequence.quality.end",
-      "@context": "https://fhircat.org/fhir/contexts/r5/integer.context.jsonld"
+      "@context": "integer.context.jsonld"
     },
     "score": {
       "@id": "fhir:MolecularSequence.quality.score",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Quantity.context.jsonld"
+      "@context": "quantity.context.jsonld"
     },
     "method": {
       "@id": "fhir:MolecularSequence.quality.method",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "truthTP": {
       "@id": "fhir:MolecularSequence.quality.truthTP",
-      "@context": "https://fhircat.org/fhir/contexts/r5/decimal.context.jsonld"
+      "@context": "decimal.context.jsonld"
     },
     "queryTP": {
       "@id": "fhir:MolecularSequence.quality.queryTP",
-      "@context": "https://fhircat.org/fhir/contexts/r5/decimal.context.jsonld"
+      "@context": "decimal.context.jsonld"
     },
     "truthFN": {
       "@id": "fhir:MolecularSequence.quality.truthFN",
-      "@context": "https://fhircat.org/fhir/contexts/r5/decimal.context.jsonld"
+      "@context": "decimal.context.jsonld"
     },
     "queryFP": {
       "@id": "fhir:MolecularSequence.quality.queryFP",
-      "@context": "https://fhircat.org/fhir/contexts/r5/decimal.context.jsonld"
+      "@context": "decimal.context.jsonld"
     },
     "gtFP": {
       "@id": "fhir:MolecularSequence.quality.gtFP",
-      "@context": "https://fhircat.org/fhir/contexts/r5/decimal.context.jsonld"
+      "@context": "decimal.context.jsonld"
     },
     "precision": {
       "@id": "fhir:MolecularSequence.quality.precision",
-      "@context": "https://fhircat.org/fhir/contexts/r5/decimal.context.jsonld"
+      "@context": "decimal.context.jsonld"
     },
     "recall": {
       "@id": "fhir:MolecularSequence.quality.recall",
-      "@context": "https://fhircat.org/fhir/contexts/r5/decimal.context.jsonld"
+      "@context": "decimal.context.jsonld"
     },
     "fScore": {
       "@id": "fhir:MolecularSequence.quality.fScore",
-      "@context": "https://fhircat.org/fhir/contexts/r5/decimal.context.jsonld"
+      "@context": "decimal.context.jsonld"
     },
     "roc": {
       "@id": "fhir:MolecularSequence.quality.roc",
-      "@context": "https://fhircat.org/fhir/contexts/r5/MolecularSequence.quality.roc.context.jsonld"
+      "@context": "molecularsequence.quality.roc.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

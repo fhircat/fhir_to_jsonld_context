@@ -7,39 +7,39 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "description": {
       "@id": "fhir:EffectEvidenceSynthesis.effectEstimate.description",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "type": {
       "@id": "fhir:EffectEvidenceSynthesis.effectEstimate.type",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "variantState": {
       "@id": "fhir:EffectEvidenceSynthesis.effectEstimate.variantState",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "value": {
       "@id": "fhir:EffectEvidenceSynthesis.effectEstimate.value",
-      "@context": "https://fhircat.org/fhir/contexts/r5/decimal.context.jsonld"
+      "@context": "decimal.context.jsonld"
     },
     "unitOfMeasure": {
       "@id": "fhir:EffectEvidenceSynthesis.effectEstimate.unitOfMeasure",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "precisionEstimate": {
       "@id": "fhir:EffectEvidenceSynthesis.effectEstimate.precisionEstimate",
-      "@context": "https://fhircat.org/fhir/contexts/r5/EffectEvidenceSynthesis.effectEstimate.precisionEstimate.context.jsonld"
+      "@context": "effectevidencesynthesis.effectestimate.precisionestimate.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

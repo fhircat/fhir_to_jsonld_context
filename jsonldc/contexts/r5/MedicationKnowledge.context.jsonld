@@ -11,130 +11,130 @@
     },
     "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
+      "@context": "meta.context.jsonld"
     },
     "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+      "@context": "code.context.jsonld"
     },
     "text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
+      "@context": "narrative.context.jsonld"
     },
     "contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
+      "@context": "resource.context.jsonld"
     },
     "extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "identifier": {
       "@id": "fhir:MedicationKnowledge.identifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
+      "@context": "identifier.context.jsonld"
     },
     "code": {
       "@id": "fhir:MedicationKnowledge.code",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "status": {
       "@id": "fhir:MedicationKnowledge.status"
     },
     "manufacturer": {
       "@id": "fhir:MedicationKnowledge.manufacturer",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "doseForm": {
       "@id": "fhir:MedicationKnowledge.doseForm",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "amount": {
       "@id": "fhir:MedicationKnowledge.amount",
-      "@context": "https://fhircat.org/fhir/contexts/r5/SimpleQuantity.context.jsonld"
+      "@context": "simplequantity.context.jsonld"
     },
     "synonym": {
       "@id": "fhir:MedicationKnowledge.synonym",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "relatedMedicationKnowledge": {
       "@id": "fhir:MedicationKnowledge.relatedMedicationKnowledge",
-      "@context": "https://fhircat.org/fhir/contexts/r5/MedicationKnowledge.relatedMedicationKnowledge.context.jsonld"
+      "@context": "medicationknowledge.relatedmedicationknowledge.context.jsonld"
     },
     "associatedMedication": {
       "@id": "fhir:MedicationKnowledge.associatedMedication",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "productType": {
       "@id": "fhir:MedicationKnowledge.productType",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "monograph": {
       "@id": "fhir:MedicationKnowledge.monograph",
-      "@context": "https://fhircat.org/fhir/contexts/r5/MedicationKnowledge.monograph.context.jsonld"
+      "@context": "medicationknowledge.monograph.context.jsonld"
     },
     "ingredient": {
       "@id": "fhir:MedicationKnowledge.ingredient",
-      "@context": "https://fhircat.org/fhir/contexts/r5/MedicationKnowledge.ingredient.context.jsonld"
+      "@context": "medicationknowledge.ingredient.context.jsonld"
     },
     "device": {
       "@id": "fhir:MedicationKnowledge.device",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "preparationInstruction": {
       "@id": "fhir:MedicationKnowledge.preparationInstruction",
-      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
+      "@context": "markdown.context.jsonld"
     },
     "intendedRoute": {
       "@id": "fhir:MedicationKnowledge.intendedRoute",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "cost": {
       "@id": "fhir:MedicationKnowledge.cost",
-      "@context": "https://fhircat.org/fhir/contexts/r5/MedicationKnowledge.cost.context.jsonld"
+      "@context": "medicationknowledge.cost.context.jsonld"
     },
     "monitoringProgram": {
       "@id": "fhir:MedicationKnowledge.monitoringProgram",
-      "@context": "https://fhircat.org/fhir/contexts/r5/MedicationKnowledge.monitoringProgram.context.jsonld"
+      "@context": "medicationknowledge.monitoringprogram.context.jsonld"
     },
     "administrationGuideline": {
       "@id": "fhir:MedicationKnowledge.administrationGuideline",
-      "@context": "https://fhircat.org/fhir/contexts/r5/MedicationKnowledge.administrationGuideline.context.jsonld"
+      "@context": "medicationknowledge.administrationguideline.context.jsonld"
     },
     "medicineClassification": {
       "@id": "fhir:MedicationKnowledge.medicineClassification",
-      "@context": "https://fhircat.org/fhir/contexts/r5/MedicationKnowledge.medicineClassification.context.jsonld"
+      "@context": "medicationknowledge.medicineclassification.context.jsonld"
     },
     "packaging": {
       "@id": "fhir:MedicationKnowledge.packaging",
-      "@context": "https://fhircat.org/fhir/contexts/r5/MedicationKnowledge.packaging.context.jsonld"
+      "@context": "medicationknowledge.packaging.context.jsonld"
     },
     "drugCharacteristic": {
       "@id": "fhir:MedicationKnowledge.drugCharacteristic",
-      "@context": "https://fhircat.org/fhir/contexts/r5/MedicationKnowledge.drugCharacteristic.context.jsonld"
+      "@context": "medicationknowledge.drugcharacteristic.context.jsonld"
     },
     "clinicalUseIssue": {
       "@id": "fhir:MedicationKnowledge.clinicalUseIssue",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "regulatory": {
       "@id": "fhir:MedicationKnowledge.regulatory",
-      "@context": "https://fhircat.org/fhir/contexts/r5/MedicationKnowledge.regulatory.context.jsonld"
+      "@context": "medicationknowledge.regulatory.context.jsonld"
     },
     "kineticCharacteristic": {
       "@id": "fhir:MedicationKnowledge.kineticCharacteristic",
-      "@context": "https://fhircat.org/fhir/contexts/r5/MedicationKnowledge.kineticCharacteristic.context.jsonld"
+      "@context": "medicationknowledge.kineticcharacteristic.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

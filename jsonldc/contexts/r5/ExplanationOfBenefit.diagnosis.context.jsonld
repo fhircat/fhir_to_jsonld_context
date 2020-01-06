@@ -7,39 +7,39 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "sequence": {
       "@id": "fhir:ExplanationOfBenefit.diagnosis.sequence",
-      "@context": "https://fhircat.org/fhir/contexts/r5/positiveInt.context.jsonld"
+      "@context": "positiveint.context.jsonld"
     },
     "diagnosisCodeableConcept": {
       "@id": "fhir:ExplanationOfBenefit.diagnosis.diagnosisCodeableConcept",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "diagnosisReference": {
       "@id": "fhir:ExplanationOfBenefit.diagnosis.diagnosisReference",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "type": {
       "@id": "fhir:ExplanationOfBenefit.diagnosis.type",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "onAdmission": {
       "@id": "fhir:ExplanationOfBenefit.diagnosis.onAdmission",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "packageCode": {
       "@id": "fhir:ExplanationOfBenefit.diagnosis.packageCode",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

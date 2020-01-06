@@ -7,19 +7,19 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "operation": {
       "@id": "fhir:TestReport.teardown.action.operation",
-      "@context": "https://fhircat.org/fhir/contexts/r5/TestReport.setup.action.operation.context.jsonld"
+      "@context": "testreport.setup.action.operation.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

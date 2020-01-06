@@ -7,43 +7,43 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "code": {
       "@id": "fhir:AdministrableProductDefinition.routeOfAdministration.code",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "firstDose": {
       "@id": "fhir:AdministrableProductDefinition.routeOfAdministration.firstDose",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Quantity.context.jsonld"
+      "@context": "quantity.context.jsonld"
     },
     "maxSingleDose": {
       "@id": "fhir:AdministrableProductDefinition.routeOfAdministration.maxSingleDose",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Quantity.context.jsonld"
+      "@context": "quantity.context.jsonld"
     },
     "maxDosePerDay": {
       "@id": "fhir:AdministrableProductDefinition.routeOfAdministration.maxDosePerDay",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Quantity.context.jsonld"
+      "@context": "quantity.context.jsonld"
     },
     "maxDosePerTreatmentPeriod": {
       "@id": "fhir:AdministrableProductDefinition.routeOfAdministration.maxDosePerTreatmentPeriod",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Ratio.context.jsonld"
+      "@context": "ratio.context.jsonld"
     },
     "maxTreatmentPeriod": {
       "@id": "fhir:AdministrableProductDefinition.routeOfAdministration.maxTreatmentPeriod",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Duration.context.jsonld"
+      "@context": "duration.context.jsonld"
     },
     "targetSpecies": {
       "@id": "fhir:AdministrableProductDefinition.routeOfAdministration.targetSpecies",
-      "@context": "https://fhircat.org/fhir/contexts/r5/AdministrableProductDefinition.routeOfAdministration.targetSpecies.context.jsonld"
+      "@context": "administrableproductdefinition.routeofadministration.targetspecies.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

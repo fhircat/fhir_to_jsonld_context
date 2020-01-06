@@ -7,39 +7,39 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "description": {
       "@id": "fhir:Statistic.attributeEstimate.description",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "note": {
       "@id": "fhir:Statistic.attributeEstimate.note",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Annotation.context.jsonld"
+      "@context": "annotation.context.jsonld"
     },
     "type": {
       "@id": "fhir:Statistic.attributeEstimate.type",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "quantity": {
       "@id": "fhir:Statistic.attributeEstimate.quantity",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Quantity.context.jsonld"
+      "@context": "quantity.context.jsonld"
     },
     "level": {
       "@id": "fhir:Statistic.attributeEstimate.level",
-      "@context": "https://fhircat.org/fhir/contexts/r5/decimal.context.jsonld"
+      "@context": "decimal.context.jsonld"
     },
     "range": {
       "@id": "fhir:Statistic.attributeEstimate.range",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Range.context.jsonld"
+      "@context": "range.context.jsonld"
     },
     "estimateQualifier": {
       "@id": "fhir:Statistic.attributeEstimate.estimateQualifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Statistic.attributeEstimate.estimateQualifier.context.jsonld"
+      "@context": "statistic.attributeestimate.estimatequalifier.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

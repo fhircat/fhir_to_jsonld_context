@@ -7,38 +7,38 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "name": {
       "@id": "fhir:StructureMap.group.name",
-      "@context": "https://fhircat.org/fhir/contexts/r5/id.context.jsonld"
+      "@context": "id.context.jsonld"
     },
     "extends": {
       "@id": "fhir:StructureMap.group.extends",
-      "@context": "https://fhircat.org/fhir/contexts/r5/id.context.jsonld"
+      "@context": "id.context.jsonld"
     },
     "typeMode": {
       "@id": "fhir:StructureMap.group.typeMode"
     },
     "documentation": {
       "@id": "fhir:StructureMap.group.documentation",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "input": {
       "@id": "fhir:StructureMap.group.input",
-      "@context": "https://fhircat.org/fhir/contexts/r5/StructureMap.group.input.context.jsonld"
+      "@context": "structuremap.group.input.context.jsonld"
     },
     "rule": {
       "@id": "fhir:StructureMap.group.rule",
-      "@context": "https://fhircat.org/fhir/contexts/r5/StructureMap.group.rule.context.jsonld"
+      "@context": "structuremap.group.rule.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

@@ -7,71 +7,71 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "category": {
       "@id": "fhir:CoverageEligibilityResponse.insurance.item.category",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "productOrService": {
       "@id": "fhir:CoverageEligibilityResponse.insurance.item.productOrService",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "modifier": {
       "@id": "fhir:CoverageEligibilityResponse.insurance.item.modifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "provider": {
       "@id": "fhir:CoverageEligibilityResponse.insurance.item.provider",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "excluded": {
       "@id": "fhir:CoverageEligibilityResponse.insurance.item.excluded",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "name": {
       "@id": "fhir:CoverageEligibilityResponse.insurance.item.name",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "description": {
       "@id": "fhir:CoverageEligibilityResponse.insurance.item.description",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "network": {
       "@id": "fhir:CoverageEligibilityResponse.insurance.item.network",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "unit": {
       "@id": "fhir:CoverageEligibilityResponse.insurance.item.unit",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "term": {
       "@id": "fhir:CoverageEligibilityResponse.insurance.item.term",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "benefit": {
       "@id": "fhir:CoverageEligibilityResponse.insurance.item.benefit",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CoverageEligibilityResponse.insurance.item.benefit.context.jsonld"
+      "@context": "coverageeligibilityresponse.insurance.item.benefit.context.jsonld"
     },
     "authorizationRequired": {
       "@id": "fhir:CoverageEligibilityResponse.insurance.item.authorizationRequired",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "authorizationSupporting": {
       "@id": "fhir:CoverageEligibilityResponse.insurance.item.authorizationSupporting",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "authorizationUrl": {
       "@id": "fhir:CoverageEligibilityResponse.insurance.item.authorizationUrl",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

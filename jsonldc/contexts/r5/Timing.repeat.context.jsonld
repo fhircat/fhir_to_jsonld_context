@@ -7,58 +7,58 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "boundsDuration": {
       "@id": "fhir:Timing.repeat.boundsDuration",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Duration.context.jsonld"
+      "@context": "duration.context.jsonld"
     },
     "boundsRange": {
       "@id": "fhir:Timing.repeat.boundsRange",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Range.context.jsonld"
+      "@context": "range.context.jsonld"
     },
     "boundsPeriod": {
       "@id": "fhir:Timing.repeat.boundsPeriod",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
+      "@context": "period.context.jsonld"
     },
     "count": {
       "@id": "fhir:Timing.repeat.count",
-      "@context": "https://fhircat.org/fhir/contexts/r5/positiveInt.context.jsonld"
+      "@context": "positiveint.context.jsonld"
     },
     "countMax": {
       "@id": "fhir:Timing.repeat.countMax",
-      "@context": "https://fhircat.org/fhir/contexts/r5/positiveInt.context.jsonld"
+      "@context": "positiveint.context.jsonld"
     },
     "duration": {
       "@id": "fhir:Timing.repeat.duration",
-      "@context": "https://fhircat.org/fhir/contexts/r5/decimal.context.jsonld"
+      "@context": "decimal.context.jsonld"
     },
     "durationMax": {
       "@id": "fhir:Timing.repeat.durationMax",
-      "@context": "https://fhircat.org/fhir/contexts/r5/decimal.context.jsonld"
+      "@context": "decimal.context.jsonld"
     },
     "durationUnit": {
       "@id": "fhir:Timing.repeat.durationUnit"
     },
     "frequency": {
       "@id": "fhir:Timing.repeat.frequency",
-      "@context": "https://fhircat.org/fhir/contexts/r5/positiveInt.context.jsonld"
+      "@context": "positiveint.context.jsonld"
     },
     "frequencyMax": {
       "@id": "fhir:Timing.repeat.frequencyMax",
-      "@context": "https://fhircat.org/fhir/contexts/r5/positiveInt.context.jsonld"
+      "@context": "positiveint.context.jsonld"
     },
     "period": {
       "@id": "fhir:Timing.repeat.period",
-      "@context": "https://fhircat.org/fhir/contexts/r5/decimal.context.jsonld"
+      "@context": "decimal.context.jsonld"
     },
     "periodMax": {
       "@id": "fhir:Timing.repeat.periodMax",
-      "@context": "https://fhircat.org/fhir/contexts/r5/decimal.context.jsonld"
+      "@context": "decimal.context.jsonld"
     },
     "periodUnit": {
       "@id": "fhir:Timing.repeat.periodUnit"
@@ -68,14 +68,14 @@
     },
     "timeOfDay": {
       "@id": "fhir:Timing.repeat.timeOfDay",
-      "@context": "https://fhircat.org/fhir/contexts/r5/time.context.jsonld"
+      "@context": "time.context.jsonld"
     },
     "when": {
       "@id": "fhir:Timing.repeat.when"
     },
     "offset": {
       "@id": "fhir:Timing.repeat.offset",
-      "@context": "https://fhircat.org/fhir/contexts/r5/unsignedInt.context.jsonld"
+      "@context": "unsignedint.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

@@ -7,39 +7,39 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "type": {
       "@id": "fhir:NutritionOrder.oralDiet.type",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "schedule": {
       "@id": "fhir:NutritionOrder.oralDiet.schedule",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Timing.context.jsonld"
+      "@context": "timing.context.jsonld"
     },
     "nutrient": {
       "@id": "fhir:NutritionOrder.oralDiet.nutrient",
-      "@context": "https://fhircat.org/fhir/contexts/r5/NutritionOrder.oralDiet.nutrient.context.jsonld"
+      "@context": "nutritionorder.oraldiet.nutrient.context.jsonld"
     },
     "texture": {
       "@id": "fhir:NutritionOrder.oralDiet.texture",
-      "@context": "https://fhircat.org/fhir/contexts/r5/NutritionOrder.oralDiet.texture.context.jsonld"
+      "@context": "nutritionorder.oraldiet.texture.context.jsonld"
     },
     "fluidConsistencyType": {
       "@id": "fhir:NutritionOrder.oralDiet.fluidConsistencyType",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "instruction": {
       "@id": "fhir:NutritionOrder.oralDiet.instruction",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

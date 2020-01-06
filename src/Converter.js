@@ -1,4 +1,4 @@
-import { shorten, Ns_rdf, Ns_fhsh, StupidBaseUrl, logger } from './utils'
+import { shorten, NS_RDF, NS_FHIR_SHAPE, contextUrl } from './utils'
 
 export default class Converter {
 
@@ -23,50 +23,52 @@ export default class Converter {
     lookup (label) {
         const found = this.schema.shapes.find(e => e.id === label)
         if (!found) {
-            logger.error(Error(`${label} not found`))
-            return null
+            throw Error(`${label} not found`)
+        } else if (!("expression" in found)) {
+            throw Error(`${label} has no expression`)
         }
-        if (!("expression" in found))
-            logger.error(Error(`${label} has no expression`))
         return found.expression
     }
 
     visit (expr) {
-        this.visited.add(expr.id)
+        this.visited.add(expr.predicate)
+        let ret
         switch (expr.type) {
             case 'OneOf':
             case 'EachOf':
-                return Object.assign.apply({}, expr.expressions.map(e => this.visit(e)))
+                ret = Object.assign.apply({}, expr.expressions.map(e => this.visit(e)))
+                break
             case 'TripleConstraint':
+                ret = {}
                 let {id, attr} = shorten(expr.predicate)
-                if (id === 'fhir:nodeRole')
-                    return {}
-                if (id === 'rdf:type')
-                    return { "resourceType": { "@id": "rdf:type" , "@type": "@id" } }
-                const ret = { }
-                if (typeof(attr) !== 'undefined') {
-                    attr = attr.split('.').pop() // Convert "Resource.property" to "property"
-                }
-                ret[attr] = { '@id': id }
-                if (expr.predicate !== Ns_rdf + 'type' /* || typeof expr.valueExpr === 'string' */) {
-                    // if (expr.valueExpr.match(DTRegExp))
-                    //   ret[attr]['@type'] = expr.valueExpr
-                    if (typeof expr.valueExpr === 'object')
-                        ret[attr]['@type'] = expr.valueExpr.datatype
-                    else if (expr.valueExpr.substr(Ns_fhsh.length).match(/\./)) {
-                        if (this.visited.has(expr.id)) {
-                            ret[attr]['@context'] = StupidBaseUrl(expr.valueExpr.substr(Ns_fhsh.length))
+                if (id === 'fhir:nodeRole') {
+                    ret = {}
+                } else if (id === 'rdf:type') {
+                    ret = { "resourceType": { "@id": "rdf:type" , "@type": "@id" } }
+                }  else {
+                    if (typeof(attr) !== 'undefined') {
+                        attr = attr.split('.').pop() // Convert "Resource.property" to "property"
+                    }
+                    ret[attr] = { '@id': id }
+                    if (expr.predicate !== NS_RDF + 'type' /* || typeof expr.valueExpr === 'string' */) {
+                        if (typeof expr.valueExpr === 'object') {
+                            ret[attr]['@type'] = expr.valueExpr.datatype
+                        } else if (expr.valueExpr.substr(NS_FHIR_SHAPE.length).match(/\./)) {  // valueExpr:
+                            if (this.visited.has(expr.id)) {
+                                ret[attr]['@context'] = contextUrl(expr.valueExpr.substr(NS_FHIR_SHAPE.length))
+                            } else {
+                                ret[attr]['@context'] = this.visit(this.lookup(expr.valueExpr))
+                            }
                         } else {
-                            ret[attr]['@context'] = this.visit(this.lookup(expr.valueExpr))
+                            ret[attr]['@context'] = contextUrl(expr.valueExpr.substr(NS_FHIR_SHAPE.length))
                         }
-                    } else {
-                        ret[attr]['@context'] = StupidBaseUrl(expr.valueExpr.substr(Ns_fhsh.length))
                     }
                 }
-                return ret
+                break
             default:
-                throw Error('what\'s a ' + JSON.stringify(expr))
+                throw Error(`Undefined expression type: ${JSON.stringify(expr)}`)
         }
+        return ret
     }
 
 }

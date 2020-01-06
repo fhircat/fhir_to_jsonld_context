@@ -7,67 +7,67 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "valueBoolean": {
       "@id": "fhir:QuestionnaireResponse.item.answer.valueBoolean",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "valueDecimal": {
       "@id": "fhir:QuestionnaireResponse.item.answer.valueDecimal",
-      "@context": "https://fhircat.org/fhir/contexts/r5/decimal.context.jsonld"
+      "@context": "decimal.context.jsonld"
     },
     "valueInteger": {
       "@id": "fhir:QuestionnaireResponse.item.answer.valueInteger",
-      "@context": "https://fhircat.org/fhir/contexts/r5/integer.context.jsonld"
+      "@context": "integer.context.jsonld"
     },
     "valueDate": {
       "@id": "fhir:QuestionnaireResponse.item.answer.valueDate",
-      "@context": "https://fhircat.org/fhir/contexts/r5/date.context.jsonld"
+      "@context": "date.context.jsonld"
     },
     "valueDateTime": {
       "@id": "fhir:QuestionnaireResponse.item.answer.valueDateTime",
-      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
+      "@context": "datetime.context.jsonld"
     },
     "valueTime": {
       "@id": "fhir:QuestionnaireResponse.item.answer.valueTime",
-      "@context": "https://fhircat.org/fhir/contexts/r5/time.context.jsonld"
+      "@context": "time.context.jsonld"
     },
     "valueString": {
       "@id": "fhir:QuestionnaireResponse.item.answer.valueString",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "valueUri": {
       "@id": "fhir:QuestionnaireResponse.item.answer.valueUri",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "valueAttachment": {
       "@id": "fhir:QuestionnaireResponse.item.answer.valueAttachment",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Attachment.context.jsonld"
+      "@context": "attachment.context.jsonld"
     },
     "valueCoding": {
       "@id": "fhir:QuestionnaireResponse.item.answer.valueCoding",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Coding.context.jsonld"
+      "@context": "coding.context.jsonld"
     },
     "valueQuantity": {
       "@id": "fhir:QuestionnaireResponse.item.answer.valueQuantity",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Quantity.context.jsonld"
+      "@context": "quantity.context.jsonld"
     },
     "valueReference": {
       "@id": "fhir:QuestionnaireResponse.item.answer.valueReference",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "item": {
       "@id": "fhir:QuestionnaireResponse.item.answer.item",
-      "@context": "https://fhircat.org/fhir/contexts/r5/QuestionnaireResponse.item.context.jsonld"
+      "@context": "questionnaireresponse.item.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

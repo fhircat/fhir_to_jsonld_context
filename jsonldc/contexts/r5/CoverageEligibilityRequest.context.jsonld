@@ -11,93 +11,93 @@
     },
     "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
+      "@context": "meta.context.jsonld"
     },
     "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+      "@context": "code.context.jsonld"
     },
     "text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
+      "@context": "narrative.context.jsonld"
     },
     "contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
+      "@context": "resource.context.jsonld"
     },
     "extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "identifier": {
       "@id": "fhir:CoverageEligibilityRequest.identifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
+      "@context": "identifier.context.jsonld"
     },
     "status": {
       "@id": "fhir:CoverageEligibilityRequest.status"
     },
     "priority": {
       "@id": "fhir:CoverageEligibilityRequest.priority",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "purpose": {
       "@id": "fhir:CoverageEligibilityRequest.purpose"
     },
     "patient": {
       "@id": "fhir:CoverageEligibilityRequest.patient",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "servicedDate": {
       "@id": "fhir:CoverageEligibilityRequest.servicedDate",
-      "@context": "https://fhircat.org/fhir/contexts/r5/date.context.jsonld"
+      "@context": "date.context.jsonld"
     },
     "servicedPeriod": {
       "@id": "fhir:CoverageEligibilityRequest.servicedPeriod",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
+      "@context": "period.context.jsonld"
     },
     "created": {
       "@id": "fhir:CoverageEligibilityRequest.created",
-      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
+      "@context": "datetime.context.jsonld"
     },
     "enterer": {
       "@id": "fhir:CoverageEligibilityRequest.enterer",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "provider": {
       "@id": "fhir:CoverageEligibilityRequest.provider",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "insurer": {
       "@id": "fhir:CoverageEligibilityRequest.insurer",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "facility": {
       "@id": "fhir:CoverageEligibilityRequest.facility",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "supportingInfo": {
       "@id": "fhir:CoverageEligibilityRequest.supportingInfo",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CoverageEligibilityRequest.supportingInfo.context.jsonld"
+      "@context": "coverageeligibilityrequest.supportinginfo.context.jsonld"
     },
     "insurance": {
       "@id": "fhir:CoverageEligibilityRequest.insurance",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CoverageEligibilityRequest.insurance.context.jsonld"
+      "@context": "coverageeligibilityrequest.insurance.context.jsonld"
     },
     "item": {
       "@id": "fhir:CoverageEligibilityRequest.item",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CoverageEligibilityRequest.item.context.jsonld"
+      "@context": "coverageeligibilityrequest.item.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

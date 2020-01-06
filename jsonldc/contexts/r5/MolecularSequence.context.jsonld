@@ -11,98 +11,98 @@
     },
     "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
+      "@context": "meta.context.jsonld"
     },
     "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+      "@context": "code.context.jsonld"
     },
     "text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
+      "@context": "narrative.context.jsonld"
     },
     "contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
+      "@context": "resource.context.jsonld"
     },
     "extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "identifier": {
       "@id": "fhir:MolecularSequence.identifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
+      "@context": "identifier.context.jsonld"
     },
     "type": {
       "@id": "fhir:MolecularSequence.type"
     },
     "coordinateSystem": {
       "@id": "fhir:MolecularSequence.coordinateSystem",
-      "@context": "https://fhircat.org/fhir/contexts/r5/integer.context.jsonld"
+      "@context": "integer.context.jsonld"
     },
     "patient": {
       "@id": "fhir:MolecularSequence.patient",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "specimen": {
       "@id": "fhir:MolecularSequence.specimen",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "device": {
       "@id": "fhir:MolecularSequence.device",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "performer": {
       "@id": "fhir:MolecularSequence.performer",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "quantity": {
       "@id": "fhir:MolecularSequence.quantity",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Quantity.context.jsonld"
+      "@context": "quantity.context.jsonld"
     },
     "referenceSeq": {
       "@id": "fhir:MolecularSequence.referenceSeq",
-      "@context": "https://fhircat.org/fhir/contexts/r5/MolecularSequence.referenceSeq.context.jsonld"
+      "@context": "molecularsequence.referenceseq.context.jsonld"
     },
     "variant": {
       "@id": "fhir:MolecularSequence.variant",
-      "@context": "https://fhircat.org/fhir/contexts/r5/MolecularSequence.variant.context.jsonld"
+      "@context": "molecularsequence.variant.context.jsonld"
     },
     "observedSeq": {
       "@id": "fhir:MolecularSequence.observedSeq",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "quality": {
       "@id": "fhir:MolecularSequence.quality",
-      "@context": "https://fhircat.org/fhir/contexts/r5/MolecularSequence.quality.context.jsonld"
+      "@context": "molecularsequence.quality.context.jsonld"
     },
     "readCoverage": {
       "@id": "fhir:MolecularSequence.readCoverage",
-      "@context": "https://fhircat.org/fhir/contexts/r5/integer.context.jsonld"
+      "@context": "integer.context.jsonld"
     },
     "repository": {
       "@id": "fhir:MolecularSequence.repository",
-      "@context": "https://fhircat.org/fhir/contexts/r5/MolecularSequence.repository.context.jsonld"
+      "@context": "molecularsequence.repository.context.jsonld"
     },
     "pointer": {
       "@id": "fhir:MolecularSequence.pointer",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "structureVariant": {
       "@id": "fhir:MolecularSequence.structureVariant",
-      "@context": "https://fhircat.org/fhir/contexts/r5/MolecularSequence.structureVariant.context.jsonld"
+      "@context": "molecularsequence.structurevariant.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

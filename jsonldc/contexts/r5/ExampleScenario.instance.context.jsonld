@@ -7,38 +7,38 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "resourceId": {
       "@id": "fhir:ExampleScenario.instance.resourceId",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "resourceType": {
       "@id": "fhir:ExampleScenario.instance.resourceType"
     },
     "name": {
       "@id": "fhir:ExampleScenario.instance.name",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "description": {
       "@id": "fhir:ExampleScenario.instance.description",
-      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
+      "@context": "markdown.context.jsonld"
     },
     "version": {
       "@id": "fhir:ExampleScenario.instance.version",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ExampleScenario.instance.version.context.jsonld"
+      "@context": "examplescenario.instance.version.context.jsonld"
     },
     "containedInstance": {
       "@id": "fhir:ExampleScenario.instance.containedInstance",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ExampleScenario.instance.containedInstance.context.jsonld"
+      "@context": "examplescenario.instance.containedinstance.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

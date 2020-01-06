@@ -7,56 +7,56 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "name": {
       "@id": "fhir:OperationDefinition.parameter.name",
-      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+      "@context": "code.context.jsonld"
     },
     "use": {
       "@id": "fhir:OperationDefinition.parameter.use"
     },
     "min": {
       "@id": "fhir:OperationDefinition.parameter.min",
-      "@context": "https://fhircat.org/fhir/contexts/r5/integer.context.jsonld"
+      "@context": "integer.context.jsonld"
     },
     "max": {
       "@id": "fhir:OperationDefinition.parameter.max",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "documentation": {
       "@id": "fhir:OperationDefinition.parameter.documentation",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "type": {
       "@id": "fhir:OperationDefinition.parameter.type"
     },
     "targetProfile": {
       "@id": "fhir:OperationDefinition.parameter.targetProfile",
-      "@context": "https://fhircat.org/fhir/contexts/r5/canonical.context.jsonld"
+      "@context": "canonical.context.jsonld"
     },
     "searchType": {
       "@id": "fhir:OperationDefinition.parameter.searchType"
     },
     "binding": {
       "@id": "fhir:OperationDefinition.parameter.binding",
-      "@context": "https://fhircat.org/fhir/contexts/r5/OperationDefinition.parameter.binding.context.jsonld"
+      "@context": "operationdefinition.parameter.binding.context.jsonld"
     },
     "referencedFrom": {
       "@id": "fhir:OperationDefinition.parameter.referencedFrom",
-      "@context": "https://fhircat.org/fhir/contexts/r5/OperationDefinition.parameter.referencedFrom.context.jsonld"
+      "@context": "operationdefinition.parameter.referencedfrom.context.jsonld"
     },
     "part": {
       "@id": "fhir:OperationDefinition.parameter.part",
-      "@context": "https://fhircat.org/fhir/contexts/r5/OperationDefinition.parameter.context.jsonld"
+      "@context": "operationdefinition.parameter.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

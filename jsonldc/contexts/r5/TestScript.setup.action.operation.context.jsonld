@@ -7,30 +7,30 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "type": {
       "@id": "fhir:TestScript.setup.action.operation.type",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Coding.context.jsonld"
+      "@context": "coding.context.jsonld"
     },
     "resource": {
       "@id": "fhir:TestScript.setup.action.operation.resource"
     },
     "label": {
       "@id": "fhir:TestScript.setup.action.operation.label",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "description": {
       "@id": "fhir:TestScript.setup.action.operation.description",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "accept": {
       "@id": "fhir:TestScript.setup.action.operation.accept"
@@ -40,46 +40,46 @@
     },
     "destination": {
       "@id": "fhir:TestScript.setup.action.operation.destination",
-      "@context": "https://fhircat.org/fhir/contexts/r5/integer.context.jsonld"
+      "@context": "integer.context.jsonld"
     },
     "encodeRequestUrl": {
       "@id": "fhir:TestScript.setup.action.operation.encodeRequestUrl",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "method": {
       "@id": "fhir:TestScript.setup.action.operation.method"
     },
     "origin": {
       "@id": "fhir:TestScript.setup.action.operation.origin",
-      "@context": "https://fhircat.org/fhir/contexts/r5/integer.context.jsonld"
+      "@context": "integer.context.jsonld"
     },
     "params": {
       "@id": "fhir:TestScript.setup.action.operation.params",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "requestHeader": {
       "@id": "fhir:TestScript.setup.action.operation.requestHeader",
-      "@context": "https://fhircat.org/fhir/contexts/r5/TestScript.setup.action.operation.requestHeader.context.jsonld"
+      "@context": "testscript.setup.action.operation.requestheader.context.jsonld"
     },
     "requestId": {
       "@id": "fhir:TestScript.setup.action.operation.requestId",
-      "@context": "https://fhircat.org/fhir/contexts/r5/id.context.jsonld"
+      "@context": "id.context.jsonld"
     },
     "responseId": {
       "@id": "fhir:TestScript.setup.action.operation.responseId",
-      "@context": "https://fhircat.org/fhir/contexts/r5/id.context.jsonld"
+      "@context": "id.context.jsonld"
     },
     "sourceId": {
       "@id": "fhir:TestScript.setup.action.operation.sourceId",
-      "@context": "https://fhircat.org/fhir/contexts/r5/id.context.jsonld"
+      "@context": "id.context.jsonld"
     },
     "targetId": {
       "@id": "fhir:TestScript.setup.action.operation.targetId",
-      "@context": "https://fhircat.org/fhir/contexts/r5/id.context.jsonld"
+      "@context": "id.context.jsonld"
     },
     "url": {
       "@id": "fhir:TestScript.setup.action.operation.url",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

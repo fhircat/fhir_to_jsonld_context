@@ -7,31 +7,31 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "endpoint": {
       "@id": "fhir:CapabilityStatement.messaging.endpoint",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CapabilityStatement.messaging.endpoint.context.jsonld"
+      "@context": "capabilitystatement.messaging.endpoint.context.jsonld"
     },
     "reliableCache": {
       "@id": "fhir:CapabilityStatement.messaging.reliableCache",
-      "@context": "https://fhircat.org/fhir/contexts/r5/unsignedInt.context.jsonld"
+      "@context": "unsignedint.context.jsonld"
     },
     "documentation": {
       "@id": "fhir:CapabilityStatement.messaging.documentation",
-      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
+      "@context": "markdown.context.jsonld"
     },
     "supportedMessage": {
       "@id": "fhir:CapabilityStatement.messaging.supportedMessage",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CapabilityStatement.messaging.supportedMessage.context.jsonld"
+      "@context": "capabilitystatement.messaging.supportedmessage.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

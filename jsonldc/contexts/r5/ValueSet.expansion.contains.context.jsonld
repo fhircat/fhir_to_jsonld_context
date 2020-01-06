@@ -7,51 +7,51 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "system": {
       "@id": "fhir:ValueSet.expansion.contains.system",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "abstract": {
       "@id": "fhir:ValueSet.expansion.contains.abstract",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "inactive": {
       "@id": "fhir:ValueSet.expansion.contains.inactive",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "version": {
       "@id": "fhir:ValueSet.expansion.contains.version",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "code": {
       "@id": "fhir:ValueSet.expansion.contains.code",
-      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+      "@context": "code.context.jsonld"
     },
     "display": {
       "@id": "fhir:ValueSet.expansion.contains.display",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "designation": {
       "@id": "fhir:ValueSet.expansion.contains.designation",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ValueSet.compose.include.concept.designation.context.jsonld"
+      "@context": "valueset.compose.include.concept.designation.context.jsonld"
     },
     "property": {
       "@id": "fhir:ValueSet.expansion.contains.property",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ValueSet.expansion.contains.property.context.jsonld"
+      "@context": "valueset.expansion.contains.property.context.jsonld"
     },
     "contains": {
       "@id": "fhir:ValueSet.expansion.contains.contains",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ValueSet.expansion.contains.context.jsonld"
+      "@context": "valueset.expansion.contains.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

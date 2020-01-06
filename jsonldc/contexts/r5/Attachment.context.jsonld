@@ -7,62 +7,62 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "contentType": {
       "@id": "fhir:Attachment.contentType"
     },
     "language": {
       "@id": "fhir:Attachment.language",
-      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+      "@context": "code.context.jsonld"
     },
     "data": {
       "@id": "fhir:Attachment.data",
-      "@context": "https://fhircat.org/fhir/contexts/r5/base64Binary.context.jsonld"
+      "@context": "base64binary.context.jsonld"
     },
     "url": {
       "@id": "fhir:Attachment.url",
-      "@context": "https://fhircat.org/fhir/contexts/r5/url.context.jsonld"
+      "@context": "url.context.jsonld"
     },
     "size": {
       "@id": "fhir:Attachment.size",
-      "@context": "https://fhircat.org/fhir/contexts/r5/unsignedInt.context.jsonld"
+      "@context": "unsignedint.context.jsonld"
     },
     "hash": {
       "@id": "fhir:Attachment.hash",
-      "@context": "https://fhircat.org/fhir/contexts/r5/base64Binary.context.jsonld"
+      "@context": "base64binary.context.jsonld"
     },
     "title": {
       "@id": "fhir:Attachment.title",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "creation": {
       "@id": "fhir:Attachment.creation",
-      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
+      "@context": "datetime.context.jsonld"
     },
     "height": {
       "@id": "fhir:Attachment.height",
-      "@context": "https://fhircat.org/fhir/contexts/r5/positiveInt.context.jsonld"
+      "@context": "positiveint.context.jsonld"
     },
     "width": {
       "@id": "fhir:Attachment.width",
-      "@context": "https://fhircat.org/fhir/contexts/r5/positiveInt.context.jsonld"
+      "@context": "positiveint.context.jsonld"
     },
     "frames": {
       "@id": "fhir:Attachment.frames",
-      "@context": "https://fhircat.org/fhir/contexts/r5/positiveInt.context.jsonld"
+      "@context": "positiveint.context.jsonld"
     },
     "duration": {
       "@id": "fhir:Attachment.duration",
-      "@context": "https://fhircat.org/fhir/contexts/r5/decimal.context.jsonld"
+      "@context": "decimal.context.jsonld"
     },
     "pages": {
       "@id": "fhir:Attachment.pages",
-      "@context": "https://fhircat.org/fhir/contexts/r5/positiveInt.context.jsonld"
+      "@context": "positiveint.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

@@ -7,35 +7,35 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "lockedDate": {
       "@id": "fhir:ValueSet.compose.lockedDate",
-      "@context": "https://fhircat.org/fhir/contexts/r5/date.context.jsonld"
+      "@context": "date.context.jsonld"
     },
     "inactive": {
       "@id": "fhir:ValueSet.compose.inactive",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "include": {
       "@id": "fhir:ValueSet.compose.include",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ValueSet.compose.include.context.jsonld"
+      "@context": "valueset.compose.include.context.jsonld"
     },
     "exclude": {
       "@id": "fhir:ValueSet.compose.exclude",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ValueSet.compose.include.context.jsonld"
+      "@context": "valueset.compose.include.context.jsonld"
     },
     "property": {
       "@id": "fhir:ValueSet.compose.property",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

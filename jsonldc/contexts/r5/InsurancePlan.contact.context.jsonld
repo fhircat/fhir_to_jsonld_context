@@ -7,31 +7,31 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "purpose": {
       "@id": "fhir:InsurancePlan.contact.purpose",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "name": {
       "@id": "fhir:InsurancePlan.contact.name",
-      "@context": "https://fhircat.org/fhir/contexts/r5/HumanName.context.jsonld"
+      "@context": "humanname.context.jsonld"
     },
     "telecom": {
       "@id": "fhir:InsurancePlan.contact.telecom",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ContactPoint.context.jsonld"
+      "@context": "contactpoint.context.jsonld"
     },
     "address": {
       "@id": "fhir:InsurancePlan.contact.address",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Address.context.jsonld"
+      "@context": "address.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

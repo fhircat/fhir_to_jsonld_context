@@ -7,43 +7,43 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "presentation": {
       "@id": "fhir:Ingredient.specifiedSubstance.strength.presentation",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Ratio.context.jsonld"
+      "@context": "ratio.context.jsonld"
     },
     "presentationHighLimit": {
       "@id": "fhir:Ingredient.specifiedSubstance.strength.presentationHighLimit",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Ratio.context.jsonld"
+      "@context": "ratio.context.jsonld"
     },
     "concentration": {
       "@id": "fhir:Ingredient.specifiedSubstance.strength.concentration",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Ratio.context.jsonld"
+      "@context": "ratio.context.jsonld"
     },
     "concentrationHighLimit": {
       "@id": "fhir:Ingredient.specifiedSubstance.strength.concentrationHighLimit",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Ratio.context.jsonld"
+      "@context": "ratio.context.jsonld"
     },
     "measurementPoint": {
       "@id": "fhir:Ingredient.specifiedSubstance.strength.measurementPoint",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "country": {
       "@id": "fhir:Ingredient.specifiedSubstance.strength.country",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "referenceStrength": {
       "@id": "fhir:Ingredient.specifiedSubstance.strength.referenceStrength",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Ingredient.specifiedSubstance.strength.referenceStrength.context.jsonld"
+      "@context": "ingredient.specifiedsubstance.strength.referencestrength.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

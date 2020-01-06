@@ -7,47 +7,47 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "who": {
       "@id": "fhir:VerificationResult.attestation.who",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "onBehalfOf": {
       "@id": "fhir:VerificationResult.attestation.onBehalfOf",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "communicationMethod": {
       "@id": "fhir:VerificationResult.attestation.communicationMethod",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "date": {
       "@id": "fhir:VerificationResult.attestation.date",
-      "@context": "https://fhircat.org/fhir/contexts/r5/date.context.jsonld"
+      "@context": "date.context.jsonld"
     },
     "sourceIdentityCertificate": {
       "@id": "fhir:VerificationResult.attestation.sourceIdentityCertificate",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "proxyIdentityCertificate": {
       "@id": "fhir:VerificationResult.attestation.proxyIdentityCertificate",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "proxySignature": {
       "@id": "fhir:VerificationResult.attestation.proxySignature",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Signature.context.jsonld"
+      "@context": "signature.context.jsonld"
     },
     "sourceSignature": {
       "@id": "fhir:VerificationResult.attestation.sourceSignature",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Signature.context.jsonld"
+      "@context": "signature.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

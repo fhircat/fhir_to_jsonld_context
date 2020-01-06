@@ -11,55 +11,55 @@
     },
     "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
+      "@context": "meta.context.jsonld"
     },
     "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+      "@context": "code.context.jsonld"
     },
     "text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
+      "@context": "narrative.context.jsonld"
     },
     "contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
+      "@context": "resource.context.jsonld"
     },
     "extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "comment": {
       "@id": "fhir:SubstanceReferenceInformation.comment",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "gene": {
       "@id": "fhir:SubstanceReferenceInformation.gene",
-      "@context": "https://fhircat.org/fhir/contexts/r5/SubstanceReferenceInformation.gene.context.jsonld"
+      "@context": "substancereferenceinformation.gene.context.jsonld"
     },
     "geneElement": {
       "@id": "fhir:SubstanceReferenceInformation.geneElement",
-      "@context": "https://fhircat.org/fhir/contexts/r5/SubstanceReferenceInformation.geneElement.context.jsonld"
+      "@context": "substancereferenceinformation.geneelement.context.jsonld"
     },
     "classification": {
       "@id": "fhir:SubstanceReferenceInformation.classification",
-      "@context": "https://fhircat.org/fhir/contexts/r5/SubstanceReferenceInformation.classification.context.jsonld"
+      "@context": "substancereferenceinformation.classification.context.jsonld"
     },
     "target": {
       "@id": "fhir:SubstanceReferenceInformation.target",
-      "@context": "https://fhircat.org/fhir/contexts/r5/SubstanceReferenceInformation.target.context.jsonld"
+      "@context": "substancereferenceinformation.target.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

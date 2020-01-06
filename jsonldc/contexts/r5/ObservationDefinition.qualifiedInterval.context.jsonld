@@ -7,45 +7,45 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "category": {
       "@id": "fhir:ObservationDefinition.qualifiedInterval.category"
     },
     "range": {
       "@id": "fhir:ObservationDefinition.qualifiedInterval.range",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Range.context.jsonld"
+      "@context": "range.context.jsonld"
     },
     "context": {
       "@id": "fhir:ObservationDefinition.qualifiedInterval.context",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "appliesTo": {
       "@id": "fhir:ObservationDefinition.qualifiedInterval.appliesTo",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "gender": {
       "@id": "fhir:ObservationDefinition.qualifiedInterval.gender"
     },
     "age": {
       "@id": "fhir:ObservationDefinition.qualifiedInterval.age",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Range.context.jsonld"
+      "@context": "range.context.jsonld"
     },
     "gestationalAge": {
       "@id": "fhir:ObservationDefinition.qualifiedInterval.gestationalAge",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Range.context.jsonld"
+      "@context": "range.context.jsonld"
     },
     "condition": {
       "@id": "fhir:ObservationDefinition.qualifiedInterval.condition",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

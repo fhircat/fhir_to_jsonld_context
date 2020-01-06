@@ -7,42 +7,42 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "type": {
       "@id": "fhir:CapabilityStatement2.rest.resource.type"
     },
     "profile": {
       "@id": "fhir:CapabilityStatement2.rest.resource.profile",
-      "@context": "https://fhircat.org/fhir/contexts/r5/canonical.context.jsonld"
+      "@context": "canonical.context.jsonld"
     },
     "supportedProfile": {
       "@id": "fhir:CapabilityStatement2.rest.resource.supportedProfile",
-      "@context": "https://fhircat.org/fhir/contexts/r5/canonical.context.jsonld"
+      "@context": "canonical.context.jsonld"
     },
     "documentation": {
       "@id": "fhir:CapabilityStatement2.rest.resource.documentation",
-      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
+      "@context": "markdown.context.jsonld"
     },
     "interaction": {
       "@id": "fhir:CapabilityStatement2.rest.resource.interaction",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CapabilityStatement2.rest.resource.interaction.context.jsonld"
+      "@context": "capabilitystatement2.rest.resource.interaction.context.jsonld"
     },
     "searchParam": {
       "@id": "fhir:CapabilityStatement2.rest.resource.searchParam",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CapabilityStatement2.rest.resource.searchParam.context.jsonld"
+      "@context": "capabilitystatement2.rest.resource.searchparam.context.jsonld"
     },
     "operation": {
       "@id": "fhir:CapabilityStatement2.rest.resource.operation",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CapabilityStatement2.rest.resource.operation.context.jsonld"
+      "@context": "capabilitystatement2.rest.resource.operation.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

@@ -7,38 +7,38 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "code": {
       "@id": "fhir:ConceptMap.group.element.target.code",
-      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+      "@context": "code.context.jsonld"
     },
     "display": {
       "@id": "fhir:ConceptMap.group.element.target.display",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "relationship": {
       "@id": "fhir:ConceptMap.group.element.target.relationship"
     },
     "comment": {
       "@id": "fhir:ConceptMap.group.element.target.comment",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "dependsOn": {
       "@id": "fhir:ConceptMap.group.element.target.dependsOn",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ConceptMap.group.element.target.dependsOn.context.jsonld"
+      "@context": "conceptmap.group.element.target.dependson.context.jsonld"
     },
     "product": {
       "@id": "fhir:ConceptMap.group.element.target.product",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ConceptMap.group.element.target.dependsOn.context.jsonld"
+      "@context": "conceptmap.group.element.target.dependson.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

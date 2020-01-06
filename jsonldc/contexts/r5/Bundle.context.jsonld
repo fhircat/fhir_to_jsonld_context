@@ -11,46 +11,46 @@
     },
     "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
+      "@context": "meta.context.jsonld"
     },
     "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+      "@context": "code.context.jsonld"
     },
     "identifier": {
       "@id": "fhir:Bundle.identifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
+      "@context": "identifier.context.jsonld"
     },
     "type": {
       "@id": "fhir:Bundle.type"
     },
     "timestamp": {
       "@id": "fhir:Bundle.timestamp",
-      "@context": "https://fhircat.org/fhir/contexts/r5/instant.context.jsonld"
+      "@context": "instant.context.jsonld"
     },
     "total": {
       "@id": "fhir:Bundle.total",
-      "@context": "https://fhircat.org/fhir/contexts/r5/unsignedInt.context.jsonld"
+      "@context": "unsignedint.context.jsonld"
     },
     "link": {
       "@id": "fhir:Bundle.link",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Bundle.link.context.jsonld"
+      "@context": "bundle.link.context.jsonld"
     },
     "entry": {
       "@id": "fhir:Bundle.entry",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Bundle.entry.context.jsonld"
+      "@context": "bundle.entry.context.jsonld"
     },
     "signature": {
       "@id": "fhir:Bundle.signature",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Signature.context.jsonld"
+      "@context": "signature.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

@@ -7,35 +7,35 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "variantType": {
       "@id": "fhir:MolecularSequence.structureVariant.variantType",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "exact": {
       "@id": "fhir:MolecularSequence.structureVariant.exact",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "length": {
       "@id": "fhir:MolecularSequence.structureVariant.length",
-      "@context": "https://fhircat.org/fhir/contexts/r5/integer.context.jsonld"
+      "@context": "integer.context.jsonld"
     },
     "outer": {
       "@id": "fhir:MolecularSequence.structureVariant.outer",
-      "@context": "https://fhircat.org/fhir/contexts/r5/MolecularSequence.structureVariant.outer.context.jsonld"
+      "@context": "molecularsequence.structurevariant.outer.context.jsonld"
     },
     "inner": {
       "@id": "fhir:MolecularSequence.structureVariant.inner",
-      "@context": "https://fhircat.org/fhir/contexts/r5/MolecularSequence.structureVariant.inner.context.jsonld"
+      "@context": "molecularsequence.structurevariant.inner.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

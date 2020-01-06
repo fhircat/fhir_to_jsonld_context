@@ -41,7 +41,8 @@
     "log4js": "^6.1.0",
     "node-stream-zip": "^1.8.2",
     "optimist": "^0.6.1",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "request": "^2.88.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.7.5",

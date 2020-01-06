@@ -7,30 +7,30 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "code": {
       "@id": "fhir:ObservationDefinition.component.code",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "permittedDataType": {
       "@id": "fhir:ObservationDefinition.component.permittedDataType"
     },
     "quantitativeDetails": {
       "@id": "fhir:ObservationDefinition.component.quantitativeDetails",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ObservationDefinition.quantitativeDetails.context.jsonld"
+      "@context": "observationdefinition.quantitativedetails.context.jsonld"
     },
     "qualifiedInterval": {
       "@id": "fhir:ObservationDefinition.component.qualifiedInterval",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ObservationDefinition.qualifiedInterval.context.jsonld"
+      "@context": "observationdefinition.qualifiedinterval.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

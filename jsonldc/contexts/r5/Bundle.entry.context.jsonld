@@ -7,39 +7,39 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "link": {
       "@id": "fhir:Bundle.entry.link",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Bundle.link.context.jsonld"
+      "@context": "bundle.link.context.jsonld"
     },
     "fullUrl": {
       "@id": "fhir:Bundle.entry.fullUrl",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "resource": {
       "@id": "fhir:Bundle.entry.resource",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
+      "@context": "resource.context.jsonld"
     },
     "search": {
       "@id": "fhir:Bundle.entry.search",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Bundle.entry.search.context.jsonld"
+      "@context": "bundle.entry.search.context.jsonld"
     },
     "request": {
       "@id": "fhir:Bundle.entry.request",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Bundle.entry.request.context.jsonld"
+      "@context": "bundle.entry.request.context.jsonld"
     },
     "response": {
       "@id": "fhir:Bundle.entry.response",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Bundle.entry.response.context.jsonld"
+      "@context": "bundle.entry.response.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

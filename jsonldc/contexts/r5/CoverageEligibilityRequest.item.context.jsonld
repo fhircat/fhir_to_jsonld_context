@@ -7,55 +7,55 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "supportingInfoSequence": {
       "@id": "fhir:CoverageEligibilityRequest.item.supportingInfoSequence",
-      "@context": "https://fhircat.org/fhir/contexts/r5/positiveInt.context.jsonld"
+      "@context": "positiveint.context.jsonld"
     },
     "category": {
       "@id": "fhir:CoverageEligibilityRequest.item.category",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "productOrService": {
       "@id": "fhir:CoverageEligibilityRequest.item.productOrService",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "modifier": {
       "@id": "fhir:CoverageEligibilityRequest.item.modifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "provider": {
       "@id": "fhir:CoverageEligibilityRequest.item.provider",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "quantity": {
       "@id": "fhir:CoverageEligibilityRequest.item.quantity",
-      "@context": "https://fhircat.org/fhir/contexts/r5/SimpleQuantity.context.jsonld"
+      "@context": "simplequantity.context.jsonld"
     },
     "unitPrice": {
       "@id": "fhir:CoverageEligibilityRequest.item.unitPrice",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Money.context.jsonld"
+      "@context": "money.context.jsonld"
     },
     "facility": {
       "@id": "fhir:CoverageEligibilityRequest.item.facility",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "diagnosis": {
       "@id": "fhir:CoverageEligibilityRequest.item.diagnosis",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CoverageEligibilityRequest.item.diagnosis.context.jsonld"
+      "@context": "coverageeligibilityrequest.item.diagnosis.context.jsonld"
     },
     "detail": {
       "@id": "fhir:CoverageEligibilityRequest.item.detail",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

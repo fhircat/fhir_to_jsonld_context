@@ -1,7 +1,7 @@
 import Fs from 'fs'
 import log4js from 'log4js'
 import Converter from "./Converter"
-import { Ns_fhsh, logger } from "./utils"
+import { NS_FHIR_SHAPE, logger } from "./utils"
 
 log4js.configure('config/log4js.json')
 
@@ -56,7 +56,7 @@ function run(argv) {
     const selected = filename
     if (!s.shapes) return
     const todo = s.shapes.map(
-        shexpr => ({ shexpr, name: shexpr.id.substr(Ns_fhsh.length)})
+        shexpr => ({ shexpr, name: shexpr.id.substr(NS_FHIR_SHAPE.length)})
     ).filter(
         pair => pair.shexpr.type === 'Shape'
     )
@@ -67,7 +67,7 @@ function run(argv) {
     // )
     todo.forEach(pair => {
       const res = c.convert(pair.shexpr)
-      Fs.writeFileSync(`jsonldc/contexts/r5/${pair.name}.context.jsonld`, JSON.stringify(res, null, 2))
+      Fs.writeFileSync(`jsonldc/contexts/r5/${pair.name.toLowerCase()}.context.jsonld`, JSON.stringify(res, null, 2))
     })
   }, function (err) {
     throw err

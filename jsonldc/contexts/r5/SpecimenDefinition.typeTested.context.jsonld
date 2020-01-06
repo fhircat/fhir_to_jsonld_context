@@ -7,54 +7,54 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "isDerived": {
       "@id": "fhir:SpecimenDefinition.typeTested.isDerived",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "type": {
       "@id": "fhir:SpecimenDefinition.typeTested.type",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "preference": {
       "@id": "fhir:SpecimenDefinition.typeTested.preference"
     },
     "container": {
       "@id": "fhir:SpecimenDefinition.typeTested.container",
-      "@context": "https://fhircat.org/fhir/contexts/r5/SpecimenDefinition.typeTested.container.context.jsonld"
+      "@context": "specimendefinition.typetested.container.context.jsonld"
     },
     "requirement": {
       "@id": "fhir:SpecimenDefinition.typeTested.requirement",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "retentionTime": {
       "@id": "fhir:SpecimenDefinition.typeTested.retentionTime",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Duration.context.jsonld"
+      "@context": "duration.context.jsonld"
     },
     "singleUse": {
       "@id": "fhir:SpecimenDefinition.typeTested.singleUse",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "rejectionCriterion": {
       "@id": "fhir:SpecimenDefinition.typeTested.rejectionCriterion",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "handling": {
       "@id": "fhir:SpecimenDefinition.typeTested.handling",
-      "@context": "https://fhircat.org/fhir/contexts/r5/SpecimenDefinition.typeTested.handling.context.jsonld"
+      "@context": "specimendefinition.typetested.handling.context.jsonld"
     },
     "testingDestination": {
       "@id": "fhir:SpecimenDefinition.typeTested.testingDestination",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

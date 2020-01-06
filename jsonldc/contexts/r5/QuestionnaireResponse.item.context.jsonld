@@ -7,35 +7,35 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "linkId": {
       "@id": "fhir:QuestionnaireResponse.item.linkId",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "definition": {
       "@id": "fhir:QuestionnaireResponse.item.definition",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "text": {
       "@id": "fhir:QuestionnaireResponse.item.text",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "answer": {
       "@id": "fhir:QuestionnaireResponse.item.answer",
-      "@context": "https://fhircat.org/fhir/contexts/r5/QuestionnaireResponse.item.answer.context.jsonld"
+      "@context": "questionnaireresponse.item.answer.context.jsonld"
     },
     "item": {
       "@id": "fhir:QuestionnaireResponse.item.item",
-      "@context": "https://fhircat.org/fhir/contexts/r5/QuestionnaireResponse.item.context.jsonld"
+      "@context": "questionnaireresponse.item.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

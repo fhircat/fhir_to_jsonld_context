@@ -7,58 +7,58 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "type": {
       "@id": "fhir:Consent.provision.type"
     },
     "period": {
       "@id": "fhir:Consent.provision.period",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
+      "@context": "period.context.jsonld"
     },
     "actor": {
       "@id": "fhir:Consent.provision.actor",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Consent.provision.actor.context.jsonld"
+      "@context": "consent.provision.actor.context.jsonld"
     },
     "action": {
       "@id": "fhir:Consent.provision.action",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "securityLabel": {
       "@id": "fhir:Consent.provision.securityLabel",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Coding.context.jsonld"
+      "@context": "coding.context.jsonld"
     },
     "purpose": {
       "@id": "fhir:Consent.provision.purpose",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Coding.context.jsonld"
+      "@context": "coding.context.jsonld"
     },
     "class": {
       "@id": "fhir:Consent.provision.class",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Coding.context.jsonld"
+      "@context": "coding.context.jsonld"
     },
     "code": {
       "@id": "fhir:Consent.provision.code",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "dataPeriod": {
       "@id": "fhir:Consent.provision.dataPeriod",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
+      "@context": "period.context.jsonld"
     },
     "data": {
       "@id": "fhir:Consent.provision.data",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Consent.provision.data.context.jsonld"
+      "@context": "consent.provision.data.context.jsonld"
     },
     "provision": {
       "@id": "fhir:Consent.provision.provision",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Consent.provision.context.jsonld"
+      "@context": "consent.provision.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

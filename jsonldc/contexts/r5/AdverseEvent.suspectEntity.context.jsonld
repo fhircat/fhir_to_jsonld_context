@@ -7,27 +7,27 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "instanceCodeableConcept": {
       "@id": "fhir:AdverseEvent.suspectEntity.instanceCodeableConcept",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "instanceReference": {
       "@id": "fhir:AdverseEvent.suspectEntity.instanceReference",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "causality": {
       "@id": "fhir:AdverseEvent.suspectEntity.causality",
-      "@context": "https://fhircat.org/fhir/contexts/r5/AdverseEvent.suspectEntity.causality.context.jsonld"
+      "@context": "adverseevent.suspectentity.causality.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

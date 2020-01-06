@@ -7,119 +7,119 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "sequence": {
       "@id": "fhir:ExplanationOfBenefit.item.sequence",
-      "@context": "https://fhircat.org/fhir/contexts/r5/positiveInt.context.jsonld"
+      "@context": "positiveint.context.jsonld"
     },
     "careTeamSequence": {
       "@id": "fhir:ExplanationOfBenefit.item.careTeamSequence",
-      "@context": "https://fhircat.org/fhir/contexts/r5/positiveInt.context.jsonld"
+      "@context": "positiveint.context.jsonld"
     },
     "diagnosisSequence": {
       "@id": "fhir:ExplanationOfBenefit.item.diagnosisSequence",
-      "@context": "https://fhircat.org/fhir/contexts/r5/positiveInt.context.jsonld"
+      "@context": "positiveint.context.jsonld"
     },
     "procedureSequence": {
       "@id": "fhir:ExplanationOfBenefit.item.procedureSequence",
-      "@context": "https://fhircat.org/fhir/contexts/r5/positiveInt.context.jsonld"
+      "@context": "positiveint.context.jsonld"
     },
     "informationSequence": {
       "@id": "fhir:ExplanationOfBenefit.item.informationSequence",
-      "@context": "https://fhircat.org/fhir/contexts/r5/positiveInt.context.jsonld"
+      "@context": "positiveint.context.jsonld"
     },
     "revenue": {
       "@id": "fhir:ExplanationOfBenefit.item.revenue",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "category": {
       "@id": "fhir:ExplanationOfBenefit.item.category",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "productOrService": {
       "@id": "fhir:ExplanationOfBenefit.item.productOrService",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "modifier": {
       "@id": "fhir:ExplanationOfBenefit.item.modifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "programCode": {
       "@id": "fhir:ExplanationOfBenefit.item.programCode",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "servicedDate": {
       "@id": "fhir:ExplanationOfBenefit.item.servicedDate",
-      "@context": "https://fhircat.org/fhir/contexts/r5/date.context.jsonld"
+      "@context": "date.context.jsonld"
     },
     "servicedPeriod": {
       "@id": "fhir:ExplanationOfBenefit.item.servicedPeriod",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
+      "@context": "period.context.jsonld"
     },
     "locationCodeableConcept": {
       "@id": "fhir:ExplanationOfBenefit.item.locationCodeableConcept",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "locationAddress": {
       "@id": "fhir:ExplanationOfBenefit.item.locationAddress",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Address.context.jsonld"
+      "@context": "address.context.jsonld"
     },
     "locationReference": {
       "@id": "fhir:ExplanationOfBenefit.item.locationReference",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "quantity": {
       "@id": "fhir:ExplanationOfBenefit.item.quantity",
-      "@context": "https://fhircat.org/fhir/contexts/r5/SimpleQuantity.context.jsonld"
+      "@context": "simplequantity.context.jsonld"
     },
     "unitPrice": {
       "@id": "fhir:ExplanationOfBenefit.item.unitPrice",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Money.context.jsonld"
+      "@context": "money.context.jsonld"
     },
     "factor": {
       "@id": "fhir:ExplanationOfBenefit.item.factor",
-      "@context": "https://fhircat.org/fhir/contexts/r5/decimal.context.jsonld"
+      "@context": "decimal.context.jsonld"
     },
     "net": {
       "@id": "fhir:ExplanationOfBenefit.item.net",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Money.context.jsonld"
+      "@context": "money.context.jsonld"
     },
     "udi": {
       "@id": "fhir:ExplanationOfBenefit.item.udi",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "bodySite": {
       "@id": "fhir:ExplanationOfBenefit.item.bodySite",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "subSite": {
       "@id": "fhir:ExplanationOfBenefit.item.subSite",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "encounter": {
       "@id": "fhir:ExplanationOfBenefit.item.encounter",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "noteNumber": {
       "@id": "fhir:ExplanationOfBenefit.item.noteNumber",
-      "@context": "https://fhircat.org/fhir/contexts/r5/positiveInt.context.jsonld"
+      "@context": "positiveint.context.jsonld"
     },
     "adjudication": {
       "@id": "fhir:ExplanationOfBenefit.item.adjudication",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ExplanationOfBenefit.item.adjudication.context.jsonld"
+      "@context": "explanationofbenefit.item.adjudication.context.jsonld"
     },
     "detail": {
       "@id": "fhir:ExplanationOfBenefit.item.detail",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ExplanationOfBenefit.item.detail.context.jsonld"
+      "@context": "explanationofbenefit.item.detail.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

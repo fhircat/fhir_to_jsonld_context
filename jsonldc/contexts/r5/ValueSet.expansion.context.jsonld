@@ -7,43 +7,43 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "identifier": {
       "@id": "fhir:ValueSet.expansion.identifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "timestamp": {
       "@id": "fhir:ValueSet.expansion.timestamp",
-      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
+      "@context": "datetime.context.jsonld"
     },
     "total": {
       "@id": "fhir:ValueSet.expansion.total",
-      "@context": "https://fhircat.org/fhir/contexts/r5/integer.context.jsonld"
+      "@context": "integer.context.jsonld"
     },
     "offset": {
       "@id": "fhir:ValueSet.expansion.offset",
-      "@context": "https://fhircat.org/fhir/contexts/r5/integer.context.jsonld"
+      "@context": "integer.context.jsonld"
     },
     "parameter": {
       "@id": "fhir:ValueSet.expansion.parameter",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ValueSet.expansion.parameter.context.jsonld"
+      "@context": "valueset.expansion.parameter.context.jsonld"
     },
     "property": {
       "@id": "fhir:ValueSet.expansion.property",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ValueSet.expansion.property.context.jsonld"
+      "@context": "valueset.expansion.property.context.jsonld"
     },
     "contains": {
       "@id": "fhir:ValueSet.expansion.contains",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ValueSet.expansion.contains.context.jsonld"
+      "@context": "valueset.expansion.contains.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

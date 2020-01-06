@@ -11,90 +11,90 @@
     },
     "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
+      "@context": "meta.context.jsonld"
     },
     "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+      "@context": "code.context.jsonld"
     },
     "text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
+      "@context": "narrative.context.jsonld"
     },
     "contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
+      "@context": "resource.context.jsonld"
     },
     "extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "target": {
       "@id": "fhir:VerificationResult.target",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "targetLocation": {
       "@id": "fhir:VerificationResult.targetLocation",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "need": {
       "@id": "fhir:VerificationResult.need",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "status": {
       "@id": "fhir:VerificationResult.status"
     },
     "statusDate": {
       "@id": "fhir:VerificationResult.statusDate",
-      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
+      "@context": "datetime.context.jsonld"
     },
     "validationType": {
       "@id": "fhir:VerificationResult.validationType",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "validationProcess": {
       "@id": "fhir:VerificationResult.validationProcess",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "frequency": {
       "@id": "fhir:VerificationResult.frequency",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Timing.context.jsonld"
+      "@context": "timing.context.jsonld"
     },
     "lastPerformed": {
       "@id": "fhir:VerificationResult.lastPerformed",
-      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
+      "@context": "datetime.context.jsonld"
     },
     "nextScheduled": {
       "@id": "fhir:VerificationResult.nextScheduled",
-      "@context": "https://fhircat.org/fhir/contexts/r5/date.context.jsonld"
+      "@context": "date.context.jsonld"
     },
     "failureAction": {
       "@id": "fhir:VerificationResult.failureAction",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "primarySource": {
       "@id": "fhir:VerificationResult.primarySource",
-      "@context": "https://fhircat.org/fhir/contexts/r5/VerificationResult.primarySource.context.jsonld"
+      "@context": "verificationresult.primarysource.context.jsonld"
     },
     "attestation": {
       "@id": "fhir:VerificationResult.attestation",
-      "@context": "https://fhircat.org/fhir/contexts/r5/VerificationResult.attestation.context.jsonld"
+      "@context": "verificationresult.attestation.context.jsonld"
     },
     "validator": {
       "@id": "fhir:VerificationResult.validator",
-      "@context": "https://fhircat.org/fhir/contexts/r5/VerificationResult.validator.context.jsonld"
+      "@context": "verificationresult.validator.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

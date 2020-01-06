@@ -7,43 +7,43 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:BackboneElement.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "description": {
       "@id": "fhir:RiskEvidenceSynthesis.riskEstimate.description",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "type": {
       "@id": "fhir:RiskEvidenceSynthesis.riskEstimate.type",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "value": {
       "@id": "fhir:RiskEvidenceSynthesis.riskEstimate.value",
-      "@context": "https://fhircat.org/fhir/contexts/r5/decimal.context.jsonld"
+      "@context": "decimal.context.jsonld"
     },
     "unitOfMeasure": {
       "@id": "fhir:RiskEvidenceSynthesis.riskEstimate.unitOfMeasure",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "denominatorCount": {
       "@id": "fhir:RiskEvidenceSynthesis.riskEstimate.denominatorCount",
-      "@context": "https://fhircat.org/fhir/contexts/r5/integer.context.jsonld"
+      "@context": "integer.context.jsonld"
     },
     "numeratorCount": {
       "@id": "fhir:RiskEvidenceSynthesis.riskEstimate.numeratorCount",
-      "@context": "https://fhircat.org/fhir/contexts/r5/integer.context.jsonld"
+      "@context": "integer.context.jsonld"
     },
     "precisionEstimate": {
       "@id": "fhir:RiskEvidenceSynthesis.riskEstimate.precisionEstimate",
-      "@context": "https://fhircat.org/fhir/contexts/r5/RiskEvidenceSynthesis.riskEstimate.precisionEstimate.context.jsonld"
+      "@context": "riskevidencesynthesis.riskestimate.precisionestimate.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

@@ -11,106 +11,106 @@
     },
     "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
+      "@context": "meta.context.jsonld"
     },
     "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+      "@context": "code.context.jsonld"
     },
     "text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
+      "@context": "narrative.context.jsonld"
     },
     "contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
+      "@context": "resource.context.jsonld"
     },
     "extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "identifier": {
       "@id": "fhir:Patient.identifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
+      "@context": "identifier.context.jsonld"
     },
     "active": {
       "@id": "fhir:Patient.active",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "name": {
       "@id": "fhir:Patient.name",
-      "@context": "https://fhircat.org/fhir/contexts/r5/HumanName.context.jsonld"
+      "@context": "humanname.context.jsonld"
     },
     "telecom": {
       "@id": "fhir:Patient.telecom",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ContactPoint.context.jsonld"
+      "@context": "contactpoint.context.jsonld"
     },
     "gender": {
       "@id": "fhir:Patient.gender"
     },
     "birthDate": {
       "@id": "fhir:Patient.birthDate",
-      "@context": "https://fhircat.org/fhir/contexts/r5/date.context.jsonld"
+      "@context": "date.context.jsonld"
     },
     "deceasedBoolean": {
       "@id": "fhir:Patient.deceasedBoolean",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "deceasedDateTime": {
       "@id": "fhir:Patient.deceasedDateTime",
-      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
+      "@context": "datetime.context.jsonld"
     },
     "address": {
       "@id": "fhir:Patient.address",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Address.context.jsonld"
+      "@context": "address.context.jsonld"
     },
     "maritalStatus": {
       "@id": "fhir:Patient.maritalStatus",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "multipleBirthBoolean": {
       "@id": "fhir:Patient.multipleBirthBoolean",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "multipleBirthInteger": {
       "@id": "fhir:Patient.multipleBirthInteger",
-      "@context": "https://fhircat.org/fhir/contexts/r5/integer.context.jsonld"
+      "@context": "integer.context.jsonld"
     },
     "photo": {
       "@id": "fhir:Patient.photo",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Attachment.context.jsonld"
+      "@context": "attachment.context.jsonld"
     },
     "contact": {
       "@id": "fhir:Patient.contact",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Patient.contact.context.jsonld"
+      "@context": "patient.contact.context.jsonld"
     },
     "communication": {
       "@id": "fhir:Patient.communication",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Patient.communication.context.jsonld"
+      "@context": "patient.communication.context.jsonld"
     },
     "generalPractitioner": {
       "@id": "fhir:Patient.generalPractitioner",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "managingOrganization": {
       "@id": "fhir:Patient.managingOrganization",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "link": {
       "@id": "fhir:Patient.link",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Patient.link.context.jsonld"
+      "@context": "patient.link.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

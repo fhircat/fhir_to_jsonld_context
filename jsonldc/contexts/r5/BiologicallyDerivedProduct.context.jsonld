@@ -11,77 +11,77 @@
     },
     "id": {
       "@id": "fhir:Resource.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "meta": {
       "@id": "fhir:Resource.meta",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
+      "@context": "meta.context.jsonld"
     },
     "implicitRules": {
       "@id": "fhir:Resource.implicitRules",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "language": {
       "@id": "fhir:Resource.language",
-      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+      "@context": "code.context.jsonld"
     },
     "text": {
       "@id": "fhir:DomainResource.text",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Narrative.context.jsonld"
+      "@context": "narrative.context.jsonld"
     },
     "contained": {
       "@id": "fhir:DomainResource.contained",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Resource.context.jsonld"
+      "@context": "resource.context.jsonld"
     },
     "extension": {
       "@id": "fhir:DomainResource.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "modifierExtension": {
       "@id": "fhir:DomainResource.modifierExtension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "identifier": {
       "@id": "fhir:BiologicallyDerivedProduct.identifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
+      "@context": "identifier.context.jsonld"
     },
     "productCategory": {
       "@id": "fhir:BiologicallyDerivedProduct.productCategory"
     },
     "productCode": {
       "@id": "fhir:BiologicallyDerivedProduct.productCode",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "status": {
       "@id": "fhir:BiologicallyDerivedProduct.status"
     },
     "request": {
       "@id": "fhir:BiologicallyDerivedProduct.request",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "quantity": {
       "@id": "fhir:BiologicallyDerivedProduct.quantity",
-      "@context": "https://fhircat.org/fhir/contexts/r5/integer.context.jsonld"
+      "@context": "integer.context.jsonld"
     },
     "parent": {
       "@id": "fhir:BiologicallyDerivedProduct.parent",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "collection": {
       "@id": "fhir:BiologicallyDerivedProduct.collection",
-      "@context": "https://fhircat.org/fhir/contexts/r5/BiologicallyDerivedProduct.collection.context.jsonld"
+      "@context": "biologicallyderivedproduct.collection.context.jsonld"
     },
     "processing": {
       "@id": "fhir:BiologicallyDerivedProduct.processing",
-      "@context": "https://fhircat.org/fhir/contexts/r5/BiologicallyDerivedProduct.processing.context.jsonld"
+      "@context": "biologicallyderivedproduct.processing.context.jsonld"
     },
     "manipulation": {
       "@id": "fhir:BiologicallyDerivedProduct.manipulation",
-      "@context": "https://fhircat.org/fhir/contexts/r5/BiologicallyDerivedProduct.manipulation.context.jsonld"
+      "@context": "biologicallyderivedproduct.manipulation.context.jsonld"
     },
     "storage": {
       "@id": "fhir:BiologicallyDerivedProduct.storage",
-      "@context": "https://fhircat.org/fhir/contexts/r5/BiologicallyDerivedProduct.storage.context.jsonld"
+      "@context": "biologicallyderivedproduct.storage.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",

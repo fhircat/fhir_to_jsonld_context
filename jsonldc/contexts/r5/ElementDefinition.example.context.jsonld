@@ -7,215 +7,215 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "id": {
       "@id": "fhir:Element.id",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "extension": {
       "@id": "fhir:Element.extension",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Extension.context.jsonld"
+      "@context": "extension.context.jsonld"
     },
     "label": {
       "@id": "fhir:ElementDefinition.example.label",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "valueBase64Binary": {
       "@id": "fhir:ElementDefinition.example.valueBase64Binary",
-      "@context": "https://fhircat.org/fhir/contexts/r5/base64Binary.context.jsonld"
+      "@context": "base64binary.context.jsonld"
     },
     "valueBoolean": {
       "@id": "fhir:ElementDefinition.example.valueBoolean",
-      "@context": "https://fhircat.org/fhir/contexts/r5/boolean.context.jsonld"
+      "@context": "boolean.context.jsonld"
     },
     "valueCanonical": {
       "@id": "fhir:ElementDefinition.example.valueCanonical",
-      "@context": "https://fhircat.org/fhir/contexts/r5/canonical.context.jsonld"
+      "@context": "canonical.context.jsonld"
     },
     "valueCode": {
       "@id": "fhir:ElementDefinition.example.valueCode",
-      "@context": "https://fhircat.org/fhir/contexts/r5/code.context.jsonld"
+      "@context": "code.context.jsonld"
     },
     "valueDate": {
       "@id": "fhir:ElementDefinition.example.valueDate",
-      "@context": "https://fhircat.org/fhir/contexts/r5/date.context.jsonld"
+      "@context": "date.context.jsonld"
     },
     "valueDateTime": {
       "@id": "fhir:ElementDefinition.example.valueDateTime",
-      "@context": "https://fhircat.org/fhir/contexts/r5/dateTime.context.jsonld"
+      "@context": "datetime.context.jsonld"
     },
     "valueDecimal": {
       "@id": "fhir:ElementDefinition.example.valueDecimal",
-      "@context": "https://fhircat.org/fhir/contexts/r5/decimal.context.jsonld"
+      "@context": "decimal.context.jsonld"
     },
     "valueId": {
       "@id": "fhir:ElementDefinition.example.valueId",
-      "@context": "https://fhircat.org/fhir/contexts/r5/id.context.jsonld"
+      "@context": "id.context.jsonld"
     },
     "valueInstant": {
       "@id": "fhir:ElementDefinition.example.valueInstant",
-      "@context": "https://fhircat.org/fhir/contexts/r5/instant.context.jsonld"
+      "@context": "instant.context.jsonld"
     },
     "valueInteger": {
       "@id": "fhir:ElementDefinition.example.valueInteger",
-      "@context": "https://fhircat.org/fhir/contexts/r5/integer.context.jsonld"
+      "@context": "integer.context.jsonld"
     },
     "valueMarkdown": {
       "@id": "fhir:ElementDefinition.example.valueMarkdown",
-      "@context": "https://fhircat.org/fhir/contexts/r5/markdown.context.jsonld"
+      "@context": "markdown.context.jsonld"
     },
     "valueOid": {
       "@id": "fhir:ElementDefinition.example.valueOid",
-      "@context": "https://fhircat.org/fhir/contexts/r5/oid.context.jsonld"
+      "@context": "oid.context.jsonld"
     },
     "valuePositiveInt": {
       "@id": "fhir:ElementDefinition.example.valuePositiveInt",
-      "@context": "https://fhircat.org/fhir/contexts/r5/positiveInt.context.jsonld"
+      "@context": "positiveint.context.jsonld"
     },
     "valueString": {
       "@id": "fhir:ElementDefinition.example.valueString",
-      "@context": "https://fhircat.org/fhir/contexts/r5/string.context.jsonld"
+      "@context": "string.context.jsonld"
     },
     "valueTime": {
       "@id": "fhir:ElementDefinition.example.valueTime",
-      "@context": "https://fhircat.org/fhir/contexts/r5/time.context.jsonld"
+      "@context": "time.context.jsonld"
     },
     "valueUnsignedInt": {
       "@id": "fhir:ElementDefinition.example.valueUnsignedInt",
-      "@context": "https://fhircat.org/fhir/contexts/r5/unsignedInt.context.jsonld"
+      "@context": "unsignedint.context.jsonld"
     },
     "valueUri": {
       "@id": "fhir:ElementDefinition.example.valueUri",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uri.context.jsonld"
+      "@context": "uri.context.jsonld"
     },
     "valueUrl": {
       "@id": "fhir:ElementDefinition.example.valueUrl",
-      "@context": "https://fhircat.org/fhir/contexts/r5/url.context.jsonld"
+      "@context": "url.context.jsonld"
     },
     "valueUuid": {
       "@id": "fhir:ElementDefinition.example.valueUuid",
-      "@context": "https://fhircat.org/fhir/contexts/r5/uuid.context.jsonld"
+      "@context": "uuid.context.jsonld"
     },
     "valueAddress": {
       "@id": "fhir:ElementDefinition.example.valueAddress",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Address.context.jsonld"
+      "@context": "address.context.jsonld"
     },
     "valueAge": {
       "@id": "fhir:ElementDefinition.example.valueAge",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Age.context.jsonld"
+      "@context": "age.context.jsonld"
     },
     "valueAnnotation": {
       "@id": "fhir:ElementDefinition.example.valueAnnotation",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Annotation.context.jsonld"
+      "@context": "annotation.context.jsonld"
     },
     "valueAttachment": {
       "@id": "fhir:ElementDefinition.example.valueAttachment",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Attachment.context.jsonld"
+      "@context": "attachment.context.jsonld"
     },
     "valueCodeableConcept": {
       "@id": "fhir:ElementDefinition.example.valueCodeableConcept",
-      "@context": "https://fhircat.org/fhir/contexts/r5/CodeableConcept.context.jsonld"
+      "@context": "codeableconcept.context.jsonld"
     },
     "valueCoding": {
       "@id": "fhir:ElementDefinition.example.valueCoding",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Coding.context.jsonld"
+      "@context": "coding.context.jsonld"
     },
     "valueContactPoint": {
       "@id": "fhir:ElementDefinition.example.valueContactPoint",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ContactPoint.context.jsonld"
+      "@context": "contactpoint.context.jsonld"
     },
     "valueCount": {
       "@id": "fhir:ElementDefinition.example.valueCount",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Count.context.jsonld"
+      "@context": "count.context.jsonld"
     },
     "valueDistance": {
       "@id": "fhir:ElementDefinition.example.valueDistance",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Distance.context.jsonld"
+      "@context": "distance.context.jsonld"
     },
     "valueDuration": {
       "@id": "fhir:ElementDefinition.example.valueDuration",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Duration.context.jsonld"
+      "@context": "duration.context.jsonld"
     },
     "valueHumanName": {
       "@id": "fhir:ElementDefinition.example.valueHumanName",
-      "@context": "https://fhircat.org/fhir/contexts/r5/HumanName.context.jsonld"
+      "@context": "humanname.context.jsonld"
     },
     "valueIdentifier": {
       "@id": "fhir:ElementDefinition.example.valueIdentifier",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Identifier.context.jsonld"
+      "@context": "identifier.context.jsonld"
     },
     "valueMoney": {
       "@id": "fhir:ElementDefinition.example.valueMoney",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Money.context.jsonld"
+      "@context": "money.context.jsonld"
     },
     "valuePeriod": {
       "@id": "fhir:ElementDefinition.example.valuePeriod",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Period.context.jsonld"
+      "@context": "period.context.jsonld"
     },
     "valueQuantity": {
       "@id": "fhir:ElementDefinition.example.valueQuantity",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Quantity.context.jsonld"
+      "@context": "quantity.context.jsonld"
     },
     "valueRange": {
       "@id": "fhir:ElementDefinition.example.valueRange",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Range.context.jsonld"
+      "@context": "range.context.jsonld"
     },
     "valueRatio": {
       "@id": "fhir:ElementDefinition.example.valueRatio",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Ratio.context.jsonld"
+      "@context": "ratio.context.jsonld"
     },
     "valueReference": {
       "@id": "fhir:ElementDefinition.example.valueReference",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Reference.context.jsonld"
+      "@context": "reference.context.jsonld"
     },
     "valueSampledData": {
       "@id": "fhir:ElementDefinition.example.valueSampledData",
-      "@context": "https://fhircat.org/fhir/contexts/r5/SampledData.context.jsonld"
+      "@context": "sampleddata.context.jsonld"
     },
     "valueSignature": {
       "@id": "fhir:ElementDefinition.example.valueSignature",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Signature.context.jsonld"
+      "@context": "signature.context.jsonld"
     },
     "valueTiming": {
       "@id": "fhir:ElementDefinition.example.valueTiming",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Timing.context.jsonld"
+      "@context": "timing.context.jsonld"
     },
     "valueContactDetail": {
       "@id": "fhir:ElementDefinition.example.valueContactDetail",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ContactDetail.context.jsonld"
+      "@context": "contactdetail.context.jsonld"
     },
     "valueContributor": {
       "@id": "fhir:ElementDefinition.example.valueContributor",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Contributor.context.jsonld"
+      "@context": "contributor.context.jsonld"
     },
     "valueDataRequirement": {
       "@id": "fhir:ElementDefinition.example.valueDataRequirement",
-      "@context": "https://fhircat.org/fhir/contexts/r5/DataRequirement.context.jsonld"
+      "@context": "datarequirement.context.jsonld"
     },
     "valueExpression": {
       "@id": "fhir:ElementDefinition.example.valueExpression",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Expression.context.jsonld"
+      "@context": "expression.context.jsonld"
     },
     "valueParameterDefinition": {
       "@id": "fhir:ElementDefinition.example.valueParameterDefinition",
-      "@context": "https://fhircat.org/fhir/contexts/r5/ParameterDefinition.context.jsonld"
+      "@context": "parameterdefinition.context.jsonld"
     },
     "valueRelatedArtifact": {
       "@id": "fhir:ElementDefinition.example.valueRelatedArtifact",
-      "@context": "https://fhircat.org/fhir/contexts/r5/RelatedArtifact.context.jsonld"
+      "@context": "relatedartifact.context.jsonld"
     },
     "valueTriggerDefinition": {
       "@id": "fhir:ElementDefinition.example.valueTriggerDefinition",
-      "@context": "https://fhircat.org/fhir/contexts/r5/TriggerDefinition.context.jsonld"
+      "@context": "triggerdefinition.context.jsonld"
     },
     "valueUsageContext": {
       "@id": "fhir:ElementDefinition.example.valueUsageContext",
-      "@context": "https://fhircat.org/fhir/contexts/r5/UsageContext.context.jsonld"
+      "@context": "usagecontext.context.jsonld"
     },
     "valueDosage": {
       "@id": "fhir:ElementDefinition.example.valueDosage",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Dosage.context.jsonld"
+      "@context": "dosage.context.jsonld"
     },
     "valueMeta": {
       "@id": "fhir:ElementDefinition.example.valueMeta",
-      "@context": "https://fhircat.org/fhir/contexts/r5/Meta.context.jsonld"
+      "@context": "meta.context.jsonld"
     },
     "index": {
       "@id": "fhir:index",
