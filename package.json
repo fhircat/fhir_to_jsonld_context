@@ -38,7 +38,7 @@
   "dependencies": {
     "@shexjs/core": "^1.0.0-alpha.6",
     "jsonld": "^2.0.1",
-    "log4js": "^6.1.0",
+    "log4js": "^6.4.0",
     "node-stream-zip": "^1.8.2",
     "optimist": "^0.6.1",
     "path": "^0.12.7",
